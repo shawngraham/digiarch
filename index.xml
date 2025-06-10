@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syllabus on CLCV3000|HIST3000A: An Introduction to Digital Archaeology</title>
+    <link>https://shawngraham.github.io/digiarch/syllabus/</link>
+    <description>Recent content in Syllabus on CLCV3000|HIST3000A: An Introduction to Digital Archaeology</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under CC BY-SA 4.0 {year}</copyright>
+    <lastBuildDate>Tue, 10 Jun 2025 11:30:05 +0100</lastBuildDate>
+    <atom:link href="https://shawngraham.github.io/digiarch/syllabus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assessment</title>
+      <link>https://shawngraham.github.io/digiarch/syllabus/assessment/</link>
+      <pubDate>Tue, 10 Jun 2025 11:30:05 +0100</pubDate>
+      <guid>https://shawngraham.github.io/digiarch/syllabus/assessment/</guid>
+      <description>Assessment goes here.</description>
+    </item>
+    <item>
+      <title>Learning Outcomes</title>
+      <link>https://shawngraham.github.io/digiarch/syllabus/syllabus-3/</link>
+      <pubDate>Mon, 09 Jun 2025 11:30:04 +0100</pubDate>
+      <guid>https://shawngraham.github.io/digiarch/syllabus/syllabus-3/</guid>
+      <description>Questions I developed this course with a couple of questions in mind, things I wanted to know the answers to. Digital archaeology - what the hell is it, anyway? What is it for? Is it just a &amp;lsquo;follower&amp;rsquo;, repurposing other tools &amp;amp; techniques, a supporting skill for &amp;lsquo;real&amp;rsquo; archaeology? Let&amp;rsquo;s set ourselves a grand challenges: what can digital archaeology be?&#xA;This course is a formalized exploration of these questions; I do not know the answers!</description>
+    </item>
+    <item>
+      <title>General Philosophy</title>
+      <link>https://shawngraham.github.io/digiarch/syllabus/syllabus-2/</link>
+      <pubDate>Sun, 08 Jun 2025 11:30:04 +0100</pubDate>
+      <guid>https://shawngraham.github.io/digiarch/syllabus/syllabus-2/</guid>
+      <description>The Most Important Idea Archaeology&amp;rsquo;s genesis was in racism, and colonialism.&#xA;Digital technology&amp;rsquo;s birth was in the violence of war, and the control of systems.&#xA;If you put those two things together without taking into account the implications then we&amp;rsquo;re in for a lot of trouble.&#xA;So what I want to know is, can digital archaeology be taught, be learned, be practiced, in such a way that we unpick those two trajectories, those two monstrous births, and use digital archaeology to better understand communities, empower people, and give better, more compelling, more truthful stories about what it means to be human?</description>
+    </item>
+  </channel>
+</rss>
