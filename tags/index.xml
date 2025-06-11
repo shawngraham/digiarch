@@ -7,27 +7,34 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under CC BY-SA 4.0 {year}</copyright>
-    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shawngraham.github.io/digiarch/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Jupyterlite</title>
-      <link>https://shawngraham.github.io/digiarch/tags/jupyterlite/</link>
-      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/tags/jupyterlite/</guid>
+      <title>Reading</title>
+      <link>https://shawngraham.github.io/digiarch/tags/reading/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://shawngraham.github.io/digiarch/tags/reading/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
       <link>https://shawngraham.github.io/digiarch/tags/setup/</link>
-      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       <guid>https://shawngraham.github.io/digiarch/tags/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>Wk1</title>
       <link>https://shawngraham.github.io/digiarch/tags/wk1/</link>
-      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       <guid>https://shawngraham.github.io/digiarch/tags/wk1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jupyterlite</title>
+      <link>https://shawngraham.github.io/digiarch/tags/jupyterlite/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://shawngraham.github.io/digiarch/tags/jupyterlite/</guid>
       <description></description>
     </item>
     <item>
