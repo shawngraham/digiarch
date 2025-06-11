@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jupyter on CLCV3000|HIST3000A: An Introduction to Digital Archaeology</title>
+    <link>https://shawngraham.github.io/digiarch/tags/jupyter/</link>
+    <description>Recent content in Jupyter on CLCV3000|HIST3000A: An Introduction to Digital Archaeology</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under CC BY-SA 4.0 {year}</copyright>
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shawngraham.github.io/digiarch/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 1: Jupyter Desktop Lab Bench</title>
+      <link>https://shawngraham.github.io/digiarch/materials/wk1-jupyterdesktop/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://shawngraham.github.io/digiarch/materials/wk1-jupyterdesktop/</guid>
+      <description>👋🏻 Hi!&#xA;Let&amp;rsquo;s do some coding. The interface below accepts python code. Try copying and pasting this:&#xA;text = &amp;#34;Oh yeah, digital archaeology!&amp;#34; print(text) into the gray box at the bottom of the interface below. Then, hit shift+enter while your cursor is in the box:&#xA;Now try this:&#xA;one = 1 two = 2 print(one + two) See how easy that was? You just entered some python code into a coding environment powered by a version of the Python language.</description>
+    </item>
+    <item>
+      <title>Week 3: Adding the R language to Jupyter Desktop</title>
+      <link>https://shawngraham.github.io/digiarch/materials/wk3-jupyter-r/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://shawngraham.github.io/digiarch/materials/wk3-jupyter-r/</guid>
+      <description>Student Instructions: Adding R to JupyterLab You can copy and paste this guide into your course materials.&#xA;This guide will walk you through adding the R programming language as an option in your JupyterLab Desktop application.&#xA;Part A: Install the R Language First, you need to install R itself. This is a separate application from JupyterLab.&#xA;Go to the official R download site for your operating system:&#xA;Windows: https://cran.r-project.org/bin/windows/base/ Click the large &amp;ldquo;Download R-X.</description>
+    </item>
+  </channel>
+</rss>
