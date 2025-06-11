@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jupyterlite on CLCV3000|HIST3000A: An Introduction to Digital Archaeology</title>
+    <link>https://shawngraham.github.io/digiarch/tags/jupyterlite/</link>
+    <description>Recent content in Jupyterlite on CLCV3000|HIST3000A: An Introduction to Digital Archaeology</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under CC BY-SA 4.0 {year}</copyright>
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shawngraham.github.io/digiarch/tags/jupyterlite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 1: Jupyterlite</title>
+      <link>https://shawngraham.github.io/digiarch/materials/wk1-jupyterlite/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://shawngraham.github.io/digiarch/materials/wk1-jupyterlite/</guid>
+      <description>👋🏻 Hi!&#xA;Let&amp;rsquo;s do some coding. The interface below accepts python code. Try copying and pasting this:&#xA;text = &amp;#34;Oh yeah, digital archaeology!&amp;#34; print(text) into the gray box at the bottom of the interface below. Then, hit shift+enter while your cursor is in the box:&#xA;Now try this:&#xA;one = 1 two = 2 print(one + two) See how easy that was? You just entered some python code into a coding environment powered by a version of the Python language.</description>
+    </item>
+  </channel>
+</rss>

@@ -10,13 +10,6 @@
     <lastBuildDate>Tue, 10 Jun 2025 11:30:04 +0000</lastBuildDate>
     <atom:link href="https://shawngraham.github.io/digiarch/schedule/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Week 1: Hypothesis</title>
-      <link>https://shawngraham.github.io/digiarch/schedule/wk1-hypothesis/</link>
-      <pubDate>Wed, 09 Jun 2021 11:30:04 +0100</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/schedule/wk1-hypothesis/</guid>
-      <description>While watching this video, turn on the closed captions.&#xA;Create an account at hypothes.is:&#xA;Get the Chrome app or the Firefox bookmarklet:&#xA;Make sure you&amp;rsquo;re logged in:&#xA;Then join our HIST3000|CLCV3000 reading group. If you happen to be reading something, and see an existing annotation that interests you, hit the &amp;lsquo;reply&amp;rsquo; button on the annotation to start a conversation! Sometimes, the person to whom you&amp;rsquo;re replying might be a previous year&amp;rsquo;s student, but that&amp;rsquo;s ok; they might enter into conversation with you.</description>
-    </item>
-    <item>
       <title>Week 3</title>
       <link>https://shawngraham.github.io/digiarch/schedule/wk3/</link>
       <pubDate>Tue, 10 Jun 2025 11:30:04 +0000</pubDate>
@@ -24,32 +17,11 @@
       <description>Week 3</description>
     </item>
     <item>
-      <title>Module2</title>
-      <link>https://shawngraham.github.io/digiarch/schedule/wk2/</link>
-      <pubDate>Mon, 09 Jun 2025 11:30:04 +0200</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/schedule/wk2/</guid>
-      <description>module 2</description>
-    </item>
-    <item>
-      <title>Week 1: Github</title>
-      <link>https://shawngraham.github.io/digiarch/schedule/wk1-github/</link>
-      <pubDate>Tue, 08 Jun 2021 12:30:04 +0100</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/schedule/wk1-github/</guid>
-      <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation.&#xA;The sequence of steps below might be a bit different by the time you read this; Github often mucks about with its look and feel. Examine the steps first, and if what you encounter is a bit different than this, you should be able to work out the basic actions to take from this walk-through.</description>
-    </item>
-    <item>
       <title>Week 1</title>
       <link>https://shawngraham.github.io/digiarch/schedule/wk1/</link>
       <pubDate>Tue, 08 Jun 2021 11:30:04 +0100</pubDate>
       <guid>https://shawngraham.github.io/digiarch/schedule/wk1/</guid>
       <description>Each week, I will lay out goals for things I want you to pay attention to, I will give you something to listen to, and I will give you things to read, and things to do.&#xA;Our overarching goal this week is to set up your digital archaeology workflow. This involves creating a place to lodge your materials (a data repository via Github), a place to make notes and explore code (we&amp;rsquo;re going to use a thing called JupyterLite), and a way of being social with your community of nascent digital archaeologists (a social annotation layer for the web called Hypothes.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://shawngraham.github.io/digiarch/schedule/wk1-jupyterlite/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/schedule/wk1-jupyterlite/</guid>
-      <description>👋🏻 Hi!&#xA;Let&amp;rsquo;s do some coding. The interface below accepts python code. Try copying and pasting this:&#xA;text = &amp;#34;Oh yeah, digital archaeology!&amp;#34; print(text) into the gray box at the bottom of the interface below. Then, hit shift+enter while your cursor is in the box:&#xA;Now try this:&#xA;one = 1 two = 2 print(one + two) See how easy that was? You just entered some python code into a coding environment powered by a version of the Python language.</description>
     </item>
   </channel>
 </rss>
