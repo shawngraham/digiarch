@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+  <channel>
+    <title>10. Nov 22 on HIST3000|CLCV3000</title>
+    <link>https://digiarch.netlify.app/week/10/</link>
+    <description>Recent content in 10. Nov 22 on HIST3000|CLCV3000</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>shawn.graham@carleton.ca (Dr. Shawn Graham)</managingEditor>
+    <webMaster>shawn.graham@carleton.ca (Dr. Shawn Graham)</webMaster>
+    <copyright>Original content by Shawn Graham licensed under a &lt;a rel=&#39;license&#39; href=&#39;http://creativecommons.org/licenses/by-nc/4.0/&#39;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;&lt;br&gt;&lt;a rel=&#39;license&#39; href=&#39;http://creativecommons.org/licenses/by-nc/4.0/&#39;&gt;&lt;img alt=&#39;Creative Commons License logo&#39; style=&#39;border-width:0&#39; src=&#39;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&#39; /&gt;&lt;/a&gt;. &lt;br&gt;Site logo &#39;archaeological information&#39; by corpus delicti, GR, The Noun Project.</copyright>
+    <lastBuildDate>Tue, 28 Jan 2020 00:10:51 +0900</lastBuildDate>
+    
+        <atom:link href="https://digiarch.netlify.app/week/10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>M3 Wk10: Instructions</title>
+        <link>https://digiarch.netlify.app/week/10/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/10/instructions/</guid>
+        <description>Communities Goals for this week  Participate in some crowd-sourced &amp;lsquo;citizen science&amp;rsquo; archaeology Build your own research compendium for work you&amp;rsquo;ve done on the graveyards project Build a simple website aimed at explaining your research compendium to an interested public.  Listen  Feed for the podcast here.
+(For more about the Alexandria Archive Institute, go here)
+Read  Morgan, Colleen, Robert Carter, Michal Michalski. 2016. The Origins of Doha Project: Online Digital Heritage Remediation and Public Outreach in a Vanishing Pearling Town in the Arabian Gulf.</description>
+      </item>
+      
+      <item>
+        <title>Sharing Authority</title>
+        <link>https://digiarch.netlify.app/week/10/sharing-authority/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/10/sharing-authority/</guid>
+        <description>Archaeologists have used digital media in a variety of ways to try to reach new audiences. I want you to explore the following sites and annotate what you find, using our hypothes.is reading group (nb don&amp;rsquo;t use the &amp;lsquo;public&amp;rsquo; group!), tying what you&amp;rsquo;re seeing to ideas you encountered in the readings.
+ https://www.dayofarchaeology.com/ (worldwide) and Ben Marwick&amp;rsquo;s Analysis of the posts Archaeology in the Community (US) http://www.archaeologyincommunity.com/ DigVentures (UK) https://digventures.com/  Then, I want you to actually sign up and complete some of the possible &amp;lsquo;citizen science&amp;rsquo; tasks at Micropasts (UK) https://crowdsourced.</description>
+      </item>
+      
+      <item>
+        <title>A Research Compendium of One&#39;s Own</title>
+        <link>https://digiarch.netlify.app/week/10/start-compendium/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/10/start-compendium/</guid>
+        <description>This exercise depends on a complicated series of dependencies that do not play nice with the online RStudio binder I set up for you. Try installing R and RStudio on your own machine if you want to give this a try. Otherwise, I would suggest giving this a pass. You could try rstudio cloud which you can sign up for a free account with using your github credentials; or try to install the free RStudio desktop (which also means installing R first).</description>
+      </item>
+      
+      <item>
+        <title>Static Websites</title>
+        <link>https://digiarch.netlify.app/week/10/static-websites/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/10/static-websites/</guid>
+        <description>Building a website from scratch can be onerous. Using a system like Wordpress or Squarespace etc can leave you locked in to someone else&amp;rsquo;s platform (and any security issues that might entail).
+Here, we&amp;rsquo;re going to build a simple website that uses nothing but text files as its source; these text files will always be readable into the future, and you can also copy them to your own machine so that they&amp;rsquo;re always handy, ready to be transformed into something else.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

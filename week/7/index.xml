@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+  <channel>
+    <title>07. Nov 1 on HIST3000|CLCV3000</title>
+    <link>https://digiarch.netlify.app/week/7/</link>
+    <description>Recent content in 07. Nov 1 on HIST3000|CLCV3000</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>shawn.graham@carleton.ca (Dr. Shawn Graham)</managingEditor>
+    <webMaster>shawn.graham@carleton.ca (Dr. Shawn Graham)</webMaster>
+    <copyright>Original content by Shawn Graham licensed under a &lt;a rel=&#39;license&#39; href=&#39;http://creativecommons.org/licenses/by-nc/4.0/&#39;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;&lt;br&gt;&lt;a rel=&#39;license&#39; href=&#39;http://creativecommons.org/licenses/by-nc/4.0/&#39;&gt;&lt;img alt=&#39;Creative Commons License logo&#39; style=&#39;border-width:0&#39; src=&#39;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&#39; /&gt;&lt;/a&gt;. &lt;br&gt;Site logo &#39;archaeological information&#39; by corpus delicti, GR, The Noun Project.</copyright>
+    <lastBuildDate>Tue, 28 Jan 2020 00:10:51 +0900</lastBuildDate>
+    
+        <atom:link href="https://digiarch.netlify.app/week/7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>M2 Wk7: Instructions</title>
+        <link>https://digiarch.netlify.app/week/7/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/7/instructions/</guid>
+        <description>Futures of Digital Archaeology Goals for this week  Try your hand at building an image classifier Simulate the Roman economy Raise the ghost of Rudolpho Lanciani Situate this work in an understanding of the potential futures for digital archaeology, but also in the context of current work in archaeology.  Listen  Feed for the podcast here.
+Read  Huggett, Jeremy. 2017 The Apparatus of Digital Archaeology, Internet Archaeology 44.</description>
+      </item>
+      
+      <item>
+        <title>Raise the Dead I</title>
+        <link>https://digiarch.netlify.app/week/7/abm/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/7/abm/</guid>
+        <description>Read ODATE 4.4 - 4.4.1.3 (just the opening two sections)
+  Download and install Netlogo for your machine (there is an option called &amp;lsquo;Netlogo Web&amp;rsquo;, which runs in your browser. You can give that a shot, but I know that the bits below work on the desktop version. I haven&amp;rsquo;t tested on the web version.)
+    Option A: Follow along in Chapter 1 of the Romanowska, Wren, &amp;amp; Crabtree book, and build the model of the out-of-Africa dispersal of modern humans; the code repo is at github.</description>
+      </item>
+      
+      <item>
+        <title>Raise the Dead II</title>
+        <link>https://digiarch.netlify.app/week/7/raise-the-dead-ii/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/7/raise-the-dead-ii/</guid>
+        <description>We&amp;rsquo;re going to use a &amp;lsquo;language model&amp;rsquo;, trained on masses of english-language webpages, to raise Rudolopho Lanciani from the dead. The language model we&amp;rsquo;ll use - GPT-2 - is essentially a statistical model of what words are likely to be found together in a given context. If we trained a language model on my writing, the changes that the word &amp;lsquo;social&amp;rsquo; would be followed by &amp;lsquo;network&amp;rsquo; would be very high, if the rest of the text contained words like &amp;lsquo;links&amp;rsquo; or &amp;lsquo;edges&amp;rsquo; or &amp;lsquo;power&amp;rsquo;.</description>
+      </item>
+      
+      <item>
+        <title>Neural Networks &amp; Computer Vision</title>
+        <link>https://digiarch.netlify.app/week/7/computer-vision/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/7/computer-vision/</guid>
+        <description>Introduction Gif by Alex Mordvintsev showing how neural networks &amp;lsquo;see&amp;rsquo;; a higher resolution version is available here.
+When our eyes see an image, various receptors in the retina respond by firing. Some fire in response to various colours. Some fire in response to light and shadow. Imagine that these cells are arranged in layers. If those simple cells in the first layer fire, they pass a signal to the next layer up.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

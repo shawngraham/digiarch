@@ -1,70 +1,415 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="https://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>https://shawngraham.github.io/digiarch/</loc>
-    <lastmod>2025-06-10T11:30:04+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/schedule/wk3/</loc>
-    <lastmod>2025-06-10T11:30:04+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/syllabus/assessment/</loc>
-    <lastmod>2025-06-10T11:30:05+01:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/schedule/</loc>
-    <lastmod>2025-06-10T11:30:04+01:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/site-map/</loc>
-    <lastmod>2025-06-10T11:30:04+01:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/syllabus/syllabus-3/</loc>
-    <lastmod>2025-06-09T11:30:04+01:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/syllabus/syllabus-2/</loc>
-    <lastmod>2025-06-08T11:30:04+01:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/materials/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/reading/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/setup/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/materials/wk1-making-notes/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/wk1/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/jupyterlite/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/materials/wk1-jupyterlite/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/hypothesis/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/materials/wk1-hypothesis/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/github/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/materials/wk1-github/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/syllabus/</loc>
-    <lastmod>2024-12-16T11:30:04+01:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/schedule/wk1/</loc>
-    <lastmod>2021-06-08T11:30:04+01:00</lastmod>
-  </url><url>
-    <loc>https://shawngraham.github.io/digiarch/categories/</loc>
+    <loc>https://digiarch.netlify.app/week/3/instructions/</loc>
+    <lastmod>2020-01-28T00:10:42+09:00</lastmod>
   </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/1/instructions/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/2/instructions/</loc>
+    <lastmod>2020-01-28T00:10:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/7/instructions/</loc>
+    <lastmod>2020-01-28T00:10:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/10/instructions/</loc>
+    <lastmod>2020-01-28T00:10:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/11/instructions/</loc>
+    <lastmod>2020-01-28T00:10:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/9/instructions/</loc>
+    <lastmod>2020-01-28T00:10:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/12-5/instructions/</loc>
+    <lastmod>2020-01-28T00:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/5/instructions/</loc>
+    <lastmod>2020-01-28T00:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/5/basic-r-stats/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/5/databases/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/11/creativity/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/3/photogrammetry/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/4/instructions/</loc>
+    <lastmod>2020-01-28T00:10:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/12-5/an-invitation/</loc>
+    <lastmod>2020-01-28T00:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/11/archaeogaming/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/9/ads/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/11/augmented-reality/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/2/rationale/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/5/kobotoolbox/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/10/sharing-authority/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/9/archaes-teaching-archaes/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/2/alternative-project/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/7/abm/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/7/raise-the-dead-ii/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/3/webmaps/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/6/instructions/</loc>
+    <lastmod>2020-01-28T00:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/9/replication/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/2/safework/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/10/start-compendium/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/2/sketchmap/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/8/instructions/</loc>
+    <lastmod>2020-01-28T00:10:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/episode-1/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/episode-2/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/episode-3/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/m2-episode-1/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/m2-episode-2/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/m2-episode-3/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/m3-episode-1/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/m3-episode-2/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/m3-episode-3/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/7/computer-vision/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/2/do-the-project/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/1/github/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/3/spatial-archae/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/exit-ticket-episode/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/1/hypothesis/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/1/zotero/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/1/discord/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/1/obsidian/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/12/instructions/</loc>
+    <lastmod>2020-01-28T00:10:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/10/static-websites/</loc>
+    <lastmod>2020-01-28T00:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/docs/1-coursedescription/</loc>
+    <lastmod>2020-01-28T00:39:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/docs/2-learning-outcomes/</loc>
+    <lastmod>2020-07-01T00:38:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/docs/3-schedule/</loc>
+    <lastmod>2020-01-28T00:38:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/docs/4-assessment/</loc>
+    <lastmod>2020-01-28T00:38:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/blog/</loc>
+    <lastmod>2020-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/blog/update2/</loc>
+    <lastmod>2020-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/blog/update1/</loc>
+    <lastmod>2020-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/1/</loc>
+    <lastmod>2020-08-12T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/docs/5-commonregs/</loc>
+    <lastmod>2020-01-28T00:39:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/docs/6-contact/</loc>
+    <lastmod>2020-01-28T00:39:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/docs/7-colophon/</loc>
+    <lastmod>2020-01-28T00:39:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/docs/8-reuse/</loc>
+    <lastmod>2020-01-28T00:39:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/2/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/3/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/4/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/5/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/6/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/7/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/8/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/9/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/10/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/11/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/12/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/1/help/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/12-5/</loc>
+    <lastmod>2020-01-28T00:10:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/transcripts/</loc>
+    <lastmod>2020-01-28T00:08:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/week/</loc>
+    <lastmod>2020-01-28T00:08:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/</loc>
+    <lastmod>2020-01-26T04:15:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/docs/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digiarch.netlify.app/blog/placeholder/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
 </urlset>

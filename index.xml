@@ -1,76 +1,684 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
-    <title>CLCV3000|HIST3000A: An Introduction to Digital Archaeology</title>
-    <link>https://shawngraham.github.io/digiarch/</link>
-    <description>Recent content on CLCV3000|HIST3000A: An Introduction to Digital Archaeology</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under CC BY-SA 4.0 {year}</copyright>
-    <lastBuildDate>Tue, 10 Jun 2025 11:30:04 +0000</lastBuildDate>
-    <atom:link href="https://shawngraham.github.io/digiarch/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Week 3</title>
-      <link>https://shawngraham.github.io/digiarch/schedule/wk3/</link>
-      <pubDate>Tue, 10 Jun 2025 11:30:04 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/schedule/wk3/</guid>
-      <description>Week 3</description>
-    </item>
-    <item>
-      <title>Assessment</title>
-      <link>https://shawngraham.github.io/digiarch/syllabus/assessment/</link>
-      <pubDate>Tue, 10 Jun 2025 11:30:05 +0100</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/syllabus/assessment/</guid>
-      <description>Nota bene: There is no midterm. There is no final exam. Each week, there are tasks for you to attempt. Sometimes there is a choice of which tasks to do; in those cases, I&amp;rsquo;m not looking for the number of these that you complete, but that you push yourself out of your comfort level. What&amp;rsquo;s more, it&amp;rsquo;s OK if something doesn&amp;rsquo;t work &amp;lsquo;perfectly.&amp;rsquo; The reflection on the process, both your fails and your successes, is the important thing.</description>
-    </item>
-    <item>
-      <title>Learning Outcomes</title>
-      <link>https://shawngraham.github.io/digiarch/syllabus/syllabus-3/</link>
-      <pubDate>Mon, 09 Jun 2025 11:30:04 +0100</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/syllabus/syllabus-3/</guid>
-      <description>Questions I developed this course with a couple of questions in mind, things I wanted to know the answers to. Digital archaeology - what the hell is it, anyway? What is it for? Is it just a &amp;lsquo;follower&amp;rsquo;, repurposing other tools &amp;amp; techniques, a supporting skill for &amp;lsquo;real&amp;rsquo; archaeology? Let&amp;rsquo;s set ourselves a grand challenges: what can digital archaeology be?&#xA;This course is a formalized exploration of these questions; I do not know the answers!</description>
-    </item>
-    <item>
-      <title>General Philosophy</title>
-      <link>https://shawngraham.github.io/digiarch/syllabus/syllabus-2/</link>
-      <pubDate>Sun, 08 Jun 2025 11:30:04 +0100</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/syllabus/syllabus-2/</guid>
-      <description>The Most Important Idea Archaeology isn&amp;rsquo;t necessarily about the past. It&amp;rsquo;s about the materiality of the past and present and in many ways, the future. We try to understand what it is to be human through the extended abilities that tool use, that objects and their agencies, give to us. The digital tools we use are entangled with and extend humanity in powerful ways - and in 2025, it&amp;rsquo;s easy to see how digital technologies have extended humanity&amp;rsquo;s worst impulses.</description>
-    </item>
-    <item>
-      <title>Week 1: Making Notes</title>
-      <link>https://shawngraham.github.io/digiarch/materials/wk1-making-notes/</link>
-      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/materials/wk1-making-notes/</guid>
-      <description>I am asking you to make notes about your process, not take notes. There&amp;rsquo;s a difference.&#xA;When we make notes, we are mindfully building a foundation through a process of linking. Jupyterlite is an environment where we can write analytical code and do statistical analysis, as well as make notes. The idea is that you make your observations there in text files (that use the markdown conventions for styling the text) that link to your analysis.</description>
-    </item>
-    <item>
-      <title>Week 1: Jupyterlite</title>
-      <link>https://shawngraham.github.io/digiarch/materials/wk1-jupyterlite/</link>
-      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/materials/wk1-jupyterlite/</guid>
-      <description>👋🏻 Hi!&#xA;Let&amp;rsquo;s do some coding. The interface below accepts python code. Try copying and pasting this:&#xA;text = &amp;#34;Oh yeah, digital archaeology!&amp;#34; print(text) into the gray box at the bottom of the interface below. Then, hit shift+enter while your cursor is in the box:&#xA;Now try this:&#xA;one = 1 two = 2 print(one + two) See how easy that was? You just entered some python code into a coding environment powered by a version of the Python language.</description>
-    </item>
-    <item>
-      <title>Week 1: Hypothesis</title>
-      <link>https://shawngraham.github.io/digiarch/materials/wk1-hypothesis/</link>
-      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/materials/wk1-hypothesis/</guid>
-      <description>While watching this video, turn on the closed captions.&#xA;Create an account at hypothes.is:&#xA;Get the Chrome app or the Firefox bookmarklet:&#xA;Make sure you&amp;rsquo;re logged in:&#xA;Then join our HIST3000|CLCV3000 reading group. If you happen to be reading something, and see an existing annotation that interests you, hit the &amp;lsquo;reply&amp;rsquo; button on the annotation to start a conversation! Sometimes, the person to whom you&amp;rsquo;re replying might be a previous year&amp;rsquo;s student, but that&amp;rsquo;s ok; they might enter into conversation with you.</description>
-    </item>
-    <item>
-      <title>Week 1: Github</title>
-      <link>https://shawngraham.github.io/digiarch/materials/wk1-github/</link>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/materials/wk1-github/</guid>
-      <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation.&#xA;The sequence of steps below might be a bit different by the time you read this; Github often mucks about with its look and feel. Examine the steps first, and if what you encounter is a bit different than this, you should be able to work out the basic actions to take from this walk-through.</description>
-    </item>
-    <item>
-      <title>Week 1</title>
-      <link>https://shawngraham.github.io/digiarch/schedule/wk1/</link>
-      <pubDate>Tue, 08 Jun 2021 11:30:04 +0100</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/schedule/wk1/</guid>
-      <description>Goals Listen Read Do Reflect Report Back Goals for this week Our overarching goal starting up is to set up your digital archaeology workflow, and to map out some of the broad contours of &amp;lsquo;digital archaeology&amp;rsquo;.&#xA;Getting the workflow set up involves creating a place to lodge your materials (a data repository via Github), a place to make notes and explore code (we&amp;rsquo;re going to use a thing called JupyterLite), and a way of being social with your community of nascent digital archaeologists (a social annotation layer for the web called Hypothes.</description>
-    </item>
+    <title>Digital Archaeology on HIST3000|CLCV3000</title>
+    <link>https://digiarch.netlify.app/</link>
+    <description>Recent content in Digital Archaeology on HIST3000|CLCV3000</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>shawn.graham@carleton.ca (Dr. Shawn Graham)</managingEditor>
+    <webMaster>shawn.graham@carleton.ca (Dr. Shawn Graham)</webMaster>
+    <copyright>Original content by Shawn Graham licensed under a &lt;a rel=&#39;license&#39; href=&#39;http://creativecommons.org/licenses/by-nc/4.0/&#39;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;&lt;br&gt;&lt;a rel=&#39;license&#39; href=&#39;http://creativecommons.org/licenses/by-nc/4.0/&#39;&gt;&lt;img alt=&#39;Creative Commons License logo&#39; style=&#39;border-width:0&#39; src=&#39;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&#39; /&gt;&lt;/a&gt;. &lt;br&gt;Site logo &#39;archaeological information&#39; by corpus delicti, GR, The Noun Project.</copyright>
+    <lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate>
+    
+        <atom:link href="https://digiarch.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>M1 Wk3: Instructions</title>
+        <link>https://digiarch.netlify.app/week/3/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:42 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/3/instructions/</guid>
+        <description>Field work and ethical data collection II Goals for this week  Continue the Graveyard Project Create some 3d models of grave stones Develop a webmap of the site Explore the connections between what you are doing and what you are reading: graveyards are emotional spaces  Listen  Feed for the podcast here. Transcript here.
+Read  Cook, Katherine. 2018 Negotiating Memory: Funerary Commemoration as Social Change in Barbados. African and Black Diaspora: An International Journal.</description>
+      </item>
+      
+      <item>
+        <title>M1 Wk1: Instructions</title>
+        <link>https://digiarch.netlify.app/week/1/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/1/instructions/</guid>
+        <description>Module 1: Capturing/Creating Getting Started 
+Goals for this week  getting our Github accounts set up and making our first log entries getting Hypothes.is set up getting Zotero installed getting Obsidian set up understanding what the hang you&amp;rsquo;ve signed up for getting a sense of what digital archaeology is; also, &amp;lsquo;failing gloriously&amp;rsquo;  Listen  Feed for the podcast here. Transcript here.
+Advice on how to listen to a podcast for a class.</description>
+      </item>
+      
+      <item>
+        <title>M1 Wk2: Instructions</title>
+        <link>https://digiarch.netlify.app/week/2/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:48 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/2/instructions/</guid>
+        <description>Field work and ethical data collection Goals for this week  Find a local historic graveyard (current graveyard is OK) Begin recording some gravestones Create a rough map of the site  Listen  Feed for the podcast here. Transcript here.
+Read  Cook, Katherine. 2018 Open Data as Public Archaeology: The Monumental Archive Project. AP: Online Journal of Public Archaeology 3: 177-194. link Lacy, Robyn S. 2018. Public Engagement through Burial Landscapes: Cupids and Ferryland, Newfoundland.</description>
+      </item>
+      
+      <item>
+        <title>M2 Wk7: Instructions</title>
+        <link>https://digiarch.netlify.app/week/7/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/7/instructions/</guid>
+        <description>Futures of Digital Archaeology Goals for this week  Try your hand at building an image classifier Simulate the Roman economy Raise the ghost of Rudolpho Lanciani Situate this work in an understanding of the potential futures for digital archaeology, but also in the context of current work in archaeology.  Listen  Feed for the podcast here.
+Read  Huggett, Jeremy. 2017 The Apparatus of Digital Archaeology, Internet Archaeology 44.</description>
+      </item>
+      
+      <item>
+        <title>M3 Wk10: Instructions</title>
+        <link>https://digiarch.netlify.app/week/10/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/10/instructions/</guid>
+        <description>Communities Goals for this week  Participate in some crowd-sourced &amp;lsquo;citizen science&amp;rsquo; archaeology Build your own research compendium for work you&amp;rsquo;ve done on the graveyards project Build a simple website aimed at explaining your research compendium to an interested public.  Listen  Feed for the podcast here.
+(For more about the Alexandria Archive Institute, go here)
+Read  Morgan, Colleen, Robert Carter, Michal Michalski. 2016. The Origins of Doha Project: Online Digital Heritage Remediation and Public Outreach in a Vanishing Pearling Town in the Arabian Gulf.</description>
+      </item>
+      
+      <item>
+        <title>M3 Wk11: Instructions</title>
+        <link>https://digiarch.netlify.app/week/11/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/11/instructions/</guid>
+        <description>Creativity &amp;amp; Digital Storytelling Goals for this week  Last week was about getting your work out there. This week is about finding the compelling story, the enchanting story, the heart-centered work of archaeology.  Listen  Feed for the podcast here.
+Read  Perry, Sara. 2019. The Enchantment of the Archaeological Record. European Journal of Archaeology. 22.3, 354-371 link González-Tennant, Edward. 2010. Virtual Archaeology and Digital Storytelling: A Report from Rosewood, Florida.</description>
+      </item>
+      
+      <item>
+        <title>Module 3: Communicating</title>
+        <link>https://digiarch.netlify.app/week/9/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/9/instructions/</guid>
+        <description>Communicating Digital Archaeology As we start the final portion of this course, please take a moment to skip to week 12 and note Options A and B for the completion of Consolidation III and the Exit Ticket.
+Goals for this week  explore how archaeologists communicate digital archaeology professionally reuse archaeological data from a research compendium  Listen  Feed for the podcast here.
+Read  ‘The Numbers Don’t Speak for Themselves’ Draft chapter from Data Feminism by Catherine D’Ignazio and Lauren Klein link Ben Marwick, Carl Boettiger &amp;amp; Lincoln Mullen.</description>
+      </item>
+      
+      <item>
+        <title>Final Submission Instructions</title>
+        <link>https://digiarch.netlify.app/week/12-5/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/12-5/instructions/</guid>
+        <description>The Last Bit The last bit of the course is the Exit Ticket.
+Listen  Feed for the podcast here.
+Do The format of the exit ticket is up to you.
+Collect evidence detailing your greatest success in the course, and your most glorious failure (go back to the week 1 podcast if you need a reminder what a &amp;lsquo;glorious failure&amp;rsquo; actually means), and put it into a new repo (make me a collaborator on it).</description>
+      </item>
+      
+      <item>
+        <title>Module 2: Considering/Critiquing</title>
+        <link>https://digiarch.netlify.app/week/5/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/5/instructions/</guid>
+        <description>What Gets Counted, Counts 
+Goals for this week  recognize the strengths and weaknesses of our graveyard coding scheme uncover the ways in which &amp;lsquo;counting&amp;rsquo; hides or highlights the past encounter CSVs, SQL, and R and how to do some basic statistics  Listen  Feed for the podcast here. Transcript here.
+Read  ‘What gets counted, counts’. Chapter from Data Feminism by Catherine D’Ignazio and Lauren Klein link Labrador, Angela.</description>
+      </item>
+      
+      <item>
+        <title>Basic Stats in R</title>
+        <link>https://digiarch.netlify.app/week/5/basic-r-stats/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/5/basic-r-stats/</guid>
+        <description>R is a programming language for statistics that is used frequently by archaeologists (the other popular option is Python). One of the advantages of scripting or writing out your analysis as a sequence of commands is that anyone can look at your code and understand what you did and why it worked.
+ Launch a virtual computer running RStudio in your browser by right-clicking on this link. nb If no one has launched this virtual computer in a while, it can take several minutes to launch; but once someone else has launched it once, it&amp;rsquo;ll be faster for the rest of us.</description>
+      </item>
+      
+      <item>
+        <title>Databases</title>
+        <link>https://digiarch.netlify.app/week/5/databases/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/5/databases/</guid>
+        <description>In the Open Digital Archaeology Textbook Environment, look at section 2.4 on databases; then start up the binder in a new tab by right-clicking this link. This is a computational notebook: a computer that you access through the website.
+These notebooks are generated from a static collection of files. The generated &amp;lsquo;image&amp;rsquo; - the virtual computer - loads up quickly when someone has recently generated it, but if it&amp;rsquo;s been a while since someone tried to start up this notebook, it can take several minutes - 15 to 30 - before it finally launches.</description>
+      </item>
+      
+      <item>
+        <title>Digital Creativity</title>
+        <link>https://digiarch.netlify.app/week/11/creativity/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/11/creativity/</guid>
+        <description>Introduction There are lots of different ways to engage with archaeological data in creative ways that can create an affecting and effective story. Epoiesen - A Journal for Creative Engagement in History and Archaeology has published a number of pieces that use a wide variety of modes to tell the story, from photo essays to time lapse art to papercraft.
+For this exercise, I want you to scratch that creative itch.</description>
+      </item>
+      
+      <item>
+        <title>Photogrammetry</title>
+        <link>https://digiarch.netlify.app/week/3/photogrammetry/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/3/photogrammetry/</guid>
+        <description>Introduction Photogrammetry is the process whereby multiple photographs of an object are stitched together to make a 3d model of the object; the photographs are then draped over the model to make it photorealistic. Because of the physics of photography (focal distances of lenses and so on) a computer can calculate the relative positioning of overlapping points it identifies in multiple photographs, and with a bit of trig it works out the points-in-space.</description>
+      </item>
+      
+      <item>
+        <title>M1 Wk4: Instructions</title>
+        <link>https://digiarch.netlify.app/week/4/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/4/instructions/</guid>
+        <description>Consolidation Pause I Goals for this week  Use this time to catch up on anything you didn&amp;rsquo;t read, to try some of the exercises over again, and to consolidate what you&amp;rsquo;ve achieved so far.  Listen No episode this week. But the feed for the podcast is here.
+Do You may make your repository private or public.
+If you make it private, Make sure to &amp;lsquo;invite user shawngraham&amp;rsquo; to your repository so that I may view it.</description>
+      </item>
+      
+      <item>
+        <title>An Invitation</title>
+        <link>https://digiarch.netlify.app/week/12-5/an-invitation/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/12-5/an-invitation/</guid>
+        <description>Your Own Digital Archaeology This course has not even begun to scratch the surface of what a digital archaeology could be. There are digital archaeologies that focus on the work in the field, towards ever better practices and data collection. There are digital archaeologies that try to upend our notions of what it means to publish archaeological work. There are digital archaeologies that aim to immerse us in the past. This is not an exhaustive list.</description>
+      </item>
+      
+      <item>
+        <title>Archaeogaming</title>
+        <link>https://digiarch.netlify.app/week/11/archaeogaming/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/11/archaeogaming/</guid>
+        <description>Introduction Humans have made virtual worlds since time immemorial (see, for instance, Lascaux). Hadrian&amp;rsquo;s Villa at Tivoli was a virtual world. Disney World is a virtual world. Online is a virtual world but it&amp;rsquo;s still the real world.
+As this map put together by Andrew Reinhard and I suggests, there are a lot of dimensions to archaeogaming. I don&amp;rsquo;t know if it&amp;rsquo;s still on Netflix, but the &amp;lsquo;Atari: Game Over&amp;rsquo; documentary is worth a look because it is a case of quite literal archaeology of video games.</description>
+      </item>
+      
+      <item>
+        <title>Archaeology Data Service</title>
+        <link>https://digiarch.netlify.app/week/9/ads/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/9/ads/</guid>
+        <description>Introduction In this exercise, we&amp;rsquo;re working with data deposited in ADS. The code at the bottom is an adaptation of Rachel Optiz&amp;rsquo;s notebook, &amp;lsquo;Exploring published data from the ADS&amp;rsquo;. Dr. Opitz&amp;rsquo;s work is written in Python, if you want to take a look at how she does it.
+Any data published as CSV files with the ADS can be pulled into R for exploration, asking your own questions with it, and generally doing research.</description>
+      </item>
+      
+      <item>
+        <title>Augmented Reality</title>
+        <link>https://digiarch.netlify.app/week/11/augmented-reality/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/11/augmented-reality/</guid>
+        <description>Introduction I read a lot of science fiction when I was a kid. Augmented and virtual realities were always a part of the scene, in the stuff I read. I&amp;rsquo;ve spent a lot of time over the past ten years or so trying to bring those visions to life, given the level of my tech chops and the available technologies I had to play with, with various degrees of success. I shelled out for an Oculus Rift SDK v2, put it on, plumbed it into Minecraft, and promptly had to lie down for three hours because my head went one way and my body went the other.</description>
+      </item>
+      
+      <item>
+        <title>Graveyard Project Rationale</title>
+        <link>https://digiarch.netlify.app/week/2/rationale/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/2/rationale/</guid>
+        <description>Annotate this page with hypothesis while being logged into our course reading group with connections to other things you&amp;rsquo;ve read or thought about during your studies. If you spot an interesting annotation by someone else and it strikes a chord, respond generously to the annotation. Introduction I wanted you to have some experience of collecting data, and of how data models (or our expectations of what we&amp;rsquo;ll find) influence the subsequent work that we can do with the information that we collect.</description>
+      </item>
+      
+      <item>
+        <title>KoBoToolbox</title>
+        <link>https://digiarch.netlify.app/week/5/kobotoolbox/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/5/kobotoolbox/</guid>
+        <description>Introduction   The KoBoToolbox is an open source platform that allows you to design quite complex data collection forms, for use via computers or devices, both online and offline.
+Ipads and similar have been used in archaeology since their invention, at places for example like Pompeii and other sites destroyed by Vesuvius. The potential applications for devices like this to speed up data acquisition and analysis practically fill entire volumes, but at the same time, leave some archaeologists worried that we&amp;rsquo;re missing something fundamental about doing archaeology, that we need a &amp;lsquo;slow&amp;rsquo; archaeology to counter them.</description>
+      </item>
+      
+      <item>
+        <title>Sharing Authority</title>
+        <link>https://digiarch.netlify.app/week/10/sharing-authority/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/10/sharing-authority/</guid>
+        <description>Archaeologists have used digital media in a variety of ways to try to reach new audiences. I want you to explore the following sites and annotate what you find, using our hypothes.is reading group (nb don&amp;rsquo;t use the &amp;lsquo;public&amp;rsquo; group!), tying what you&amp;rsquo;re seeing to ideas you encountered in the readings.
+ https://www.dayofarchaeology.com/ (worldwide) and Ben Marwick&amp;rsquo;s Analysis of the posts Archaeology in the Community (US) http://www.archaeologyincommunity.com/ DigVentures (UK) https://digventures.com/  Then, I want you to actually sign up and complete some of the possible &amp;lsquo;citizen science&amp;rsquo; tasks at Micropasts (UK) https://crowdsourced.</description>
+      </item>
+      
+      <item>
+        <title>Archaeologists Teaching Archaeologists</title>
+        <link>https://digiarch.netlify.app/week/9/archaes-teaching-archaes/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/9/archaes-teaching-archaes/</guid>
+        <description>Introduction The same workflows that enable us to replicate someone&amp;rsquo;s analysis and research can also be used to teach digital archaeology. At the Society for American Archaeology conference in 2017, Matt Harris and Ben Marwick created a repository to teach archaeologists some of the basic archaeological uses of R. We&amp;rsquo;re going to re-run that workshop here.
+Get set up Launch the binder containing R Studio. This will open up the Jupyter file explorer for our binder.</description>
+      </item>
+      
+      <item>
+        <title>Graveyard Project Alternative</title>
+        <link>https://digiarch.netlify.app/week/2/alternative-project/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/2/alternative-project/</guid>
+        <description>Annotate this page with hypothesis (while being logged into our course reading group) with connections to other things you&amp;rsquo;ve read or thought about during your studies. If you spot an interesting annotation by someone else and it strikes a chord, respond generously to the annotation. It may be that it is not feasible for you to go out into your community and visit a local graveyard for the purposes of this course.</description>
+      </item>
+      
+      <item>
+        <title>Raise the Dead I</title>
+        <link>https://digiarch.netlify.app/week/7/abm/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/7/abm/</guid>
+        <description>Read ODATE 4.4 - 4.4.1.3 (just the opening two sections)
+  Download and install Netlogo for your machine (there is an option called &amp;lsquo;Netlogo Web&amp;rsquo;, which runs in your browser. You can give that a shot, but I know that the bits below work on the desktop version. I haven&amp;rsquo;t tested on the web version.)
+    Option A: Follow along in Chapter 1 of the Romanowska, Wren, &amp;amp; Crabtree book, and build the model of the out-of-Africa dispersal of modern humans; the code repo is at github.</description>
+      </item>
+      
+      <item>
+        <title>Raise the Dead II</title>
+        <link>https://digiarch.netlify.app/week/7/raise-the-dead-ii/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/7/raise-the-dead-ii/</guid>
+        <description>We&amp;rsquo;re going to use a &amp;lsquo;language model&amp;rsquo;, trained on masses of english-language webpages, to raise Rudolopho Lanciani from the dead. The language model we&amp;rsquo;ll use - GPT-2 - is essentially a statistical model of what words are likely to be found together in a given context. If we trained a language model on my writing, the changes that the word &amp;lsquo;social&amp;rsquo; would be followed by &amp;lsquo;network&amp;rsquo; would be very high, if the rest of the text contained words like &amp;lsquo;links&amp;rsquo; or &amp;lsquo;edges&amp;rsquo; or &amp;lsquo;power&amp;rsquo;.</description>
+      </item>
+      
+      <item>
+        <title>Webmaps</title>
+        <link>https://digiarch.netlify.app/week/3/webmaps/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/3/webmaps/</guid>
+        <description>Introduction In this tutorial, I re-purpose some instructions from my Crafting Digital History class on how to build a web map using open source code from Leaflet. The idea here is that you learn to build a map and get it online: and then you modify it to display
+ the cemetery that you have worked on the location of stones  The East End Cemetery website maps a historic African American burial ground in Henrico County and the city of Richmond, Virginia, and uses Leaflet:</description>
+      </item>
+      
+      <item>
+        <title>M2 Wk6: Instructions</title>
+        <link>https://digiarch.netlify.app/week/6/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/6/instructions/</guid>
+        <description>The Contexts of Digital and Other Archaeologies Goals for this week  Explore some of the literature of archaeology using a macroscopic point of view Understand the social context of archaeological practice Identify the antecedents to digital archaeology in the broader literature  Listen  Feed for the podcast here.
+Read   White, William and Catherine Draycott. 2020 Why the Whiteness of Archaeology Is a Problem. SAPIENS link
+  Overholtzer, Lisa, &amp;amp; Catherine Jalbert.</description>
+      </item>
+      
+      <item>
+        <title>Replication as Teaching</title>
+        <link>https://digiarch.netlify.app/week/9/replication/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/9/replication/</guid>
+        <description>Introduction Ben Marwick et al have made the argument that an extremely effective way of teaching archaeology data science is to have students try to replicate the findings of archaeologists from the published journal articles. (You can read the preprint here).
+Of course, this depends on archaeologists publishing both the code and the underlying data for their work, something that is unfortunately still comparatively rare. When the results of archaeological research can&amp;rsquo;t be replicated or examined, there is an argument to be made that the research is unethical.</description>
+      </item>
+      
+      <item>
+        <title>Working Safely</title>
+        <link>https://digiarch.netlify.app/week/2/safework/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/2/safework/</guid>
+        <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation. Introduction This week, I am asking you to go out into your community and find a historic graveyard to work on. There was a graveyard in the middle of a field not far from the childhood home of a friend of mine.</description>
+      </item>
+      
+      <item>
+        <title>A Research Compendium of One&#39;s Own</title>
+        <link>https://digiarch.netlify.app/week/10/start-compendium/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/10/start-compendium/</guid>
+        <description>This exercise depends on a complicated series of dependencies that do not play nice with the online RStudio binder I set up for you. Try installing R and RStudio on your own machine if you want to give this a try. Otherwise, I would suggest giving this a pass. You could try rstudio cloud which you can sign up for a free account with using your github credentials; or try to install the free RStudio desktop (which also means installing R first).</description>
+      </item>
+      
+      <item>
+        <title>Making a Sketch Map of Your Site</title>
+        <link>https://digiarch.netlify.app/week/2/sketchmap/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/2/sketchmap/</guid>
+        <description>Before you head out to the graveyard that you intend to record, I want you to make a sketchmap to bring with you.
+While the digital recording system that we are using can read the geolocation of your device when you are standing at a stone, the accuracy of that location might not be enough for us to understand any spatial patterns that might exist. While testing the system in a local graveyard, I found that stones a few feet apart would show up on the map (using my cellphone&amp;rsquo;s geolocation) hundreds of feet apart.</description>
+      </item>
+      
+      <item>
+        <title>M2 Wk8: Instructions</title>
+        <link>https://digiarch.netlify.app/week/8/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/8/instructions/</guid>
+        <description>Consolidation Pause II Goals for this week  Use this time to catch up on anything you didn&amp;rsquo;t read, to try some of the exercises over again, and to consolidate what you&amp;rsquo;ve achieved so far.  Listen No episode this week. But you can find the feed for the podcast here.
+Do You may make your repository private or public.
+If you make it private, make sure to &amp;lsquo;invite user shawngraham&amp;rsquo; to your repository so that I may view it.</description>
+      </item>
+      
+      <item>
+        <title>Module 1 Episode 1</title>
+        <link>https://digiarch.netlify.app/transcripts/episode-1/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/episode-1/</guid>
+        <description>Transcript of this week&amp;rsquo;s podcast episode.
+Part I Hi everyone!
+Welcome to introduction to digital history.
+I don’t know about you, but I can’t stomach any more zoom meetings. There’s something horrible about having to stare off-centre at your camera so that it appears like you’re looking out of your little window box at everyone else; but everyone else is staring off camera too, and frankly the whole thing feels like horrible small talk at an awkward faculty social event.</description>
+      </item>
+      
+      <item>
+        <title>Module 1 Episode 2</title>
+        <link>https://digiarch.netlify.app/transcripts/episode-2/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/episode-2/</guid>
+        <description>Transcript of this week&amp;rsquo;s podcast episode.
+Part I This week you&amp;rsquo;re going out into the field. But which field? When I was a kid, there was a graveyard on the other side of the dirt road from our farm. It had about six or seven headstones, and an old wrought-iron fence that surrounded the little plot. One stone was flat on the ground, at the centre of the graveyard. Almost like a lid.</description>
+      </item>
+      
+      <item>
+        <title>Module 1 Episode 3</title>
+        <link>https://digiarch.netlify.app/transcripts/episode-3/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/episode-3/</guid>
+        <description>Transcript of this week&amp;rsquo;s podcast episode.
+Part I Last week, I went to a graveyard not too far from my house. It took me about 15 minutes to walk there, crossing roads with heavy traffic. It&amp;rsquo;s in the corner of a city park, underneath some trees. The ground outside the little graveyard&amp;rsquo;s precinct is lumpy and uneven, and, as I peer into the underbrush, I&amp;rsquo;m pretty certain that I&amp;rsquo;m seeing the foundation pit of a small structure.</description>
+      </item>
+      
+      <item>
+        <title>Module 2 Episode 1</title>
+        <link>https://digiarch.netlify.app/transcripts/m2-episode-1/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/m2-episode-1/</guid>
+        <description>Transcript of this week&amp;rsquo;s podcast episode.
+Part I My job was to copy the information in the paper recording sheets into the Access Database. Each box on the form had a count for a different type of pottery. Each paper form had a digital analog on my screen. I got pretty fast at running my finger down the paper form, and banging in numbers on the keypad. But every so often, there&amp;rsquo;d be a horrible warning noise: computer says no.</description>
+      </item>
+      
+      <item>
+        <title>Module 2 Episode 2</title>
+        <link>https://digiarch.netlify.app/transcripts/m2-episode-2/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/m2-episode-2/</guid>
+        <description>Transcript of this week&amp;rsquo;s podcast episode.
+Storytime Welcome to week 6, the halfway point of the course, and the last week before the fall reading week and Hallowe&amp;rsquo;en. I want to tell you about the library at the British School at Rome. Imagine a room two stories tall, lined with bookshelves. There&amp;rsquo;s a walkway around where the second floor would be; you can go up a spiral steel staircase and browse those shelves up there, looking down on the scholars at their desks below.</description>
+      </item>
+      
+      <item>
+        <title>Module 2 Episode 3</title>
+        <link>https://digiarch.netlify.app/transcripts/m2-episode-3/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/m2-episode-3/</guid>
+        <description>Transcript of this week&amp;rsquo;s podcast episode.
+Part One I wrote a book called &amp;lsquo;Practical Necromancy&amp;rsquo;. Or rather, I wanted to call it &amp;lsquo;Practical Necromancy&amp;rsquo; but various folks felt that would be a bit off-putting. So instead, it ended up being called &amp;lsquo;An Enchantment of Digital Archaeology: Raising the Dead through Agent Based Models, Archaeogaming, and Artificial Intelligence&amp;rsquo;. It came out this past summer. The key idea in it, which I learned from the work and writing of Sara Perry, is the idea of &amp;lsquo;enchantment&amp;rsquo; as a mode of being open to the world.</description>
+      </item>
+      
+      <item>
+        <title>Module 3 Episode 1</title>
+        <link>https://digiarch.netlify.app/transcripts/m3-episode-1/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/m3-episode-1/</guid>
+        <description>Transcript of this week&amp;rsquo;s podcast episode.
+Part One I love Phineas and Ferb, and I empathize so much with Dr. Doofenschmirtz. Look at him, out there every day, building new devices and clearly communicating what they do, how they do it, his plans and everything. He might not be an effective evil villain, but he&amp;rsquo;s a very good communicator.
+We&amp;rsquo;re now in the final third of this course, which I&amp;rsquo;ve called &amp;lsquo;Communicating&amp;rsquo;.</description>
+      </item>
+      
+      <item>
+        <title>Module 3 Episode 2</title>
+        <link>https://digiarch.netlify.app/transcripts/m3-episode-2/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/m3-episode-2/</guid>
+        <description>Transcript of this week&amp;rsquo;s podcast episode.
+Part One A number of years ago, I found some contract work with a small online liberal arts college in the United States. When I say small, I mean: there were 3 of us. So we each got to wear different hats on a rapidly shifting basis. Sometimes I taught, sometimes I tried to fix the learning management system. Sometimes I was writing code to sort out our online registration system.</description>
+      </item>
+      
+      <item>
+        <title>Module 3 Episode 3</title>
+        <link>https://digiarch.netlify.app/transcripts/m3-episode-3/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/m3-episode-3/</guid>
+        <description>Transcript of this week&amp;rsquo;s episode.
+Part One This is it, gang. The end! You&amp;rsquo;ve made it through. Take a moment, and look back at everything you&amp;rsquo;ve done this term. Look at your glorious failures. Look at your spectacular successes. Each one of you has at least one of both! You&amp;rsquo;ve come a long way, as the advertisement used to have it.
+We&amp;rsquo;re ending the term by looking at digital creativity, computational creativity, gaming, and augmented reality.</description>
+      </item>
+      
+      <item>
+        <title>Neural Networks &amp; Computer Vision</title>
+        <link>https://digiarch.netlify.app/week/7/computer-vision/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/7/computer-vision/</guid>
+        <description>Introduction Gif by Alex Mordvintsev showing how neural networks &amp;lsquo;see&amp;rsquo;; a higher resolution version is available here.
+When our eyes see an image, various receptors in the retina respond by firing. Some fire in response to various colours. Some fire in response to light and shadow. Imagine that these cells are arranged in layers. If those simple cells in the first layer fire, they pass a signal to the next layer up.</description>
+      </item>
+      
+      <item>
+        <title>Record</title>
+        <link>https://digiarch.netlify.app/week/2/do-the-project/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/2/do-the-project/</guid>
+        <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation. You will need   a smartphone, tablet, or laptop
+  measuring tape (metric)
+  compass (optional)
+  notebook
+  if you don&amp;rsquo;t have a device that you can take into the field, you can print out multiple copies of the data entry form behind this link and then enter the data using the forms below on a desktop computer later.</description>
+      </item>
+      
+      <item>
+        <title>Setting up your Github</title>
+        <link>https://digiarch.netlify.app/week/1/github/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/1/github/</guid>
+        <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation. Introduction Github is a code sharing website often used by digital historians. &amp;lsquo;Git&amp;rsquo; is a program that takes snapshots of the current state of a folder, and stores them in sequence, allowing you to revert your changes to an earlier state.</description>
+      </item>
+      
+      <item>
+        <title>Spatial Archaeology</title>
+        <link>https://digiarch.netlify.app/week/3/spatial-archae/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/3/spatial-archae/</guid>
+        <description>Introduction This page is for those of you who zipped through the other materials this week.
+Remember: just because I give you all these options does not mean you must complete all of them. I&amp;rsquo;m asking you to start with the easier ones, and then push yourself to try the others. Spatial archaeology looks at the patterning of the remains of human activity in (usually geographic) space over time. It can encompass working with geographic information systems, and it can encompass web mapping (on which see ODATE 3.</description>
+      </item>
+      
+      <item>
+        <title>The One with the Exit Ticket</title>
+        <link>https://digiarch.netlify.app/transcripts/exit-ticket-episode/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/transcripts/exit-ticket-episode/</guid>
+        <description>Transcript of this week&amp;rsquo;s episode.
+Part One </description>
+      </item>
+      
+      <item>
+        <title>Setting up your Hypothesis</title>
+        <link>https://digiarch.netlify.app/week/1/hypothesis/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/1/hypothesis/</guid>
+        <description>While watching this video, turn on the closed captions.
+Create an account at hypothes.is:
+Get the Chrome app or the Firefox bookmarklet:
+Make sure you&amp;rsquo;re logged in:
+Then join our HIST3000|CLCV3000 reading group. If you happen to be reading something, and see an existing annotation that interests you, hit the &amp;lsquo;reply&amp;rsquo; button on the annotation to start a conversation! Sometimes, the person to whom you&amp;rsquo;re replying might be a previous year&amp;rsquo;s student, but that&amp;rsquo;s ok; they might enter into conversation with you.</description>
+      </item>
+      
+      <item>
+        <title>Setting up your Zotero</title>
+        <link>https://digiarch.netlify.app/week/1/zotero/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/1/zotero/</guid>
+        <description>Zotero is a piece of software for managing your research. When it is installed, it can extract metadata from websites or pdfs (when these have metadata) and store the information in your very own library. Zotero can be connected to Word or Google Docs so that when it is time to insert a reference, you can select the reference from your library - and then get the machine to automatically format/update your bibliography against whatever citation style you use.</description>
+      </item>
+      
+      <item>
+        <title>Getting started with Discord</title>
+        <link>https://digiarch.netlify.app/week/1/discord/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/1/discord/</guid>
+        <description>What is Discord? You can download Discord here or you can use it in a broswer.
+You will receive an invitation email in your Carleton account. It expires after one day, so do join once you get it. It will ask to verify your email; check your spam folder.
+Once you&amp;rsquo;re in, there&amp;rsquo;s a welcome message with a reaction emoji at the end - click on the thumbs up to confirm that you&amp;rsquo;ve read the message.</description>
+      </item>
+      
+      <item>
+        <title>Your Second Brain</title>
+        <link>https://digiarch.netlify.app/week/1/obsidian/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/1/obsidian/</guid>
+        <description>Notes and Emergent Ideas In recent years, I&amp;rsquo;ve found that a lot of my research materials are all online. Everything I read, everything I study. I use Zotero to handle bibliography and to push pdfs to an iPad with zotfile; then I annotate as I read on the device, and eventually, retrieve the annotations back into Zotero.
+I read on a browser on my work computer too; I use hypothes.is with a private group where I&amp;rsquo;m the only member to annotate websites and pdfs when I can&amp;rsquo;t be bothered to send them to the ipad.</description>
+      </item>
+      
+      <item>
+        <title>M3 Wk12: Instructions</title>
+        <link>https://digiarch.netlify.app/week/12/instructions/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/12/instructions/</guid>
+        <description>Consolidation Pause III Goals for this week  Use this time to catch up on anything you didn&amp;rsquo;t read, to try some of the exercises over again, and to consolidate what you&amp;rsquo;ve achieved so far.  Listen No episode this week. But you can get the feed for the podcast here.
+Do You may make your repository private or public.
+If you make it private, make sure to &amp;lsquo;invite user shawngraham&amp;rsquo; to your repository so that I may view it.</description>
+      </item>
+      
+      <item>
+        <title>Static Websites</title>
+        <link>https://digiarch.netlify.app/week/10/static-websites/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/10/static-websites/</guid>
+        <description>Building a website from scratch can be onerous. Using a system like Wordpress or Squarespace etc can leave you locked in to someone else&amp;rsquo;s platform (and any security issues that might entail).
+Here, we&amp;rsquo;re going to build a simple website that uses nothing but text files as its source; these text files will always be readable into the future, and you can also copy them to your own machine so that they&amp;rsquo;re always handy, ready to be transformed into something else.</description>
+      </item>
+      
+      <item>
+        <title>1. Course Description</title>
+        <link>https://digiarch.netlify.app/docs/1-coursedescription/</link>
+        <pubDate>Tue, 28 Jan 2020 00:39:09 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/docs/1-coursedescription/</guid>
+        <description>HIST3000|CLCV3000 Fall 2021 Department of History, Carleton University Once the excavation is over, what happens to the information created through archaeological research? How do archaeologists use digital technologies on site, in the lab, or on the web? This course explores the intersection of digital technologies and computing with archaeology. We will explore the ways theory gets embedded into computation; perhaps there is even a theory of digital archaeology? We will explore how digital technologies allow us to ask questions that would otherwise be impossible to ask.</description>
+      </item>
+      
+      <item>
+        <title>2. Learning Outcomes</title>
+        <link>https://digiarch.netlify.app/docs/2-learning-outcomes/</link>
+        <pubDate>Wed, 01 Jul 2020 00:38:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/docs/2-learning-outcomes/</guid>
+        <description>Questions I developed this course with a couple of questions in mind, things I wanted to know the answers to. Digital archaeology - what the hell is it, anyway? What is it for? Is it just a &amp;lsquo;follower&amp;rsquo;, repurposing other tools &amp;amp; techniques, a supporting skill for &amp;lsquo;real&amp;rsquo; archaeology? Let&amp;rsquo;s set ourselves a grand challenges: what can digital archaeology be?
+This course is a formalized exploration of these questions; I do not know the answers!</description>
+      </item>
+      
+      <item>
+        <title>3. Course Calendar</title>
+        <link>https://digiarch.netlify.app/docs/3-schedule/</link>
+        <pubDate>Tue, 28 Jan 2020 00:38:48 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/docs/3-schedule/</guid>
+        <description>Each week involves completing to the best of your ability various exercises; you will document your progress in a weekly log that you will keep online. Log entries are required to be completed by the Sunday evening at the end of the relevant work. A final reflection piece is due at the end of the course. See the assessment page for further details.
+Some exercises are collaborative for the class as a whole.</description>
+      </item>
+      
+      <item>
+        <title>4. Assessment</title>
+        <link>https://digiarch.netlify.app/docs/4-assessment/</link>
+        <pubDate>Tue, 28 Jan 2020 00:38:59 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/docs/4-assessment/</guid>
+        <description>There is no midterm. There is no final exam. Weekly Work Each week, there are tasks for you to attempt. Sometimes there is a choice of which tasks to do; in those cases, I&amp;rsquo;m not looking for the number of these that you complete, but that you push yourself out of your comfort level. What&amp;rsquo;s more, it&amp;rsquo;s OK if something doesn&amp;rsquo;t work &amp;lsquo;perfectly.&amp;rsquo; The reflection on the process, both your fails and your successes, is the important thing.</description>
+      </item>
+      
+      <item>
+        <title>Welcome to Week 2</title>
+        <link>https://digiarch.netlify.app/blog/update2/</link>
+        <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/blog/update2/</guid>
+        <description>(click the title to see the full post, not just this preview)
+Welcome to Week 2! Now that you&amp;rsquo;ve got your virtual digital archaeology workspace set up, it&amp;rsquo;s time to go outside if you&amp;rsquo;re able and start recording materials. If that&amp;rsquo;s not feasible for you, the alternative assignment has you doing much the same work, but using crowdsourced photographs.
+  </description>
+      </item>
+      
+      <item>
+        <title>And We&#39;re Off!</title>
+        <link>https://digiarch.netlify.app/blog/update1/</link>
+        <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/blog/update1/</guid>
+        <description>(click the title to see the full post, not just this preview)
+Welcome! Check your Carleton email account this morning for a note from me about getting started in the class.
+There are no zoom meetings in this class (balloons, confetti, streamers fall from ceiling, much rejoicing, etc).
+There is a discord server for a class social space and for video, audio chat &amp;amp; screensharing (which is useful when things go wrong and you want someone to look at what you&amp;rsquo;re doing).</description>
+      </item>
+      
+      <item>
+        <title>5. Common Regulations</title>
+        <link>https://digiarch.netlify.app/docs/5-commonregs/</link>
+        <pubDate>Tue, 28 Jan 2020 00:39:06 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/docs/5-commonregs/</guid>
+        <description>The following are the University regulations common to all History courses, that I am obligated to share with you. COPIES OF WRITTEN WORK SUBMITTED Always retain for yourself a copy of all essays, term papers, written assignments or take-home tests submitted in your courses.
+PLAGIARISM The University Senate defines plagiarism as “presenting, whether intentionally or not, the ideas, expression of ideas or work of others as one’s own.” This can include:</description>
+      </item>
+      
+      <item>
+        <title>6. Contacting Dr. Graham</title>
+        <link>https://digiarch.netlify.app/docs/6-contact/</link>
+        <pubDate>Tue, 28 Jan 2020 00:39:06 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/docs/6-contact/</guid>
+        <description>Dr. Graham can be found online at
+shawn dot graham at carleton dot ca
+or on Twitter at @electricarchae.
+He will be present in our class discord server every day.
+If we ever get out of quarantine, and you&amp;rsquo;re in Ottawa, he often haunts the Library coffeeshop.
+Online Office Hours Dr. Graham will be present in our Discord server every Wednesday from 1 until 3, and quite possibly the evenings too.</description>
+      </item>
+      
+      <item>
+        <title>7. Colophon</title>
+        <link>https://digiarch.netlify.app/docs/7-colophon/</link>
+        <pubDate>Tue, 28 Jan 2020 00:39:06 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/docs/7-colophon/</guid>
+        <description>As a general philosophy of learning, I do not aim for coverage. Rather, I am trying to help you learn the skills that you will need to uncover whatever aspect of method and thought that will help you with your research goals. A big part of that is trying to teach how to deal with what might feel like &amp;lsquo;failure&amp;rsquo;, on first blush. I want you to swing for the bleachers, and not to be afraid of whiffing on the ball.</description>
+      </item>
+      
+      <item>
+        <title>8. Reuse</title>
+        <link>https://digiarch.netlify.app/docs/8-reuse/</link>
+        <pubDate>Tue, 28 Jan 2020 00:39:06 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/docs/8-reuse/</guid>
+        <description>Original content by Shawn Graham, is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+Please feel free to reuse exercises in your own course materials, with a link back to the original page.
+Corrections, modifications, additions are welcome; please fork, and then modify accordingly. Once you&amp;rsquo;re ready, make a pull request. The original repository is at [https://github.com/shawngraham/hist3908](https://github.com/shawngraham/hist3908.
+All contributions will be duly credited.</description>
+      </item>
+      
+      <item>
+        <title>Asking for help</title>
+        <link>https://digiarch.netlify.app/week/1/help/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/week/1/help/</guid>
+        <description>Help! Things have gone wrong! Montparnasse Derailment, 1895
+Things are going to go wrong. Things are going to break. Instructions will seem vague or incomplete - or worse, I will have indeed forgotten to tell you something crucial.
+Or worse, I&amp;rsquo;ve made an assumption about your understanding, and left things unsaid that needed to be made explicit. There&amp;rsquo;s a lot of this, in the digital world, in fact.
+This week, you learned a bit about Git and Github.</description>
+      </item>
+      
+      <item>
+        <title>Placeholder Text</title>
+        <link>https://digiarch.netlify.app/blog/placeholder/</link>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        <author>shawn.graham@carleton.ca (Dr. Shawn Graham)</author>
+        <guid>https://digiarch.netlify.app/blog/placeholder/</guid>
+        <description>&lt;p&gt;Click title to see the full Post&lt;/p&gt;
+&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice&lt;br /&gt;
+subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc&lt;br /&gt;
+caluere tempus&lt;/p&gt;</description>
+      </item>
+      
+    
   </channel>
 </rss>
