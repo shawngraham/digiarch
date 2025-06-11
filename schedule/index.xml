@@ -11,24 +11,24 @@
     <atom:link href="https://shawngraham.github.io/digiarch/schedule/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Module 3</title>
-      <link>https://shawngraham.github.io/digiarch/schedule/module3/</link>
+      <link>https://shawngraham.github.io/digiarch/schedule/wk3/</link>
       <pubDate>Tue, 10 Jun 2025 11:30:04 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/schedule/module3/</guid>
+      <guid>https://shawngraham.github.io/digiarch/schedule/wk3/</guid>
       <description>module 3</description>
     </item>
     <item>
       <title>Module2</title>
-      <link>https://shawngraham.github.io/digiarch/schedule/module2/</link>
+      <link>https://shawngraham.github.io/digiarch/schedule/wk2/</link>
       <pubDate>Mon, 09 Jun 2025 11:30:04 +0200</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/schedule/module2/</guid>
+      <guid>https://shawngraham.github.io/digiarch/schedule/wk2/</guid>
       <description>module 2</description>
     </item>
     <item>
-      <title>Module 1</title>
-      <link>https://shawngraham.github.io/digiarch/schedule/module1/</link>
+      <title>Week 1</title>
+      <link>https://shawngraham.github.io/digiarch/schedule/wk1/</link>
       <pubDate>Sun, 08 Jun 2025 11:30:04 +0100</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/schedule/module1/</guid>
-      <description>module 1</description>
+      <guid>https://shawngraham.github.io/digiarch/schedule/wk1/</guid>
+      <description>Each week, I will lay out goals for things I want you to pay attention to, I will give you something to listen to, and I will give you things to read, and things to do.&#xA;Goals for this week This week is about getting set up and situated, including using a custom platform I have built for note-making. You might already have a system you use for making notes and keeping track of things, which is good.</description>
     </item>
   </channel>
 </rss>
