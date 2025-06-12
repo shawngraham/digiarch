@@ -129,7 +129,7 @@
 <p>Now we will install the specific Python libraries and extensions needed for this course with a single command.</p>
 <ol>
 <li>
-<p>Open JupyterLab Desktop.
+<p>Open JupyterLab Desktop. Select &lsquo;open&rsquo; and choose a folder where you want to do your course work.
 <img src="https://shawngraham.github.io/digiarch/static/images/jdl/jdl1.png" 
      alt="Jupyter start screen" width="500"
      loading="lazy"></p>
@@ -148,34 +148,25 @@
      alt="Jupyter start screen" width="500"
      loading="lazy">
 <ol start="4">
-<li>Copy the entire <code>pip</code> command below. Make sure you select it all, then copy (Ctrl+C or Cmd+C).</li>
+<li>Copy the entire command below (it does two things: using pip, it installs a number of extensions for python and jupyter that we need; using git, it downloads content for you I have created). Make sure you select it all from &lsquo;pip&rsquo; to &lsquo;.git&rsquo;, then copy (Ctrl+C or Cmd+C).</li>
 </ol>
-<pre tabindex="0"><code>    pip install pandas matplotlib scikit-learn ipywidgets lckr-jupyterlab-variableinspector jupyterlab-git jupyter-archive jupyterlab-pkm
+<pre tabindex="0"><code>    pip install pandas matplotlib scikit-learn ipywidgets lckr-jupyterlab-variableinspector jupyterlab-git jupyter-archive jupyterlab-pkm; git clone https://github.com/shawngraham/digiarch-labbench.git
 </code></pre><ol start="5">
-<li>
-<p>Paste the command into the JupyterLab terminal (Ctrl+V or Cmd+V) and press Enter.
+<li>Paste the command into the JupyterLab terminal (Ctrl+V or Cmd+V) and press Enter.
 <img src="https://shawngraham.github.io/digiarch/static/images/jdl/jdl4.png" 
      alt="Command pasted in" width="500"
-     loading="lazy"></p>
-</li>
-<li>
-<p>Copy the entire <code>git</code> command below. Make sure you select it all, then copy (Ctrl+C or Cmd+C).</p>
-</li>
-</ol>
-<pre tabindex="0"><code>  git clone https://github.com/shawngraham/digiarch-labbench.git
-</code></pre><ol start="7">
-<li>Paste the command into the JupyterLab terminal (Ctrl+V or Cmd+V) and press Enter.</li>
+     loading="lazy"></li>
 </ol>
 <p>You will see a lot of text as those two commands are run and packages are downloaded and installed. This may take a few minutes. Wait for it to finish and for the command prompt ($ or &gt;) to reappear.</p>
 <ol start="8">
 <li>
-<p>Completely close and re-open JupyterLab Desktop.</p>
+<p>Completely close JupyterLab Desktop.</p>
 </li>
 <li>
 <p>Find the <code>digiarch-labbench</code> on your computer - use your finder or file explorer to locate it, and REMEMBER WHERE YOU&rsquo;VE PUT IT!</p>
 </li>
 <li>
-<p>Select &lsquo;open&rsquo; and find the  <code>digiarch-labbench</code>. Select it. If you see the PKM extension pop-up when you open the folder, then you&rsquo;re good to go!</p>
+<p>Re-open JupyterLab Desktop. Select &lsquo;open&rsquo; and find the  <code>digiarch-labbench</code>. Select it. If you see the PKM extension pop-up when you open the folder, then you&rsquo;re good to go!</p>
 </li>
 </ol>
 <img src="https://shawngraham.github.io/digiarch/static/images/jdl/jdl5.png" 
