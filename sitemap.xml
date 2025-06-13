@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/docs/exit-ticket/</loc>
+    <loc>http://localhost:1313/digiarch/docs/exit-ticket/</loc>
   </url><url>
-    <loc>/docs/</loc>
+    <loc>http://localhost:1313/digiarch/docs/</loc>
     <lastmod>2025-05-17T15:10:53+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>http://localhost:1313/digiarch/</loc>
     <lastmod>2025-05-17T15:10:53+08:00</lastmod>
   </url><url>
-    <loc>/tags/reading/</loc>
+    <loc>http://localhost:1313/digiarch/tags/reading/</loc>
     <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/setup/</loc>
+    <loc>http://localhost:1313/digiarch/tags/setup/</loc>
     <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://localhost:1313/digiarch/tags/</loc>
     <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/materials/wk1-making-notes/</loc>
+    <loc>http://localhost:1313/digiarch/docs/materials/wk1-making-notes/</loc>
     <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/wk1/</loc>
+    <loc>http://localhost:1313/digiarch/tags/wk1/</loc>
     <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/jupyter/</loc>
+    <loc>http://localhost:1313/digiarch/tags/jupyter/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/r/</loc>
+    <loc>http://localhost:1313/digiarch/tags/r/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/materials/wk1-jupyterdesktop/</loc>
+    <loc>http://localhost:1313/digiarch/docs/materials/wk1-jupyterdesktop/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/materials/wk3-jupyter-r/</loc>
+    <loc>http://localhost:1313/digiarch/docs/materials/wk3-jupyter-r/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/wk3/</loc>
+    <loc>http://localhost:1313/digiarch/tags/wk3/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/hypothesis/</loc>
+    <loc>http://localhost:1313/digiarch/tags/hypothesis/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/materials/wk1-hypothesis/</loc>
+    <loc>http://localhost:1313/digiarch/docs/materials/wk1-hypothesis/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/github/</loc>
+    <loc>http://localhost:1313/digiarch/tags/github/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/materials/wk1-github/</loc>
+    <loc>http://localhost:1313/digiarch/docs/materials/wk1-github/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/assessment/</loc>
+    <loc>http://localhost:1313/digiarch/docs/assessment/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://localhost:1313/digiarch/categories/</loc>
   </url><url>
-    <loc>/docs/overview/</loc>
+    <loc>http://localhost:1313/digiarch/docs/overview/</loc>
     <lastmod>2025-05-17T15:10:53+08:00</lastmod>
   </url><url>
-    <loc>/docs/general-philosophy/</loc>
+    <loc>http://localhost:1313/digiarch/docs/general-philosophy/</loc>
   </url><url>
-    <loc>/docs/learning-outcomes/</loc>
+    <loc>http://localhost:1313/digiarch/docs/learning-outcomes/</loc>
   </url><url>
-    <loc>/docs/module-1/</loc>
+    <loc>http://localhost:1313/digiarch/docs/module-1/</loc>
   </url><url>
-    <loc>/docs/module-2/</loc>
+    <loc>http://localhost:1313/digiarch/docs/module-2/</loc>
   </url><url>
-    <loc>/docs/module-3/</loc>
+    <loc>http://localhost:1313/digiarch/docs/module-3/</loc>
   </url><url>
-    <loc>/docs/first-things-first/</loc>
+    <loc>http://localhost:1313/digiarch/docs/first-things-first/</loc>
   </url><url>
-    <loc>/docs/module-1/wk1/</loc>
+    <loc>http://localhost:1313/digiarch/docs/module-1/wk1/</loc>
   </url><url>
-    <loc>/docs/module-1/wk2/</loc>
+    <loc>http://localhost:1313/digiarch/docs/module-1/wk2/</loc>
   </url><url>
-    <loc>/docs/module-1/wk3/</loc>
+    <loc>http://localhost:1313/digiarch/docs/module-1/wk3/</loc>
   </url>
 </urlset>
