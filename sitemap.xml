@@ -2,79 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shawngraham.github.io/digiarch/docs/exit-ticket/</loc>
+    <loc>/docs/exit-ticket/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/</loc>
-    <lastmod>2025-05-17T15:10:53+08:00</lastmod>
+    <loc>/docs/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/</loc>
-    <lastmod>2025-05-17T15:10:53+08:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/reading/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+    <loc>/tags/reading/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/setup/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+    <loc>/tags/setup/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/materials/wk1-making-notes/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+    <loc>/docs/materials/wk1-making-notes/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/wk1/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+    <loc>/tags/wk1/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/jupyter/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <loc>/tags/jupyter/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/r/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <loc>/tags/r/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/materials/wk1-jupyterdesktop/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <loc>/docs/materials/wk1-jupyterdesktop/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/materials/wk3-jupyter-r/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <loc>/docs/materials/wk3-jupyter-r/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/wk3/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <loc>/tags/wk3/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/hypothesis/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+    <loc>/tags/hypothesis/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/materials/wk1-hypothesis/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+    <loc>/docs/materials/wk1-hypothesis/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/tags/github/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <loc>/tags/github/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/materials/wk1-github/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <loc>/docs/materials/wk1-github/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/assessment/</loc>
+    <loc>/docs/assessment/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/overview/</loc>
-    <lastmod>2025-05-17T15:10:53+08:00</lastmod>
+    <loc>/docs/overview/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/general-philosophy/</loc>
+    <loc>/docs/general-philosophy/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/learning-outcomes/</loc>
+    <loc>/docs/learning-outcomes/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/module-1/</loc>
+    <loc>/docs/module-1/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/module-2/</loc>
+    <loc>/docs/module-2/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/module-3/</loc>
+    <loc>/docs/module-3/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/first-things-first/</loc>
+    <loc>/docs/first-things-first/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/module-1/wk1/</loc>
+    <loc>/docs/module-1/wk1/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/module-1/wk2/</loc>
+    <loc>/docs/module-1/wk2/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
-    <loc>https://shawngraham.github.io/digiarch/docs/module-1/wk3/</loc>
+    <loc>/docs/module-1/wk3/</loc>
+    <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url>
 </urlset>

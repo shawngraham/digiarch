@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on HIST3000|CLCV3000</title>
-    <link>https://shawngraham.github.io/digiarch/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on HIST3000|CLCV3000</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://shawngraham.github.io/digiarch/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jun 2025 14:12:01 -0400</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reading</title>
-      <link>https://shawngraham.github.io/digiarch/tags/reading/</link>
+      <link>/tags/reading/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/tags/reading/</guid>
+      <guid>/tags/reading/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
-      <link>https://shawngraham.github.io/digiarch/tags/setup/</link>
+      <link>/tags/setup/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/tags/setup/</guid>
+      <guid>/tags/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>Wk1</title>
-      <link>https://shawngraham.github.io/digiarch/tags/wk1/</link>
+      <link>/tags/wk1/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/tags/wk1/</guid>
+      <guid>/tags/wk1/</guid>
       <description></description>
     </item>
     <item>
       <title>Jupyter</title>
-      <link>https://shawngraham.github.io/digiarch/tags/jupyter/</link>
+      <link>/tags/jupyter/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/tags/jupyter/</guid>
+      <guid>/tags/jupyter/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>https://shawngraham.github.io/digiarch/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     <item>
       <title>Wk3</title>
-      <link>https://shawngraham.github.io/digiarch/tags/wk3/</link>
+      <link>/tags/wk3/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/tags/wk3/</guid>
+      <guid>/tags/wk3/</guid>
       <description></description>
     </item>
     <item>
       <title>Hypothesis</title>
-      <link>https://shawngraham.github.io/digiarch/tags/hypothesis/</link>
+      <link>/tags/hypothesis/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/tags/hypothesis/</guid>
+      <guid>/tags/hypothesis/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>https://shawngraham.github.io/digiarch/tags/github/</link>
+      <link>/tags/github/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://shawngraham.github.io/digiarch/tags/github/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
   </channel>
