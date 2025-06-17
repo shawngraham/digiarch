@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Creating a Webmap with Leaflet.js.">
+<meta name="author" content="Shawn Graham">
+
+<title>Week 3: Webmaps · HIST3000|CLCV3000</title>
+
+<link rel="canonical" href="/docs/materials/wk3-webmaps/">
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/docs.min.691537ffa13ee529512f90fe40656ee95f4c3eeb59f1130fbf66480ab7fa465d.css" integrity="">
+
+
+
+
+  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
+  
+  <link rel="stylesheet" href="/css/component/docsearch.min.614fea5cfa814740238ac556e7a0d336d660b5bd2d325ce2c695ad8ba1ee3020.css" integrity=""/>
+
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/img/icon/favicon.ico">
+<link rel="icon" href="/img/icon/icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/img/icon/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon/icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#fffff5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+
+
+  
+
+  </head>
+  <body>
+    <header id="site-header">
+  
+  <div id="site-header-brand">
+    <a href="/">HIST3000|CLCV3000</a>
+  </div>
+
+  
+  <div id="site-header-controls">
+    
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="menu" aria-label="theme selector">
+        <i class="icon icon-brightness"></i>
+        <i class="icon icon-select"></i>
+      </button>
+      <ul role="menu" class="dropdown-menu">
+        <li role="menuitem"><button class="color-scheme" data-value="light"><i class="icon icon-light-mode"></i> Light</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="dark"><i class="icon icon-dark-mode"></i> Dark &nbsp;</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="night"><i class="icon icon-night-mode"></i> Night</button></li>
+      </ul>
+    </div>
+
+    
+ 
+  </div>
+
+  
+  <div id="site-header-menu">
+    <nav>
+      <ul>
+        
+        
+        
+          
+          <li><a href="/" ><i class='icon icon-home'></i>Home</a></li>
+        
+          
+          <li><a href="/docs"  class="active"><i class='icon icon-book'></i>Documentation</a></li>
+        
+          
+          <li><a href="https://shawngraham.github.io" ><i class='icon icon-head'></i>Professor Graham</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  
+</header>
+    
+<div id="site-main-content-wrapper">
+  
+  
+    
+
+
+<aside id="sidebar">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+
+  <div class="sticky"><strong class="sidebar-section">📖 Syllabus</strong>
+          
+          <a class="sidebar-link " href="/docs/first-things-first/">
+            
+              First Things First
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/general-philosophy/">
+            
+              General Philosophy
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/learning-outcomes/">
+            
+              Learning Outcomes
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/the-graveyard-project/">
+            
+              The Graveyard Project
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/assessment/">
+            
+              Assessment
+            
+          </a>
+
+        <strong class="sidebar-section">⛏️ Course Work Overview</strong>
+          
+          <a class="sidebar-link " href="/docs/module-1/">
+            
+              Module 1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-2/">
+            
+              Module 2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-3/">
+            
+              Module 3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        <strong class="sidebar-section">Week By Week</strong>
+          
+          <a class="sidebar-link " href="/docs/wk1/">
+            
+              Wk1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk2/">
+            
+              Wk2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk3/">
+            
+              Wk3
+            
+          </a>
+
+        
+  </div>
+</aside>
+
+  
+  <main>
+    <article id="article">
+      <nav id="article-nav">
+  <button id="article-nav-menu-btn"><i class="icon icon-menu"></i> On this section</button>
+  <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
+</nav>
+      <header id="article-header">
+  <h1>Week 3: Webmaps</h1>
+</header>
+      <div id="article-content">
+        
+        
+        <h2 id="introduction">Introduction</h2>
+<p>In this tutorial, I show you how to build a web map using open source code from Leaflet. The idea here is that you learn to build a map and get it online: and then you learn how to modify it to display:</p>
+<ul>
+<li>the cemetery that you have worked on</li>
+<li>the location of stones</li>
+</ul>
+<p>Leaflet is very powerful; we&rsquo;re not even scraping the surface with what it can do. As an example, the <code>East End Cemetery</code> website maps a historic African American burial ground in Henrico County and the city of Richmond, Virginia, that uses Leaflet to good effect:</p>
+<p><a href="https://dsl.richmond.edu/eastend/#loc=16/37.53619777622634/-77.38787770271303" target="_blank">East End Cemetery Map</a></p>
+<p>With time and practice, you would be able to build something similar. Remember, I am not expecting perfection; rather, I want you to push yourself until you get stuck.</p>
+<div class="admonition admonition-info"><div class="admonition-title">The Task</div><div class="admonition-content">
+    The goal is to create a custom webmap for your cemetery/graveyard. I show you how to do <em>a lot</em> in this tutorial. Focus on one step at a time.
+  </div>
+</div>
+<style>
+.admonition {
+  margin: 1.5em 0;
+  padding: 0;
+  border-left: 4px solid;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.admonition-title {
+  font-weight: bold;
+  padding: 0.75em 1em;
+  margin: 0;
+  color: white;
+}
+
+.admonition-content {
+  padding: 1em;
+  background: #cc9966;
+}
+.admonition-content p:last-child {
+  margin-bottom: 0;
+}
+
+ 
+.admonition-note {
+  border-color: #3498db;
+}
+.admonition-note .admonition-title {
+  background: #3498db;
+}
+
+ 
+.admonition-warning {
+  border-color: #f39c12;
+}
+.admonition-warning .admonition-title {
+  background: #f39c12;
+}
+
+ 
+.admonition-danger, .admonition-error {
+  border-color: #e74c3c;
+}
+.admonition-danger .admonition-title, .admonition-error .admonition-title {
+  background: #e74c3c;
+}
+
+ 
+.admonition-success, .admonition-tip {
+  border-color: #27ae60;
+}
+.admonition-success .admonition-title, .admonition-tip .admonition-title {
+  background: #27ae60;
+}
+
+ 
+.admonition-info {
+  border-color: #17a2b8;
+}
+.admonition-info .admonition-title {
+  background: #17a2b8;
+}
+</style>
+<p>Start small, and push yourself as far as you can go:</p>
+<ul>
+<li>[] Can I get a basic base layer displayed, centred on the graveyard? If so, then:</li>
+<li>[]  Can I get some points (or even a polygon) displayed on that map? (Hint - check the ipynb file in the labbench on quick maps with geojson.) If so, then:</li>
+<li>[] Can I find another map layer that meaningfully adds context?</li>
+</ul>
+<p><em>&hellip;now go!</em></p>
+<h2 id="webmapping-with-leaflet">Webmapping with Leaflet</h2>
+<blockquote>
+<p>The following is a modified exercise from the <a href="https://o-date.github.io/draft/book/what-is-web-mapping.html">Open Digital Archaeology Textbook Environment</a> by Graham et al 2019; this particular section was contributed by <a href="https://dngupta.github.io/" target="_blank">Neha Gupta of UBC</a>.</p>
+</blockquote>
+<p>First of all, a webmap is not a Geographic Information System or GIS. A webmap may be <em>derived</em> from a GIS, but the key difference is that a GIS allows analytical questions to be asked of, and derived from, different <em>layers</em> of spatial or spatialized data. Webmaps are used more for conveying the results of such analyses, for telling the story.</p>
+<p>Tiled map service and <a href="http://www.opengeospatial.org/standards/wms" target="_blank">Web Map Service</a> are two forms of Web-based mapping. A WMS is an interface that enables us (the clients) to request specific maps i.e. visual representations of geographic information from a geospatial database. The WMS server is called via a Universal Resource Link (URL) on an Internet-enabled desktop GIS. A request typically consists of the geographic layer (e.g. theme) and geographic area of interest. The response to a request results in geo-registered map images that are displayed and queried within a browser. Because the map is dynamically drawn upon request, and because the server typically uses the most current information from several layers in the geospatial database, WMS maps tend to load slowly.</p>
+<p>Tile map services such as <a href="https://tilemill-project.github.io/tilemill/docs/crashcourse/introduction/">TileMill Project</a>, <a href="https://www.openstreetmap.org/">OpenStreetMap</a>, and <a href="http://maps.stamen.com/" target="_blank">Stamen</a> all use one or more vector layers that have been rasterized into an image. (A &lsquo;raster&rsquo; is an image where the colour of each pixel has been specified; a &lsquo;vector&rsquo; is where the <em>geometry</em> is described as points and lines. A raster gets blurry the more you zoom in; a vector is described mathematically and so remains sharp no matter the zoom). This rasterized image is divided into 256 x 256 adjacent pixel images or ‘tiles’. This is usually the base layer in a web map. Different slices of the map are tiled appropriately to allow for zooming.</p>
+<p>Each tile is an image on the Web, which means that you can link to it. For example, the following URL points to a specific tile on the Web:</p>
+<pre tabindex="0"><code>https://tile.openstreetmap.org/7/63/42.png
+</code></pre><p>The three elements in the URL are:</p>
+<ol>
+<li>tile.openstreetmap.org, the tile server name;</li>
+<li>7, the zoom level or z value of the tile; and finally</li>
+<li>63/42, the x and y values in the grid where the tile lives</li>
+</ol>
+<p>The z value has a range between 0 and 21, where 21 returns a tile with greatest detail (and smallest sized tile).</p>
+<p><img src="https://o-date.github.io/draft/book/images/tile-pyramid.jpg"></p>
+<p>&lsquo;Image Tile Pyramid, <a href="https://www.azavea.com/blog/2018/08/06/generating-pyramided-tiles-from-a-geotiff-using-geotrellis/tilepyramid/" target="_blank">https://www.azavea.com/blog/2018/08/06/generating-pyramided-tiles-from-a-geotiff-using-geotrellis/tilepyramid/</a>’</p>
+<p>Once generated, the set of tiles are stored on disk, ready to be distributed rapidly to large numbers of simultaneous requests. Tiled maps load quickly precisely because they are pre-generated. They shift attention to map aesthetics and smooth map navigation, trading in functionality such as layer order, map scale and projection. <a href="http://alexurquhart.github.io/free-tiles/" target="_blank">Alex Urquhart</a> maintains a list of tile services.</p>
+<p>Data layers are typically added on top of the base layer. Data layers can be points, lines and polygons. These data layers are saved as <a href="https://geojson.org/" target="_blank">GeoJSON</a>, a format designed for representing on the Web, geographic features with their non-spatial attributes.</p>
+<p><a href="http://leafletjs.com/">Leaflet</a> is a JavaScript library developed by <a href="https://vimeo.com/106112939" target="_blank">Vladimir Agafonkin</a> for use with tiled maps. Launched in 2008, Leaflet has become widely used in tile web mapping because the library’s low-barrier customization and interactivity with map elements, and because of its simplified setup when compared to a WMS served map. Moreover, Leaflet’s compatibility with other Web 2.0 technologies and code-sharing platforms such as GitHub has encouraged an active community of ‘makers’.</p>
+<p>You will need a proper text editor (not notepad, not, <em>shudder</em>, Word) to edit your files. Our lab bench can handle that. If you open up your copy of Jupyterlab Desktop, under the &lsquo;+&rsquo; symbol above the file-tray, you can create new folders and new text files.</p>
+<ol>
+<li>
+<p>While within your lab bench environment, create a new directory on your machine and call it &lsquo;web-map&rsquo;.
+<img src="/docs/support/images/webmap/new-files.png"></p>
+</li>
+<li>
+<p>We&rsquo;re going to build a map now; create a new file <em>in that folder</em> and rename it as <code>index.html</code>.
+<img src="/docs/support/images/webmap/renaming.png"></p>
+</li>
+<li>
+<p>Now we start building the structure of our webmap. HTML - hypertext markup language - is a text file that uses tags like <code>&lt;a&gt;</code> to tell a browser how to interpret the information between the opening and closing (<code>&lt;/a&gt;</code>) tags. We&rsquo;ll begin by putting some important information about the building blocks we&rsquo;ll use to build our webmap in the &lsquo;header&rsquo; of our html. These tell the browser where to find some of the more complicated information, like how to style our text, or what other scripts to load to use. This first bit of information will go between <code>&lt;head&gt;</code> and <code>&lt;\head&gt;</code> tags. Copy and paste the following into your index.html:</p>
+</li>
+</ol>
+<pre tabindex="0"><code>&lt;head&gt;
+  &lt;title&gt;A Demo WebMap&lt;/title&gt;
+  &lt;meta charset=&#34;utf-8&#34; /&gt;
+  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+  &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+</code></pre><p>This is telling the browser the name of this page, and it&rsquo;s telling the browser where to get the stylesheet and the code for making the map work. The styling information and the map rendering logic from leaflet that will power our map comes via a deliver service called <code>unpkg.com</code>.</p>
+<ol start="5">
+<li>The next bit of code defines the <em>body</em> of our webmap and tells the browser where to get the map and how to display it:</li>
+</ol>
+<pre tabindex="0"><code>&lt;body&gt;
+&lt;div id=&#34;mapid&#34; style=&#34;width: 600px; height: 400px;&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+    // Initialize the map (without adding a default tile layer)
+var myMap = L.map(&#39;mapid&#39;).setView([45.4192857, -75.6973237], 13);
+
+// Define layers
+// Base layer from OpenStreetMap  
+var openStreetMapLayer = L.tileLayer(&#39;https://tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+    maxZoom: 18,
+    attribution: &#39;Maptiles &amp;copy; &lt;a href=&#34;http://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+});
+</code></pre><p>Notice that we haven&rsquo;t closed the body tag yet. The line beginning with <code>&lt;div&gt;</code> is creating a box for us to put the map into (&lsquo;div&rsquo; means &lsquo;division&rsquo; or section of an html document). You can see that we have defined its width and height in pixels. Then we have an open script tag telling the browser that we&rsquo;re going to give it some javascript. Right? We have now nested some javascript inside the body of the html. The script defines a variable called <code>myMap</code> and uses leaflet.js code - <code>L.map</code> - to set the default latitude, longitude, and zoom level for the box <code>mapid</code> that will display <code>myMap.</code></p>
+<p>Phew. But we&rsquo;re not done! Now we need to get a base layer for our map. The next variable we&rsquo;re defining is called  <code>openStreetMapLayer</code> and it does what it says - it uses <code>L.tileLayer</code> from leaflet.js to reach out to the openstreetmap tile server. It specifies the maximum zoom layer we&rsquo;re going to allow, and it also permits us to put the attribution information, the copyright for the base map data as a bit of html between the single quotation marks.</p>
+<ol start="6">
+<li>All we&rsquo;ve done so far is create the infrastructure to hold our map, and some variables defining the map. Now we actually need to <em>add them to the map</em>. Add the following:</li>
+</ol>
+<pre tabindex="0"><code>openStreetMapLayer.addTo(myMap);
+</code></pre><p>This little bit of code starts with the map layer variable and then uses the leaflet function <code>.addTo()</code> to put your data into the <code>myMap</code> container.</p>
+<ol start="7">
+<li>Let&rsquo;s now close our open tags:</li>
+</ol>
+<pre tabindex="0"><code>&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Your complete code will look like this (and notice how your editor colour-codes the tags and attributes so you can read/debug things):</p>
+<p><img src="/docs/support/images/webmap/complete-first-map.png"></p>
+<p>Hit ctrl+s to save your map. Then double-click on the filename; hit &rsquo;trust-html&rsquo;. Ta da!</p>
+<p><img src="/docs/support/images/webmap/first-map.png"></p>
+<p>As maps go, though, that&rsquo;s a bit boring. But it <em>is</em> a web map that you built from start to finish.</p>
+<h3 id="adding-some-custom-data-points">Adding some custom data points.</h3>
+<ol>
+<li>We&rsquo;re going to need some data for our map. Our point data will be encoded in a format called &lsquo;geojson&rsquo;, which is a kind of list that uses &lsquo;key&rsquo; and &lsquo;value&rsquo; pairs to describe the geometry of geographic information. (If you have geographic data in a csv table, with latitude and longitude columns, you could use <a href="http://www.convertcsv.com/csv-to-geojson.htm">this tool</a> to convert it to geojson; another useful tool is <a href="https://geojson.io/" target="_blank">geojson.io</a> that will let you also draw boundaries and areas then represent as lines.) For now, the geojson that we will use has two points in it:</li>
+</ol>
+<pre tabindex="0"><code>{
+   &#34;type&#34;: &#34;FeatureCollection&#34;,
+   &#34;features&#34;: [
+  {
+    &#34;type&#34;: &#34;Feature&#34;,
+    &#34;geometry&#34;: {
+       &#34;type&#34;: &#34;Point&#34;,
+       &#34;coordinates&#34;:  [-75.6973237, 45.4192857]
+    },
+    &#34;properties&#34;: {
+    &#34;Label&#34;:&#34;Centre of our map!&#34;
+    }
+  },
+  {
+    &#34;type&#34;: &#34;Feature&#34;,
+    &#34;geometry&#34;: {
+       &#34;type&#34;: &#34;Point&#34;,
+       &#34;coordinates&#34;:  [ -75.699222, 45.4275 ]
+    },
+    &#34;properties&#34;: {
+    &#34;Label&#34;:&#34;Not the centre of the map &#34;
+    }
+  }
+]
+}
+</code></pre><p>There are two ways we can add this information into the map. The first way just adds it directly into our html, which is what we&rsquo;re going to do. The second way is to load the data from a file. This is often more elegant, especially when we&rsquo;re dealing with lots of data. I will show you both ways.</p>
+<h4 id="embedding-the-data-directly">Embedding the data Directly</h4>
+<p>Here, we&rsquo;re going to create a variable called <code>geojsonData</code> and then we&rsquo;ll create a variable called <code>dataLayer</code>. The dataLayer variable will use the leaflet L.geoJson function to read the data, format it, and add it to the map. Paste this <em>after</em> <code>openStreetMapLayer.addTo(myMap);</code> and <em>before</em> <code>&lt;/script&gt;</code>:</p>
+<pre tabindex="0"><code>var geojsonData = {
+   &#34;type&#34;: &#34;FeatureCollection&#34;,
+   &#34;features&#34;: [
+  {
+    &#34;type&#34;: &#34;Feature&#34;,
+    &#34;geometry&#34;: {
+       &#34;type&#34;: &#34;Point&#34;,
+       &#34;coordinates&#34;:  [-75.6973237, 45.4192857]
+    },
+    &#34;properties&#34;: {
+    &#34;Label&#34;:&#34;Centre of our map!&#34;
+    }
+  },
+  {
+    &#34;type&#34;: &#34;Feature&#34;,
+    &#34;geometry&#34;: {
+       &#34;type&#34;: &#34;Point&#34;,
+       &#34;coordinates&#34;:  [ -75.699222, 45.4275 ]
+    },
+    &#34;properties&#34;: {
+    &#34;Label&#34;:&#34;Not the centre of the map &#34;
+    }
+  }
+]
+};
+
+var dataLayer = L.geoJson(geojsonData, {
+  onEachFeature: function(feature, featureLayer) {
+    featureLayer.bindPopup(feature.properties.Label);
+  }
+}).addTo(myMap);
+</code></pre><p>Ctrl+S to save your file, and then in the rendered view hit the reload button (beside where it says &lsquo;distrust html&rsquo;) and you&rsquo;ll now see your data added! (And it automatically is configured to use OpenStreetMap base layer).</p>
+<p><strong>Push yourself:</strong> When you try to build a map of your graveyard, do you see how you could add your own point data with the csv-to-geojson tool?</p>
+<div class="admonition admonition-info"><div class="admonition-title">One Weird Trick</div><div class="admonition-content">
+    Here&rsquo;s a neat trick that your lab bench will do for you automatically. Create a new file; paste the raw geojson data into it; save and then rename the file <code>point-data.geojson</code>. Double-click on that file: your lab bench is smart enough to recognize that it&rsquo;s dealing with geographic data and it will automatically render a map! (See also the <code>quick-map-with-geojson.ipynb</code> computational note in the week two folder in your lab workbench).
+  </div>
+</div>
+<style>
+.admonition {
+  margin: 1.5em 0;
+  padding: 0;
+  border-left: 4px solid;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.admonition-title {
+  font-weight: bold;
+  padding: 0.75em 1em;
+  margin: 0;
+  color: white;
+}
+
+.admonition-content {
+  padding: 1em;
+  background: #cc9966;
+}
+.admonition-content p:last-child {
+  margin-bottom: 0;
+}
+
+ 
+.admonition-note {
+  border-color: #3498db;
+}
+.admonition-note .admonition-title {
+  background: #3498db;
+}
+
+ 
+.admonition-warning {
+  border-color: #f39c12;
+}
+.admonition-warning .admonition-title {
+  background: #f39c12;
+}
+
+ 
+.admonition-danger, .admonition-error {
+  border-color: #e74c3c;
+}
+.admonition-danger .admonition-title, .admonition-error .admonition-title {
+  background: #e74c3c;
+}
+
+ 
+.admonition-success, .admonition-tip {
+  border-color: #27ae60;
+}
+.admonition-success .admonition-title, .admonition-tip .admonition-title {
+  background: #27ae60;
+}
+
+ 
+.admonition-info {
+  border-color: #17a2b8;
+}
+.admonition-info .admonition-title {
+  background: #17a2b8;
+}
+</style>
+<h4 id="loading-the-data-from-a-file">Loading the data from a file</h4>
+<p>Go back into your html file, and type <code>//</code> in front of each line from <code>var geojsonData</code> to <code>}).addTo(myMap);</code>. This &lsquo;comments-out&rsquo; those lines so that the browser will ignore them. We&rsquo;re going to add a snippet of code to get your webmap to load the data from an external file.</p>
+<ol>
+<li>Append the following to your html, before the <code>&lt;/script&gt;</code> tag, which will tell leaflet where the data is and how to add it to our map:</li>
+</ol>
+<pre tabindex="0"><code>// load a GeoJSON from external file
+$.getJSON(&#34;point-data.geojson&#34;, function(data) {
+  // add GeoJSON layer to the map once the file is loaded
+  var datalayer = L.geoJson(data ,{
+  onEachFeature: function(feature, featureLayer) {
+  featureLayer.bindPopup(feature.properties.Label);
+  }
+}).addTo(myMap);
+});
+</code></pre><p>Save!</p>
+<div class="admonition admonition-warning"><div class="admonition-title">A slight workbench hiccup</div><div class="admonition-content">
+    <strong>Now</strong>. Remember when we were able to view your webmap live in a tab in your workbench? Your lab bench will not <em>automatically</em> show you your point-data file loaded into the map this way, because it&rsquo;s not configured to allow that. It&rsquo;s just one of those things that are more trouble to solve than they&rsquo;re worth. So instead, we&rsquo;re going to make your computer pretend to be a webserver, and we&rsquo;ll be able to load your map in your regular web browser. There&rsquo;s always more than one way to get things done!
+  </div>
+</div>
+<style>
+.admonition {
+  margin: 1.5em 0;
+  padding: 0;
+  border-left: 4px solid;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.admonition-title {
+  font-weight: bold;
+  padding: 0.75em 1em;
+  margin: 0;
+  color: white;
+}
+
+.admonition-content {
+  padding: 1em;
+  background: #cc9966;
+}
+.admonition-content p:last-child {
+  margin-bottom: 0;
+}
+
+ 
+.admonition-note {
+  border-color: #3498db;
+}
+.admonition-note .admonition-title {
+  background: #3498db;
+}
+
+ 
+.admonition-warning {
+  border-color: #f39c12;
+}
+.admonition-warning .admonition-title {
+  background: #f39c12;
+}
+
+ 
+.admonition-danger, .admonition-error {
+  border-color: #e74c3c;
+}
+.admonition-danger .admonition-title, .admonition-error .admonition-title {
+  background: #e74c3c;
+}
+
+ 
+.admonition-success, .admonition-tip {
+  border-color: #27ae60;
+}
+.admonition-success .admonition-title, .admonition-tip .admonition-title {
+  background: #27ae60;
+}
+
+ 
+.admonition-info {
+  border-color: #17a2b8;
+}
+.admonition-info .admonition-title {
+  background: #17a2b8;
+}
+</style>
+<ol>
+<li>Hit the + button above the file tray to bring up the launcher. Click on the &rsquo;terminal&rsquo; option. This opens up a place where you can give commands directly to your computer.</li>
+</ol>
+<p><img src="/docs/support/images/webmap/launch-terminal.png"></p>
+<ol start="2">
+<li>Click in there, and type this: <code>python -m http.server 8001</code> :</li>
+</ol>
+<p><img src="/docs/support/images/webmap/terminal.png"></p>
+<ol start="9">
+<li>The terminal will tell you now that your server is running at an address that will look something like this: <code>Serving HTTP on :: port 8001 (http://[::]:8001/) ...</code> That means that your regular ol&rsquo; webbrowser is listening for websites from the local computer (yours!) on channel 8001. So in the url of your browser type: <code>http://localhost:8001/webmap</code>.</li>
+</ol>
+<p>Congratulations! You have made a webmap! Do you see how you could recenter the map on Ottawa? Add some more data? Change the base map to another style? Also - because you put your html file inside a folder but gave the file the name <code>index.html</code> your browser understands that if the URL you gave it is to a folder (ie, &lsquo;webmap&rsquo;) it should <em>automatically</em> look for an index.html file and load that up.</p>
+<h2 id="serving-your-webmap-online">Serving your webmap online</h2>
+<p>We&rsquo;ll get deeper into the weeds about how to make your webmap available to the world later in the course, but for now, if you want, you can go to <a href="https://app.netlify.com/drop" target="_blank">https://app.netlify.com/drop</a> and drag-and-drop your <code>webmap</code> folder onto the &lsquo;drop&rsquo; button. Netlify will make a temporary spot on the internet for you from that folder because it contains the file index.html. When it&rsquo;s finished, it will tell you the link to your website. If you want, you can then sign up for a free account so you can continue to host your materials online.</p>
+<p>(You can also do this via Github. First upload your web-map folder to Github by dragging the folder onto a repository. Then, to make Github <em>serve</em> your website, you go into the settings -&gt; pages, select &lsquo;deploy from a branch&rsquo;, then save. So if I loaded it into github.com/shawngraham/demo/webmap in the gh-pages branch, my map will be available at shawngraham.github.io/demo/webmap/index.html. Cool, eh?)</p>
+<h2 id="adding-a-new-layer-to-our-map">Adding a new layer to our map</h2>
+<p><a href="https://mapwarper.net" target="_blank">Map Warper</a> is a service that allows us to upload images of maps, and then tie &lsquo;control points&rsquo; to real-world geography such that we stretch and warp the image to overlay the physical world. It then provides us with a tile-server so that the image can be imported into our map as its own layer. Take a look at this map of Ottawa:</p>
+<p><img alt="Ottawa 1857" src="/docs/support/images/webmap/61034.png"></p>
+<p>This was uploaded to Mapwarper and georectified by a former MA student at Carleton. You can see it on Mapwarper <a href="https://mapwarper.net/maps/61034" target="_blank">at this location</a>.</p>
+<div class="admonition admonition-warning"><div class="admonition-title">A slight Mapwarper hiccup</div><div class="admonition-content">
+    Mapwarper periodically runs out of space; so look for maps that were last warper/used within the last two years. For maps that were last updated longer than two years ago you might need to log into Mapwarper, add some more control points to the map, and then re-georectify it to renew it, <em>and then</em> it will be available for use by your webmap - don&rsquo;t worry about that for now.
+  </div>
+</div>
+<style>
+.admonition {
+  margin: 1.5em 0;
+  padding: 0;
+  border-left: 4px solid;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.admonition-title {
+  font-weight: bold;
+  padding: 0.75em 1em;
+  margin: 0;
+  color: white;
+}
+
+.admonition-content {
+  padding: 1em;
+  background: #cc9966;
+}
+.admonition-content p:last-child {
+  margin-bottom: 0;
+}
+
+ 
+.admonition-note {
+  border-color: #3498db;
+}
+.admonition-note .admonition-title {
+  background: #3498db;
+}
+
+ 
+.admonition-warning {
+  border-color: #f39c12;
+}
+.admonition-warning .admonition-title {
+  background: #f39c12;
+}
+
+ 
+.admonition-danger, .admonition-error {
+  border-color: #e74c3c;
+}
+.admonition-danger .admonition-title, .admonition-error .admonition-title {
+  background: #e74c3c;
+}
+
+ 
+.admonition-success, .admonition-tip {
+  border-color: #27ae60;
+}
+.admonition-success .admonition-title, .admonition-tip .admonition-title {
+  background: #27ae60;
+}
+
+ 
+.admonition-info {
+  border-color: #17a2b8;
+}
+.admonition-info .admonition-title {
+  background: #17a2b8;
+}
+</style>
+<p>If you click on the &lsquo;Export&rsquo; tab, you&rsquo;ll find that there&rsquo;s a URL for the map as tiles: <code>http://mapwarper.net/maps/tile/61034/{z}/{x}/{y}.png</code>.</p>
+<p>That&rsquo;s the line we want to add to our map.</p>
+<ol>
+<li>Open your <code>index.html</code> file.</li>
+<li>We&rsquo;re going to add another layer, just after where you first specified your basemap, which to remind you, was at:</li>
+</ol>
+<pre tabindex="0"><code>// Define layers
+// Base layer from OpenStreetMap  
+var openStreetMapLayer = L.tileLayer(&#39;https://tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+    maxZoom: 18,
+    attribution: &#39;Maptiles &amp;copy; &lt;a href=&#34;http://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+});
+</code></pre><p>Hit &rsquo;enter&rsquo; a few times after that final semicolon, and then paste in this:</p>
+<pre tabindex="0"><code>var historicalLayer = L.tileLayer(&#39;http://mapwarper.net/maps/tile/61034/{z}/{x}/{y}.png&#39;, {
+    maxZoom: 18
+});
+</code></pre><p>Then, do you see where we added the <code>openStreetMapLayer</code> to the map? Given that example, how would you add <code>historicalLayer</code>? Give it a whirl.</p>
+<p>Save the file, and then double-click the file name so that your workbench reloads it for viewing (or hit the refresh button if it&rsquo;s still open in another tab.)</p>
+<h3 id="georectifying-a-base-map">Georectifying a base map</h3>
+<p>As archaeologists, we are often interested to show some process taking place in the past, so historical maps can be rhetorically extremely useful as base maps. But, to get such a map into a digital format that we can use, we need to georectify it.</p>
+<p>Georectifying is the process of taking an image (whether it is of a historical map, chart, airphoto, or whatever) and manipulating its geometry so that it matches a geographic projection. Think of it like this: you take your handdrawn map, and use pushpins to pin down known locations on your map to a globe. As you pin, your image stretches and warps. Traditionally, this has not been an easy thing to do, if you are new to GIS. In recent years, the curve has flattened significantly. In this exercise, we&rsquo;ll grab an image, upload it to the Map Warper website, and then export it as a tileset which can be used in other mapping programs.</p>
+<p>At <a href="http://collectionscanada.gc.ca/pam_archives/index.php?fuseaction=genitem.displayEcopies&lang=eng&rec_nbr=98246&title=Laura%20A.%20Gamble%20fonds%20%5btextual%20record,%20graphic%20material%5d.&ecopy=e002743396">Library and Archives Canada</a> I found an &ldquo;Insurance Plan of Ottawa, June 1878&rdquo; <a href="http://collectionscanada.gc.ca/lac-bac/results/images?module=images&SortSpec=score+desc&Language=eng&ShowForm=hide&SearchIn_1=mikanNumber&SearchInText_1=3824226&Operator_1=AND&SearchIn_2=&SearchInText_2=&Operator_2=AND&SearchIn_3=&SearchInText_3=&Level=&MaterialDateOperator=after&MaterialDate=&DigitalImages=1&Source=&ResultCount=10" target="_blank">MIKAN 3824226</a>. (<em>nb</em> Once upon a time when I first came across that map, those were the links that worked, but they no longer do; LAC <em>does not</em> use sensible permalinks to its collection which is <em>enormously frustrating</em> and makes it hard to do digital work.)</p>
+<p>Here&rsquo;s a <a href="https://recherche-collection-search.bac-lac.gc.ca/eng/home/Result?q=fire%20insurance%20maps" target="_blank">search for fire insurance maps</a> that should probably stay working for a while, if you want to start with that. Notice there&rsquo;s an option for &lsquo;online&rsquo; - these are things that have been digitized. Click on that. Then, you&rsquo;ll see results and thumbnails. Pick one that&rsquo;s interesting. When it loads up, there is a &lsquo;download&rsquo; button for item. Click that, select &lsquo;file&rsquo; (you want one image, not all the images as pdf) and then you&rsquo;ll have a file you can try to georectify.</p>
+<ol>
+<li>
+<p>Go to <a href="http://mapwarper.net/" target="_blank">Map Warper</a> and sign up for an account. Then login.</p>
+</li>
+<li>
+<p>Go to the upload screen:
+<img src="https://i.imgur.com/bmNCzg6.png"></p>
+</li>
+<li>
+<p>Fill in as much of the metadata as you can - it&rsquo;s important to credit the material correctly! Then select your map from your computer, and upload it.</p>
+</li>
+<li>
+<p>On the next page, click &lsquo;Rectify&rsquo;.
+<img src="https://i.imgur.com/yULDRQR.jpg"></p>
+</li>
+<li>
+<p>Pan and zoom both maps until you&rsquo;re sure you&rsquo;re looking at the same area in both. Double click in a map, select the location icon, and click on a point (location) you are sure you can match in the other window showing the base map.</p>
+</li>
+<li>
+<p>Click on the other map window, select the location icon, and then click on the same point.</p>
+</li>
+<li>
+<p>Note the &lsquo;Add control point&rsquo; button below and between both maps will light up. Click on this to confirm that this is a control point you want. Do this at least three times; the more times you can do it, the better the map warp.</p>
+</li>
+<li>
+<p>Having selected your control points, click on &lsquo;Warp image&rsquo;.</p>
+</li>
+<li>
+<p>You can now click on the &lsquo;Export&rsquo; panel, and get the URL for your georectified image in a few different formats. Copy the tiles based URL  and put that URL into your <code>index.html</code> file as you did in the previous section.</p>
+</li>
+</ol>
+<h3 id="adding-a-layer-control-button">Adding a layer control button</h3>
+<p>You can see that with leaflet it is pretty easy to add more layers and more data to your map. But soon things get a little bit unwieldy. We&rsquo;re going to re-organize our map so that we can turn layers on and off.</p>
+<p>The end result will look like this:</p>
+<p><img alt="layer-control-button.png" src="/docs/support/images/webmap/layer-control-button.png"></p>
+<p>In your <code>wep-map</code> folder, create a new text file and then rename it <code>index2.html</code></p>
+<ol>
+<li>The header will remain the same:</li>
+</ol>
+<pre tabindex="0"><code>&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+  &lt;title&gt;A Demo WebMap&lt;/title&gt;
+  &lt;meta charset=&#34;utf-8&#34; /&gt;
+  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+  &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+  &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+</code></pre><ol start="2">
+<li>Then the <code>&lt;body&gt;</code> tag will start the same, creating the division our map will show up in:</li>
+</ol>
+<pre tabindex="0"><code>&lt;body&gt;
+&lt;div id=&#34;mapid&#34; style=&#34;width: 600px; height: 400px;&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+</code></pre><ol start="3">
+<li>Now we create variables for each layer we want in the map:</li>
+</ol>
+<pre tabindex="0"><code>// Define tile layers
+var openStreetMapLayer = L.tileLayer(&#39;https://tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+    attribution: &#39;© OpenStreetMap contributors&#39;
+  }),
+  
+satellite = L.tileLayer(&#39;https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&#39;, {
+        maxZoom: 18,
+        attribution: &#39;&amp;copy; Esri&#39;
+}),
+    
+ historical1912 = L.tileLayer(&#39;https://mapwarper.net/maps/tile/65528/{z}/{x}/{y}.png&#39;, {
+    attribution: &#39;1912&#39;,
+    opacity: 0.7
+  }),
+  historical1854 = L.tileLayer(&#39;https://mapwarper.net/maps/tile/61034/{z}/{x}/{y}.png&#39;, {
+    attribution: &#39;1854&#39;,
+    opacity: 0.7
+  });
+</code></pre><p>Noice that we&rsquo;re pulling in data from <em>three</em> sources: Open Street Map, Esri, and Map Warper. Notice that each layer has an attribution property; notice also that the attributions for the two historical maps are &hellip; less than optimal! You can go to <a href="https://mapwarper.net/maps/66528">https://mapwarper.net/maps/66528</a> and <a href="https://mapwarper.net/maps/66528" target="_blank">mapwarper.net/maps/61034</a> and see if you can find better information to put in the attribtuion.</p>
+<p>Now we&rsquo;re going to create two more variables to <em>group</em> our layers into base maps and overlay maps:</p>
+<pre tabindex="0"><code>// Define layer groups
+var baseMaps = {
+  &#34;OpenStreetMap&#34;: openStreetMapLayer,
+  &#34;Satellite&#34;: satellite
+  };
+
+var overlayMaps = {
+  &#34;1912&#34;: historical1912,
+  &#34;1854&#34;: historical1854
+};
+</code></pre><p>Next, we create a variable called <code>myMap</code> to tell Leaflet the centre of our map, the zoom layer, and the default base map; we pass this information to the html container &lsquo;mapid&rsquo; so that our creation can be displayed:</p>
+<pre tabindex="0"><code>// Initialize map with default layer
+var myMap = L.map(&#39;mapid&#39;, {
+  center: [45.4192857, -75.6973237],
+  zoom: 13,
+  layers: [openStreetMapLayer] // Start with OpenStreetMap as default
+});
+</code></pre><p>and finally, we add a control box so that we can switch the different layers on and off, and that our layers are grouped appropriately, and we close the open script, body, and html tag.:</p>
+<pre tabindex="0"><code>// Add layer control
+L.control.layers(baseMaps, overlayMaps).addTo(myMap);
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Ctrl+S to save your file! Double click on it or refresh the view if it&rsquo;s already open in a tab in your workbench (or, if you left the terminal open and running, it should be also visible in your browser at <a href="https://localhost:8002/index2.html" target="_blank">https://localhost:8001/index2.html</a>).</p>
+<p>For more on layers with leaflet, see <a href="https://leafletjs.com/examples/layers-control/" target="_blank">Layer Groups and Layers Control</a>.</p>
+<h2 id="now-a-webmap-for-the-graveyard-youre-studying">Now&hellip; a webmap for the graveyard you&rsquo;re studying</h2>
+<p>Now that you&rsquo;ve seen how to build a map and serve it online, let&rsquo;s modify it to show the graveyard you worked on.</p>
+<ul>
+<li>You&rsquo;ll want the map to be centred on the graveyard you worked on, so you need to figure out the coordinates for it. These will go in the code for the variable <code>myMap</code>, and are in decimal degrees. If you can find your site on Google Maps, double-click on your graveyard and the latitude and logitude will show up in your browser&rsquo;s address bar, eg <code>https://www.google.com/maps/@45.3844046,-75.6960548,428m/</code></li>
+<li>Coordinates for your stones go in the geojson file. Easiest way to do this might be to make a csv table like so, in a new text file (change the name of the file so that the file extension ends in .csv):</li>
+</ul>
+<pre tabindex="0"><code>latitude,longitude,geometry,Label
+45.4192857,-75.6973237,Point,Centre of our map!
+45.4275,-75.699222,Point,Not the centre of the map
+</code></pre><p>and then use <a href="http://www.convertcsv.com/csv-to-geojson.htm" target="_blank">this tool</a> to convert it to geojson.</p>
+<ul>
+<li>You can try to find a historical map for an underlay, but only if you&rsquo;re feeling keen; this might require you to georectify things.</li>
+</ul>
+
+      </div>
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+
+
+<footer id="article-footer">
+  <time id="article-last-updated" datetime="2025-05-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-05-01</time>
+
+  
+    <a id="article-prev-link" href="/docs/wk3/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+  
+
+  
+</footer>
+    </article>
+    <aside id="toc">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+  <div class="sticky">
+    <strong><i class="icon icon-toc"></i> On this page</strong>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#webmapping-with-leaflet">Webmapping with Leaflet</a>
+      <ul>
+        <li><a href="#adding-some-custom-data-points">Adding some custom data points.</a></li>
+      </ul>
+    </li>
+    <li><a href="#serving-your-webmap-online">Serving your webmap online</a></li>
+    <li><a href="#adding-a-new-layer-to-our-map">Adding a new layer to our map</a>
+      <ul>
+        <li><a href="#georectifying-a-base-map">Georectifying a base map</a></li>
+        <li><a href="#adding-a-layer-control-button">Adding a layer control button</a></li>
+      </ul>
+    </li>
+    <li><a href="#now-a-webmap-for-the-graveyard-youre-studying">Now&hellip; a webmap for the graveyard you&rsquo;re studying</a></li>
+  </ul>
+</nav>
+  </div>
+</aside>
+  </main>
+</div>
+
+    <footer id="site-footer">
+  
+  <div id="site-footer-copyright">
+<a href="https://github.com/shawngraham/digiarch" target="_blank">
+  <img src="/docs/support/cc.png" alt="Creative Commons License">
+  2025 Shawn Graham
+</a>
+  </div>
+
+  
+  <div id="site-footer-social">
+
+    
+
+    
+
+    
+    <a href="https://github.com/shawngraham" target="_blank" aria-label="github url">
+      <i class="icon icon-github icon-colored"></i>
+    </a>
+    
+
+    
+
+  </div>
+
+
+  </div>
+
+  
+  <div id="site-footer-love">
+    Made using &nbsp;<a href="https://docura.github.io/" target="_blank">Docura Theme for Hugo</a>
+  </div>
+</footer>
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/js/base.min.js"></script>
+
+
+
+  
+  <script src="/js/component/docsearch.min.js"></script>
+  <script type="application/javascript">
+      docsearch({
+          container: '#site-header-search',
+          appId: '',
+          indexName: '',
+          apiKey: '',
+      });
+  </script>
+
+
+<script type="application/javascript">
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js?2025-06-17')
+            .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
+    }
+</script>
+  </body>
+</html>

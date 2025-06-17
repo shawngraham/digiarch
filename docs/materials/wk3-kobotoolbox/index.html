@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Instructions for doing the graveyard survey.">
+  <meta name="description" content="Considering the strengths and limitations of the schema.">
 <meta name="author" content="Shawn Graham">
 
-<title>Week 2: Working Safely · HIST3000|CLCV3000</title>
+<title>Week 3: Design Your Own Data Collection Forms · HIST3000|CLCV3000</title>
 
-<link rel="canonical" href="/docs/materials/wk2-safework/">
+<link rel="canonical" href="/docs/materials/wk3-kobotoolbox/">
 
 
 
@@ -201,16 +201,26 @@
   <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
 </nav>
       <header id="article-header">
-  <h1>Week 2: Working Safely</h1>
+  <h1>Week 3: Design Your Own Data Collection Forms</h1>
 </header>
       <div id="article-content">
         
         
         <h3 id="introduction">Introduction</h3>
-<p>This week, I am asking you to go out into your community and find a historic graveyard to work on. There was a graveyard in the middle of a field not far from the childhood home of a friend of mine. Who owned it? Who was responsible for it? Whose field was it in? Today, that field has been built over, with a couple of big box stores and a Tim Horton&rsquo;s. The graveyard is still there, around back behind some dumpsters. It&rsquo;s mostly overgrown, but periodically <em>somebody</em> hacks back some of the brush and picks up the garbage. Down in the south end of Ottawa in Riverside South, there is a historic graveyard in a corner of a city park, and the city keeps it clean and mows the lawn.</p>
-<p>Both of these graveyards should be studied, but one of these is a safer place to work than the other.</p>
-<div class="admonition admonition-warning"><div class="admonition-title">Personal Safety is More Important Than Course Work</div><div class="admonition-content">
-    The first thing to keep in mind is that your personal safety is more important than course work. <a href="../../materials/alternative-project">I have an alternative project</a> for cases where it is either not safe or not feasible for you to go out to a historic (or currently active) graveyard. Just follow the instructions for the <a href="../../materials/alternative-project">alternative project</a>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4PNtT51h3CQ?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<p>The <a href="https://www.kobotoolbox.org/" target="_blank">KoBoToolbox</a> is an open source platform that allows you to design quite complex data collection forms, for use via computers or devices, both online and offline.</p>
+<p>Ipads and similar have been used in archaeology since their invention, at places for example <a href="https://web.archive.org/web/20220121102425/https://classics.uc.edu/pompeii/index.php/news/1-latest/142-ipads2010.html">like Pompeii and other sites destroyed by Vesuvius</a>. The potential applications for devices like this to speed up data acquisition and analysis practically <a href="https://thedigitalpress.org/mobilizing-the-past-for-a-digital-future/">fill entire volumes</a>, but at the same time, leave some archaeologists worried that we&rsquo;re missing something fundamental about doing archaeology, that we need a <a href="https://www.academia.edu/14327107/Slow_Archaeology">&lsquo;slow&rsquo; archaeology</a> to counter them. What actually constitutes the virtues of &lsquo;slowness&rsquo;, and whether or not digital work is &lsquo;slow&rsquo; is up for debate (and of course, I have <a href="https://electricarchaeology.ca/2017/03/20/slow-archaeology/" target="_blank">my own views</a> on the matter&hellip;)</p>
+<p>Suffice it to say, designing and implementing digital recording has not been an easy thing to do, and it has theoretical and ethical implications. KoBoToolbox aims to flatten that curve (and the fact that it is open source and aimed at humanitarian work adds an ethical dimension to its use).</p>
+<p>Here, I will provide you with the template file that I created for our class and our own recording adventure, which is an adaptation of the <a href="https://debs.ac.uk" target="_blank">DEBS</a> recording sheet created for recording English burial grounds.</p>
+<div class="admonition admonition-info"><div class="admonition-title">The Task</div><div class="admonition-content">
+    You will use it to make your own graveyard recording system, but you will modify/delete those elements that you believe are not appropriate to our Canadian context, and/or add elements to take into account our particular situation, in the light of your engagement so far with the system and our readings.
   </div>
 </div>
 <style>
@@ -278,105 +288,58 @@
   background: #17a2b8;
 }
 </style>
-<h3 id="things-to-consider">Things to consider</h3>
-<p>This means that you will have to consider a number of elements before you go out:</p>
+<p>You can take screenshots of modifications you make, adding them to a brief text document you&rsquo;ll keep as a record of why and what you did; the document can also have the link to the deployed form.</p>
+<p>Incidentally, once you&rsquo;ve got the form deployed, and filled it a couple of times, you can see the built-in visualization and analytical tools that KoBoToolbox provises as well.</p>
+<h3 id="modify-the-form">Modify the Form</h3>
 <ol>
-<li>Can I actually get to the graveyard?</li>
-<li>Is it possible to work out who is responsible for the graveyard? If I see a graveyard called &lsquo;Anytown United Cemetery&rsquo; then I would look for the Anytown United Church and contact its office. Similarly for the Anytown Roman Catholic or the Anytown Free Methodist and so on.</li>
-<li>Small historic graveyards are often family cemeteries, and might be in a field or parcel of land belonging to the family. Or it might belong to someone else. You can explore <a href="https://www.onland.ca/ui/4/books/browse" target="_blank">historical land registry books</a> (the link is for the City of Ottawa, but you can switch that) to find out the older history of the site.</li>
-<li><strong>Do not trespass</strong>.</li>
-<li>Obtain permission to survey the graveyard; speak to an individual rather than writing (you&rsquo;ll get a quicker response). Use this form of words:</li>
+<li>
+<p>You will need my <a href="/docs/support/graveyard-template.xlsx">graveyard recording form template</a>. It&rsquo;s an excel spreadsheet. Take a look at it in excel if you want, but for the time being don&rsquo;t change anything there or else it might not import correctly.</p>
+</li>
+<li>
+<p>Go to <a href="https://www.kobotoolbox.org" target="_blank">https://www.kobotoolbox.org</a> and sign up for an &rsquo;everyone else&rsquo; account:</p>
+</li>
 </ol>
-<blockquote>
-<p>I would like to ask for permission to do a study of the grave monuments in [name of cemetery], as part of my coursework. This would involve photographing and measuring the stones. I will not be interfering with the stones or any of the planting or landscape. I believe it should not take me more than three or four days. The information I collect will be used in my class and ideally will be made online for other students in my class to use. I can put you in contact with my Professor, Dr. Shawn Graham, if you have any questions about that aspect of the work.</p>
-</blockquote>
-<p><strong>Be Polite and Be Reasonable</strong>. It&rsquo;s not the church or community group&rsquo;s problem that I have asked you to do this. Do not say to them, &lsquo;I need to get this done by tomorrow because the work is due.&rsquo; That&rsquo;s <em>your</em> problem, not theirs. Remember that I have provided you with other options, and that there is time flexibility here. You might write to someone at the start of week 2, and then end up going out later in September or early October. Document this. We can deal with this. Keep me informed.</p>
-<p>If you can&rsquo;t find the owner, or they decline your request, then do not survey that particular graveyard.</p>
-<p><strong>HOWEVER:</strong> The Moodie Family Cemetery in Claudette Cain Park in Riverside South can be studied for this class without needing permission. You can get there on public transport by taking Line 2 to Limebank station (the end of the line) and then the 70 bus (the park is at the corner of the Strandherd-Armstrong bridge, also known as the &lsquo;Vimy Bridge&rsquo;.)</p>
-<div class="admonition admonition-warning"><div class="admonition-title">Beechwood, Pinecrest, and Other Commercial Cemeteries</div><div class="admonition-content">
-    Beechwood, Pinecrest, and other similar cemeteries are off-limits for this project.
-  </div>
-</div>
-<style>
-.admonition {
-  margin: 1.5em 0;
-  padding: 0;
-  border-left: 4px solid;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  overflow: hidden;
-}
-
-.admonition-title {
-  font-weight: bold;
-  padding: 0.75em 1em;
-  margin: 0;
-  color: white;
-}
-
-.admonition-content {
-  padding: 1em;
-  background: #cc9966;
-}
-.admonition-content p:last-child {
-  margin-bottom: 0;
-}
-
- 
-.admonition-note {
-  border-color: #3498db;
-}
-.admonition-note .admonition-title {
-  background: #3498db;
-}
-
- 
-.admonition-warning {
-  border-color: #f39c12;
-}
-.admonition-warning .admonition-title {
-  background: #f39c12;
-}
-
- 
-.admonition-danger, .admonition-error {
-  border-color: #e74c3c;
-}
-.admonition-danger .admonition-title, .admonition-error .admonition-title {
-  background: #e74c3c;
-}
-
- 
-.admonition-success, .admonition-tip {
-  border-color: #27ae60;
-}
-.admonition-success .admonition-title, .admonition-tip .admonition-title {
-  background: #27ae60;
-}
-
- 
-.admonition-info {
-  border-color: #17a2b8;
-}
-.admonition-info .admonition-title {
-  background: #17a2b8;
-}
-</style>
-<h3 id="conducting-the-survey-personal-safety">Conducting the Survey: Personal Safety</h3>
-<ol>
-<li>Do not go alone; take a companion</li>
-<li>Let people know where you are going, and when, and when you believe you will return</li>
-<li>Take a cellphone with you</li>
-<li>Bring water</li>
-<li>Wear sunscreen</li>
-<li>Wear appropriate clothing for a graveyard. Appropriate means &lsquo;suitable to the task&rsquo;; if the graveyard is overgrown, wear long pants and socks (ticks are a very real issue in Ontario). Similarly, if the graveyard is still active, there may well be mourners present and so be respectful.</li>
-<li>You represent the University. Conduct yourself accordingly. Do not sit on gravestones, put your lunch on a stone, or otherwise interfere with a grave.</li>
+<p><img alt="sign up for kobotoolbox" src="/docs/support/images/kobotoolbox/kbtb-1.png"></p>
+<ol start="3">
+<li>Import the template by dragging and dropping the xlsx file:</li>
 </ol>
-<p>If you cannot follow these instructions for whatever reason, do the alternative project.</p>
-<h3 id="conducting-the-survey-itself">Conducting the Survey Itself</h3>
-<p>For instructions on how to conduct the survey itself, please begin by <a href="../../materials/wk2-sketchmap">sketching the plan of the graveyard</a>, and then <a href="../../materials/wk2-do-the-project">how to record the graves</a></p>
-<h3 id="safety-online-in-the-case-of-virtual-sites">Safety Online in the Case of Virtual Sites</h3>
-<p>If you do the <a href="../../materials/wk2-alternative-project">alternative project</a> and the site you select features opportunities for online interactions, please take care; if it&rsquo;s possible, create a character or use an account unrelated to your other online activities. Don&rsquo;t engage with other players: ideally you want to be an observer in the space, rather than an active participant.</p>
+<p><img alt="create new project" src="/docs/support/images/kobotoolbox/kbtb-2.png"></p>
+<ol start="4">
+<li>Fill in some of the metadata:</li>
+</ol>
+<p><img alt="metadata" src="/docs/support/images/kobotoolbox/kbtb-3.png"></p>
+<ol start="5">
+<li>Start editing/modifying the form:</li>
+</ol>
+<p><img alt="hit edit" src="/docs/support/images/kobotoolbox/kbtb-4.png"></p>
+<p><img alt="the form editor" src="/docs/support/images/kobotoolbox/kbtb-5.png"></p>
+<ol start="6">
+<li>Adding a new question:</li>
+</ol>
+<p><img alt="new question" src="/docs/support/images/kobotoolbox/kbtb-6.png">
+<img alt="settings" src="/docs/support/images/kobotoolbox/kbtb-7.png"></p>
+<ol start="7">
+<li>When you&rsquo;re done, hit &lsquo;save&rsquo; and then go back to the project list view and hit deploy:</li>
+</ol>
+<p><img alt="list view" src="/docs/support/images/kobotoolbox/kbtb-8.png"></p>
+<ol start="8">
+<li>Now you can share it with me, and the world:</li>
+</ol>
+<p><img alt="share" src="/docs/support/images/kobotoolbox/kbtb-9.png"></p>
+<ol start="9">
+<li>Write things up, deposit in your repo.</li>
+</ol>
+<h3 id="kobotoolbox-as-used-by-archaeologists">KoboToolBox as Used by Archaeologists</h3>
+<p>I learned about KoBoToolbox from Ben Carter at Muhlenberg College in Allentown PA. Allentown has an enormous amount of historical archaeology related to the steel industry, and Ben has been using it to do data collection in the field with his students. You can read about how and why he uses it in these posts:</p>
+<ul>
+<li><a href="http://benjaminpcarter.com/digital-data-collection/" target="_blank">Digital Data Collection</a></li>
+<li><a href="http://benjaminpcarter.com/digital-data-collection/justification/" target="_blank">Justification</a></li>
+<li><a href="http://benjaminpcarter.com/digital-data-collection/selection-criteria/" target="_blank">Criteria for selecting a digital data collection tool</a></li>
+<li><a href="http://benjaminpcarter.com/digital-data-collection/tools/" target="_blank">Tools (including a critique of KoBoToolbox)</a></li>
+<li><a href="http://benjaminpcarter.com/digital-data-collection/work-flow/" target="_blank">Worfklow (including a discussion of how he gets the data into QGIS)</a></li>
+</ul>
+<h3 id="more-help">More Help</h3>
+<p>See the <a href="https://support.kobotoolbox.org/quick_start.html" target="_blank">documentation</a></p>
 
       </div>
       
@@ -508,10 +471,9 @@
     <li>
       <ul>
         <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#things-to-consider">Things to consider</a></li>
-        <li><a href="#conducting-the-survey-personal-safety">Conducting the Survey: Personal Safety</a></li>
-        <li><a href="#conducting-the-survey-itself">Conducting the Survey Itself</a></li>
-        <li><a href="#safety-online-in-the-case-of-virtual-sites">Safety Online in the Case of Virtual Sites</a></li>
+        <li><a href="#modify-the-form">Modify the Form</a></li>
+        <li><a href="#kobotoolbox-as-used-by-archaeologists">KoboToolBox as Used by Archaeologists</a></li>
+        <li><a href="#more-help">More Help</a></li>
       </ul>
     </li>
   </ul>
