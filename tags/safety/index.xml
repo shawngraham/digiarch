@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Safety on HIST3000|CLCV3000</title>
-    <link>//localhost:1313/tags/safety/</link>
+    <link>/tags/safety/</link>
     <description>Recent content in Safety on HIST3000|CLCV3000</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/safety/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/safety/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 2: Alternative Project</title>
-      <link>//localhost:1313/docs/materials/wk2-alternative-project/</link>
+      <link>/docs/materials/wk2-alternative-project/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk2-alternative-project/</guid>
+      <guid>/docs/materials/wk2-alternative-project/</guid>
       <description>It may be that it is not feasible for you to go out into your community and visit a local graveyard for the purposes of this course. If this is you, please just send me a note saying that you&amp;rsquo;ll be doing the alternative. I don&amp;rsquo;t need a reason why; I can imagine several different scenarios where an alternative might be necessary, so we&amp;rsquo;ll roll with it.&#xA;The alternative I&amp;rsquo;ve crafted below might cause us hiccups and roadblocks or other unforseen difficulties.</description>
     </item>
     <item>
       <title>Week 2: Do It</title>
-      <link>//localhost:1313/docs/materials/wk2-do-the-project/</link>
+      <link>/docs/materials/wk2-do-the-project/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk2-do-the-project/</guid>
+      <guid>/docs/materials/wk2-do-the-project/</guid>
       <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation. You will need a smartphone, tablet, or laptop&#xA;measuring tape (metric)&#xA;compass (optional)&#xA;notebook&#xA;if you don&amp;rsquo;t have a device that you can take into the field, you can print out multiple copies of the data entry form behind this link and then enter the data using the forms below on a desktop computer later.</description>
     </item>
     <item>
       <title>Week 2: Sketchmap</title>
-      <link>//localhost:1313/docs/materials/wk2-sketchmap/</link>
+      <link>/docs/materials/wk2-sketchmap/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk2-sketchmap/</guid>
+      <guid>/docs/materials/wk2-sketchmap/</guid>
       <description>Before you head out to the graveyard that you intend to record, I want you to make a sketchmap to bring with you.&#xA;While the digital recording system that we are using can read the geolocation of your device when you are standing at a stone, the accuracy of that location might not be enough for us to understand any spatial patterns that might exist. While testing the system in a local graveyard, I found that stones a few feet apart would show up on the map (using my cellphone&amp;rsquo;s geolocation) hundreds of feet apart.</description>
     </item>
     <item>
       <title>Week 2: Working Safely</title>
-      <link>//localhost:1313/docs/materials/wk2-safework/</link>
+      <link>/docs/materials/wk2-safework/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk2-safework/</guid>
+      <guid>/docs/materials/wk2-safework/</guid>
       <description>Introduction This week, I am asking you to go out into your community and find a historic graveyard to work on. There was a graveyard in the middle of a field not far from the childhood home of a friend of mine. Who owned it? Who was responsible for it? Whose field was it in? Today, that field has been built over, with a couple of big box stores and a Tim Horton&amp;rsquo;s.</description>
     </item>
   </channel>

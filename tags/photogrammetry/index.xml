@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photogrammetry on HIST3000|CLCV3000</title>
-    <link>//localhost:1313/tags/photogrammetry/</link>
+    <link>/tags/photogrammetry/</link>
     <description>Recent content in Photogrammetry on HIST3000|CLCV3000</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/photogrammetry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/photogrammetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 3: Photogrammetry Prep</title>
-      <link>//localhost:1313/docs/materials/wk3-sfm-1/</link>
+      <link>/docs/materials/wk3-sfm-1/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk3-sfm-1/</guid>
+      <guid>/docs/materials/wk3-sfm-1/</guid>
       <description>instructions on taking photos, videos, and why</description>
     </item>
   </channel>
