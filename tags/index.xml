@@ -2,185 +2,185 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on HIST3000|CLCV3000</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on HIST3000|CLCV3000</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 13 Jun 2025 14:12:01 -0400</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reading</title>
-      <link>/tags/reading/</link>
+      <link>//localhost:1313/tags/reading/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/reading/</guid>
+      <guid>//localhost:1313/tags/reading/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
-      <link>/tags/setup/</link>
+      <link>//localhost:1313/tags/setup/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/setup/</guid>
+      <guid>//localhost:1313/tags/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>Wk1</title>
-      <link>/tags/wk1/</link>
+      <link>//localhost:1313/tags/wk1/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/wk1/</guid>
+      <guid>//localhost:1313/tags/wk1/</guid>
       <description></description>
     </item>
     <item>
       <title>Jupyter</title>
-      <link>/tags/jupyter/</link>
+      <link>//localhost:1313/tags/jupyter/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/jupyter/</guid>
+      <guid>//localhost:1313/tags/jupyter/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>//localhost:1313/tags/r/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/r/</guid>
+      <guid>//localhost:1313/tags/r/</guid>
       <description></description>
     </item>
     <item>
       <title>Wk3</title>
-      <link>/tags/wk3/</link>
+      <link>//localhost:1313/tags/wk3/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/wk3/</guid>
+      <guid>//localhost:1313/tags/wk3/</guid>
       <description></description>
     </item>
     <item>
       <title>Hypothesis</title>
-      <link>/tags/hypothesis/</link>
+      <link>//localhost:1313/tags/hypothesis/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/hypothesis/</guid>
+      <guid>//localhost:1313/tags/hypothesis/</guid>
       <description></description>
     </item>
     <item>
       <title>Alternative Project</title>
-      <link>/tags/alternative-project/</link>
+      <link>//localhost:1313/tags/alternative-project/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/alternative-project/</guid>
+      <guid>//localhost:1313/tags/alternative-project/</guid>
       <description></description>
     </item>
     <item>
       <title>Critique</title>
-      <link>/tags/critique/</link>
+      <link>//localhost:1313/tags/critique/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/critique/</guid>
+      <guid>//localhost:1313/tags/critique/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Entry</title>
-      <link>/tags/data-entry/</link>
+      <link>//localhost:1313/tags/data-entry/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/data-entry/</guid>
+      <guid>//localhost:1313/tags/data-entry/</guid>
       <description></description>
     </item>
     <item>
       <title>Databases</title>
-      <link>/tags/databases/</link>
+      <link>//localhost:1313/tags/databases/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/databases/</guid>
+      <guid>//localhost:1313/tags/databases/</guid>
       <description></description>
     </item>
     <item>
       <title>Fieldwork</title>
-      <link>/tags/fieldwork/</link>
+      <link>//localhost:1313/tags/fieldwork/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/fieldwork/</guid>
+      <guid>//localhost:1313/tags/fieldwork/</guid>
       <description></description>
     </item>
     <item>
       <title>Gis</title>
-      <link>/tags/gis/</link>
+      <link>//localhost:1313/tags/gis/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/gis/</guid>
+      <guid>//localhost:1313/tags/gis/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>/tags/github/</link>
+      <link>//localhost:1313/tags/github/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/github/</guid>
+      <guid>//localhost:1313/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Graveyard Project</title>
-      <link>/tags/graveyard-project/</link>
+      <link>//localhost:1313/tags/graveyard-project/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/graveyard-project/</guid>
+      <guid>//localhost:1313/tags/graveyard-project/</guid>
       <description></description>
     </item>
     <item>
       <title>Leaflet</title>
-      <link>/tags/leaflet/</link>
+      <link>//localhost:1313/tags/leaflet/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/leaflet/</guid>
+      <guid>//localhost:1313/tags/leaflet/</guid>
       <description></description>
     </item>
     <item>
       <title>Maps</title>
-      <link>/tags/maps/</link>
+      <link>//localhost:1313/tags/maps/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/maps/</guid>
+      <guid>//localhost:1313/tags/maps/</guid>
       <description></description>
     </item>
     <item>
       <title>Photogrammetry</title>
-      <link>/tags/photogrammetry/</link>
+      <link>//localhost:1313/tags/photogrammetry/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/photogrammetry/</guid>
+      <guid>//localhost:1313/tags/photogrammetry/</guid>
       <description></description>
     </item>
     <item>
       <title>Preparing</title>
-      <link>/tags/preparing/</link>
+      <link>//localhost:1313/tags/preparing/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/preparing/</guid>
+      <guid>//localhost:1313/tags/preparing/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>/tags/python/</link>
+      <link>//localhost:1313/tags/python/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/python/</guid>
+      <guid>//localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Safety</title>
-      <link>/tags/safety/</link>
+      <link>//localhost:1313/tags/safety/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/safety/</guid>
+      <guid>//localhost:1313/tags/safety/</guid>
       <description></description>
     </item>
     <item>
       <title>Spatial</title>
-      <link>/tags/spatial/</link>
+      <link>//localhost:1313/tags/spatial/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/spatial/</guid>
+      <guid>//localhost:1313/tags/spatial/</guid>
       <description></description>
     </item>
     <item>
       <title>Spatial-Analysis</title>
-      <link>/tags/spatial-analysis/</link>
+      <link>//localhost:1313/tags/spatial-analysis/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/spatial-analysis/</guid>
+      <guid>//localhost:1313/tags/spatial-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Webmaps</title>
-      <link>/tags/webmaps/</link>
+      <link>//localhost:1313/tags/webmaps/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/webmaps/</guid>
+      <guid>//localhost:1313/tags/webmaps/</guid>
       <description></description>
     </item>
     <item>
       <title>Wk2</title>
-      <link>/tags/wk2/</link>
+      <link>//localhost:1313/tags/wk2/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/wk2/</guid>
+      <guid>//localhost:1313/tags/wk2/</guid>
       <description></description>
     </item>
   </channel>

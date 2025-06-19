@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maps on HIST3000|CLCV3000</title>
-    <link>/tags/maps/</link>
+    <link>//localhost:1313/tags/maps/</link>
     <description>Recent content in Maps on HIST3000|CLCV3000</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/maps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/maps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 2: Sketchmap</title>
-      <link>/docs/materials/wk2-sketchmap/</link>
+      <link>//localhost:1313/docs/materials/wk2-sketchmap/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk2-sketchmap/</guid>
+      <guid>//localhost:1313/docs/materials/wk2-sketchmap/</guid>
       <description>Before you head out to the graveyard that you intend to record, I want you to make a sketchmap to bring with you.&#xA;While the digital recording system that we are using can read the geolocation of your device when you are standing at a stone, the accuracy of that location might not be enough for us to understand any spatial patterns that might exist. While testing the system in a local graveyard, I found that stones a few feet apart would show up on the map (using my cellphone&amp;rsquo;s geolocation) hundreds of feet apart.</description>
     </item>
   </channel>

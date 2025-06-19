@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wk3 on HIST3000|CLCV3000</title>
-    <link>/tags/wk3/</link>
+    <link>//localhost:1313/tags/wk3/</link>
     <description>Recent content in Wk3 on HIST3000|CLCV3000</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 13 Jun 2025 14:12:01 -0400</lastBuildDate>
-    <atom:link href="/tags/wk3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/wk3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 3: Adding the R language to Jupyter Desktop</title>
-      <link>/docs/materials/wk3-jupyter-r/</link>
+      <link>//localhost:1313/docs/materials/wk3-jupyter-r/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk3-jupyter-r/</guid>
+      <guid>//localhost:1313/docs/materials/wk3-jupyter-r/</guid>
       <description>Student Instructions: Adding R to JupyterLab You can copy and paste this guide into your course materials.&#xA;This guide will walk you through adding the R programming language as an option in your JupyterLab Desktop application.&#xA;Part A: Install the R Language First, you need to install R itself. This is a separate application from JupyterLab.&#xA;Go to the official R download site for your operating system:&#xA;Windows: https://cran.r-project.org/bin/windows/base/ Click the large &amp;ldquo;Download R-X.</description>
     </item>
     <item>
       <title>Week 3: Design Your Own Data Collection Forms</title>
-      <link>/docs/materials/wk3-kobotoolbox/</link>
+      <link>//localhost:1313/docs/materials/wk3-kobotoolbox/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk3-kobotoolbox/</guid>
+      <guid>//localhost:1313/docs/materials/wk3-kobotoolbox/</guid>
       <description>Introduction The KoBoToolbox is an open source platform that allows you to design quite complex data collection forms, for use via computers or devices, both online and offline.&#xA;Ipads and similar have been used in archaeology since their invention, at places for example like Pompeii and other sites destroyed by Vesuvius. The potential applications for devices like this to speed up data acquisition and analysis practically fill entire volumes, but at the same time, leave some archaeologists worried that we&amp;rsquo;re missing something fundamental about doing archaeology, that we need a &amp;lsquo;slow&amp;rsquo; archaeology to counter them.</description>
     </item>
     <item>
       <title>Week 3: Photogrammetry Prep</title>
-      <link>/docs/materials/wk3-sfm-1/</link>
+      <link>//localhost:1313/docs/materials/wk3-sfm-1/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk3-sfm-1/</guid>
+      <guid>//localhost:1313/docs/materials/wk3-sfm-1/</guid>
       <description>instructions on taking photos, videos, and why</description>
     </item>
     <item>
       <title>Week 3: Spatial Analysis</title>
-      <link>/docs/materials/wk3-spatial-archae/</link>
+      <link>//localhost:1313/docs/materials/wk3-spatial-archae/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk3-spatial-archae/</guid>
+      <guid>//localhost:1313/docs/materials/wk3-spatial-archae/</guid>
       <description>All those webmaps: that was a bit exhausting, eh? Click here, click there, compare with the screenshot, click on that, click on this&amp;hellip; webmaps are not GIS, even though they can be related.&#xA;Spatial archaeology using GIS looks at the patterning of the remains of human activity in (usually geographic) space over time. It can encompass working with geographic information systems, and it can encompass web mapping (on which see ODATE 3.</description>
     </item>
     <item>
       <title>Week 3: Webmaps</title>
-      <link>/docs/materials/wk3-webmaps/</link>
+      <link>//localhost:1313/docs/materials/wk3-webmaps/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk3-webmaps/</guid>
+      <guid>//localhost:1313/docs/materials/wk3-webmaps/</guid>
       <description>Introduction In this tutorial, I show you how to build a web map using open source code from Leaflet. The idea here is that you learn to build a map and get it online: and then you learn how to modify it to display:&#xA;the cemetery that you have worked on the location of stones Leaflet is very powerful; we&amp;rsquo;re not even scraping the surface with what it can do. As an example, the East End Cemetery website maps a historic African American burial ground in Henrico County and the city of Richmond, Virginia, that uses Leaflet to good effect:</description>
     </item>
   </channel>
