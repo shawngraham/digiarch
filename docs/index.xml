@@ -107,11 +107,18 @@
       <description>Introduction In this tutorial, I show you how to build a web map using open source code from Leaflet. The idea here is that you learn to build a map and get it online: and then you learn how to modify it to display:&#xA;the cemetery that you have worked on the location of stones Leaflet is very powerful; we&amp;rsquo;re not even scraping the surface with what it can do. As an example, the East End Cemetery website maps a historic African American burial ground in Henrico County and the city of Richmond, Virginia, that uses Leaflet to good effect:</description>
     </item>
     <item>
+      <title>Week 5: Databases</title>
+      <link>/docs/materials/wk3-databases/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk3-databases/</guid>
+      <description>These exercises draw on, re-work, and replicate portions of the Open Digital Archaeology Textbook Environment section on Databases&#xA;A database is a way of systematically organizing data through carefully designed metadata schemes that describe the nature of the data - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &amp;lsquo;fields&amp;rsquo; of the data in order to discern larger patterns.</description>
+    </item>
+    <item>
       <title>Assessment</title>
       <link>/docs/assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/assessment/</guid>
-      <description>Nota bene: There is no midterm. There is no final exam. Each week, there are tasks for you to attempt. Sometimes there is a choice of which tasks to do; in those cases, I&amp;rsquo;m not looking for the number of these that you complete, but that you push yourself out of your comfort level. What&amp;rsquo;s more, it&amp;rsquo;s OK if something doesn&amp;rsquo;t work &amp;lsquo;perfectly.&amp;rsquo; The reflection on the process, both your fails and your successes, is the important thing.</description>
+      <description>Nota bene: The Exit Ticket will be completed as an &amp;rsquo;exam&amp;rsquo; under the usual final examination circumstances. Each week, there are tasks for you to attempt. Sometimes there is a choice of which tasks to do; in those cases, I&amp;rsquo;m not looking for the number of these that you complete, but that you push yourself out of your comfort level. What&amp;rsquo;s more, it&amp;rsquo;s OK if something doesn&amp;rsquo;t work &amp;lsquo;perfectly.&amp;rsquo; The reflection on the process, both your fails and your successes, is the important thing.</description>
     </item>
     <item>
       <title>Excavation is only the beginning</title>
@@ -195,7 +202,21 @@
       <link>/docs/module-1/wk3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/module-1/wk3/</guid>
-      <description>Field work and ethical data collection II Goals Listen Read Do Reflect Report Back Goals for this week Continue the Graveyard Project and reconsider our recording system Obtain data for the eventual creation of 3d models of grave stones Develop a webmap of the site Explore the connections between what you are doing and what you are reading: graveyards are emotional spaces Listen Do I do not necessarily expect you to complete all of these, because you are all coming to this class with different levels of digital ability.</description>
+      <description>Goals Listen Read Do Reflect Report Back Goals for this week Continue the Graveyard Project and reconsider our recording system Obtain data for the eventual creation of 3d models of grave stones Develop a webmap of the site Explore the connections between what you are doing and what you are reading: graveyards are emotional spaces Listen Do I do not necessarily expect you to complete all of these, because you are all coming to this class with different levels of digital ability.</description>
+    </item>
+    <item>
+      <title>Week 4 Consolidation I</title>
+      <link>/docs/module-1/wk4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/module-1/wk4/</guid>
+      <description>Goals Do Report Back Goals for this week Use this time to catch up on anything you didn&amp;rsquo;t read, to try some of the exercises over again, and to consolidate what you&amp;rsquo;ve achieved so far. Do You may make your repository private or public.&#xA;If you make it private, Make sure to &amp;lsquo;invite user shawngraham&amp;rsquo; to your repository so that I may view it.&#xA;Create a short consolidation document that reflects on this first module and your growth (one or two pages is fine).</description>
+    </item>
+    <item>
+      <title>Week 5 What Gets Counted, Counts!</title>
+      <link>/docs/module-2/wk5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/module-2/wk5/</guid>
+      <description>Goals Listen Read Do Reflect Report Back Goals for this week uncover the ways in which &amp;lsquo;counting&amp;rsquo; hides or highlights the past encounter CSVs, SQL, and R and how to do some basic statistics on archaeological information Listen Read D&amp;rsquo;Ignazio, Catherine and Klein, L. 2020. ‘What gets counted, counts’. From Data Feminism link Labrador, Angela. 2012. Ontologies of the Future and Interfaces for All: Archaeological Databases for the Twenty-First Century.</description>
     </item>
   </channel>
 </rss>

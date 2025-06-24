@@ -15,5 +15,12 @@
       <guid>/docs/materials/wk3-kobotoolbox/</guid>
       <description>Introduction The KoBoToolbox is an open source platform that allows you to design quite complex data collection forms, for use via computers or devices, both online and offline.&#xA;Ipads and similar have been used in archaeology since their invention, at places for example like Pompeii and other sites destroyed by Vesuvius. The potential applications for devices like this to speed up data acquisition and analysis practically fill entire volumes, but at the same time, leave some archaeologists worried that we&amp;rsquo;re missing something fundamental about doing archaeology, that we need a &amp;lsquo;slow&amp;rsquo; archaeology to counter them.</description>
     </item>
+    <item>
+      <title>Week 5: Databases</title>
+      <link>/docs/materials/wk3-databases/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk3-databases/</guid>
+      <description>These exercises draw on, re-work, and replicate portions of the Open Digital Archaeology Textbook Environment section on Databases&#xA;A database is a way of systematically organizing data through carefully designed metadata schemes that describe the nature of the data - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &amp;lsquo;fields&amp;rsquo; of the data in order to discern larger patterns.</description>
+    </item>
   </channel>
 </rss>

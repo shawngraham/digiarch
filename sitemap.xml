@@ -53,6 +53,9 @@
     <loc>/tags/critique/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/csv/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/data-entry/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -95,6 +98,9 @@
     <loc>/tags/spatial-analysis/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/sql/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/webmaps/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -125,7 +131,13 @@
     <loc>/docs/materials/wk3-webmaps/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/docs/materials/wk3-databases/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/wk2/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/wk5/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/docs/assessment/</loc>
@@ -166,5 +178,9 @@
   </url><url>
     <loc>/docs/module-1/wk3/</loc>
     <lastmod>2025-06-13T14:12:01-04:00</lastmod>
+  </url><url>
+    <loc>/docs/module-1/wk4/</loc>
+  </url><url>
+    <loc>/docs/module-2/wk5/</loc>
   </url>
 </urlset>

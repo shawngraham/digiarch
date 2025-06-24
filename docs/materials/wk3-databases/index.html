@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Exploring an archaeological database.">
+<meta name="author" content="Shawn Graham">
+
+<title>Week 5: Databases · HIST3000|CLCV3000</title>
+
+<link rel="canonical" href="/docs/materials/wk3-databases/">
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/docs.min.691537ffa13ee529512f90fe40656ee95f4c3eeb59f1130fbf66480ab7fa465d.css" integrity="">
+
+
+
+
+  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
+  
+  <link rel="stylesheet" href="/css/component/docsearch.min.614fea5cfa814740238ac556e7a0d336d660b5bd2d325ce2c695ad8ba1ee3020.css" integrity=""/>
+
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/img/icon/favicon.ico">
+<link rel="icon" href="/img/icon/icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/img/icon/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon/icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#fffff5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+
+
+  
+
+  </head>
+  <body>
+    <header id="site-header">
+  
+  <div id="site-header-brand">
+    <a href="/">HIST3000|CLCV3000</a>
+  </div>
+
+  
+  <div id="site-header-controls">
+    
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="menu" aria-label="theme selector">
+        <i class="icon icon-brightness"></i>
+        <i class="icon icon-select"></i>
+      </button>
+      <ul role="menu" class="dropdown-menu">
+        <li role="menuitem"><button class="color-scheme" data-value="light"><i class="icon icon-light-mode"></i> Light</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="dark"><i class="icon icon-dark-mode"></i> Dark &nbsp;</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="night"><i class="icon icon-night-mode"></i> Night</button></li>
+      </ul>
+    </div>
+
+    
+ 
+  </div>
+
+  
+  <div id="site-header-menu">
+    <nav>
+      <ul>
+        
+        
+        
+          
+          <li><a href="/" ><i class='icon icon-home'></i>Home</a></li>
+        
+          
+          <li><a href="/docs"  class="active"><i class='icon icon-book'></i>Documentation</a></li>
+        
+          
+          <li><a href="https://shawngraham.github.io" ><i class='icon icon-head'></i>Professor Graham</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  
+</header>
+    
+<div id="site-main-content-wrapper">
+  
+  
+    
+
+
+<aside id="sidebar">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+
+  <div class="sticky"><strong class="sidebar-section">📖 Syllabus</strong>
+          
+          <a class="sidebar-link " href="/docs/first-things-first/">
+            
+              First Things First
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/general-philosophy/">
+            
+              General Philosophy
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/learning-outcomes/">
+            
+              Learning Outcomes
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/the-graveyard-project/">
+            
+              The Graveyard Project
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/assessment/">
+            
+              Assessment
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/faq/">
+            
+              FAQ
+            
+          </a>
+
+        <strong class="sidebar-section">⛏️ Course Work Overview</strong>
+          
+          <a class="sidebar-link " href="/docs/module-1/">
+            
+              Module 1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-2/">
+            
+              Module 2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-3/">
+            
+              Module 3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        <strong class="sidebar-section">Week By Week</strong>
+          
+          <a class="sidebar-link " href="/docs/wk1/">
+            
+              Wk1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk2/">
+            
+              Wk2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk3/">
+            
+              Wk3
+            
+          </a>
+
+        
+  </div>
+</aside>
+
+  
+  <main>
+    <article id="article">
+      <nav id="article-nav">
+  <button id="article-nav-menu-btn"><i class="icon icon-menu"></i> On this section</button>
+  <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
+</nav>
+      <header id="article-header">
+  <h1>Week 5: Databases</h1>
+</header>
+      <div id="article-content">
+        
+        
+        <p><em>These exercises draw on, re-work, and replicate portions of <a href="https://o-date.github.io/draft/book/arranging-and-storing-data-for-the-long-haul-databases.html" target="_blank">the Open Digital Archaeology Textbook Environment section on Databases</a></em></p>
+<p>A database is a way of systematically organizing data through carefully designed <em>metadata</em> schemes that describe the nature of the <em>data</em> - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &lsquo;fields&rsquo; of the data in order to discern larger patterns. A database can be about objects. It can be about relationships between objects. How the metadata / fields are described has a large bearing on the kinds of questions that can be asked. You&rsquo;ve already encountered a spatial database in week 3 - a geographic information system.</p>
+<p>The information below gives you a run-down on a variety of database formats.</p>
+<h3 id="flat-tables">Flat tables</h3>
+<p>The first stop for many people creating digital data is to put collected values into a spreadsheet. Spreadsheets are quick and easy tools to arrange text and numerical values in meaningful ways.</p>
+<h3 id="excel">Excel</h3>
+<p>In field archaeology, it’s incredibly common to see excavation data and artefact catalogs stored in Excel spreadsheets. Microsoft Excel comes standard on most PCs and is ubiquitous in many office settings. There’s a lot of power in Excel, but watch out for pitfalls.</p>
+<p><em>Pros</em></p>
+<p>The appeal of Excel and similar spreadsheet applications lies in their expedience. With a very small amount of technical know-how it’s possible to create collections of structured data and perform sometimes complex analytical operations through formulas and charts right in a workbook.</p>
+<p><em>Cons</em></p>
+<p>Excel tries to be clever, and sometimes it goes overboard. A prime example is the tendency for Excel to try to auto-format dates. Excel’s way of handling dates is to convert something like 8/1/2018 (August 1 since this author is American) into a serial number, 43311. Weird, right? It gets weirder. Excel uses the 1900 date system to assign those numbers. That serial number represents the number of days between January 1, 1900 and the date entered. This is not only tricky for those of us who work with dates prior to 1900, but it can also cause problems for number values that look like those date serial numbers, transforming things that are not dates into date values. In fact, Excel looks for all kinds of patterns that might be dates and converts them. This has become a significant problem with data about genetics (see eg. Ziemann, Eren, and El-Osta 2016). A safeguard against this type of error is to manually format any column that might contain values that look like dates to excel to be formatted as text. Or just don’t use Excel for anything that important.</p>
+<p>Excel makes it tough to constrain or standardize data entry without a lot of formula acrobatics that may break when others try to access the file. Be wary of typos and formatting problems when working in spreadsheets or plain text formats without controls like picklist selections.</p>
+<p>While tempting to store meaningful information in formatting like color codes or bolded text, this is a very bad idea. Formatting gets easily broken between software versions and applications.</p>
+<p>Excel specifically is incredibly hard to version control, or to trace the history of changes over time. Plain text and open formats often allow for much easier version control and metadata about changes that can travel with the data over their lifespan (see the ODATE section on Git and version control for more).</p>
+<h3 id="comma-or-tab-separated-text-files-csv-tsv-txt">Comma or Tab-separated text files (.csv, .tsv, .txt)</h3>
+<p><em>Pros</em></p>
+<p>These kinds of text files are some of the simplest ways to store data, and thus also some of the most durable. You can open them as tables in a spreadsheet program like Excel or Google Sheets, but all the information is still readable in a plain text editor. Since there’s not much complicated underlying structure, these types of plain text files are very easy to version control, or retain and view information about changes to a file over its life span. In most cases, if you need to work in and save spreadsheet data, choose one of these formats over Excel or other formats. (If you have dates in your CSV or TSV file and you save using Excel, it may still try to monkey around with the formatting. Make sure your date columns are formatted to Text.)</p>
+<p><em>Cons</em></p>
+<p>To some degree, you might have less control of formatting when using plain text files (but this may be a feature and not a bug.)</p>
+<p>For great advice on using spreadsheets to organize data, see this helpful piece in The American Statistician by Karl Broman and Kara Woo (2018).</p>
+<p>Putting your collected data straight into flat tables can be quite easy and efficient. It’s quite easy for a human to open a spreadsheet and read it. These are probably the biggest advantages for storing data this way.</p>
+<p>However, it can be challenging to convey how data fit together if they are contained in flat files– metadata explaining each field must be stored in some other file. Data entry can be inefficient and error-prone if there are no checks in place to eliminate inconsistencies. And it’s very easy to introduce errors and typos. Note: while you can relate values in Excel with functions like <code>VLOOKUP</code> and set constraints with input masks, it doesn’t mean you should; because of the instability of these types of enhancements. If you find yourself embedding a lot of this kind of behavior, it’s a good signal to take a look at other types of databases.</p>
+<h2 id="json-and-xml">JSON and XML</h2>
+<p>While you likely won’t (and shouldn’t) input your research data directly into these formats from the beginning, many web resources rely on JSON (JavaScript Object Notation) or XML (Extensible Markup Language) documents to store data. JSON and XML are formats for writing plain text documents in ways that allow computers (and people) to understand hierarchy and relationships between data.</p>
+<p>JSON looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;John&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Smith&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;isAlive&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;age&#34;</span><span class="p">:</span> <span class="mi">27</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;address&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;streetAddress&#34;</span><span class="p">:</span> <span class="s2">&#34;21 2nd Street&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;city&#34;</span><span class="p">:</span> <span class="s2">&#34;New York&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;state&#34;</span><span class="p">:</span> <span class="s2">&#34;NY&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;postalCode&#34;</span><span class="p">:</span> <span class="s2">&#34;10021-3100&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;phoneNumbers&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;home&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;number&#34;</span><span class="p">:</span> <span class="s2">&#34;212 555-1234&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;office&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;number&#34;</span><span class="p">:</span> <span class="s2">&#34;646 555-4567&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;mobile&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;number&#34;</span><span class="p">:</span> <span class="s2">&#34;123 456-7890&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">],</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;children&#34;</span><span class="p">:</span> <span class="p">[],</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;spouse&#34;</span><span class="p">:</span> <span class="kc">null</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>(and you&rsquo;ll remember that in week 3 we encountered <em>geojson</em>, which uses the same structure but under the expectation that there will be explicitly geospatial point and polygon data containted therein.)</p>
+<p>XML looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;ISO8859-1&#34; ?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;CATALOG&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;CERAMIC_TYPE&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;NAME&gt;</span>Pearlware<span class="nt">&lt;/NAME&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;MATERIAL&gt;</span>Refined Earthenware<span class="nt">&lt;/MATERIAL&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;MANU_TECH&gt;</span>Press Molded<span class="nt">&lt;/MANU_TECH&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;EXT_INT_SURFACE&gt;</span>Lead Glazed<span class="nt">&lt;/EXT_INT_SURFACE&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;/CERAMIC_TYPE&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;CERAMIC_TYPE&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;NAME&gt;</span>Faience<span class="nt">&lt;/NAME&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;MATERIAL&gt;</span>Refined Earthenware<span class="nt">&lt;/MATERIAL&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;MANU_TECH&gt;</span>Wheel Thrown<span class="nt">&lt;/MANU_TECH&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;EXT_INT_SURFACE&gt;</span>Tin Glaze<span class="nt">&lt;/EXT_INT_SURFACE&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="nt">&lt;/CERAMIC_TYPE&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/CATALOG&gt;</span>
+</span></span></code></pre></div><p>Note that you can see some code-like formatting, but you can still read the contents and get a feel for organization.</p>
+<h3 id="relational-databases">Relational databases</h3>
+<p>A relational database consists of many different tables connected together with relationships that tell computers how things fit together. Generally, each table represents one ‘entity type’ (i.e. contexts, artefacts, OSL samples, etc) and consists of rows and columns. Rows represent instances of that type of entity (i.e. context 0321, AR009876, S112), and columns represent values attributed to that instance (i.e. soil texture, date closed, raw material, weathering index, etc). Rows are also called records, and columns are sometimes called variables or attributes.</p>
+<p>Most relational databases rely on SQL, or Structured Query Language, to run the show. Each SQL command is essentially a self-contained logical statement that includes all parameters needed to do a particular action. If something doesn’t add up, an error will be reported and nothing will happen.</p>
+<p>For example, the following command would retrieve the contents of the two named columns from the specified table:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">column1</span><span class="p">,</span><span class="w"> </span><span class="n">column2</span><span class="p">,</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="k">table_name</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>Desktop SQL office database products like MS Access come with a graphical user interface (GUI) to help set up relationships and form queries. In fact, every task that can be accomplished using the GUI actually masks the implementation of SQL commands hidden from the users’ view. As such, it’s worthwhile to learn the basics of SQL to better understand how your data is being transformed under the hood. While different database management systems use slight dialects of SQL, they generally apply the same fundamental principles.</p>
+<p>Common desktop application options:</p>
+<ul>
+<li>Microsoft Access</li>
+<li>FileMaker Pro</li>
+<li>Open Office Base</li>
+</ul>
+<p>These consumer grade database applications can be a great entry point into SQL databases, they can be incredibly frustrating, and usually they’re both. Using these types of applications it’s relatively easy to create databases with complex relationships. This type of database is also a great choice because of the ability to create integrated forms that can be used to set constraints on data entry. You can create “authority tables” to populate drop-down lists and set input masks to control for necessary patterning in special ID numbers, dates, etc.</p>
+<p>MS Access is notoriously fragile. Collaboration by multiple users on a single database can be a challenge. Conversion between old and newer software versions can cause unexpected errors.</p>
+<h3 id="server-based-sql-databases">Server-based SQL Databases</h3>
+<p>If your application for storing or serving up data runs on the web, your SQL back end is likely something like MySQL, MariaDB or PosgreSQL. The database resides on a server that multiple users can access simultaneously. Data is centralized and unified, and is therefore also consistent among users.</p>
+<p>Although SQL databases are made from tables, most of them are stored as binary files. If you try to open them without the correct program to read the data, you get something like this:</p>
+<p><img src="https://o-date.github.io/draft/book/images/binarygarbage.png"></p>
+<p><em>Opening a binary database file as text. Not good!</em></p>
+<p>They must therefore be opened using software that can parse that information. Users read a database by connecting with the server where the database is stored using a client. Users typically enter login credentials granted by the server adminstrator, which are used to manage or restrict access to certain sensitive data, or limit the abilities of unauthorized individuals to edit or modify data. Data entry forms or automatically generated visualizations or reports are generally custom-made to reflect the specific aspects of the databases that they serve.</p>
+<p>Some popular open source database clients:</p>
+<ul>
+<li>MySQL Workbench</li>
+<li>Sequel Pro</li>
+<li>Table Plus</li>
+<li>DBeaver</li>
+<li>PostgreSQL</li>
+</ul>
+<h3 id="graph-databases">Graph Databases</h3>
+<p>A graph database is a relatively new development. Unlike relational databases the graph database records both the object of interest and its relationship to another object of interest. Typically this is demonstrated with reference to people, a person can be objectified as a single point (node), this person can be related to another person (another node). This relationship is modeled as a line (edge), the relationship can be anything you like, Dave is the brother of Sue, Dave is friends with Sue, Sue went to school with Dave.</p>
+<p>All three of these examples can be true, but there can also be directional relationships, for instance Dave can be Sue’s brother but Sue cannot be Dave’s Brother, this is therefore directional. To make it a two-way relationship: Dave is a sibling of Sue, Sue is a sibling of Dave. If Sue has gone to School with Dave then the opposite must also be true, and you would also expect friendships to be two way also. However if Dave liked Sue then the opposite may not be true.</p>
+<p>In what is refered to in mathmatics as graph theory, we have two nodes joined together by a single edge. The nodes can represent any object, the object can have attributes, for example: name, age, height, etc. For an archaeological example the object could be an artefact, the attributes should be specific to the artefact, in theory you could have a found by attribute, but it would be better to create a person node and then use a relationship, or edge, to state that the artefact was found by a specific person. If a person found many artefacts then they would be joined to many other artefact nodes.</p>
+<p>This is a similar concept that is found in Network Analysis and object orientated approaches which use an object-predicate-subject data structure.</p>
+<p>Graph databases have their own query language: cypher. In many ways it is similar to SQL but even simpler. Rather than using SELECT statements graph databases use pattern matching.</p>
+<pre tabindex="0"><code class="language-cypher" data-lang="cypher">MATCH (n)
+RETURN n;
+</code></pre><p>The simplest pattern is to match all the nodes, once matched they must be returned. This can be developed further to return all the related nodes.</p>
+<pre tabindex="0"><code>MATCH (n)-[r]-()
+RETURN n, r;
+</code></pre><h2 id="takeaways">Takeaways:</h2>
+<ul>
+<li>Take time to understand the pros and cons of relational databases and flat data structures.</li>
+<li>Beware of Excel and spreadsheet software. Sometimes it’s appropriate, but risks abound.</li>
+<li>Lean toward plain text formats like CSV when possible.</li>
+</ul>
+<p>Ziemann, Mark, Yotam Eren, and Assam El-Osta. 2016. “Gene Name Errors Are Widespread in the Scientific Literature.” Genome Biology 17 (1): 177. doi:10.1186/s13059-016-1044-7.</p>
+<p>Broman, Karl W., and Woo K. 2018. “Data Organization in Spreadsheets.” The American Statistician 72 (1): 2–10. doi:10.1080/00031305.2017.1375989.</p>
+
+      </div>
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+
+
+<footer id="article-footer">
+  <time id="article-last-updated" datetime="2025-05-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-05-01</time>
+
+  
+    <a id="article-prev-link" href="/docs/wk3/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+  
+
+  
+</footer>
+    </article>
+    <aside id="toc">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+  <div class="sticky">
+    <strong><i class="icon icon-toc"></i> On this page</strong>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#flat-tables">Flat tables</a></li>
+        <li><a href="#excel">Excel</a></li>
+        <li><a href="#comma-or-tab-separated-text-files-csv-tsv-txt">Comma or Tab-separated text files (.csv, .tsv, .txt)</a></li>
+      </ul>
+    </li>
+    <li><a href="#json-and-xml">JSON and XML</a>
+      <ul>
+        <li><a href="#relational-databases">Relational databases</a></li>
+        <li><a href="#server-based-sql-databases">Server-based SQL Databases</a></li>
+        <li><a href="#graph-databases">Graph Databases</a></li>
+      </ul>
+    </li>
+    <li><a href="#takeaways">Takeaways:</a></li>
+  </ul>
+</nav>
+  </div>
+</aside>
+  </main>
+</div>
+
+    <footer id="site-footer">
+  
+  <div id="site-footer-copyright">
+<a href="https://github.com/shawngraham/digiarch" target="_blank">
+  <img src="/docs/support/cc.png" alt="Creative Commons License">
+  2025 Shawn Graham
+</a>
+  </div>
+
+  
+  <div id="site-footer-social">
+
+    
+
+    
+
+    
+    <a href="https://github.com/shawngraham" target="_blank" aria-label="github url">
+      <i class="icon icon-github icon-colored"></i>
+    </a>
+    
+
+    
+
+  </div>
+
+
+  </div>
+
+  
+  <div id="site-footer-love">
+    Made using &nbsp;<a href="https://docura.github.io/" target="_blank">Docura Theme for Hugo</a>
+  </div>
+</footer>
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/js/base.min.js"></script>
+
+
+
+  
+  <script src="/js/component/docsearch.min.js"></script>
+  <script type="application/javascript">
+      docsearch({
+          container: '#site-header-search',
+          appId: '',
+          indexName: '',
+          apiKey: '',
+      });
+  </script>
+
+
+<script type="application/javascript">
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js?2025-06-24')
+            .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
+    }
+</script>
+  </body>
+</html>
