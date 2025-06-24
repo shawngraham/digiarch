@@ -10,9 +10,9 @@
     <atom:link href="/tags/wk5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 5: Databases</title>
-      <link>/docs/materials/wk3-databases/</link>
+      <link>/docs/materials/wk5-databases/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk3-databases/</guid>
+      <guid>/docs/materials/wk5-databases/</guid>
       <description>These exercises draw on, re-work, and replicate portions of the Open Digital Archaeology Textbook Environment section on Databases&#xA;A database is a way of systematically organizing data through carefully designed metadata schemes that describe the nature of the data - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &amp;lsquo;fields&amp;rsquo; of the data in order to discern larger patterns.</description>
     </item>
   </channel>
