@@ -6,7 +6,7 @@
   <meta name="description" content="Exploring an archaeological database.">
 <meta name="author" content="Shawn Graham">
 
-<title>Week 5: Databases · HIST3000|CLCV3000</title>
+<title>Week 5: Databases &amp; Some Gentle Stats · HIST3000|CLCV3000</title>
 
 <link rel="canonical" href="/docs/materials/wk5-databases/">
 
@@ -289,14 +289,18 @@
   <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
 </nav>
       <header id="article-header">
-  <h1>Week 5: Databases</h1>
+  <h1>Week 5: Databases &amp; Some Gentle Stats</h1>
 </header>
       <div id="article-content">
         
         
-        <p><em>These exercises draw on, re-work, and replicate portions of <a href="https://o-date.github.io/draft/book/arranging-and-storing-data-for-the-long-haul-databases.html" target="_blank">the Open Digital Archaeology Textbook Environment section on Databases</a></em></p>
+        <p><em>These page draws on, re-work, and replicate portions of <a href="https://o-date.github.io/draft/book/arranging-and-storing-data-for-the-long-haul-databases.html" target="_blank">the Open Digital Archaeology Textbook Environment section on Databases</a></em></p>
 <p>A database is a way of systematically organizing data through carefully designed <em>metadata</em> schemes that describe the nature of the <em>data</em> - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &lsquo;fields&rsquo; of the data in order to discern larger patterns. A database can be about objects. It can be about relationships between objects. How the metadata / fields are described has a large bearing on the kinds of questions that can be asked. You&rsquo;ve already encountered a spatial database in week 3 - a geographic information system.</p>
+<p>In our lab workbench for week 5, start with the &lsquo;intro-to-sql&rsquo; ipynb file and see how you get along. Use that notebook to turn some previous student graveyard project database into an sqlite database.</p>
+<p>Then, you can explore the other computational files there too if you&rsquo;d like.</p>
+<blockquote>
 <p>The information below gives you a run-down on a variety of database formats.</p>
+</blockquote>
 <h3 id="flat-tables">Flat tables</h3>
 <p>The first stop for many people creating digital data is to put collected values into a spreadsheet. Spreadsheets are quick and easy tools to arrange text and numerical values in meaningful ways.</p>
 <h3 id="excel">Excel</h3>
@@ -710,7 +714,7 @@ RETURN n, r;
 
 <script type="application/javascript">
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js?2025-06-24')
+        navigator.serviceWorker.register('/sw.js?2025-06-26')
             .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
     }
 </script>

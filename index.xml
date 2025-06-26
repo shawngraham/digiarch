@@ -107,11 +107,11 @@
       <description>Introduction In this tutorial, I show you how to build a web map using open source code from Leaflet. The idea here is that you learn to build a map and get it online: and then you learn how to modify it to display:&#xA;the cemetery that you have worked on the location of stones Leaflet is very powerful; we&amp;rsquo;re not even scraping the surface with what it can do. As an example, the East End Cemetery website maps a historic African American burial ground in Henrico County and the city of Richmond, Virginia, that uses Leaflet to good effect:</description>
     </item>
     <item>
-      <title>Week 5: Databases</title>
+      <title>Week 5: Databases &amp; Some Gentle Stats</title>
       <link>/docs/materials/wk5-databases/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>/docs/materials/wk5-databases/</guid>
-      <description>These exercises draw on, re-work, and replicate portions of the Open Digital Archaeology Textbook Environment section on Databases&#xA;A database is a way of systematically organizing data through carefully designed metadata schemes that describe the nature of the data - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &amp;lsquo;fields&amp;rsquo; of the data in order to discern larger patterns.</description>
+      <description>These page draws on, re-work, and replicate portions of the Open Digital Archaeology Textbook Environment section on Databases&#xA;A database is a way of systematically organizing data through carefully designed metadata schemes that describe the nature of the data - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &amp;lsquo;fields&amp;rsquo; of the data in order to discern larger patterns.</description>
     </item>
     <item>
       <title>Assessment</title>
