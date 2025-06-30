@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Considering the strengths and limitations of the schema.">
+  <meta name="description" content="Machine Learning">
 <meta name="author" content="Shawn Graham">
 
-<title>Week 3: Design Your Own Data Collection Forms · HIST3000|CLCV3000</title>
+<title>Week 7 The Contexts of Archaeology · HIST3000|CLCV3000</title>
 
-<link rel="canonical" href="/docs/materials/wk3-kobotoolbox/">
+<link rel="canonical" href="/docs/module-2/wk7/">
 
 
 
@@ -223,7 +223,7 @@
 
         
           
-          <a class="sidebar-link " href="/docs/wk7/">
+          <a class="sidebar-link current" href="/docs/wk7/">
             
               Wk7
             
@@ -289,26 +289,21 @@
   <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
 </nav>
       <header id="article-header">
-  <h1>Week 3: Design Your Own Data Collection Forms</h1>
+  <h1>Week 7 The Contexts of Archaeology</h1>
 </header>
       <div id="article-content">
         
         
-        <h3 id="introduction">Introduction</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4PNtT51h3CQ?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<p>The <a href="https://www.kobotoolbox.org/" target="_blank">KoBoToolbox</a> is an open source platform that allows you to design quite complex data collection forms, for use via computers or devices, both online and offline.</p>
-<p>Ipads and similar have been used in archaeology since their invention, at places for example <a href="https://web.archive.org/web/20220121102425/https://classics.uc.edu/pompeii/index.php/news/1-latest/142-ipads2010.html">like Pompeii and other sites destroyed by Vesuvius</a>. The potential applications for devices like this to speed up data acquisition and analysis practically <a href="https://thedigitalpress.org/mobilizing-the-past-for-a-digital-future/">fill entire volumes</a>, but at the same time, leave some archaeologists worried that we&rsquo;re missing something fundamental about doing archaeology, that we need a <a href="https://www.academia.edu/14327107/Slow_Archaeology">&lsquo;slow&rsquo; archaeology</a> to counter them. What actually constitutes the virtues of &lsquo;slowness&rsquo;, and whether or not digital work is &lsquo;slow&rsquo; is up for debate (and of course, I have <a href="https://electricarchaeology.ca/2017/03/20/slow-archaeology/" target="_blank">my own views</a> on the matter&hellip;)</p>
-<p>Suffice it to say, designing and implementing digital recording has not been an easy thing to do, and it has theoretical and ethical implications. KoBoToolbox aims to flatten that curve (and the fact that it is open source and aimed at humanitarian work adds an ethical dimension to its use).</p>
-<p>Here, I will provide you with the template file that I created for our class and our own recording adventure, which is an adaptation of the <a href="https://debs.ac.uk" target="_blank">DEBS</a> recording sheet created for recording English burial grounds.</p>
-<div class="admonition admonition-info"><div class="admonition-title">The Task</div><div class="admonition-content">
-    You will use it to make your own graveyard recording system, but you will modify/delete those elements that you believe are not appropriate to our Canadian context, and/or add elements to take into account our particular situation, in the light of your engagement so far with the system and our readings.
+        <ul>
+<li><a href="/docs/module-2/wk7/#goals">Goals</a></li>
+<li><a href="/docs/module-2/wk7/#listen">Listen</a></li>
+<li><a href="/docs/module-2/wk7/#read">Read</a></li>
+<li><a href="/docs/module-2/wk7/#do">Do</a></li>
+<li><a href="/docs/module-2/wk7/#reflect">Reflect</a></li>
+<li><a href="/docs/module-2/wk7/#report">Report Back</a></li>
+</ul>
+<div class="admonition admonition-info"><div class="admonition-content">
+    In the podcast episode, I talk about what it is I find &rsquo;enchanting&rsquo; about digital archaeology. A lot of that concerns the idea of &rsquo;emergence&rsquo;, that if things are connected together <em>like this</em> then interesting unpredictable things might emerge at a higher level of complexity. Therefore, we&rsquo;ll spend time with networks: first to represent archaeological data, and then as a substrate for computing archaeological data.
   </div>
 </div>
 <style>
@@ -376,58 +371,32 @@
   background: #17a2b8;
 }
 </style>
-<p>You can take screenshots of modifications you make, adding them to a brief text document you&rsquo;ll keep as a record of why and what you did; the document can also have the link to the deployed form.</p>
-<p>Incidentally, once you&rsquo;ve got the form deployed, and filled it a couple of times, you can see the built-in visualization and analytical tools that KoBoToolbox provises as well.</p>
-<h3 id="modify-the-form">Modify the Form</h3>
-<ol>
-<li>
-<p>You will need my <a href="/docs/support/graveyard-template.xlsx">graveyard recording form template</a>. It&rsquo;s an excel spreadsheet. Take a look at it in excel if you want, but for the time being don&rsquo;t change anything there or else it might not import correctly.</p>
-</li>
-<li>
-<p>Go to <a href="https://www.kobotoolbox.org" target="_blank">https://www.kobotoolbox.org</a> and sign up for an &rsquo;everyone else&rsquo; account:</p>
-</li>
-</ol>
-<p><img alt="sign up for kobotoolbox" src="/docs/support/images/kobotoolbox/kbtb-1.png"></p>
-<ol start="3">
-<li>Import the template by dragging and dropping the xlsx file:</li>
-</ol>
-<p><img alt="create new project" src="/docs/support/images/kobotoolbox/kbtb-2.png"></p>
-<ol start="4">
-<li>Fill in some of the metadata:</li>
-</ol>
-<p><img alt="metadata" src="/docs/support/images/kobotoolbox/kbtb-3.png"></p>
-<ol start="5">
-<li>Start editing/modifying the form:</li>
-</ol>
-<p><img alt="hit edit" src="/docs/support/images/kobotoolbox/kbtb-4.png"></p>
-<p><img alt="the form editor" src="/docs/support/images/kobotoolbox/kbtb-5.png"></p>
-<ol start="6">
-<li>Adding a new question:</li>
-</ol>
-<p><img alt="new question" src="/docs/support/images/kobotoolbox/kbtb-6.png">
-<img alt="settings" src="/docs/support/images/kobotoolbox/kbtb-7.png"></p>
-<ol start="7">
-<li>When you&rsquo;re done, hit &lsquo;save&rsquo; and then go back to the project list view and hit deploy:</li>
-</ol>
-<p><img alt="list view" src="/docs/support/images/kobotoolbox/kbtb-8.png"></p>
-<ol start="8">
-<li>Now you can share it with me, and the world:</li>
-</ol>
-<p><img alt="share" src="/docs/support/images/kobotoolbox/kbtb-9.png"></p>
-<ol start="9">
-<li>Write things up, deposit in your repo.</li>
-</ol>
-<h3 id="kobotoolbox-as-used-by-archaeologists">KoboToolBox as Used by Archaeologists</h3>
-<p>I learned about KoBoToolbox from Ben Carter at Muhlenberg College in Allentown PA. Allentown has an enormous amount of historical archaeology related to the steel industry, and Ben has been using it to do data collection in the field with his students. You can read about how and why he uses it in these posts:</p>
+<h3 id="goals-for-this-week">Goals for this week</h3>
+<p><a name="goals"></a></p>
 <ul>
-<li><a href="http://benjaminpcarter.com/digital-data-collection/" target="_blank">Digital Data Collection</a></li>
-<li><a href="http://benjaminpcarter.com/digital-data-collection/justification/" target="_blank">Justification</a></li>
-<li><a href="http://benjaminpcarter.com/digital-data-collection/selection-criteria/" target="_blank">Criteria for selecting a digital data collection tool</a></li>
-<li><a href="http://benjaminpcarter.com/digital-data-collection/tools/" target="_blank">Tools (including a critique of KoBoToolbox)</a></li>
-<li><a href="http://benjaminpcarter.com/digital-data-collection/work-flow/" target="_blank">Worfklow (including a discussion of how he gets the data into QGIS)</a></li>
+<li>Try your hand at network analysis</li>
+<li>Simulate the Roman economy</li>
+<li>Build an image classifier</li>
+<li>Raise the ghost of Rudolpho Lanciani</li>
+<li>Situate this work in an understanding of the potential futures for digital archaeology, but also in the context of current work in archaeology.</li>
 </ul>
-<h3 id="more-help">More Help</h3>
-<p>See the <a href="https://support.kobotoolbox.org/quick_start.html" target="_blank">documentation</a></p>
+<h3 id="listen">Listen</h3>
+<p><a name="listen"></a></p>
+<iframe src="https://anchor.fm/dr-graham/embed/episodes/HIST3000CLCV3000-Week-7-The-Futures-of-Digital-Archaeology-ejafh5/a-a35hgkt" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<p>&hellip;Incidentally, by the time you read this, I will have <em>finally</em> published a book with &lsquo;Practical Necromancy&rsquo; in the title&hellip;!</p>
+<h3 id="read">Read</h3>
+<p><a name="read"></a></p>
+<ul>
+<li>Perry S. The Enchantment of the Archaeological Record. European Journal of Archaeology. 2019;22(3):354-371. doi:10.1017/eaa.2019.24 <a href="https://www-cambridge-org.proxy.library.carleton.ca/core/journals/european-journal-of-archaeology/article/enchantment-of-the-archaeological-record/6B71DCDB28D3FABE22660EEA860ED7FE" target="_blank">link</a></li>
+<li>Morgan, Colleen. 2019. Avatars, Monsters, and Machines: A Cyborg Archaeology. European Journal of Archaeology 22.3, 324-337 link</li>
+<li>Kersel, Morag. 2016. ‘Living a Semi-digital Kinda Life’ in Erin Walcek Averett, Jody Michael Gordon, and Derek B. Counts (eds) Mobilizing the Past for a Digital Future: The Potential of Digital Archaeology. Grand Forks: The Digital Press at the University of North Dakota. pp. 475-492. link</li>
+<li>Huggett, J. (2022). Is Less More? Slow Data and Datafication in Archaeology. In K. Garstki (Ed.), Critical Archaeology in the Digital Age (pp. 97–110). UCLA Cotsen Institute of Archaeology Press. <a href="https://escholarship.org/uc/item/0vh9t9jq#page=112" target="_blank">https://escholarship.org/uc/item/0vh9t9jq#page=112</a> (scroll to chapter 6 if that link doesn&rsquo;t quite take you there)</li>
+</ul>
+<h3 id="do">Do</h3>
+<p><a name="do"></a></p>
+<ul>
+<li>Meaning is a function of relationships. Try your hand at archaeological <a href="../../materials/wk7-networks">network analysis</a></li>
+</ul>
 
       </div>
       
@@ -572,10 +541,6 @@
     
         
 
-        
-          
-        
-
       
     
         
@@ -584,57 +549,19 @@
           
         
 
-      
-    
         
-
         
-          
-        
-
-      
-    
-        
-
-        
-          
-        
-
-      
-    
-        
-
-        
-          
-        
-
-      
-    
-        
-
-        
-          
-        
-
-      
-    
-        
-
-        
-          
-        
-
-      
-    
 
 
 <footer id="article-footer">
-  <time id="article-last-updated" datetime="2025-05-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-05-01</time>
+  <time id="article-last-updated" datetime="0001-01-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 0001-01-01</time>
 
   
-    <a id="article-prev-link" href="/docs/exit-ticket/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+    <a id="article-prev-link" href="/docs/wk6/"><i class="icon icon-prev icon-colored"></i> Prev</a>
   
 
+  
+    <a id="article-next-link"  href="/docs/wk8/">Next <i class="icon icon-next icon-colored"></i></a>
   
 </footer>
     </article>
@@ -646,10 +573,10 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#modify-the-form">Modify the Form</a></li>
-        <li><a href="#kobotoolbox-as-used-by-archaeologists">KoboToolBox as Used by Archaeologists</a></li>
-        <li><a href="#more-help">More Help</a></li>
+        <li><a href="#goals-for-this-week">Goals for this week</a></li>
+        <li><a href="#listen">Listen</a></li>
+        <li><a href="#read">Read</a></li>
+        <li><a href="#do">Do</a></li>
       </ul>
     </li>
   </ul>

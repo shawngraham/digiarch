@@ -80,6 +80,9 @@
     <loc>/tags/maps/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/networks/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/photogrammetry/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -90,6 +93,9 @@
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/safety/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/sna/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/spatial/</loc>
@@ -134,10 +140,16 @@
     <loc>/docs/materials/wk5-databases/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/docs/materials/wk7-networks/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/wk2/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/wk5/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/wk7/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/docs/assessment/</loc>
@@ -184,5 +196,7 @@
     <loc>/docs/module-2/wk5/</loc>
   </url><url>
     <loc>/docs/module-2/wk6/</loc>
+  </url><url>
+    <loc>/docs/module-2/wk7/</loc>
   </url>
 </urlset>

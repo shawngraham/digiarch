@@ -114,6 +114,13 @@
       <description>These page draws on, re-work, and replicate portions of the Open Digital Archaeology Textbook Environment section on Databases&#xA;A database is a way of systematically organizing data through carefully designed metadata schemes that describe the nature of the data - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &amp;lsquo;fields&amp;rsquo; of the data in order to discern larger patterns.</description>
     </item>
     <item>
+      <title>Week 7: Network Analysis</title>
+      <link>/docs/materials/wk7-networks/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk7-networks/</guid>
+      <description>Network analysis is all about looking at the patterns of relationships we find in our data, and seeing how individual ‘nodes’ are positioned vis-a-vis all the other ones, or what the emergent, macroscopic patterns might imply about how the entire population of &amp;hellip;whatever it is you’re studying&amp;hellip; might experience things like group identity or flows of information.&#xA;We&amp;rsquo;re going to look at the entire Roman road network as represented in the ORBIS geospatial network model of the Roman world: https://orbis.</description>
+    </item>
+    <item>
       <title>Assessment</title>
       <link>/docs/assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -224,6 +231,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/module-2/wk6/</guid>
       <description>Goals Listen Read Do Reflect Report Back This week represents a kind of pivot point in the course. So far, we&amp;rsquo;ve largely been focused on the moment when observations in the field become data, and then on the kinds of manipulations of those data we might do. This week, we&amp;rsquo;re going to zoom out a bit and consider how we get from that level of detail to larger scale macroscopic stories about the past.</description>
+    </item>
+    <item>
+      <title>Week 7 The Contexts of Archaeology</title>
+      <link>/docs/module-2/wk7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/module-2/wk7/</guid>
+      <description>Goals Listen Read Do Reflect Report Back In the podcast episode, I talk about what it is I find &amp;rsquo;enchanting&amp;rsquo; about digital archaeology. A lot of that concerns the idea of &amp;rsquo;emergence&amp;rsquo;, that if things are connected together like this then interesting unpredictable things might emerge at a higher level of complexity. Therefore, we&amp;rsquo;ll spend time with networks: first to represent archaeological data, and then as a substrate for computing archaeological data.</description>
     </item>
   </channel>
 </rss>
