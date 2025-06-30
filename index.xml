@@ -13,7 +13,7 @@
       <link>/docs/exit-ticket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/exit-ticket/</guid>
-      <description>December 1 - December 5&#xA;Week 12: Dec 1 - Dec 5 Submit Exit Ticket You will produce an &amp;rsquo;exit ticket&amp;rsquo; for me at the end of the course (open format) reflecting on where you started and where you&amp;rsquo;ve gotten to, and you will indicate how you feel you&amp;rsquo;ve done against the learning outcomes. You are required to explicitly tie your exit ticket to evidence collected in your weekly work. The exit ticket is a summary assessment exercise that will pull all the different strings together into a strong cord.</description>
+      <description>You will write your Exit Ticket as an exam during the examination period. Just you, a pen, and an exam booklet. The exam will be this:&#xA;You will write an &amp;rsquo;exit ticket&amp;rsquo; reflecting on where you started and where you&amp;rsquo;ve gotten to, and you will indicate how you feel you&amp;rsquo;ve done against the learning outcomes. You will be required to explicitly tie your exit ticket to evidence collected in your weekly work.</description>
     </item>
     <item>
       <title>Week 1: Making Notes</title>
@@ -132,7 +132,7 @@
       <link>/docs/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/faq/</guid>
-      <description>FAQ &amp;amp; Helpful Hints When do I submit weekly ungraded work for feedback? By the end of the relevant week. Fridays preferably, but anytime during the week is fine. I will always send out to everyone a summary the following week of things I&amp;rsquo;m seeing (good things, things that need work). I&amp;rsquo;ll follow up with a short note to individuals for individual things.&#xA;Where do I submit the links to my materials?</description>
+      <description>FAQ &amp;amp; Helpful Hints Workbench? Content? JupyterLab? What? There are two interconnected components to this course.&#xA;This website: it is the overarching context for what I am trying to teach you re digital archaeology. It specifies what to read and listen and do each week. Most of the time, when I want you to do something, it will be at your workbench. The workbench. The workbench is made of two things: a.</description>
     </item>
     <item>
       <title>General Philosophy</title>
@@ -217,6 +217,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/module-2/wk5/</guid>
       <description>Goals Listen Read Do Reflect Report Back Goals for this week uncover the ways in which &amp;lsquo;counting&amp;rsquo; hides or highlights the past encounter CSVs, SQL, and R and how to do some basic statistics on archaeological information Listen Read D&amp;rsquo;Ignazio, Catherine and Klein, L. 2020. ‘What gets counted, counts’. From Data Feminism link Labrador, Angela. 2012. Ontologies of the Future and Interfaces for All: Archaeological Databases for the Twenty-First Century.</description>
+    </item>
+    <item>
+      <title>Week 6 The Contexts of Archaeology</title>
+      <link>/docs/module-2/wk6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/module-2/wk6/</guid>
+      <description>Goals Listen Read Do Reflect Report Back This week represents a kind of pivot point in the course. So far, we&amp;rsquo;ve largely been focused on the moment when observations in the field become data, and then on the kinds of manipulations of those data we might do. This week, we&amp;rsquo;re going to zoom out a bit and consider how we get from that level of detail to larger scale macroscopic stories about the past.</description>
     </item>
   </channel>
 </rss>
