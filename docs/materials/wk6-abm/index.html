@@ -6,9 +6,9 @@
   <meta name="description" content="Basic intro">
 <meta name="author" content="Shawn Graham">
 
-<title>Week 6: Network Analysis · HIST3000|CLCV3000</title>
+<title>Week 6: Agent Based Modeling · HIST3000|CLCV3000</title>
 
-<link rel="canonical" href="/docs/materials/wk6-networks/">
+<link rel="canonical" href="/docs/materials/wk6-abm/">
 
 
 
@@ -289,23 +289,52 @@
   <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
 </nav>
       <header id="article-header">
-  <h1>Week 6: Network Analysis</h1>
+  <h1>Week 6: Agent Based Modeling</h1>
 </header>
       <div id="article-content">
         
         
-        <p>Network analysis is all about looking at the patterns of relationships we find in our data, and seeing how individual ‘nodes’ are positioned vis-a-vis all the other ones, or what the emergent, macroscopic patterns might imply about how the entire population of &hellip;whatever it is you’re studying&hellip; might experience things like group identity or flows of information.</p>
-<p>We&rsquo;re going to look at the entire Roman road network as represented in the ORBIS geospatial network model of the Roman world: <a href="https://orbis.stanford.edu/" target="_blank">https://orbis.stanford.edu/</a>.</p>
+        <h2 id="agent-based-modeling">Agent Based Modeling</h2>
+<p>You&rsquo;ve now had a chance to explore some archaeological and historical networks. Network analysis is <em>fantastic</em> and there&rsquo;s amazing research being done - you should check out <a href="/">The Connected Past</a><a href="https://connectedpast.net/">https://connectedpast.net/</a>) for more. When I was doing my PhD, I managed to spin out <a href="https://works.hcommons.org/records/dt3h7-s2f61" target="_blank">an entire thesis</a> by stitching together a series of network &lsquo;snapshots&rsquo; by time period from a collection of stamped Roman bricks (the stamps are makers&rsquo; marks). Each brick contained information about different levels of economic complexity - warehouse, brick yard, brick maker, land owner, date - and my thesis told the evolving story of that region by figuring out the story <em>between</em> the moments captured by the networks.</p>
+<p>Do you see the problem? Network analysis does not have much to say to explain how one network shape or another might evolve or emerge in the gaps, how snapshot_at_time_1 becomes what we see in snapshot_at_time_2.</p>
+<p>These were the base strata of social relationships in the Tiber Valley around the power to control land. What I wanted was a way to <em>reanimate</em> those networks. What kind of society had these kinds of relationships? I would examine how they evolved, from different starting positions. What I wanted was a simulation.</p>
+<h3 id="what-is-a-model">What is a model?</h3>
 <blockquote>
-<p>ORBIS is a multimodal, seasonally variable transportation network model available at orbis.stanford.edu. The model provides for practically unlimited permutations by allowing users to limit modes, change movement cost, and adjust time of year. However, it is as a more simple network that ORBIS can be usefully integrated into other research, such as historical environmental reconstruction or agent-based modeling set in the Roman world. (Scheidel, Weiland and Arcenas 2014)</p>
+<p>“Essentially, all models are wrong, but some are useful” - <a href="https://en.wikipedia.org/wiki/All_models_are_wrong" target="_blank">George Box</a>.</p>
 </blockquote>
-<p><img src="/docs/support/images/networks/orbis.png"></p>
-<p>Go and play with that website for a moment. You&rsquo;ll see that there is a lot of data tied to those nodes - the individual cities - and the route (road, river, sea) links between them. Using various network statistics underneath the interface, the site is able to give you a sense of some of the lived experience of the Roman empire. But perhaps we&rsquo;d like to know things like, are there any &lsquo;subgraphs&rsquo; in this network? Sometimes we call a network a &lsquo;graph&rsquo;, and so a subgraph is an area within a graph that has structural properties such that it stands out. A network of high school friendships might have subgraphs that represent different friend groups or cliques. With the Roman data, maybe subgraphs carry echos of earlier ethnographic divisions of space. Maybe there are key nodes in the graph, cities that because of their positioning vis-a-vis other cities were in a position to control the flow of information - and maybe that maps onto economic power. A network perspective can be quite illuminating!</p>
-<blockquote>
-<p>With that in mind, this view of the ORBIS network is provided as a simple node and edge list. Nodes are sites and include X and Y coordinates for geographic positioning. Edges have source and target (but no geometry) as well as distance in KM, cost in denarii per kilogram of grain delivered by wagon, and duration of travel in days of each route segment either based on calculated time (for sea routes), fixed speed (for rivers) or 30km/day speed (for roads). The type of the route is also included. (Scheidel, Weiland and Arcenas 2014)</p>
-</blockquote>
-<p>In our workbench, open the week 7 folder and go to the roman-networks.ipynb file. That notebook will show you how to obtain the ORBIS data representing the Roman world and how to do some basic analyses. There is also another computational notebook that shows how to do the same analysis using the R programming language. You might prefer the aesthetics of one approach over another. Finally, there is an opportunity to try those techniques out on some data from a fictional historical 19th century Ontario graveyard.</p>
-<p>For fun, there is also an <code>visualize-pkm.ipynb</code> file that will read in your workbench&rsquo;s pattern of wikilinks and perform some network analysis and visualization on your own notes. Which notes are most central? Which notes would lie on the most paths between any two pair of notes? What ideas would therefore surface for a person who was casually clicking through your notebook? What does that tell you about your experience of digital archaeology so far?</p>
+<p>We build models when we are trying to understand something complex by focussing on the essential elements. A model is always a necessary generalization or simplification of the thing we are trying to study. Let&rsquo;s say we&rsquo;re interested in how birds flock together, how they all seem to &lsquo;know&rsquo; where to go. In fact, when you zoom out a bit, it almost looks like the flock is a creature on its own, right? We might expect that flocking behaviour involves a lot of very complex decisions made by individual birds. And when we think about how we might represent this in a computer, it starts getting really complicated. Each bird, reacting to the other birds, making decisions, going this way rather than that&hellip; we might be tempted to say that some bird has to be the leader, right?</p>
+<p>It turns out, you can specify three simple rules that when implemented by all the birds will give rise to the complexity of a <a href="https://www.livescience.com/animals/birds/watch-thousands-of-starlings-perform-an-incredible-ballet-of-life-and-death-in-new-murmuration-footage" target="_blank">murmuration</a>:</p>
+<ol>
+<li>don&rsquo;t get too close to another bird</li>
+<li>don&rsquo;t stray away too far from another bird</li>
+<li>go along with wherever everyone else is going.</li>
+</ol>
+<p>Three simple rules, implemented by a population of birds where every bird is different and has a different sense of what counts as &rsquo;too close&rsquo; and &rsquo;too far&rsquo; and &lsquo;go more or less this way&rsquo;, and voilà, a complex emergent phenomenon.</p>
+<p>Agent based modeling therefore is a way of building a simulation that focusses on specifying individual rules of behaviour for heterogenous collections of agents (birds, humans, whatever). Each agent is represented in software as its own independent object that implements its rules depending on its local neighborhood - most agent models have an explicitly spatial arrangement (many archaeological ABM will run on top of the data from archaeological GIS, for example).</p>
+<h3 id="the-task">The Task</h3>
+<p>If I am interested in the impact of plague in an ancient society, I write a model that specifies how people interact, and how they individually react to plague - my rules can be informed directly from archaeological or historical evidence. I can design an environment for them to exist in that mimics something crucial about the past, like regional connectivity of cities. Or the daily rhythm of a marketplace. I then set up an experiment where I run the model, the simulation over and over again to account for probability, and I run it multiple times under various conditions. Perhaps I start with a world where individuals are too afraid to travel if they get sick, and I run the simulation. Then I turn the &lsquo;fear&rsquo; dial down by one, and re-run. Eventually I finish where people simply don&rsquo;t care about being sick. What I end up with is a visualization of the entire &rsquo;landscape&rsquo; of behaviours <em>in this model</em>. Then the task is to use what we&rsquo;ve learned to refocus our attention on the actual historical evidence that we have. Where that evidence matches up with particular circumstances in the model we have learned something new!</p>
+<p>I&rsquo;m not trying to turn you in to an agent based modeller. Rather, I&rsquo;m trying to equip you with enough literacy that you can engage with someone else&rsquo;s published model and know if they&rsquo;re pulling the wool over your eyes or not.</p>
+<p>In our workbench this week, I walk you through some examples building progressively more complex models:</p>
+<ul>
+<li>virus on a network (virus-on-a-network.ipynb)</li>
+<li>a foraging society (abm-foraging.ipynb)</li>
+<li>information diffusion on the Roman communications network (abm-on-roman-network.ipynb)</li>
+</ul>
+<p>These three models illustrate powerful ways that our earlier focus on networks can be reanimated with <em>real</em> artificial intelligence. Swarm intelligence. Agents make decisions based on their interpretation of the rules in a given situation. What we as archaeologists examine afterwards are the emergent phenomena that result.</p>
+<p>Explore those models. Read the code carefully to try to understand what is going on. It can be <em>extremely</em> helpful to diagram out how the code works:</p>
+<pre tabindex="0"><code>look_for_neighbouring_birds
+            if I_see_a_bird &gt; my_neighbour_tolerance
+                        adjust_heading 90_degrees
+            if I_see_a_bird &lt; my_lonely_factor
+                        adjust_heading...
+ 
+</code></pre><p>Document your exploration and your observations exploring my models in a note file in your workbench. Feel free to try to tweak the models to see how they behave, how they change, and what that might imply.</p>
+<p>Then, think of an archaeological situation that we&rsquo;ve encountered already in this class and sketch out using the kind of pseudo-code I used in the example above some rules that might model the phenomenon you&rsquo;re interested in. Many archaeologists begin building models this way - sketching out linguistically what a model might do, what the agents might do and their characteristics, and the environment. Wikilink liberally to my examples as necessary.</p>
+<p>{% admonition}
+Many archaeologists use the Netlogo language to design and run their models and experiments. The <a href="https://ccl.northwestern.edu/netlogo/">Netlogo platform and language</a> depends on Java. Rather than give you another thing to download and install, my examples are written in a &lsquo;port&rsquo; of the Netlogo language meant to work with the R programming language, since that is part of our workbench environment already. Another option that people use is the <a href="https://mesa.readthedocs.io/latest/index.html" target="_blank">mesa package for Python</a>. Neltogo is definitely the most accessible approach, since it is closest in syntax and logic to English.
+{%}</p>
+<h3 id="go-further">Go Further</h3>
+<p>I love agent modeling. If you wish to go further, I would strongly recommend that you download <a href="https://ccl.northwestern.edu/netlogo/">netlogo</a> for yourself and explore its suite of example models. It&rsquo;s a dedicated program and language for building agent models and there is a wonderful step-by-step book by Romanowska, Wren, and Crabtree <a href="https://santafeinstitute.github.io/ABMA/#INTRODUCTION" target="_blank">available for free</a> that will enable you to develop your own models from scratch. Alternatively, if you look at the example models, you can often find an existing model that could become the foundation for something archaeological easily enough. That&rsquo;s how I developed some of my published work.</p>
 
       </div>
       
@@ -520,7 +549,17 @@
   <span class="btn-close"><i class="icon icon-close"></i></span>
   <div class="sticky">
     <strong><i class="icon icon-toc"></i> On this page</strong>
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#agent-based-modeling">Agent Based Modeling</a>
+      <ul>
+        <li><a href="#what-is-a-model">What is a model?</a></li>
+        <li><a href="#the-task">The Task</a></li>
+        <li><a href="#go-further">Go Further</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
 </aside>
   </main>
