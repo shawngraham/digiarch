@@ -121,6 +121,13 @@
       <description></description>
     </item>
     <item>
+      <title>Harris Matrix</title>
+      <link>/tags/harris-matrix/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/harris-matrix/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Leaflet</title>
       <link>/tags/leaflet/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
@@ -198,6 +205,13 @@
       <description></description>
     </item>
     <item>
+      <title>Stratigraphy</title>
+      <link>/tags/stratigraphy/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/stratigraphy/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Webmaps</title>
       <link>/tags/webmaps/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
@@ -219,10 +233,17 @@
       <description></description>
     </item>
     <item>
-      <title>Wk7</title>
-      <link>/tags/wk7/</link>
+      <title>Wk6</title>
+      <link>/tags/wk6/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/wk7/</guid>
+      <guid>/tags/wk6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wk9</title>
+      <link>/tags/wk9/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/wk9/</guid>
       <description></description>
     </item>
   </channel>

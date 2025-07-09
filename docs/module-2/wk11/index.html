@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Basic intro">
+  <meta name="description" content="On Reaching other Archaeologists">
 <meta name="author" content="Shawn Graham">
 
-<title>Week 7: Network Analysis · HIST3000|CLCV3000</title>
+<title>Week 11 Data Publishing, Replication, Reproducibility · HIST3000|CLCV3000</title>
 
-<link rel="canonical" href="/docs/materials/wk7-networks/">
+<link rel="canonical" href="/docs/module-2/wk11/">
 
 
 
@@ -255,7 +255,7 @@
 
         
           
-          <a class="sidebar-link " href="/docs/wk11/">
+          <a class="sidebar-link current" href="/docs/wk11/">
             
               Wk11
             
@@ -289,22 +289,22 @@
   <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
 </nav>
       <header id="article-header">
-  <h1>Week 7: Network Analysis</h1>
+  <h1>Week 11 Data Publishing, Replication, Reproducibility</h1>
 </header>
       <div id="article-content">
         
         
-        <p>Network analysis is all about looking at the patterns of relationships we find in our data, and seeing how individual ‘nodes’ are positioned vis-a-vis all the other ones, or what the emergent, macroscopic patterns might imply about how the entire population of &hellip;whatever it is you’re studying&hellip; might experience things like group identity or flows of information.</p>
-<p>We&rsquo;re going to look at the entire Roman road network as represented in the ORBIS geospatial network model of the Roman world: <a href="https://orbis.stanford.edu/" target="_blank">https://orbis.stanford.edu/</a>.</p>
-<blockquote>
-<p>ORBIS is a multimodal, seasonally variable transportation network model available at orbis.stanford.edu. The model provides for practically unlimited permutations by allowing users to limit modes, change movement cost, and adjust time of year. However, it is as a more simple network that ORBIS can be usefully integrated into other research, such as historical environmental reconstruction or agent-based modeling set in the Roman world. (Scheidel, Weiland and Arcenas 2014)</p>
-</blockquote>
-<p><img src="/docs/support/images/networks/orbis.png"></p>
-<p>Go and play with that website for a moment. You&rsquo;ll see that there is a lot of data tied to those nodes - the individual cities - and the route (road, river, sea) links between them. Using various network statistics underneath the interface, the site is able to give you a sense of some of the lived experience of the Roman empire. But perhaps we&rsquo;d like to know things like, are there any &lsquo;subgraphs&rsquo; in this network? Sometimes we call a network a &lsquo;graph&rsquo;, and so a subgraph is an area within a graph that has structural properties such that it stands out. A network of high school friendships might have subgraphs that represent different friend groups or cliques. With the Roman data, maybe subgraphs carry echos of earlier ethnographic divisions of space. Maybe there are key nodes in the graph, cities that because of their positioning vis-a-vis other cities were in a position to control the flow of information - and maybe that maps onto economic power. A network perspective can be quite illuminating!</p>
-<blockquote>
-<p>With that in mind, this view of the ORBIS network is provided as a simple node and edge list. Nodes are sites and include X and Y coordinates for geographic positioning. Edges have source and target (but no geometry) as well as distance in KM, cost in denarii per kilogram of grain delivered by wagon, and duration of travel in days of each route segment either based on calculated time (for sea routes), fixed speed (for rivers) or 30km/day speed (for roads). The type of the route is also included. (Scheidel, Weiland and Arcenas 2014)</p>
-</blockquote>
-<p>In our workbench, open the week 7 folder and go to the roman-networks.ipynb file. That notebook will show you how to obtain the ORBIS data representing the Roman world and how to do some basic analyses.</p>
+        <ul>
+<li><a href="/docs/module-2/wk11/#goals">Goals</a></li>
+<li><a href="/docs/module-2/wk11/#listen">Listen</a></li>
+<li><a href="/docs/module-2/wk11/#read">Read</a></li>
+<li><a href="/docs/module-2/wk11/#do">Do</a></li>
+<li><a href="/docs/module-2/wk11/#reflect">Reflect</a></li>
+<li><a href="/docs/module-2/wk11/#report">Report Back</a></li>
+</ul>
+<p>marwick/quefflic thing
+replicating heloise study?
+figshare?</p>
 
       </div>
       
@@ -481,10 +481,6 @@
     
         
 
-        
-          
-        
-
       
     
         
@@ -493,25 +489,19 @@
           
         
 
-      
-    
         
-
         
-          
-        
-
-      
-    
 
 
 <footer id="article-footer">
-  <time id="article-last-updated" datetime="2025-05-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-05-01</time>
+  <time id="article-last-updated" datetime="0001-01-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 0001-01-01</time>
 
   
-    <a id="article-prev-link" href="/docs/exit-ticket/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+    <a id="article-prev-link" href="/docs/wk10/"><i class="icon icon-prev icon-colored"></i> Prev</a>
   
 
+  
+    <a id="article-next-link"  href="/docs/wk12/">Next <i class="icon icon-next icon-colored"></i></a>
   
 </footer>
     </article>
@@ -584,7 +574,7 @@
 
 <script type="application/javascript">
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js?2025-06-30')
+        navigator.serviceWorker.register('/sw.js?2025-07-09')
             .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
     }
 </script>

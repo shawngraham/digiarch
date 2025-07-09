@@ -16,10 +16,10 @@
       <description>These page draws on, re-work, and replicate portions of the Open Digital Archaeology Textbook Environment section on Databases&#xA;A database is a way of systematically organizing data through carefully designed metadata schemes that describe the nature of the data - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &amp;lsquo;fields&amp;rsquo; of the data in order to discern larger patterns.</description>
     </item>
     <item>
-      <title>Week 7: Network Analysis</title>
-      <link>/docs/materials/wk7-networks/</link>
+      <title>Week 6: Network Analysis</title>
+      <link>/docs/materials/wk6-networks/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk7-networks/</guid>
+      <guid>/docs/materials/wk6-networks/</guid>
       <description>Network analysis is all about looking at the patterns of relationships we find in our data, and seeing how individual ‘nodes’ are positioned vis-a-vis all the other ones, or what the emergent, macroscopic patterns might imply about how the entire population of &amp;hellip;whatever it is you’re studying&amp;hellip; might experience things like group identity or flows of information.&#xA;We&amp;rsquo;re going to look at the entire Roman road network as represented in the ORBIS geospatial network model of the Roman world: https://orbis.</description>
     </item>
   </channel>

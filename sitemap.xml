@@ -74,6 +74,9 @@
     <loc>/tags/graveyard-project/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/harris-matrix/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/leaflet/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -105,6 +108,9 @@
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/sql/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/stratigraphy/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/webmaps/</loc>
@@ -140,7 +146,10 @@
     <loc>/docs/materials/wk5-databases/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/materials/wk7-networks/</loc>
+    <loc>/docs/materials/wk6-networks/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/docs/materials/wk9-harris-matrix/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/wk2/</loc>
@@ -149,7 +158,10 @@
     <loc>/tags/wk5/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/wk7/</loc>
+    <loc>/tags/wk6/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/wk9/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/docs/assessment/</loc>
@@ -185,6 +197,12 @@
     <loc>/docs/module-1/wk1/</loc>
     <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
+    <loc>/docs/module-2/wk10/</loc>
+  </url><url>
+    <loc>/docs/module-2/wk11/</loc>
+  </url><url>
+    <loc>/docs/module-1/wk12/</loc>
+  </url><url>
     <loc>/docs/module-1/wk2/</loc>
     <lastmod>2025-06-13T14:12:01-04:00</lastmod>
   </url><url>
@@ -197,6 +215,10 @@
   </url><url>
     <loc>/docs/module-2/wk6/</loc>
   </url><url>
-    <loc>/docs/module-2/wk7/</loc>
+    <loc>/docs/module-2/wk6/</loc>
+  </url><url>
+    <loc>/docs/module-1/wk8/</loc>
+  </url><url>
+    <loc>/docs/module-2/wk9/</loc>
   </url>
 </urlset>
