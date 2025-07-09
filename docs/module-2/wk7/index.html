@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="On Networks and Simulations">
+  <meta name="description" content="On Machine Learning">
 <meta name="author" content="Shawn Graham">
 
-<title>Week 6 Networks and Simulations · HIST3000|CLCV3000</title>
+<title>Week 7 Machine Learning (or &lsquo;AI&rsquo;, if we must) · HIST3000|CLCV3000</title>
 
-<link rel="canonical" href="/docs/module-2/wk6/">
+<link rel="canonical" href="/docs/module-2/wk7/">
 
 
 
@@ -215,7 +215,7 @@
 
         
           
-          <a class="sidebar-link current" href="/docs/wk6/">
+          <a class="sidebar-link " href="/docs/wk6/">
             
               Wk6
             
@@ -223,7 +223,7 @@
 
         
           
-          <a class="sidebar-link " href="/docs/wk7/">
+          <a class="sidebar-link current" href="/docs/wk7/">
             
               Wk7
             
@@ -289,112 +289,22 @@
   <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
 </nav>
       <header id="article-header">
-  <h1>Week 6 Networks and Simulations</h1>
+  <h1>Week 7 Machine Learning (or &lsquo;AI&rsquo;, if we must)</h1>
 </header>
       <div id="article-content">
         
         
         <ul>
-<li><a href="/docs/module-2/wk6/#goals">Goals</a></li>
-<li><a href="/docs/module-2/wk6/#listen">Listen</a></li>
-<li><a href="/docs/module-2/wk6/#read">Read</a></li>
-<li><a href="/docs/module-2/wk6/#do">Do</a></li>
-<li><a href="/docs/module-2/wk6/#reflect">Reflect</a></li>
-<li><a href="/docs/module-2/wk6/#report">Report Back</a></li>
+<li><a href="/docs/module-2/wk7/#goals">Goals</a></li>
+<li><a href="/docs/module-2/wk7/#listen">Listen</a></li>
+<li><a href="/docs/module-2/wk7/#read">Read</a></li>
+<li><a href="/docs/module-2/wk7/#do">Do</a></li>
+<li><a href="/docs/module-2/wk7/#reflect">Reflect</a></li>
+<li><a href="/docs/module-2/wk7/#report">Report Back</a></li>
 </ul>
-<div class="admonition admonition-info"><div class="admonition-content">
-    In the podcast episode, I talk about what it is I find &rsquo;enchanting&rsquo; about digital archaeology. A lot of that concerns the idea of &rsquo;emergence&rsquo;, that if things are connected together <em>like this</em> then interesting unpredictable things might emerge at a higher level of complexity. Therefore, we&rsquo;ll spend time with networks: first to represent archaeological data, and then as a substrate for computing archaeological data.
-  </div>
-</div>
-<style>
-.admonition {
-  margin: 1.5em 0;
-  padding: 0;
-  border-left: 4px solid;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  overflow: hidden;
-}
-
-.admonition-title {
-  font-weight: bold;
-  padding: 0.75em 1em;
-  margin: 0;
-  color: white;
-}
-
-.admonition-content {
-  padding: 1em;
-  background: #cc9966;
-}
-.admonition-content p:last-child {
-  margin-bottom: 0;
-}
-
- 
-.admonition-note {
-  border-color: #3498db;
-}
-.admonition-note .admonition-title {
-  background: #3498db;
-}
-
- 
-.admonition-warning {
-  border-color: #f39c12;
-}
-.admonition-warning .admonition-title {
-  background: #f39c12;
-}
-
- 
-.admonition-danger, .admonition-error {
-  border-color: #e74c3c;
-}
-.admonition-danger .admonition-title, .admonition-error .admonition-title {
-  background: #e74c3c;
-}
-
- 
-.admonition-success, .admonition-tip {
-  border-color: #27ae60;
-}
-.admonition-success .admonition-title, .admonition-tip .admonition-title {
-  background: #27ae60;
-}
-
- 
-.admonition-info {
-  border-color: #17a2b8;
-}
-.admonition-info .admonition-title {
-  background: #17a2b8;
-}
-</style>
-<h3 id="goals-for-this-week">Goals for this week</h3>
-<p><a name="goals"></a></p>
 <ul>
-<li>Try your hand at network analysis</li>
-<li>Simulate the Roman economy</li>
-<li>Situate this work in an understanding of the potential futures for digital archaeology, but also in the context of current work in archaeology.</li>
-</ul>
-<h3 id="listen">Listen</h3>
-<p><a name="listen"></a></p>
-<iframe src="https://anchor.fm/dr-graham/embed/episodes/HIST3000CLCV3000-Week-7-The-Futures-of-Digital-Archaeology-ejafh5/a-a35hgkt" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-<p>&hellip;Incidentally, by the time you read this, I will have <em>finally</em> published a book with &lsquo;Practical Necromancy&rsquo; in the title&hellip;!</p>
-<h3 id="read">Read</h3>
-<p><a name="read"></a></p>
-<ul>
-<li>Perry S. The Enchantment of the Archaeological Record. European Journal of Archaeology. 2019;22(3):354-371. doi:10.1017/eaa.2019.24 <a href="https://www-cambridge-org.proxy.library.carleton.ca/core/journals/european-journal-of-archaeology/article/enchantment-of-the-archaeological-record/6B71DCDB28D3FABE22660EEA860ED7FE" target="_blank">link</a></li>
-<li>Morgan, Colleen. 2019. Avatars, Monsters, and Machines: A Cyborg Archaeology. European Journal of Archaeology 22.3, 324-337 link</li>
-<li>Kersel, Morag. 2016. ‘Living a Semi-digital Kinda Life’ in Erin Walcek Averett, Jody Michael Gordon, and Derek B. Counts (eds) Mobilizing the Past for a Digital Future: The Potential of Digital Archaeology. Grand Forks: The Digital Press at the University of North Dakota. pp. 475-492. link</li>
-<li>Huggett, J. (2022). Is Less More? Slow Data and Datafication in Archaeology. In K. Garstki (Ed.), Critical Archaeology in the Digital Age (pp. 97–110). UCLA Cotsen Institute of Archaeology Press. <a href="https://escholarship.org/uc/item/0vh9t9jq#page=112" target="_blank">https://escholarship.org/uc/item/0vh9t9jq#page=112</a> (scroll to chapter 6 if that link doesn&rsquo;t quite take you there)</li>
-</ul>
-<h3 id="do">Do</h3>
-<p><a name="do"></a></p>
-<ul>
-<li>Meaning is a function of relationships. Try your hand at archaeological <a href="../../materials/wk6-networks">network analysis</a></li>
-<li>Then we&rsquo;ll build on top of that by creating agents - simulated Romans - on top of that network in an <a href="../../materials/wk6-abm">agent based simulation</a>.</li>
+<li>image classifier (teachable machines? R thing?)</li>
+<li>lanciani</li>
 </ul>
 
       </div>
@@ -410,6 +320,14 @@
   
   
   
+        
+
+        
+          
+        
+
+      
+    
         
 
         
@@ -548,11 +466,11 @@
   <time id="article-last-updated" datetime="0001-01-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 0001-01-01</time>
 
   
-    <a id="article-prev-link" href="/docs/wk5/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+    <a id="article-prev-link" href="/docs/wk6/"><i class="icon icon-prev icon-colored"></i> Prev</a>
   
 
   
-    <a id="article-next-link"  href="/docs/wk7/">Next <i class="icon icon-next icon-colored"></i></a>
+    <a id="article-next-link"  href="/docs/wk8/">Next <i class="icon icon-next icon-colored"></i></a>
   
 </footer>
     </article>
@@ -560,18 +478,7 @@
   <span class="btn-close"><i class="icon icon-close"></i></span>
   <div class="sticky">
     <strong><i class="icon icon-toc"></i> On this page</strong>
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#goals-for-this-week">Goals for this week</a></li>
-        <li><a href="#listen">Listen</a></li>
-        <li><a href="#read">Read</a></li>
-        <li><a href="#do">Do</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </aside>
   </main>
