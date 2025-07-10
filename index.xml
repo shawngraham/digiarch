@@ -90,7 +90,7 @@
       <link>/docs/materials/wk3-sfm-1/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>/docs/materials/wk3-sfm-1/</guid>
-      <description>instructions on taking photos, videos, and why</description>
+      <description>Photogrammetry is the process whereby multiple photographs of an object are stitched together to make a 3d model of the object; the photographs are then draped over the model to make it photorealistic. Because of the physics of photography (focal distances of lenses and so on) a computer can calculate the relative positioning of overlapping points it identifies in multiple photographs, and with a bit of trig it works out the points-in-space.</description>
     </item>
     <item>
       <title>Week 3: Spatial Analysis</title>
@@ -128,11 +128,18 @@
       <description>Network analysis is all about looking at the patterns of relationships we find in our data, and seeing how individual ‘nodes’ are positioned vis-a-vis all the other ones, or what the emergent, macroscopic patterns might imply about how the entire population of &amp;hellip;whatever it is you’re studying&amp;hellip; might experience things like group identity or flows of information.&#xA;We&amp;rsquo;re going to look at the entire Roman road network as represented in the ORBIS geospatial network model of the Roman world: https://orbis.</description>
     </item>
     <item>
+      <title>Week 7: Images and Neural Nets</title>
+      <link>/docs/materials/wk7-images/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk7-images/</guid>
+      <description>When our eyes see an image, various receptors in the retina respond by firing. Some fire in response to various colours. Some fire in response to light and shadow. Imagine that these cells are arranged in layers. If those simple cells in the first layer fire, they pass a signal to the next layer up. The cells in that layer might only fire if they get enough ‘activations’ from the previous layer.</description>
+    </item>
+    <item>
       <title>Week 9: Fun with a Harris Matrix</title>
       <link>/docs/materials/wk9-harris-matrix/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>/docs/materials/wk9-harris-matrix/</guid>
-      <description></description>
+      <description>Stratigraphy &amp;amp; Recording Archaeological Data When we did our graveyard project field work, you were recording all kinds of metadata and data about the graveyard. No digging involved! When we excavate, we pay that same attention to both the data (our observations) and our metadata (observations about our observations) and our process (our paradata). Designing a recording sheet is a critical intervention because in a very real way, if our recording sheets don&amp;rsquo;t have a spot for the information, it doesn&amp;rsquo;t exist.</description>
     </item>
     <item>
       <title>Assessment</title>
@@ -272,7 +279,7 @@
       <link>/docs/module-2/wk7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/module-2/wk7/</guid>
-      <description>Goals Listen Read Do Reflect Report Back Goals for this week Carrying on from our theme last week, we&amp;rsquo;ll explore two more methods that are predicated on using networks as a tool for computation. These kinds of neural network approaches can lead to what I think constitutes &amp;lsquo;an enchantment of digital archaeology&amp;rsquo;, but there is disquiet out there too&amp;hellip;&#xA;Listen Let&amp;rsquo;s change things up with a video this week:</description>
+      <description>Goals Listen Read Do Reflect Report Back Goals for this week Carrying on from our theme last week, we&amp;rsquo;ll explore two more methods that are predicated on using networks as a tool for computation. These kinds of neural network approaches can lead to what I think constitutes &amp;lsquo;an enchantment of digital archaeology&amp;rsquo;, but there is disquiet out there too&amp;hellip; then in the main reading we take digital archaeology into outer space.</description>
     </item>
     <item>
       <title>Week 8 Consolidation II</title>

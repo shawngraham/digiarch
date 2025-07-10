@@ -13,7 +13,7 @@
       <link>/docs/materials/wk3-sfm-1/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>/docs/materials/wk3-sfm-1/</guid>
-      <description>instructions on taking photos, videos, and why</description>
+      <description>Photogrammetry is the process whereby multiple photographs of an object are stitched together to make a 3d model of the object; the photographs are then draped over the model to make it photorealistic. Because of the physics of photography (focal distances of lenses and so on) a computer can calculate the relative positioning of overlapping points it identifies in multiple photographs, and with a bit of trig it works out the points-in-space.</description>
     </item>
   </channel>
 </rss>

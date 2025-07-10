@@ -294,8 +294,90 @@
       <div id="article-content">
         
         
-        <p>instructions on taking photos, videos, and why</p>
+        <p>Photogrammetry is the process whereby multiple photographs of an object are stitched together to make a 3d model of the object; the photographs are then draped over the model to make it photorealistic. Because of the physics of photography (focal distances of lenses and so on) a computer can calculate the relative positioning of overlapping points it identifies in multiple photographs, and with a bit of trig it works out the points-in-space. Then it joins these points up by connecting to the nearest neighbouring points, creating a series of triangles or ‘mesh’.</p>
+<p>A common digital format then for these models is a folder with a .obj file describing the geometry of the object, a .png file with all of the texture information, and a .mtl file that tells the computer how to drape the texture onto the model. Services like <a href="https://sketchfab.com" target="_blank">sketchfab.com</a> let you upload a zip file of such a folder, and then display or annotate the object. Here’s one I did of a gravestone of one of the Moodie family burials:</p>
+<div class="sketchfab-embed-wrapper"> <iframe title="Gravestone2" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c287761136a8421ca9856edf8efd595e/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/gravestone2-c287761136a8421ca9856edf8efd595e?utm_medium=embed&utm_campaign=share-popup&utm_content=c287761136a8421ca9856edf8efd595e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Gravestone2 </a> by <a href="https://sketchfab.com/electricarchaeo?utm_medium=embed&utm_campaign=share-popup&utm_content=c287761136a8421ca9856edf8efd595e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> electricarchaeo </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c287761136a8421ca9856edf8efd595e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;" target="_blank">Sketchfab</a></p></div>
+<p>The general process runs like this:</p>
+<ul>
+<li>image capture: take overlapping images; you want a high degree of overlap. Knowing the ‘interior and exterior’ orientation of the camera - its internal arrangements, including lens distortion, focal length and so on from the metadata bundled with the image, allows software to work out the position of the camera with regard to the points of overlap in the images.</li>
+<li>image matching: tie points are matched and camera orientations are deduced</li>
+<li>dense point cloud generation. The intersection of rays then allows us to work out the location of these points in space</li>
+<li>secondary product generation</li>
+<li>analysis / presentation</li>
+</ul>
+<p><strong>We&rsquo;re not making models <em>just yet</em></strong>. Rather, I want you to take both video and photos of either a gravestone that interests you or a small object you have handy around your home.</p>
+<p>For the video, walk around the gravestone/object such that you capture a view of it from its bottom third, its middle third, and its top third (so go around it three times).</p>
+<p>For the photos, you want to make sure you have a significant amount of overlap between photos; 24 or so will do the trick. Again, make sure that you get coverage from the bottom, middle, and top as best you can. Notice how taking multiple photographs, from multiple angles, really forces you to <em>look</em> at the object&hellip; what do you notice?</p>
+<p>We&rsquo;ll come back to these photos later in the term to try to make a model from them; I will walk you through a notebook that shows how the process all works.</p>
+<div class="admonition admonition-info"><div class="admonition-content">
+    If you&rsquo;re interested, you can sign up for a free account with <a href="https://poly.cam/">Polycam.com</a> and load your photos / video into their service and get very good results. Be careful and avoid signing up for any of their paid services, at least for the purposes of this course; their pop-ups encouraging you to sign up for pro accounts can be closed. We&rsquo;ll talk more about this in <a href="wk10" target="_blank">week 10</a>.
+  </div>
+</div>
+<style>
+.admonition {
+  margin: 1.5em 0;
+  padding: 0;
+  border-left: 4px solid;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
 
+.admonition-title {
+  font-weight: bold;
+  padding: 0.75em 1em;
+  margin: 0;
+  color: white;
+}
+
+.admonition-content {
+  padding: 1em;
+  background: #cc9966;
+}
+.admonition-content p:last-child {
+  margin-bottom: 0;
+}
+
+ 
+.admonition-note {
+  border-color: #3498db;
+}
+.admonition-note .admonition-title {
+  background: #3498db;
+}
+
+ 
+.admonition-warning {
+  border-color: #f39c12;
+}
+.admonition-warning .admonition-title {
+  background: #f39c12;
+}
+
+ 
+.admonition-danger, .admonition-error {
+  border-color: #e74c3c;
+}
+.admonition-danger .admonition-title, .admonition-error .admonition-title {
+  background: #e74c3c;
+}
+
+ 
+.admonition-success, .admonition-tip {
+  border-color: #27ae60;
+}
+.admonition-success .admonition-title, .admonition-tip .admonition-title {
+  background: #27ae60;
+}
+
+ 
+.admonition-info {
+  border-color: #17a2b8;
+}
+.admonition-info .admonition-title {
+  background: #17a2b8;
+}
+</style>
       </div>
       
 
@@ -574,7 +656,7 @@
 
 <script type="application/javascript">
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js?2025-07-09')
+        navigator.serviceWorker.register('/sw.js?2025-07-10')
             .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
     }
 </script>

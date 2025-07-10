@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wk7 on HIST3000|CLCV3000</title>
+    <link>/tags/wk7/</link>
+    <description>Recent content in Wk7 on HIST3000|CLCV3000</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/wk7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 7: Images and Neural Nets</title>
+      <link>/docs/materials/wk7-images/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk7-images/</guid>
+      <description>When our eyes see an image, various receptors in the retina respond by firing. Some fire in response to various colours. Some fire in response to light and shadow. Imagine that these cells are arranged in layers. If those simple cells in the first layer fire, they pass a signal to the next layer up. The cells in that layer might only fire if they get enough ‘activations’ from the previous layer.</description>
+    </item>
+  </channel>
+</rss>

@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Instructions for doing the alternative graveyard survey.">
+  <meta name="description" content="Image Similarity and Embeddings">
 <meta name="author" content="Shawn Graham">
 
-<title>Week 2: Alternative Project · HIST3000|CLCV3000</title>
+<title>Week 7: Images and Neural Nets · HIST3000|CLCV3000</title>
 
-<link rel="canonical" href="/docs/materials/wk2-alternative-project/">
+<link rel="canonical" href="/docs/materials/wk7-images/">
 
 
 
@@ -289,87 +289,20 @@
   <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
 </nav>
       <header id="article-header">
-  <h1>Week 2: Alternative Project</h1>
+  <h1>Week 7: Images and Neural Nets</h1>
 </header>
       <div id="article-content">
         
         
-        <p>It may be that it is not feasible for you to go out into your community and visit a local graveyard for the purposes of this course. If this is you, please just send me a note saying that you&rsquo;ll be doing the alternative. I don&rsquo;t need a reason why; I can imagine several different scenarios where an alternative might be necessary, so we&rsquo;ll roll with it.</p>
-<p>The alternative I&rsquo;ve crafted below might cause us hiccups and roadblocks or other unforseen difficulties. <strong>That&rsquo;s OK</strong>. No archaeological project ever goes off perfectly without a hitch. Adapting and working through the consequences is part of the point.</p>
-<p>For this alternative project, you&rsquo;ll capture data that has already escaped online, principally into the <a href="https://findagrave.com">findagrave.com</a> website. I still want you to use the same <a href="../../materials/wk2-do-the-project" target="_blank">recording framework</a> as the main project. In subsequent weeks, you&rsquo;ll read the main instructions and just adapt/adopt accordingly - you will want to consult with other students who are trying the same thing, and with me. There will be situations where this is easy; there will be situations where this is hard; there will be situations where it all breaks.</p>
-<p><strong>That&rsquo;s OK</strong></p>
-<p>In essence, the only difference between the &lsquo;main&rsquo; project and this alternative is the <em>site</em> of your research. Let&rsquo;s call it:</p>
-<h2 id="the-virtual-grave-project">The Virtual Grave Project</h2>
-<p>I want you to use <a href="https://findagrave.com">findagrave.com</a> to locate historical graveyards near you. Find some, and save the photographs to your own machine (right-click on a photo, &lsquo;save as&rsquo;). I want you to work from the photographs of stones and <a href="../../materials/wk2-do-the-project">record them in our system</a>. In this way, we bring the site to you. (You might also want to look at <a href="https://billiongraves.com/" target="_blank">billion graves</a> as another possible &lsquo;site&rsquo;.)</p>
-<div class="admonition admonition-warning"><div class="admonition-content">
-    Now, as we progress through the course, some of what I might suggest you do won&rsquo;t necessarily be feasible with this particular data. Sometimes it might; it&rsquo;ll just require a bit of creative thinking. <strong>If you venture down this path</strong> know that this will require some flexibility and we&rsquo;ll figure it out together.
-  </div>
-</div>
-<style>
-.admonition {
-  margin: 1.5em 0;
-  padding: 0;
-  border-left: 4px solid;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  overflow: hidden;
-}
+        <p><img src="https://media.giphy.com/media/LXRhyTjXJEUmQG1NrT/giphy.gif"></p>
+<p>When our eyes see an image, various receptors in the retina respond by firing. Some fire in response to various colours. Some fire in response to light and shadow. Imagine that these cells are arranged in layers. If those simple cells in the first layer fire, they pass a signal to the next layer up. The cells in that layer might only fire if they get enough ‘activations’ from the previous layer. Each layer in turn receives the input of more and more complicated patterns of connections from the previous layer. Eventually, the brain receives the signal.</p>
+<p>A biologist might read that paragraph, and shudder. Neural networks have long been around in the field of artificial intelligence, and they’ve been modelled after that simple analogy. Since about 2012 or so, the field of neural networks has exploded with the raw computing power of commercial grade GPUs. The key to the recent explosion has been this combination of raw computing power, large million image datasets, and the idea of allowing inputs to back propogated along the network: basically, if you put enough images of a dog in front of the neural network, the average pattern of connection and firing could be labelled ‘dog’; then if a picture of, say, a cat was put in front of the network, the distance or similarity of the firing could be compared to that we know for ‘dog’ and a score computed. Put enough pictures of cats in front of the neural network, and the network learns what ‘cats’ look like.</p>
+<p>I simplify enormously, of course, but that’s the gist. The neat thing is, once you’ve got a network trained on thousands of different kinds of things - which takes enormous computing power and resources - you can retrain just the last layer of the network with new data, to teach it what something looks like that it wasn’t trained on. Retrain the network on pictures of Roman pottery, and it will learn what different kinds of Roman pottery look like (but you can’t use it for dogs any more). The network lights up in a particular way when it encounters pictures of verenice nera, and we can say: this pattern = verenice nera, with a given probability.</p>
+<p>(For a discussion on the use of neural networks in archaeology, see Baxter 2014).</p>
+<p>Indeed, you don’t even need to have labelled categories of things for a pretrained neural network to be useful. The Yale DH Lab uses a neural network without that final layer to find image similarity: it shows images to the network, and computes the distance between how the network lights up for one image versus a different image. This distance can then be expressed in two-dimensional space, and you end up with a visualization of visual similarity!</p>
+<p>The two ipynb files in the week 7 workbench walk you through an image classifier, and image similarity, using a dataset from POTSHERD: The Atlas of Roman Pottery. Do the <code>image-classifier.ipynb</code> as it also contains the code to grab the data.</p>
+<p>Try going further by swapping in your own images! What kinds of archaeological things might we want to do now that we have this ability? Go to <a href="https://openalex.org">openalex.org</a> and search out what archaeologists are up to in this domain (and you might also take a peak at <a href="https://scrollprize.org/" target="_blank">the Vesuvius Challenge</a>, which uses technologies that have their roots in what you&rsquo;re doing this week.)</p>
 
-.admonition-title {
-  font-weight: bold;
-  padding: 0.75em 1em;
-  margin: 0;
-  color: white;
-}
-
-.admonition-content {
-  padding: 1em;
-  background: #cc9966;
-}
-.admonition-content p:last-child {
-  margin-bottom: 0;
-}
-
- 
-.admonition-note {
-  border-color: #3498db;
-}
-.admonition-note .admonition-title {
-  background: #3498db;
-}
-
- 
-.admonition-warning {
-  border-color: #f39c12;
-}
-.admonition-warning .admonition-title {
-  background: #f39c12;
-}
-
- 
-.admonition-danger, .admonition-error {
-  border-color: #e74c3c;
-}
-.admonition-danger .admonition-title, .admonition-error .admonition-title {
-  background: #e74c3c;
-}
-
- 
-.admonition-success, .admonition-tip {
-  border-color: #27ae60;
-}
-.admonition-success .admonition-title, .admonition-tip .admonition-title {
-  background: #27ae60;
-}
-
- 
-.admonition-info {
-  border-color: #17a2b8;
-}
-.admonition-info .admonition-title {
-  background: #17a2b8;
-}
-</style>
       </div>
       
 
@@ -583,11 +516,7 @@
   <span class="btn-close"><i class="icon icon-close"></i></span>
   <div class="sticky">
     <strong><i class="icon icon-toc"></i> On this page</strong>
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#the-virtual-grave-project">The Virtual Grave Project</a></li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </aside>
   </main>
