@@ -128,6 +128,20 @@
       <description>Network analysis is all about looking at the patterns of relationships we find in our data, and seeing how individual ‘nodes’ are positioned vis-a-vis all the other ones, or what the emergent, macroscopic patterns might imply about how the entire population of &amp;hellip;whatever it is you’re studying&amp;hellip; might experience things like group identity or flows of information.&#xA;We&amp;rsquo;re going to look at the entire Roman road network as represented in the ORBIS geospatial network model of the Roman world: https://orbis.</description>
     </item>
     <item>
+      <title>Week 7: Generative AI</title>
+      <link>/docs/materials/wk7-generative-ai/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk7-generative-ai/</guid>
+      <description>Forget what you&amp;rsquo;ve heard about language models and AI, or what you already think you know, ok?&#xA;First of all, archaeology has been using machine learning for years; up until quite recently, you could say &amp;lsquo;ai&amp;rsquo; and be understood that you were talking about things like agent based modeling or computer vision analysis and so on.&#xA;There is no such thing as artificial general intelligence.&#xA;The version of &amp;lsquo;ai&amp;rsquo; that uses neural networks to represent statistical associations between words and then welds a chat bot on top of it to create the illusion of intelligence has a lot of marketing dollars behind it.</description>
+    </item>
+    <item>
+      <title>Week 7: Generative AI - RAG</title>
+      <link>/docs/materials/wk7-rag/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk7-rag/</guid>
+      <description>Computer, how does the stratigraphy of building A relate to that of building B? The ability to ask questions of our data using our everyday language is the StarTrek dream, isn’t it. ‘Computer, when and how was this site abandoned?’ ‘Computer, identify the logical inconsistencies in this stratigraphy’. ‘Computer, what is the relationship between phase 4 and the area B group?’ Things like that.&#xA;Generative AI sure does sound like a human, right?</description>
+    </item>
+    <item>
       <title>Week 7: Images and Neural Nets</title>
       <link>/docs/materials/wk7-images/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
