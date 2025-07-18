@@ -51,6 +51,13 @@
       <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation.&#xA;The sequence of steps below might be a bit different by the time you read this; Github often mucks about with its look and feel. Examine the steps first, and if what you encounter is a bit different than this, you should be able to work out the basic actions to take from this walk-through.</description>
     </item>
     <item>
+      <title>Week 10: Static Site Generator</title>
+      <link>/docs/materials/wk10-site-generator/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk10-site-generator/</guid>
+      <description>In the beginning Once upon a time, websites were simple text files that used tags: &amp;lt;html&amp;gt; to tell a browser how to display text. Then, things got more complicated with the emergence of .css files that would tell the browser how to style the text marked up with the relevant tags. Headers should be displayed like this; bullets like that. Then, javascript files (.js) could be used to mark up the text files so that the browser would know how to do various kinds of interactivity or special effects.</description>
+    </item>
+    <item>
       <title>Week 2: Alternative Project</title>
       <link>/docs/materials/wk2-alternative-project/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
@@ -237,7 +244,7 @@
       <link>/docs/module-3/wk10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/module-3/wk10/</guid>
-      <description> Goals Listen Read Do Reflect Report Back listen - old wk 11 creativity? needs editing&#xA;3d photogrammetry website with pelican. 3d objects in it? storymaps? see https://storymaps.arcgis.com/stories/47f520f8a244442cb13fc605ee8d95ac (storymap.js?) Too bad mural is dead. </description>
+      <description>Goals Listen Read Do Reflect Report Back listen - old wk 11 creativity? needs editing&#xA;Goals for this week Listen Read Do Learn the basic theory of structure-from-motion with the photogrammetry-intro.ipnb in your week 10 workbench. Build a static site generator with Pelican I&amp;rsquo;m not going to ask you to build a storymap, although I used to. It&amp;rsquo;s getting towards the end of term and I don&amp;rsquo;t want to clobber you.</description>
     </item>
     <item>
       <title>Week 11 Data Publishing, Replication, Reproducibility</title>

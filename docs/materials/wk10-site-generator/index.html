@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="static sites">
+<meta name="author" content="Shawn Graham">
+
+<title>Week 10: Static Site Generator · HIST3000|CLCV3000</title>
+
+<link rel="canonical" href="/docs/materials/wk10-site-generator/">
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/docs.min.691537ffa13ee529512f90fe40656ee95f4c3eeb59f1130fbf66480ab7fa465d.css" integrity="">
+
+
+
+
+  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
+  
+  <link rel="stylesheet" href="/css/component/docsearch.min.614fea5cfa814740238ac556e7a0d336d660b5bd2d325ce2c695ad8ba1ee3020.css" integrity=""/>
+
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/img/icon/favicon.ico">
+<link rel="icon" href="/img/icon/icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/img/icon/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon/icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#fffff5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+
+
+  
+
+  </head>
+  <body>
+    <header id="site-header">
+  
+  <div id="site-header-brand">
+    <a href="/">HIST3000|CLCV3000</a>
+  </div>
+
+  
+  <div id="site-header-controls">
+    
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="menu" aria-label="theme selector">
+        <i class="icon icon-brightness"></i>
+        <i class="icon icon-select"></i>
+      </button>
+      <ul role="menu" class="dropdown-menu">
+        <li role="menuitem"><button class="color-scheme" data-value="light"><i class="icon icon-light-mode"></i> Light</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="dark"><i class="icon icon-dark-mode"></i> Dark &nbsp;</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="night"><i class="icon icon-night-mode"></i> Night</button></li>
+      </ul>
+    </div>
+
+    
+ 
+  </div>
+
+  
+  <div id="site-header-menu">
+    <nav>
+      <ul>
+        
+        
+        
+          
+          <li><a href="/" ><i class='icon icon-home'></i>Home</a></li>
+        
+          
+          <li><a href="/docs"  class="active"><i class='icon icon-book'></i>Documentation</a></li>
+        
+          
+          <li><a href="https://shawngraham.github.io" ><i class='icon icon-head'></i>Professor Graham</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  
+</header>
+    
+<div id="site-main-content-wrapper">
+  
+  
+    
+
+
+<aside id="sidebar">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+
+  <div class="sticky"><strong class="sidebar-section">📖 Syllabus</strong>
+          
+          <a class="sidebar-link " href="/docs/first-things-first/">
+            
+              First Things First
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/general-philosophy/">
+            
+              General Philosophy
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/learning-outcomes/">
+            
+              Learning Outcomes
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/the-graveyard-project/">
+            
+              The Graveyard Project
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/assessment/">
+            
+              Assessment
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/faq/">
+            
+              FAQ
+            
+          </a>
+
+        <strong class="sidebar-section">⛏️ Course Work Overview</strong>
+          
+          <a class="sidebar-link " href="/docs/module-1/">
+            
+              Module 1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-2/">
+            
+              Module 2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-3/">
+            
+              Module 3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        <strong class="sidebar-section">🏺 Week By Week</strong>
+          
+          <a class="sidebar-link " href="/docs/wk1/">
+            
+              Wk1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk2/">
+            
+              Wk2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk3/">
+            
+              Wk3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk4/">
+            
+              Wk4
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk5/">
+            
+              Wk5
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk6/">
+            
+              Wk6
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk7/">
+            
+              Wk7
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk8/">
+            
+              Wk8
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk9/">
+            
+              Wk9
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk10/">
+            
+              Wk10
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk11/">
+            
+              Wk11
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk12/">
+            
+              Wk12
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        
+  </div>
+</aside>
+
+  
+  <main>
+    <article id="article">
+      <nav id="article-nav">
+  <button id="article-nav-menu-btn"><i class="icon icon-menu"></i> On this section</button>
+  <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
+</nav>
+      <header id="article-header">
+  <h1>Week 10: Static Site Generator</h1>
+</header>
+      <div id="article-content">
+        
+        
+        <h1 id="in-the-beginning">In the beginning</h1>
+<p>Once upon a time, websites were simple text files that used tags: <code>&lt;html&gt;</code> to tell a browser how to display text. Then, things got more complicated with the emergence of <code>.css</code> files that would tell the browser how to style the text marked up with the relevant tags. Headers should be displayed like this; bullets like that. Then, javascript files (<code>.js</code>) could be used to mark up the text files so that the browser would know how to do various kinds of interactivity or special effects.</p>
+<p>Then things started getting really complicated, including generating a website dynamically with content from a database. In fact, I lost my first project here at Carleton University because the website I built to handle user-generated submissions wasn&rsquo;t secure: a webform on the site could have malicious code put into it which, when saved to my database, caused the database to execute spam.</p>
+<p>Which brings me to the idea of a &lsquo;static&rsquo; site. The simple idea is, we return to the way the web used to work: a stack of files that do not connect to a database etc when the user visits the website. Instead, the website is built once on my own computer and then those complete html pages are what the visitor sees. If you&rsquo;ve ever used Squarespace or Wordpress to host a website, this is emphatically not all that! Those services use several layers of interface to store your writing in their databases and to only build and serve your site when someone visits it. Static sites therefore can be more secure and easier for you to control. For public archaeology or history, or for communicating the results of a research project, static sites are ideal (they are also easier to archive, because you can deposit all of the files in a digital archive and a person will not need anything fancy to view them again).</p>
+<p>A static site doesn&rsquo;t mean you can&rsquo;t have a way of managing your content and your images etc; it just means that these are on your own computer. The only thing that ever gets exposed to the web are the finished html pages. There are a variety of ways of putting those finished html online. You could have your own webspace and you just use some kind of file transfer to put them there. You can use a special modification of a github repository. You can use Netlify&rsquo;s &lsquo;drop&rsquo; feature. You could use similar services from elsewhere.</p>
+<h1 id="static-site-generators">Static Site Generators</h1>
+<p>If you search for the phrase &lsquo;static site generator&rsquo;, you will find <em>a lot</em> of &rsquo;engines&rsquo; that you can install to do it. You&rsquo;ll encounter something called Jekyll, or Hugo, or Ghost. These are all fine, but can get very complicated very quickly. Some generators require a language called &lsquo;Go&rsquo;, others &lsquo;Ruby&rsquo;, and so on. This can lead to dependency hell, so you have to make sure to set things up carefully. And frankly, I loathe Jekyll.</p>
+<p>We&rsquo;re going to use a generator called &lsquo;Pelican&rsquo; because it uses Python, which we&rsquo;ve already installed. We&rsquo;re going to use our workbench here - the ability to write Markdown - as the environment for writing our content. But to build the site, you&rsquo;re going to use a feature of Jupyter Desktop that we haven&rsquo;t explored yet, the console.</p>
+<h2 id="the-console-aka-terminal">The Console aka Terminal</h2>
+<p>The console is a way of interacting with your computer through text commands. We&rsquo;re going to execute some <code>pip</code> commands to get the Pelican site generator installed.</p>
+<p>To open the terminal, click on the <code>+</code> button at the top left of the JupyterLab Desktop interface (ie, our workbench); this will open JupyterLab Desktop&rsquo;s &rsquo;launcher&rsquo;. Click on the &rsquo;terminal&rsquo; icon. You should now have a new tab open that looks like this:</p>
+<p><img src="/docs/support/images/terminal-with-pelican.png"></p>
+<p>When you are working in the terminal, you type commands at the &lsquo;prompt&rsquo;, which here looks like &lsquo;%&rsquo; (in other settings, it can look like $ or &gt;). When you type in a command and hit enter, the computer looks through all of the commands it knows and tries to execute the command when it finds it. Then it will return any output. This <em>can</em> mean that a command that results in <em>no output</em> can run successfully, but the only indication of this that you will receive will be just a new %, so be aware of that.</p>
+<p>Let&rsquo;s run a test command. The convention for showing you a command will be to write it like this: <code>% command</code>. <em>You don&rsquo;t type the %</em> ok? Now try this, at the terminal prompt:</p>
+<p><code>% pwd</code></p>
+<p>This command stands for &lsquo;Print Working Directory&rsquo;. It should give you the path or sequence of folder/subfolder/sub-subfolder etc where the terminal is currently working in. In our case, it should end with <code>/week-10</code>.</p>
+<p>If you typed <code>% python --version</code> what do you think would result?</p>
+<p>There are a lot of commands that you enter and even string together so that the output of one command becomes the input of another. We won&rsquo;t be doing much (or any) of that here in this course, but it&rsquo;s good to be aware of. Some other basic commands:</p>
+<p><code>% cd</code> -&gt; this command &lsquo;Changes Directory&rsquo; and can be used to move up or down the sequence of folders/subfolders.
+<code>% cat &lt;name-of-a-file.extension&gt;</code> will show you to contents of a file (it &lsquo;conCATenates&rsquo; the file&rsquo;s content to the terminal.)
+<code>% ls</code> will LiSt the contents of a folder.</p>
+<h3 id="install-pelican">Install Pelican</h3>
+<p>We&rsquo;re going to install <a href="https://getpelican.com/" target="_blank">Pelican</a> now. At the command prompt:</p>
+<p><code>% python -m pip install &quot;pelican[markdown]&quot; --ignore-installed blinker</code></p>
+<p>You might get some warnings, but those can be ignored. Now we&rsquo;ll add a plugin that will allow us to use the wikilink syntax for markdown to create links between pages:</p>
+<p><code>% pip install minchin.pelican.plugins.wikilinks</code></p>
+<p>We&rsquo;re eventually going to use Github&rsquo;s &lsquo;Pages&rsquo; feature to make this website live on the web. Github uses Jekyll to build a website for us, but we don&rsquo;t want that, so we&rsquo;ll add a plugin to our site that will add the necessary code to our finished site to tell Github not to do that.</p>
+<p><code>% pip install minchin.pelican.plugins.nojekyll</code></p>
+<h3 id="configure-your-site">Configure Your Site</h3>
+<p>We&rsquo;re ready to go. We&rsquo;re going to run the first command that will generate all of the necessary files and some basic configuration to get our site up and running:</p>
+<p><code>% pelican-quickstart</code></p>
+<p>This command will ask you a series of questions; answer them the way I have below (of course, <em>you&rsquo;re</em> the author of the site). The answer to the first question will also suggest the answer <code>[.]</code>; hit enter to accept it (the dot means, &lsquo;right here&rsquo;). Then proceed to answer the rest of the questions appropriately.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">&gt; Where do you want to create your new web site? [.] 
+</span></span><span class="line"><span class="cl">&gt; What will be the title of this web site? demo-test
+</span></span><span class="line"><span class="cl">&gt; Who will be the author of this web site? S Graham
+</span></span><span class="line"><span class="cl">&gt; What will be the default language of this web site? [en] en
+</span></span><span class="line"><span class="cl">&gt; Do you want to specify a URL prefix? e.g., https://example.com   (Y/n) n
+</span></span><span class="line"><span class="cl">&gt; Do you want to enable article pagination? (Y/n) n
+</span></span><span class="line"><span class="cl">&gt; What is your time zone? [Europe/Rome] Montreal
+</span></span><span class="line"><span class="cl">Please enter a valid time zone:
+</span></span><span class="line"><span class="cl"> (check [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones])
+</span></span><span class="line"><span class="cl">&gt; What is your time zone? [Europe/Rome] CA
+</span></span><span class="line"><span class="cl">Please enter a valid time zone:
+</span></span><span class="line"><span class="cl"> (check [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones])
+</span></span><span class="line"><span class="cl">&gt; What is your time zone? [Europe/Rome] America/Montreal
+</span></span><span class="line"><span class="cl">&gt; Do you want to generate a tasks.py/Makefile to automate generation and publishing? (Y/n) n
+</span></span></code></pre></div><p><img src="/docs/support/images/terminal-with-pelican2.png"></p>
+<h3 id="add-some-content">Add Some Content</h3>
+<p>Notice now that you have a subfolder in your week-10 folder called &lsquo;content&rsquo;, and another one called &lsquo;output&rsquo;. Let&rsquo;s give your new website some content!</p>
+<p>Double-click on the <code>/content</code> folder. Then, using the launcher (the <code>+</code>), create a new markdown file. Call it <code>2025_07_16_first-article.md</code> (or modify for today&rsquo;s date; putting the date in the title helps keep things sorted and organized on your computer). Here&rsquo;s what should go in it:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">Title: My First Article
+</span></span><span class="line"><span class="cl">Date: 2025-07-16 10:44
+</span></span><span class="line"><span class="cl">Category: getting-started
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gh"># Look I made a website!
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl">Welp, here goes nuthin&#39;!
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">+ this is a bullet point
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Here&#39;s a [<span class="nt">link to an external webpage</span>](<span class="na">https://example.com</span>).
+</span></span></code></pre></div><p>The first three lines of this file are its <em>metadata</em> for &lsquo;Title&rsquo;, &lsquo;Date&rsquo;, and &lsquo;Category&rsquo;. The site generator uses that information to figure out how to format the look and feel of the eventual webpage, the patterns for the URLs, the use of tags and so on. Save that file.</p>
+<p>Go back to the terminal. We&rsquo;re going to re-build the website now with your new content, but first we have to clean up a <em>hidden</em> folder (you know it&rsquo;s hidden because it uses a dot at the start of the file name, and your Finder or Explorer on your machine won&rsquo;t show it to you by default as a result) that JupyterLab Desktop made in your &lsquo;content&rsquo; folder when you saved your content (nb, this is just because we&rsquo;re writing our stuff here. If you were using a text editor like Sublime Text or Notepad++ you wouldn&rsquo;t have a hidden folder and so wouldn&rsquo;t need to run the <code>rm</code> command).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">% rm -rf content/.ipynb_checkpoints 
+</span></span><span class="line"><span class="cl">% pelican
+</span></span></code></pre></div><p>The first line, after you hit &rsquo;enter&rsquo;, ReMoves the hidden subfolder at content/.ipynb_checkpoints. Then the <code>%</code> appears, because there is no default confirmation message when the <code>rm</code> command runs successfully. The next command, <code>pelican</code> tells the site generator to read all of the markdown files in the <code>/content</code> folder, parse them to turn them into html, and write the output to the <code>/output</code> folder. If you double-click on &lsquo;output&rsquo; in our file tray, you&rsquo;ll see all of the pieces of your site!</p>
+<h3 id="serve-your-site">Serve Your Site</h3>
+<p>A &lsquo;server&rsquo; is a special piece of software that understands how to make a website available to a webbrowser. We also call a dedicated computer that has this sole task as a &lsquo;server&rsquo;. Python has a server built into it, so we&rsquo;re going to now run the server so we can see the website in your browser. At the terminal:</p>
+<p><code>python -m http.server 5001 --directory output</code></p>
+<p>This says, &lsquo;hey python! Use your module called http.server to show us the website in the output directory on channel 5001. In your webbrowser (chrome, firefox, safari, edge, etc), put this url into the browser: <code>localhost:5001</code> or this equivalent: <code>http://127.0.0.1:5001/</code>. This tells your browser NOT to go on the web, but to listen to the local computer (your computer) for any web signals being broadcast on port (channel) 5001. In the terminal, you&rsquo;ll see this kind of thing:</p>
+<p><img alt="screenshot of terminal with http commands"></p>
+<p>When you click on a link, you&rsquo;ll see the hidden commands that the browser is sending to the server to GET new content. Neat eh?</p>
+<p>To stop this, hit ctrl+c to exit.</p>
+<h3 id="pick-a-better-theme">Pick a better theme</h3>
+<p>Pretty ugly though, eh? If you search on Github or elsewhere for &lsquo;pelican themes&rsquo;, you might find something interesting. For instance, there&rsquo;s a theme called <a href="https://nairobilug.github.io/pelican-alchemy/">Alchemy</a> which looks nice; I also like the <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex theme</a>. If you go to either of those, you&rsquo;ll see that they&rsquo;re hosted on Github. Under the green &lsquo;code&rsquo; button there&rsquo;s a &lsquo;Download Zip&rsquo; link. You can right-click and &lsquo;copy link&rsquo;. Then, you can use the <code>curl</code> command with the <code>-LJO</code> flag to download the theme folder, like so:</p>
+<pre tabindex="0"><code>% curl -LJO https://github.com/nairobilug/pelican-alchemy/archive/refs/heads/master.zip
+% unzip pelican-alchemy-master.zip  
+</code></pre><p>Then, double click on <code>pelicanconf</code> and change it to point to the new theme:</p>
+<pre tabindex="0"><code>AUTHOR = &#34;your name&#34;
+SITENAME = &#34;Pelican Collection Demo&#34;
+SITEURL = &#34;&#34;
+
+THEME = &#34;pelican-alchemy/master/alchemy&#34;
+</code></pre><p>Things you can add to the pelicanconf.py file to style your site more nicely: see <a href="https://github.com/nairobilug/pelican-alchemy/blob/master/docs/settings.md" target="_blank">its settings page</a>.</p>
+<p>Then, remember to type <code>% pelican</code> to rebuild your site, and then serve it to see how it looks. Experiment with different themes. Try making a website that documents your adventures in the field during the graveyard project portion of the course.</p>
+<p>There are other static site generators out there. One common one that uses Python as well is <a href="https://mkdocs.org" target="_blank">mkdocs</a>.</p>
+<h3 id="putting-it-online">Putting it online</h3>
+<p>You have some options here to try.</p>
+<p>Option 1: <a href="https://app.netlify.com/drop" target="_blank">Netlify Drop</a> Go to that website, and drag and drop the <code>output</code> folder created by Pelican. Netlify will make a URL and provide hosting for your site for one hour. If you like what you see, you can sign up for a free account and change the url to something more sensible and make it available on the web for all.</p>
+<p>Option 2: <a href="https://github.com" target="_blank">Github Pages</a>. When signed into Github, go to your account (ie, in my case, github.com/shawngraham) and hit the <code>+</code> to create a new repository.</p>
+<ul>
+<li>Give it a name;</li>
+<li>make it public;</li>
+<li>initialize it with a readme.</li>
+<li>Then hit the <code>add file</code> button, <code>upload files</code> and select everything <em>inside</em> your <code>output</code> folder.</li>
+<li>Once those files are uploaded, hit the green commit button.</li>
+</ul>
+<p>Then, click on the cogwheel icon for settings (across the top; not the one beside &lsquo;About&rsquo;).</p>
+<ul>
+<li>click on &lsquo;pages&rsquo;</li>
+<li>Under &lsquo;Build and Deployment&rsquo;, where it says &lsquo;Source&rsquo; make sure it says &lsquo;Deploy from a branch&rsquo;.</li>
+<li>Where it says &lsquo;Branch&rsquo;, hit the drop down and change it to say &lsquo;main&rsquo;. Hit &lsquo;save&rsquo;.</li>
+<li>Wait. Go get a coffee. Come back in five minutes.</li>
+<li>REFRESH the page (ie, reload it. Hit ctrl+r).</li>
+<li>The direct URL to your site will be displayed. Click that: congratulations, you&rsquo;ve built a website!</li>
+</ul>
+<h3 id="going-furthermake-a-collections-site">Going Further:Make A Collections Site</h3>
+<p>There are static site builders out there meant expressly for putting cultural heritage materials online with appropriate metadata. I made a <a href="https://cuhistory.github.io/grads/">site to showcase past student MA and PhD theses</a> with a tool called <a href="https://collectionbuilder.github.io/" target="_blank">Collection Builder</a>. So will you.</p>
+<p>They use a different approach to what we&rsquo;ve just done. With Pelican, you had the engine on your own machine. With Collection Builder, they use a special file called a &lsquo;workflow&rsquo; that tells Github Pages how to use their templates to transform a CSV file of metadata into a site. I want you to <a href="https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/gh-walkthrough/" target="_blank">follow their tutorial using their metadata and assets</a>.</p>
+<p>Then, I want you to ADD your own materials to the site you build with collection builder. Showcase some of the things you&rsquo;ve done in this class. Then, document the work of expanding the Collection Builder this way, and add that documentation to your weekly repository logs, and share the URL with me. See how much you can customize for yourself.</p>
+
+      </div>
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+
+
+<footer id="article-footer">
+  <time id="article-last-updated" datetime="2025-05-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-05-01</time>
+
+  
+    <a id="article-prev-link" href="/docs/exit-ticket/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+  
+
+  
+</footer>
+    </article>
+    <aside id="toc">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+  <div class="sticky">
+    <strong><i class="icon icon-toc"></i> On this page</strong>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-console-aka-terminal">The Console aka Terminal</a>
+      <ul>
+        <li><a href="#install-pelican">Install Pelican</a></li>
+        <li><a href="#configure-your-site">Configure Your Site</a></li>
+        <li><a href="#add-some-content">Add Some Content</a></li>
+        <li><a href="#serve-your-site">Serve Your Site</a></li>
+        <li><a href="#pick-a-better-theme">Pick a better theme</a></li>
+        <li><a href="#putting-it-online">Putting it online</a></li>
+        <li><a href="#going-furthermake-a-collections-site">Going Further:Make A Collections Site</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</aside>
+  </main>
+</div>
+
+    <footer id="site-footer">
+  
+  <div id="site-footer-copyright">
+<a href="https://github.com/shawngraham/digiarch" target="_blank">
+  <img src="/docs/support/cc.png" alt="Creative Commons License">
+  2025 Shawn Graham
+</a>
+  </div>
+
+  
+  <div id="site-footer-social">
+
+    
+
+    
+
+    
+    <a href="https://github.com/shawngraham" target="_blank" aria-label="github url">
+      <i class="icon icon-github icon-colored"></i>
+    </a>
+    
+
+    
+
+  </div>
+
+
+  </div>
+
+  
+  <div id="site-footer-love">
+    Made using &nbsp;<a href="https://docura.github.io/" target="_blank">Docura Theme for Hugo</a>
+  </div>
+</footer>
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/js/base.min.js"></script>
+
+
+
+  
+  <script src="/js/component/docsearch.min.js"></script>
+  <script type="application/javascript">
+      docsearch({
+          container: '#site-header-search',
+          appId: '',
+          indexName: '',
+          apiKey: '',
+      });
+  </script>
+
+
+<script type="application/javascript">
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js?2025-07-18')
+            .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
+    }
+</script>
+  </body>
+</html>
