@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="listen to data">
+<meta name="author" content="Shawn Graham">
+
+<title>Week 10: Data Sonification · HIST3000|CLCV3000</title>
+
+<link rel="canonical" href="/docs/materials/wk10-sonification/">
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/docs.min.691537ffa13ee529512f90fe40656ee95f4c3eeb59f1130fbf66480ab7fa465d.css" integrity="">
+
+
+
+
+  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
+  
+  <link rel="stylesheet" href="/css/component/docsearch.min.614fea5cfa814740238ac556e7a0d336d660b5bd2d325ce2c695ad8ba1ee3020.css" integrity=""/>
+
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/img/icon/favicon.ico">
+<link rel="icon" href="/img/icon/icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/img/icon/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon/icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#fffff5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+
+
+  
+
+  </head>
+  <body>
+    <header id="site-header">
+  
+  <div id="site-header-brand">
+    <a href="/">HIST3000|CLCV3000</a>
+  </div>
+
+  
+  <div id="site-header-controls">
+    
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="menu" aria-label="theme selector">
+        <i class="icon icon-brightness"></i>
+        <i class="icon icon-select"></i>
+      </button>
+      <ul role="menu" class="dropdown-menu">
+        <li role="menuitem"><button class="color-scheme" data-value="light"><i class="icon icon-light-mode"></i> Light</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="dark"><i class="icon icon-dark-mode"></i> Dark &nbsp;</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="night"><i class="icon icon-night-mode"></i> Night</button></li>
+      </ul>
+    </div>
+
+    
+ 
+  </div>
+
+  
+  <div id="site-header-menu">
+    <nav>
+      <ul>
+        
+        
+        
+          
+          <li><a href="/" ><i class='icon icon-home'></i>Home</a></li>
+        
+          
+          <li><a href="/docs"  class="active"><i class='icon icon-book'></i>Documentation</a></li>
+        
+          
+          <li><a href="https://shawngraham.github.io" ><i class='icon icon-head'></i>Professor Graham</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  
+</header>
+    
+<div id="site-main-content-wrapper">
+  
+  
+    
+
+
+<aside id="sidebar">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+
+  <div class="sticky"><strong class="sidebar-section">📖 Syllabus</strong>
+          
+          <a class="sidebar-link " href="/docs/first-things-first/">
+            
+              First Things First
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/general-philosophy/">
+            
+              General Philosophy
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/learning-outcomes/">
+            
+              Learning Outcomes
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/the-graveyard-project/">
+            
+              The Graveyard Project
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/assessment/">
+            
+              Assessment
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/faq/">
+            
+              FAQ
+            
+          </a>
+
+        <strong class="sidebar-section">⛏️ Course Work Overview</strong>
+          
+          <a class="sidebar-link " href="/docs/module-1/">
+            
+              Module 1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-2/">
+            
+              Module 2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-3/">
+            
+              Module 3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        <strong class="sidebar-section">🏺 Week By Week</strong>
+          
+          <a class="sidebar-link " href="/docs/wk1/">
+            
+              Wk1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk2/">
+            
+              Wk2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk3/">
+            
+              Wk3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk4/">
+            
+              Wk4
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk5/">
+            
+              Wk5
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk6/">
+            
+              Wk6
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk7/">
+            
+              Wk7
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk8/">
+            
+              Wk8
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk9/">
+            
+              Wk9
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk10/">
+            
+              Wk10
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk11/">
+            
+              Wk11
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk12/">
+            
+              Wk12
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        
+  </div>
+</aside>
+
+  
+  <main>
+    <article id="article">
+      <nav id="article-nav">
+  <button id="article-nav-menu-btn"><i class="icon icon-menu"></i> On this section</button>
+  <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
+</nav>
+      <header id="article-header">
+  <h1>Week 10: Data Sonification</h1>
+</header>
+      <div id="article-content">
+        
+        
+        <p>Gravestone inscriptions frequently mention the data. If we represented some of <a href="https://digiarch.netlify.app/data/graveyards-data.csv" target="_blank">our class graveyard data</a> in sound, what patterns might we hear? What might those patterns reflect in the lived experiences of those communities?</p>
+<p>In your workbench, in the week 10 folder, is a jupyter notebook called <code>sonification.ipynb</code>. Give that a whirl and use it to represent your gravestone data. Then, import the resulting .midi files into something like Garageband or other music editing software to assign instrumentation, or remix as appropriate.</p>
+<p><strong>Or</strong>, you can give <a href="https://twotone-midiout-beta.netlify.app/" target="_blank">TwoTone a play around</a>; you load a csv of data into it, and then add &lsquo;voices&rsquo; for each column of data. You can assign instrumentation and range and tempo. The result can be downloaded from the site as an mp3 file. You <em>might</em> get an error about &lsquo;midi&rsquo; requiring a site permission. Just hit the note icon, add another row of data, and you should be able to just ignore the error.</p>
+<h3 id="some-examples">Some Examples</h3>
+<p>An example of a project that uses sound, sonification, and art to interpret an ancient site is the wonderful <a href="https://soundmarks.co.uk/" target="_blank">Soundmarks</a> project by Rose Ferraby and Rob St. John.</p>
+<p>A piece I made with Eric Kansa and Andrew Reinhard, ‘Reflexivity’ actually used a web app called Two Tone to generate the original soundlines (we then remixed). Our rationale for how we turned archaeological survey data into sound and then remixed it can be read at <em>Epoiesen</em>, a journal for creative engagement in history and archaeology, <a href="https://epoiesen.carleton.ca/2020/10/30/datacore/" target="_blank">here</a>. (Incidentally, <em>Epoiesen</em> publishes undergraduate researchers too.)</p>
+<p>An MA project at Carleton by Cristina Wood is another example of sonification used for research - <a href="https://web.archive.org/web/20190607130832/http://songsoftheottawa.ca/" target="_blank">Songs of the Ottawa</a> (now archived at the Internet Archive.)</p>
+
+      </div>
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+
+
+<footer id="article-footer">
+  <time id="article-last-updated" datetime="2025-05-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-05-01</time>
+
+  
+    <a id="article-prev-link" href="/docs/exit-ticket/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+  
+
+  
+</footer>
+    </article>
+    <aside id="toc">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+  <div class="sticky">
+    <strong><i class="icon icon-toc"></i> On this page</strong>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#some-examples">Some Examples</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</aside>
+  </main>
+</div>
+
+    <footer id="site-footer">
+  
+  <div id="site-footer-copyright">
+<a href="https://github.com/shawngraham/digiarch" target="_blank">
+  <img src="/docs/support/cc.png" alt="Creative Commons License">
+  2025 Shawn Graham
+</a>
+  </div>
+
+  
+  <div id="site-footer-social">
+
+    
+
+    
+
+    
+    <a href="https://github.com/shawngraham" target="_blank" aria-label="github url">
+      <i class="icon icon-github icon-colored"></i>
+    </a>
+    
+
+    
+
+  </div>
+
+
+  </div>
+
+  
+  <div id="site-footer-love">
+    Made using &nbsp;<a href="https://docura.github.io/" target="_blank">Docura Theme for Hugo</a>
+  </div>
+</footer>
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/js/base.min.js"></script>
+
+
+
+  
+  <script src="/js/component/docsearch.min.js"></script>
+  <script type="application/javascript">
+      docsearch({
+          container: '#site-header-search',
+          appId: '',
+          indexName: '',
+          apiKey: '',
+      });
+  </script>
+
+
+<script type="application/javascript">
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js?2025-07-28')
+            .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
+    }
+</script>
+  </body>
+</html>

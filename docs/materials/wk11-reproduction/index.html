@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reproducing some one else&rsquo;s analysis">
+<meta name="author" content="Shawn Graham">
+
+<title>Week 11: Reproduction · HIST3000|CLCV3000</title>
+
+<link rel="canonical" href="/docs/materials/wk11-reproduction/">
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/docs.min.691537ffa13ee529512f90fe40656ee95f4c3eeb59f1130fbf66480ab7fa465d.css" integrity="">
+
+
+
+
+  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
+  
+  <link rel="stylesheet" href="/css/component/docsearch.min.614fea5cfa814740238ac556e7a0d336d660b5bd2d325ce2c695ad8ba1ee3020.css" integrity=""/>
+
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/img/icon/favicon.ico">
+<link rel="icon" href="/img/icon/icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/img/icon/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon/icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#fffff5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+
+
+  
+
+  </head>
+  <body>
+    <header id="site-header">
+  
+  <div id="site-header-brand">
+    <a href="/">HIST3000|CLCV3000</a>
+  </div>
+
+  
+  <div id="site-header-controls">
+    
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="menu" aria-label="theme selector">
+        <i class="icon icon-brightness"></i>
+        <i class="icon icon-select"></i>
+      </button>
+      <ul role="menu" class="dropdown-menu">
+        <li role="menuitem"><button class="color-scheme" data-value="light"><i class="icon icon-light-mode"></i> Light</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="dark"><i class="icon icon-dark-mode"></i> Dark &nbsp;</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="night"><i class="icon icon-night-mode"></i> Night</button></li>
+      </ul>
+    </div>
+
+    
+ 
+  </div>
+
+  
+  <div id="site-header-menu">
+    <nav>
+      <ul>
+        
+        
+        
+          
+          <li><a href="/" ><i class='icon icon-home'></i>Home</a></li>
+        
+          
+          <li><a href="/docs"  class="active"><i class='icon icon-book'></i>Documentation</a></li>
+        
+          
+          <li><a href="https://shawngraham.github.io" ><i class='icon icon-head'></i>Professor Graham</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  
+</header>
+    
+<div id="site-main-content-wrapper">
+  
+  
+    
+
+
+<aside id="sidebar">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+
+  <div class="sticky"><strong class="sidebar-section">📖 Syllabus</strong>
+          
+          <a class="sidebar-link " href="/docs/first-things-first/">
+            
+              First Things First
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/general-philosophy/">
+            
+              General Philosophy
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/learning-outcomes/">
+            
+              Learning Outcomes
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/the-graveyard-project/">
+            
+              The Graveyard Project
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/assessment/">
+            
+              Assessment
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/faq/">
+            
+              FAQ
+            
+          </a>
+
+        <strong class="sidebar-section">⛏️ Course Work Overview</strong>
+          
+          <a class="sidebar-link " href="/docs/module-1/">
+            
+              Module 1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-2/">
+            
+              Module 2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-3/">
+            
+              Module 3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        <strong class="sidebar-section">🏺 Week By Week</strong>
+          
+          <a class="sidebar-link " href="/docs/wk1/">
+            
+              Wk1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk2/">
+            
+              Wk2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk3/">
+            
+              Wk3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk4/">
+            
+              Wk4
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk5/">
+            
+              Wk5
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk6/">
+            
+              Wk6
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk7/">
+            
+              Wk7
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk8/">
+            
+              Wk8
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk9/">
+            
+              Wk9
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk10/">
+            
+              Wk10
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk11/">
+            
+              Wk11
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk12/">
+            
+              Wk12
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        
+  </div>
+</aside>
+
+  
+  <main>
+    <article id="article">
+      <nav id="article-nav">
+  <button id="article-nav-menu-btn"><i class="icon icon-menu"></i> On this section</button>
+  <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
+</nav>
+      <header id="article-header">
+  <h1>Week 11: Reproduction</h1>
+</header>
+      <div id="article-content">
+        
+        
+        <p><a href="https://www.cambridge.org/core/journals/advances-in-archaeological-practice/article/how-to-use-replication-assignments-for-teaching-integrity-in-empirical-archaeology/6E6599B332D1BE46ADA8EEC0C7A3DF0B" target="_blank">Ben Marwick and colleagues</a> have made the argument that an extremely effective way of teaching archaeology data science is to have students try to replicate the findings of archaeologists from the published journal articles. (You can read the preprint here).</p>
+<p>Of course, this depends on archaeologists publishing both the code and the underlying data for their work, something that is unfortunately still comparatively rare. When the results of archaeological research can’t be replicated or examined, there is an argument to be made that the research is unethical.</p>
+<p>In this exercise, we’re going to look at one student’s attempt at replicating research done by Marwick. We’re going to replicate the replication.</p>
+<p>The student, Hope Loiselle, chose to replicate one aspect of <a href="https://www.sciencedirect.com/science/article/pii/S0278416513000470?via%3Dihub">Marwick&rsquo;s published work detailed in this article</a>. Loieselle used Marwick’s <a href="https://figshare.com/articles/dataset/Stone_artefacts_and_human_ecology_at_two_rockshelters_in_Northwest_Thailand/765252" target="_blank">data which he put online at the data sharing site Figshare</a>. (There are many places to find archaeological data online!).</p>
+<blockquote>
+<p>We are going to redo the analysis, and compare our result with Loiselle and Marwick&rsquo;s.</p>
+</blockquote>
+<p>Open Marwick&rsquo;s paper, and read his conclusions. Loiselle chose to focus on the lithic flakes from Tham Lod Area 1 and Ban Rai Area 3. Make a note about what Marwick says about these sites and how they compare. Then, following Loiselle, do the comparison for yourself:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Hope Loiselle&#39;s Code</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># your task: annotate it with what you think</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># she&#39;s trying to do; and compare it with</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Marwick&#39;s original paper: what aspect of his analysis</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># does this bit of code address, and do your findings</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># match up with his?</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">curl</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">stringr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">tidyr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">flakes_TL</span> <span class="o">&lt;-</span> <span class="nf">read.csv</span><span class="p">(</span><span class="nf">curl</span><span class="p">(</span><span class="s">&#34;https://raw.githubusercontent.com/benmarwick/teaching-replication-in-archaeology/refs/heads/master/analysis/supplementary-materials/submitted-assigments/Hope-Loiselle/Tham_Lod_Area_1_lithics-1.csv&#34;</span><span class="p">),</span> <span class="n">header</span> <span class="o">=</span> <span class="kc">TRUE</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">flakes_BR</span> <span class="o">&lt;-</span> <span class="nf">read.csv</span><span class="p">(</span><span class="nf">curl</span><span class="p">(</span><span class="s">&#34;https://raw.githubusercontent.com/benmarwick/teaching-replication-in-archaeology/refs/heads/master/analysis/supplementary-materials/submitted-assigments/Hope-Loiselle/Ban_Rai_Area_3_lithics-1.csv&#34;</span><span class="p">),</span> <span class="n">header</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">##- new cell</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># dorsal cortex and dorsal scars</span>
+</span></span><span class="line"><span class="cl"><span class="n">TL_dorsal</span> <span class="o">&lt;-</span>
+</span></span><span class="line"><span class="cl">  <span class="n">flakes_TL</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">select</span><span class="p">(</span><span class="n">DORSAL_COR</span><span class="p">,</span> <span class="n">DORSAL_SCA</span><span class="p">,</span> <span class="n">SITE</span><span class="p">,</span> <span class="n">EXCAVATION</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">BR_dorsal</span> <span class="o">&lt;-</span>
+</span></span><span class="line"><span class="cl">  <span class="n">flakes_BR</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">select</span><span class="p">(</span><span class="n">DORSAL_COR</span><span class="p">,</span> <span class="n">DORSAL_SCA</span><span class="p">,</span> <span class="n">SITE</span><span class="p">,</span> <span class="n">EXCAVATION</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">TL_BR_dorsal</span> <span class="o">&lt;-</span> <span class="nf">bind_rows</span><span class="p">(</span><span class="n">TL_dorsal</span><span class="p">,</span> <span class="n">BR_dorsal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">##- new cell</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">TL_BR_dorsal</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">SITE</span><span class="p">,</span> <span class="n">DORSAL_COR</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_boxplot</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">dorsal_cortex_proportion</span> <span class="o">&lt;-</span>
+</span></span><span class="line"><span class="cl">  <span class="n">TL_BR_dorsal</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">group_by</span><span class="p">(</span><span class="n">SITE</span><span class="p">,</span> <span class="n">EXCAVATION</span><span class="p">,</span> <span class="n">DORSAL_COR</span><span class="p">)</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">tally</span><span class="p">()</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">DORSAL_COR</span> <span class="o">=</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">DORSAL_COR</span> <span class="o">==</span> <span class="m">0</span><span class="p">,</span> <span class="s">&#34;zero&#34;</span><span class="p">,</span> <span class="s">&#34;not zero&#34;</span><span class="p">))</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">group_by</span><span class="p">(</span><span class="n">SITE</span><span class="p">,</span> <span class="n">EXCAVATION</span><span class="p">,</span> <span class="n">DORSAL_COR</span><span class="p">)</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">tally</span><span class="p">()</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">filter</span><span class="p">(</span><span class="o">!</span><span class="nf">is.na</span><span class="p">(</span><span class="n">DORSAL_COR</span><span class="p">))</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">spread</span><span class="p">(</span><span class="n">DORSAL_COR</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">dorsal_proportion</span> <span class="o">=</span> <span class="n">zero</span> <span class="o">/</span> <span class="p">(</span><span class="n">`not zero`</span> <span class="o">+</span> <span class="n">zero</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">dorsal_cortex_proportion</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">SITE</span><span class="p">,</span> <span class="n">dorsal_proportion</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_boxplot</span><span class="p">()</span>
+</span></span></code></pre></div><p>Having done that, read Loiselle&rsquo;s conclusion (available in the repository <a href="https://github.com/benmarwick/teaching-replication-in-archaeology/blob/master/analysis/supplementary-materials/submitted-assigments/Hope-Loiselle/Loiselle_Replication_Report_Lithics.docx" target="_blank">here</a>; it&rsquo;s in Word format, so hit the &lsquo;download&rsquo; icon to grab it then open it in Word).</p>
+<p><strong>Compare your results with Loiselle&rsquo;s work and Marwick’s paper. Do you think his conclusion stands up? How about Loiselle&rsquo;s?</strong></p>
+<p>Marwick, B., L. Wang, R. Robinson, H. Loiselle, (2019). Compendium of R code and data for “How to use replication assignments for teaching integrity in empirical archaeology”. Online at <a href="https://doi.org/10.17605/OSF.IO/DBSW9" target="_blank">https://doi.org/10.17605/OSF.IO/DBSW9</a></p>
+
+      </div>
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+
+
+<footer id="article-footer">
+  <time id="article-last-updated" datetime="2025-05-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-05-01</time>
+
+  
+    <a id="article-prev-link" href="/docs/exit-ticket/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+  
+
+  
+</footer>
+    </article>
+    <aside id="toc">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+  <div class="sticky">
+    <strong><i class="icon icon-toc"></i> On this page</strong>
+    <nav id="TableOfContents"></nav>
+  </div>
+</aside>
+  </main>
+</div>
+
+    <footer id="site-footer">
+  
+  <div id="site-footer-copyright">
+<a href="https://github.com/shawngraham/digiarch" target="_blank">
+  <img src="/docs/support/cc.png" alt="Creative Commons License">
+  2025 Shawn Graham
+</a>
+  </div>
+
+  
+  <div id="site-footer-social">
+
+    
+
+    
+
+    
+    <a href="https://github.com/shawngraham" target="_blank" aria-label="github url">
+      <i class="icon icon-github icon-colored"></i>
+    </a>
+    
+
+    
+
+  </div>
+
+
+  </div>
+
+  
+  <div id="site-footer-love">
+    Made using &nbsp;<a href="https://docura.github.io/" target="_blank">Docura Theme for Hugo</a>
+  </div>
+</footer>
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/js/base.min.js"></script>
+
+
+
+  
+  <script src="/js/component/docsearch.min.js"></script>
+  <script type="application/javascript">
+      docsearch({
+          container: '#site-header-search',
+          appId: '',
+          indexName: '',
+          apiKey: '',
+      });
+  </script>
+
+
+<script type="application/javascript">
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js?2025-07-28')
+            .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
+    }
+</script>
+  </body>
+</html>

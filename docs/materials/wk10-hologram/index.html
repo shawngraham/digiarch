@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="hologram">
+<meta name="author" content="Shawn Graham">
+
+<title>Week 10: Hologram Projector · HIST3000|CLCV3000</title>
+
+<link rel="canonical" href="/docs/materials/wk10-hologram/">
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/docs.min.691537ffa13ee529512f90fe40656ee95f4c3eeb59f1130fbf66480ab7fa465d.css" integrity="">
+
+
+
+
+  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
+  
+  <link rel="stylesheet" href="/css/component/docsearch.min.614fea5cfa814740238ac556e7a0d336d660b5bd2d325ce2c695ad8ba1ee3020.css" integrity=""/>
+
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/img/icon/favicon.ico">
+<link rel="icon" href="/img/icon/icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/img/icon/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon/icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#fffff5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+
+
+  
+
+  </head>
+  <body>
+    <header id="site-header">
+  
+  <div id="site-header-brand">
+    <a href="/">HIST3000|CLCV3000</a>
+  </div>
+
+  
+  <div id="site-header-controls">
+    
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="menu" aria-label="theme selector">
+        <i class="icon icon-brightness"></i>
+        <i class="icon icon-select"></i>
+      </button>
+      <ul role="menu" class="dropdown-menu">
+        <li role="menuitem"><button class="color-scheme" data-value="light"><i class="icon icon-light-mode"></i> Light</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="dark"><i class="icon icon-dark-mode"></i> Dark &nbsp;</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="night"><i class="icon icon-night-mode"></i> Night</button></li>
+      </ul>
+    </div>
+
+    
+ 
+  </div>
+
+  
+  <div id="site-header-menu">
+    <nav>
+      <ul>
+        
+        
+        
+          
+          <li><a href="/" ><i class='icon icon-home'></i>Home</a></li>
+        
+          
+          <li><a href="/docs"  class="active"><i class='icon icon-book'></i>Documentation</a></li>
+        
+          
+          <li><a href="https://shawngraham.github.io" ><i class='icon icon-head'></i>Professor Graham</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  
+</header>
+    
+<div id="site-main-content-wrapper">
+  
+  
+    
+
+
+<aside id="sidebar">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+
+  <div class="sticky"><strong class="sidebar-section">📖 Syllabus</strong>
+          
+          <a class="sidebar-link " href="/docs/first-things-first/">
+            
+              First Things First
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/general-philosophy/">
+            
+              General Philosophy
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/learning-outcomes/">
+            
+              Learning Outcomes
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/the-graveyard-project/">
+            
+              The Graveyard Project
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/assessment/">
+            
+              Assessment
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/faq/">
+            
+              FAQ
+            
+          </a>
+
+        <strong class="sidebar-section">⛏️ Course Work Overview</strong>
+          
+          <a class="sidebar-link " href="/docs/module-1/">
+            
+              Module 1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-2/">
+            
+              Module 2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-3/">
+            
+              Module 3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        <strong class="sidebar-section">🏺 Week By Week</strong>
+          
+          <a class="sidebar-link " href="/docs/wk1/">
+            
+              Wk1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk2/">
+            
+              Wk2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk3/">
+            
+              Wk3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk4/">
+            
+              Wk4
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk5/">
+            
+              Wk5
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk6/">
+            
+              Wk6
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk7/">
+            
+              Wk7
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk8/">
+            
+              Wk8
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk9/">
+            
+              Wk9
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk10/">
+            
+              Wk10
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk11/">
+            
+              Wk11
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk12/">
+            
+              Wk12
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        
+  </div>
+</aside>
+
+  
+  <main>
+    <article id="article">
+      <nav id="article-nav">
+  <button id="article-nav-menu-btn"><i class="icon icon-menu"></i> On this section</button>
+  <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
+</nav>
+      <header id="article-header">
+  <h1>Week 10: Hologram Projector</h1>
+</header>
+      <div id="article-content">
+        
+        
+        <h3 id="holograms--peppers-ghost">Holograms &amp; Pepper&rsquo;s Ghost</h3>
+<p>Ever been to Disneyworld? Have you been on the Haunted Mansion ride? Throughout that ride, ghosts appear in the rooms before you (and -spoiler- sometimes, in the ghost-mobile <em>with</em> you). Perhaps you&rsquo;ve been to or have heard of concerts where a dead performer takes the stage again via &lsquo;hologram&rsquo;? These are all achieved by an illusion called <a href="https://en.wikipedia.org/wiki/Pepper%27s_ghost" target="_blank">&lsquo;Pepper&rsquo;s Ghost&rsquo;</a>. This is the same effect that teleprompters use too by the way. Through reflection and transparent screens, one can &lsquo;project&rsquo; the illusion of an object (etc) in space somewhere else. I&rsquo;m interested in these kinds of effects for data visualization and for public archaeology uses. In this exercise, I show you how you can build a &lsquo;holographic projector&rsquo; that uses the Pepper&rsquo;s Ghost illusion and your smartphone to project a digital 3d model into the space above your phone.</p>
+<p>Here&rsquo;s a version from a previous student:</p>
+<p><img src="https://electricarchaeology.ca/wp-content/uploads/2018/04/screen-shot-2018-04-13-at-3-56-55-pm.png"></p>
+<h2 id="materials">Materials</h2>
+<ul>
+<li>plastic A4 (8.5&quot; x 11&quot;) sheets. You can get these at Michaels fairly cheaply (where the intended use is to cover photographs in a frame). Alternatively, you can use a couple of CD jewel-cases</li>
+<li>Ruler and pencil</li>
+<li>Craft knife or scissors</li>
+<li>Clear tape</li>
+<li>Smartphone or tablet</li>
+<li>Computer with presentation software (PowerPoint, Keynote, or similar)</li>
+<li>3d object model files (either made by you, or downloaded from <a href="https://sketchfab.com" target="_blank">Sketchfab.com</a> or similar)</li>
+</ul>
+<h2 id="step-1-make-the-pyramid-reflector">Step 1: Make the Pyramid Reflector</h2>
+<h3 id="cutting-the-pyramid-pieces">Cutting the Pyramid Pieces</h3>
+<ol>
+<li><strong>Create the template</strong>: Draw a trapezoid on paper with these dimensions:
+<ul>
+<li>Top edge: 1 inch or 2.5 cm</li>
+<li>Bottom edge: 3.5 inches or 9 cm</li>
+<li>Height: 2.75 inches or 7 cm</li>
+<li>Side angles: approximately 45 degrees</li>
+</ul>
+</li>
+</ol>
+<p>The key element is that the angles are consistent; the actual size can be a bit smaller or larger depending on what you&rsquo;re working with (eg, here&rsquo;s a template from the <a href="https://www.ontariosciencecentre.ca/media/2326/hauntedholotemplate.jpg" target="_blank">Ontario Science Centre</a>.)</p>
+<ol start="2">
+<li>
+<p><strong>Cut 4 identical pieces</strong>:</p>
+<ul>
+<li>Use the template to trace 4 trapezoids on your plastic sheets</li>
+<li>Cut carefully with a craft knife for clean edges</li>
+<li>If using CD cases, remove the covers and cut the clear plastic parts</li>
+</ul>
+</li>
+<li>
+<p><strong>Assemble the pyramid</strong>:</p>
+<ul>
+<li>Tape the 4 pieces together along the edges to form an inverted pyramid</li>
+<li>The small ends should meet at the top, large ends form the base</li>
+<li>Ensure all joints are secure and the pyramid sits flat</li>
+</ul>
+</li>
+</ol>
+<h2 id="step-2-create-the-hologram-content">Step 2: Create the Hologram Content</h2>
+<h3 id="download-or-create-your-3d-model">Download or Create Your 3D Model</h3>
+<ol>
+<li>
+<p><strong>Source your model</strong>:</p>
+<ul>
+<li>Visit Sketchfab.com and download a cultural heritage 3D model</li>
+<li>Or use poly.cam to create your own 3D model</li>
+<li>Choose models with interesting details that will look good spinning</li>
+</ul>
+</li>
+<li>
+<p><strong>Record the model animation</strong>:</p>
+<ul>
+<li>Open your 3D model in a viewer or 3D software</li>
+<li>Start screen recording on your computer</li>
+<li>Slowly rotate the model 360 degrees (about 10-15 seconds)</li>
+<li>Save the video file</li>
+</ul>
+</li>
+</ol>
+<h2 id="step-3-create-the-multi-view-video">Step 3: Create the Multi-View Video</h2>
+<h3 id="using-powerpoint-or-keynote">Using PowerPoint or Keynote</h3>
+<ol>
+<li>
+<p><strong>Set up your slide</strong>:</p>
+<ul>
+<li>Create a new presentation with a black background</li>
+<li>Insert your recorded video into the center of the slide</li>
+<li>Resize the video to about 1/4 of the slide size</li>
+</ul>
+</li>
+<li>
+<p><strong>Create the four-way mirror effect</strong>:</p>
+<ul>
+<li><strong>Bottom video</strong>: Place your original video at the bottom center</li>
+<li><strong>Top video</strong>: Duplicate the video, flip it vertically, place at top center</li>
+<li><strong>Left video</strong>: Duplicate again, rotate 90° counter-clockwise, place on left</li>
+<li><strong>Right video</strong>: Duplicate again, rotate 90° clockwise, place on right</li>
+</ul>
+</li>
+<li>
+<p><strong>Positioning is crucial</strong>:</p>
+<ul>
+<li>The bottom edge for all four videos should be oriented toward the center of the screen</li>
+<li>Leave a square gap in the middle (about 1 inch square on screen)</li>
+<li>The videos should form a <code>+</code> or <code>X</code> pattern</li>
+<li>Ensure all videos are synchronized</li>
+</ul>
+</li>
+<li>
+<p><strong>Export the final video</strong>:</p>
+<ul>
+<li>Play the slide in presentation mode</li>
+<li>Record your screen while the presentation plays (on a mac, cmd+5 can take a screencapture movie; on Windows I think it&rsquo;s windows key+G)</li>
+<li>Save this recording and put it on your phone</li>
+</ul>
+</li>
+</ol>
+<h2 id="step-4-illusion-time">Step 4: Illusion Time!</h2>
+<h3 id="setup-and-viewing">Setup and Viewing</h3>
+<ol>
+<li>
+<p><strong>Prepare your phone</strong>:</p>
+<ul>
+<li>Transfer the final video to your smartphone</li>
+<li>Set screen brightness to maximum</li>
+<li>Disable auto-lock/sleep mode</li>
+</ul>
+</li>
+<li>
+<p><strong>Position everything</strong>:</p>
+<ul>
+<li>Place your phone flat on a table, screen facing up</li>
+<li>Play the video in full-screen mode</li>
+<li>Carefully place the pyramid over the center of the screen</li>
+<li>The pyramid&rsquo;s small base should cover the central square area (ie, the pyramid is upside-down)</li>
+</ul>
+</li>
+<li>
+<p><strong>Optimize the viewing</strong>:</p>
+<ul>
+<li>Dim the room lights for best effect</li>
+<li>View from the sides of the pyramid</li>
+<li>The 3D model should appear to &ldquo;float&rdquo; above your phone!</li>
+</ul>
+</li>
+</ol>
+<h2 id="troubleshooting-tips">Troubleshooting Tips</h2>
+<ul>
+<li><strong>Blurry reflection</strong>: Clean the plastic surfaces thoroughly</li>
+<li><strong>Image not centered</strong>: Adjust pyramid position on screen</li>
+<li><strong>Dim hologram</strong>: Increase phone brightness and reduce ambient lighting</li>
+<li><strong>Distorted image</strong>: Check that all video orientations are correct</li>
+</ul>
+<h2 id="how-it-works">How It Works</h2>
+<p>This creates a Pepper&rsquo;s Ghost illusion where each face of the pyramid reflects one of the four video angles, creating the appearance of a 3D floating object when viewed from the correct angle.</p>
+<h2 id="variations-to-try">Variations to Try</h2>
+<ul>
+<li>Use different 3D models (animals, artifacts, geometric shapes)</li>
+<li>Create videos with multiple objects</li>
+<li>Experiment with colored backgrounds</li>
+<li>Try different pyramid sizes for tablets vs phones</li>
+</ul>
+<p><strong>Ta da!</strong> You now have a working hologram projector that creates 3D illusions for cultural heritage materials.</p>
+<p>Question for you: <em>is it worth it?</em> How does interacting in space differ or create meaningful differences than interacting with a screen? Facebook and other companies are spending a lot of money on vr, augmented reality, or &rsquo;extended&rsquo; reality. Where does this fit on that spectrum, and what would enhance the experience?</p>
+<p>Incidentally, I&rsquo;m building a system right now that sits on top of a 30&quot; monitor laid flat. I have <a href="https://github.com/XLabCU/holographic-pyramid/">coded an application</a> that automatically takes a window on your computer and arranges it four-fold for projection onto a pyramid. I envision something like <a href="https://www.instructables.com/Hologram-Display-Peppers-Ghost-Projector-Part-2/" target="_blank">what this student at OCAD built</a> combined with a 3d print of an archaeological site, where GIS data is projected in real-time onto the print. We&rsquo;ll see how it goes.</p>
+
+      </div>
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+
+
+<footer id="article-footer">
+  <time id="article-last-updated" datetime="2025-05-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-05-01</time>
+
+  
+    <a id="article-prev-link" href="/docs/exit-ticket/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+  
+
+  
+</footer>
+    </article>
+    <aside id="toc">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+  <div class="sticky">
+    <strong><i class="icon icon-toc"></i> On this page</strong>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#holograms--peppers-ghost">Holograms &amp; Pepper&rsquo;s Ghost</a></li>
+      </ul>
+    </li>
+    <li><a href="#materials">Materials</a></li>
+    <li><a href="#step-1-make-the-pyramid-reflector">Step 1: Make the Pyramid Reflector</a>
+      <ul>
+        <li><a href="#cutting-the-pyramid-pieces">Cutting the Pyramid Pieces</a></li>
+      </ul>
+    </li>
+    <li><a href="#step-2-create-the-hologram-content">Step 2: Create the Hologram Content</a>
+      <ul>
+        <li><a href="#download-or-create-your-3d-model">Download or Create Your 3D Model</a></li>
+      </ul>
+    </li>
+    <li><a href="#step-3-create-the-multi-view-video">Step 3: Create the Multi-View Video</a>
+      <ul>
+        <li><a href="#using-powerpoint-or-keynote">Using PowerPoint or Keynote</a></li>
+      </ul>
+    </li>
+    <li><a href="#step-4-illusion-time">Step 4: Illusion Time!</a>
+      <ul>
+        <li><a href="#setup-and-viewing">Setup and Viewing</a></li>
+      </ul>
+    </li>
+    <li><a href="#troubleshooting-tips">Troubleshooting Tips</a></li>
+    <li><a href="#how-it-works">How It Works</a></li>
+    <li><a href="#variations-to-try">Variations to Try</a></li>
+  </ul>
+</nav>
+  </div>
+</aside>
+  </main>
+</div>
+
+    <footer id="site-footer">
+  
+  <div id="site-footer-copyright">
+<a href="https://github.com/shawngraham/digiarch" target="_blank">
+  <img src="/docs/support/cc.png" alt="Creative Commons License">
+  2025 Shawn Graham
+</a>
+  </div>
+
+  
+  <div id="site-footer-social">
+
+    
+
+    
+
+    
+    <a href="https://github.com/shawngraham" target="_blank" aria-label="github url">
+      <i class="icon icon-github icon-colored"></i>
+    </a>
+    
+
+    
+
+  </div>
+
+
+  </div>
+
+  
+  <div id="site-footer-love">
+    Made using &nbsp;<a href="https://docura.github.io/" target="_blank">Docura Theme for Hugo</a>
+  </div>
+</footer>
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/js/base.min.js"></script>
+
+
+
+  
+  <script src="/js/component/docsearch.min.js"></script>
+  <script type="application/javascript">
+      docsearch({
+          container: '#site-header-search',
+          appId: '',
+          indexName: '',
+          apiKey: '',
+      });
+  </script>
+
+
+<script type="application/javascript">
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js?2025-07-28')
+            .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
+    }
+</script>
+  </body>
+</html>

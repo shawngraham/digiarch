@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="make an rpg">
+<meta name="author" content="Shawn Graham">
+
+<title>Week 10: Solo Journaling Role Playing Game · HIST3000|CLCV3000</title>
+
+<link rel="canonical" href="/docs/materials/wk10-solo-rpg/">
+
+
+
+
+  <link rel="stylesheet" href="/assets/css/docs.min.691537ffa13ee529512f90fe40656ee95f4c3eeb59f1130fbf66480ab7fa465d.css" integrity="">
+
+
+
+
+  <link rel="preconnect" href="https://-dsn.algolia.net" crossorigin />
+  
+  <link rel="stylesheet" href="/css/component/docsearch.min.614fea5cfa814740238ac556e7a0d336d660b5bd2d325ce2c695ad8ba1ee3020.css" integrity=""/>
+
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/img/icon/favicon.ico">
+<link rel="icon" href="/img/icon/icon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/img/icon/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon/icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#fffff5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+
+
+  
+
+  </head>
+  <body>
+    <header id="site-header">
+  
+  <div id="site-header-brand">
+    <a href="/">HIST3000|CLCV3000</a>
+  </div>
+
+  
+  <div id="site-header-controls">
+    
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="menu" aria-label="theme selector">
+        <i class="icon icon-brightness"></i>
+        <i class="icon icon-select"></i>
+      </button>
+      <ul role="menu" class="dropdown-menu">
+        <li role="menuitem"><button class="color-scheme" data-value="light"><i class="icon icon-light-mode"></i> Light</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="dark"><i class="icon icon-dark-mode"></i> Dark &nbsp;</button></li>
+        <li role="menuitem"><button class="color-scheme" data-value="night"><i class="icon icon-night-mode"></i> Night</button></li>
+      </ul>
+    </div>
+
+    
+ 
+  </div>
+
+  
+  <div id="site-header-menu">
+    <nav>
+      <ul>
+        
+        
+        
+          
+          <li><a href="/" ><i class='icon icon-home'></i>Home</a></li>
+        
+          
+          <li><a href="/docs"  class="active"><i class='icon icon-book'></i>Documentation</a></li>
+        
+          
+          <li><a href="https://shawngraham.github.io" ><i class='icon icon-head'></i>Professor Graham</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  
+</header>
+    
+<div id="site-main-content-wrapper">
+  
+  
+    
+
+
+<aside id="sidebar">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+
+  <div class="sticky"><strong class="sidebar-section">📖 Syllabus</strong>
+          
+          <a class="sidebar-link " href="/docs/first-things-first/">
+            
+              First Things First
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/general-philosophy/">
+            
+              General Philosophy
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/learning-outcomes/">
+            
+              Learning Outcomes
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/the-graveyard-project/">
+            
+              The Graveyard Project
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/assessment/">
+            
+              Assessment
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/faq/">
+            
+              FAQ
+            
+          </a>
+
+        <strong class="sidebar-section">⛏️ Course Work Overview</strong>
+          
+          <a class="sidebar-link " href="/docs/module-1/">
+            
+              Module 1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-2/">
+            
+              Module 2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/module-3/">
+            
+              Module 3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        <strong class="sidebar-section">🏺 Week By Week</strong>
+          
+          <a class="sidebar-link " href="/docs/wk1/">
+            
+              Wk1
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk2/">
+            
+              Wk2
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk3/">
+            
+              Wk3
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk4/">
+            
+              Wk4
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk5/">
+            
+              Wk5
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk6/">
+            
+              Wk6
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk7/">
+            
+              Wk7
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk8/">
+            
+              Wk8
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk9/">
+            
+              Wk9
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk10/">
+            
+              Wk10
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk11/">
+            
+              Wk11
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/wk12/">
+            
+              Wk12
+            
+          </a>
+
+        
+          
+          <a class="sidebar-link " href="/docs/exit-ticket/">
+            
+              Exit Ticket
+            
+          </a>
+
+        
+  </div>
+</aside>
+
+  
+  <main>
+    <article id="article">
+      <nav id="article-nav">
+  <button id="article-nav-menu-btn"><i class="icon icon-menu"></i> On this section</button>
+  <button id="article-nav-toc-btn"><i class="icon icon-toc"></i> On this page</button>
+</nav>
+      <header id="article-header">
+  <h1>Week 10: Solo Journaling Role Playing Game</h1>
+</header>
+      <div id="article-content">
+        
+        
+        <p>One of the most effective ways to teach someone about the past is to allow them to inhabit a character and play out a scenario. Well-designed games take their rules from the historical situation we&rsquo;re interested in. Remember when we explored Agent Based Models? Those are just games that play themselves. As game designers interested in the past, we develop scenarios where the historical problem space captures some element of the past that we want players to engage in. When they play the game according to the rules, there is something necessarily meaningful about that play. Couple that activity with reflection and introspection, and we have a powerful tool for communicating and exploring how we construct the past.</p>
+<p>And sometimes, the meaningful engagement comes when the player says, &rsquo;that&rsquo;s a stupid rule!&rsquo; and tries to make their own. So for this exercise, I want you to try your hand at a solo role-playing game I have developed, called <a href="https://shawngraham.github.io/solo-rpg/The%20Cave%20v1.0%20Shawn%20Graham.pdf" target="_blank">&lsquo;The Cave&rsquo;</a>. Let&rsquo;s set the scene.</p>
+<h3 id="the-cave">The Cave</h3>
+<blockquote>
+<p>April 20 1889
+The cave mouth gapes before you, dark and ancient. Your predecessors&rsquo; careful methods seem laughably inadequate now. Something dwells in these layers of earth and bone - something that whispers through the artifacts, that moves in the shadows beyond your lamp&rsquo;s reach.
+You are Dr. Elisabeth Blackwood, and you will document what lies beneath&hellip; no matter the cost to your reputation or sanity. But the locals whisper of older things. And the bones&hellip; the bones tell a different story than the one in your scholarly papers.</p>
+</blockquote>
+<p>You are Dr. Elisabeth Blackwood, a Victorian archaeologist excavating a mysterious cave system in 1876. Record your findings, maintain scientific credibility, and wrestle with increasingly disturbing discoveries that challenge everything you believe about history and humanity. Your journal must survive, even if you do not.</p>
+<p>The truth lies buried&hellip; but some things should stay that way.</p>
+<h2 id="ok-now-what">Ok, now what</h2>
+<p>Obviously, the situation is leaning into some Lovecraft here. But here&rsquo;s the thing: early archaeology, especially in Britain, was riddled with the occult. Ley lines. Spiritualism. Part of the story of archaeology is how it shed its antiquarianism, but also, its connections with pseudo-scientific thought. Five minutes looking at the &lsquo;documentary&rsquo; category on Netflix will cause you to wonder if culturally we&rsquo;ve come all that far.</p>
+<p>The game makes use of a system called <a href="https://sealedlibrary.itch.io/wretched-alone-srd" target="_blank">&lsquo;Wretched &amp; Alone&rsquo;</a>, by the game designer Chris Bissette. Games designed with this system will set a scenario for you, and then you pull a card. Depending on what the card reveals, certain actions become possible, or events happen to you. You write down how your character responds. Sometimes, you have to pull a block from a Jenga tower. Eventually, the tower will collapse and your game will end.</p>
+<p>Of course, we don&rsquo;t always have a deck of cards or Jenga tower handy.</p>
+<h2 id="heres-what-i-want-you-to-do">Here&rsquo;s what I want you to do</h2>
+<ul>
+<li>Use my <a href="https://shawngraham.github.io/solo-rpg/" target="_blank">solo-rpg gamepad website</a> to play the Cave. You write directly into the game pad; it saves your game in your browser&rsquo;s memory (cache). You can click the green &lsquo;save to file&rsquo; button at the bottom of the screen to save a copy of your writing in your downloads folder. This file can be submitted in this week&rsquo;s repository, if you want. I cannot otherwise see what you write.</li>
+<li>Have <a href="https://shawngraham.github.io/solo-rpg/The%20Cave%20v1.0%20Shawn%20Graham.pdf" target="_blank">The Cave</a> open in another browser window. Read through the materials, and then turn to &lsquo;Your First Entry&rsquo; and follow the instructions.</li>
+<li>For each card, find the relevant prompt in the game documentation, and use that to guide your response.</li>
+<li>When instructed to pull a block from the Jenga tower, hit the &lsquo;pull bock&rsquo; button. Be careful: you will receive feedback as to the stability of the tower. There are only so many ways to say &rsquo;things are getting shaky&rsquo;, and sometimes, when you click on the button, you might receive the same message again. Don&rsquo;t double-click: it&rsquo;s keeping track!</li>
+<li>When the tower falls, or you have lost all your tokens, consult &lsquo;The Ending of Things&rsquo; to see how to wrap up.</li>
+<li>If you collect 20 tokens, you have enough evidence to publish (or perish). Proceed to &lsquo;The Ending of Things: The Final Paper&rsquo;</li>
+</ul>
+<h2 id="what-do-you-think">What do you think?</h2>
+<p>What I hope you take away from this is a sense of how playful engagement with the past can be both a way of engaging the public, but also a way of honing your archaeological imagination. What worked for you about this experience? What was odd? In what ways is <em>playing</em> such a game a scholarly exercise? Or does the scholarship reside in <em>its design</em>?</p>
+<p>Maybe, moving forward, you might want to <a href="https://sealedlibrary.itch.io/wretched-alone-srd" target="_blank">design your own such game?</a> The link takes you to the design document that explains how the system works and how you can adapt it to your own scenarios.</p>
+<p>On my gamepad, there is a drop-down menu with some more games I&rsquo;ve written, which you are welcome to try and on which I&rsquo;d love some feedback (they&rsquo;re still a bit unbalanced, which you no doubt noticed in the Cave).</p>
+
+      </div>
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+        
+
+        
+          
+        
+
+      
+    
+
+
+<footer id="article-footer">
+  <time id="article-last-updated" datetime="2025-05-01"><i class="icon icon-calendar"></i>&nbsp;Last updated: 2025-05-01</time>
+
+  
+    <a id="article-prev-link" href="/docs/exit-ticket/"><i class="icon icon-prev icon-colored"></i> Prev</a>
+  
+
+  
+</footer>
+    </article>
+    <aside id="toc">
+  <span class="btn-close"><i class="icon icon-close"></i></span>
+  <div class="sticky">
+    <strong><i class="icon icon-toc"></i> On this page</strong>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#the-cave">The Cave</a></li>
+      </ul>
+    </li>
+    <li><a href="#ok-now-what">Ok, now what</a></li>
+    <li><a href="#heres-what-i-want-you-to-do">Here&rsquo;s what I want you to do</a></li>
+    <li><a href="#what-do-you-think">What do you think?</a></li>
+  </ul>
+</nav>
+  </div>
+</aside>
+  </main>
+</div>
+
+    <footer id="site-footer">
+  
+  <div id="site-footer-copyright">
+<a href="https://github.com/shawngraham/digiarch" target="_blank">
+  <img src="/docs/support/cc.png" alt="Creative Commons License">
+  2025 Shawn Graham
+</a>
+  </div>
+
+  
+  <div id="site-footer-social">
+
+    
+
+    
+
+    
+    <a href="https://github.com/shawngraham" target="_blank" aria-label="github url">
+      <i class="icon icon-github icon-colored"></i>
+    </a>
+    
+
+    
+
+  </div>
+
+
+  </div>
+
+  
+  <div id="site-footer-love">
+    Made using &nbsp;<a href="https://docura.github.io/" target="_blank">Docura Theme for Hugo</a>
+  </div>
+</footer>
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/js/base.min.js"></script>
+
+
+
+  
+  <script src="/js/component/docsearch.min.js"></script>
+  <script type="application/javascript">
+      docsearch({
+          container: '#site-header-search',
+          appId: '',
+          indexName: '',
+          apiKey: '',
+      });
+  </script>
+
+
+<script type="application/javascript">
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js?2025-07-28')
+            .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
+    }
+</script>
+  </body>
+</html>

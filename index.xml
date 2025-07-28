@@ -13,7 +13,7 @@
       <link>/docs/exit-ticket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/exit-ticket/</guid>
-      <description>You will write your Exit Ticket as an exam during the examination period. Just you, a pen, and an exam booklet. The exam will be this:&#xA;You will write an &amp;rsquo;exit ticket&amp;rsquo; reflecting on where you started and where you&amp;rsquo;ve gotten to, and you will indicate how you feel you&amp;rsquo;ve done against the learning outcomes. You will be required to explicitly tie your exit ticket to evidence collected in your weekly work.</description>
+      <description>You will write an &amp;rsquo;exit ticket&amp;rsquo; reflecting on where you started and where you&amp;rsquo;ve gotten to, and you will indicate how you feel you&amp;rsquo;ve done against the learning outcomes. You will be required to explicitly tie your exit ticket to evidence collected in your weekly work. You will use the Exit Ticket to pull all the different strings together into a strong cord describing how your thinking has evolved and changed.</description>
     </item>
     <item>
       <title>Week 1: Making Notes</title>
@@ -51,11 +51,46 @@
       <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation.&#xA;The sequence of steps below might be a bit different by the time you read this; Github often mucks about with its look and feel. Examine the steps first, and if what you encounter is a bit different than this, you should be able to work out the basic actions to take from this walk-through.</description>
     </item>
     <item>
+      <title>Week 10: Data Sonification</title>
+      <link>/docs/materials/wk10-sonification/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk10-sonification/</guid>
+      <description>Gravestone inscriptions frequently mention the data. If we represented some of our class graveyard data in sound, what patterns might we hear? What might those patterns reflect in the lived experiences of those communities?&#xA;In your workbench, in the week 10 folder, is a jupyter notebook called sonification.ipynb. Give that a whirl and use it to represent your gravestone data. Then, import the resulting .midi files into something like Garageband or other music editing software to assign instrumentation, or remix as appropriate.</description>
+    </item>
+    <item>
+      <title>Week 10: Hologram Projector</title>
+      <link>/docs/materials/wk10-hologram/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk10-hologram/</guid>
+      <description>Holograms &amp;amp; Pepper&amp;rsquo;s Ghost Ever been to Disneyworld? Have you been on the Haunted Mansion ride? Throughout that ride, ghosts appear in the rooms before you (and -spoiler- sometimes, in the ghost-mobile with you). Perhaps you&amp;rsquo;ve been to or have heard of concerts where a dead performer takes the stage again via &amp;lsquo;hologram&amp;rsquo;? These are all achieved by an illusion called &amp;lsquo;Pepper&amp;rsquo;s Ghost&amp;rsquo;. This is the same effect that teleprompters use too by the way.</description>
+    </item>
+    <item>
+      <title>Week 10: Solo Journaling Role Playing Game</title>
+      <link>/docs/materials/wk10-solo-rpg/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk10-solo-rpg/</guid>
+      <description>One of the most effective ways to teach someone about the past is to allow them to inhabit a character and play out a scenario. Well-designed games take their rules from the historical situation we&amp;rsquo;re interested in. Remember when we explored Agent Based Models? Those are just games that play themselves. As game designers interested in the past, we develop scenarios where the historical problem space captures some element of the past that we want players to engage in.</description>
+    </item>
+    <item>
       <title>Week 10: Static Site Generator</title>
       <link>/docs/materials/wk10-site-generator/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>/docs/materials/wk10-site-generator/</guid>
       <description>In the beginning Once upon a time, websites were simple text files that used tags: &amp;lt;html&amp;gt; to tell a browser how to display text. Then, things got more complicated with the emergence of .css files that would tell the browser how to style the text marked up with the relevant tags. Headers should be displayed like this; bullets like that. Then, javascript files (.js) could be used to mark up the text files so that the browser would know how to do various kinds of interactivity or special effects.</description>
+    </item>
+    <item>
+      <title>Week 11: Archaeology Data Service</title>
+      <link>/docs/materials/wk11-ads/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk11-ads/</guid>
+      <description>In this exercise, we’re working with data deposited in ADS. The code at the bottom is an adaptation of Rachel Optiz’s notebook, ‘Exploring published data from the ADS’. Dr. Opitz’s work is written in Python, if you want to take a look at how she does it; we&amp;rsquo;re working in R this time because R it is very common for archaeologists to use R and to share R code (&amp;hellip;I mean, we also do the same thing with Python, but I&amp;rsquo;m trying to familiarize you with both).</description>
+    </item>
+    <item>
+      <title>Week 11: Reproduction</title>
+      <link>/docs/materials/wk11-reproduction/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>/docs/materials/wk11-reproduction/</guid>
+      <description>Ben Marwick and colleagues have made the argument that an extremely effective way of teaching archaeology data science is to have students try to replicate the findings of archaeologists from the published journal articles. (You can read the preprint here).&#xA;Of course, this depends on archaeologists publishing both the code and the underlying data for their work, something that is unfortunately still comparatively rare. When the results of archaeological research can’t be replicated or examined, there is an argument to be made that the research is unethical.</description>
     </item>
     <item>
       <title>Week 2: Alternative Project</title>
@@ -223,7 +258,7 @@
       <link>/docs/the-graveyard-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/the-graveyard-project/</guid>
-      <description>This Course is Built Around Mortuary Archaeology I want you to gain some experience of collecting data, and of how data models (or our expectations of what we&amp;rsquo;ll find) influence the subsequent work that we can do with the information that we collect. &amp;lsquo;Data&amp;rsquo; means things given but the goal (a goal) of this exercise is to see this information more like &amp;lsquo;capta&amp;rsquo; or things created/crafted/captured.&#xA;Archaeology has some well established models for capturing the observations made at the trowel&amp;rsquo;s edge.</description>
+      <description>This Course Begins with Mortuary Archaeology I want you to gain some experience of collecting data, and of how data models (or our expectations of what we&amp;rsquo;ll find) influence the subsequent work that we can do with the information that we collect. &amp;lsquo;Data&amp;rsquo; means things given but the goal (a goal) of this exercise is to see this information more like &amp;lsquo;capta&amp;rsquo; or things created/crafted/captured.&#xA;Archaeology has some well established models for capturing the observations made at the trowel&amp;rsquo;s edge.</description>
     </item>
     <item>
       <title>The Syllabus</title>
@@ -244,21 +279,21 @@
       <link>/docs/module-3/wk10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/module-3/wk10/</guid>
-      <description>Goals Listen Read Do Reflect Report Back listen - old wk 11 creativity? needs editing&#xA;Goals for this week Listen Read Do Learn the basic theory of structure-from-motion with the photogrammetry-intro.ipnb in your week 10 workbench. Build a static site generator with Pelican I&amp;rsquo;m not going to ask you to build a storymap, although I used to. It&amp;rsquo;s getting towards the end of term and I don&amp;rsquo;t want to clobber you.</description>
+      <description>Goals Listen Read Do Reflect Report Back Goals for this week This week is about finding the compelling story, the enchanting story, the heart-centered work of archaeology.&#xA;Listen listen - old wk 11 creativity? needs editing&#xA;Read Tringham, Ruth. 2020. Closely Observed Layers: Storytelling and the Heart in Kisha Supernant, Jane Eva Baxter, Natasha Lyons, Sonya Atalay (eds). Archaeologies of the Heart, Springer, Cham, 2020. 239-252 link Beale, Gareth; Robertson, Lizzie; Smith, Nicole 2025.</description>
     </item>
     <item>
       <title>Week 11 Data Publishing, Replication, Reproducibility</title>
       <link>/docs/module-3/wk11/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/module-3/wk11/</guid>
-      <description>Goals Listen Read Do Reflect Report Back marwick/quefflic thing replicating heloise study? figshare?&#xA;wk 9 &amp;amp; 10 old podcast here - edit together</description>
+      <description>Goals Listen Read Do Reflect Report Back marwick/quefflic thing replicating heloise study? figshare?&#xA;wk 9 &amp;amp; 10 old podcast here - edit together&#xA;Goals for this week This week, I want to spend some time thinking about how archaeologists make their data available - or not - for replication of their studies. After all, excavation is destruction.&#xA;Listen Read Marwick, Ben. 2025. &amp;lsquo;Is archaeology a science? Insights and imperatives from 10,000 articles and a year of reproducibility reviews&amp;rsquo; Journal of Archaeological Science 180: 106281 DOI: https://doi.</description>
     </item>
     <item>
       <title>Week 12 Consolidation III</title>
       <link>/docs/module-3/wk12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/module-3/wk12/</guid>
-      <description>Goals Do Report Back Goals for this week Use this time to catch up on anything you didn&amp;rsquo;t read, to try some of the exercises over again, and to consolidate what you&amp;rsquo;ve achieved so far. -&amp;gt; pic the most impressive thing you&amp;rsquo;ve done so far and do it over, explain what&amp;rsquo;s different this time (reflect on the different between reproducing something and replicating something)</description>
+      <description>Goals Do Report Back A Choice Goals for this week Pick the most impressive thing you&amp;rsquo;ve done so far in this course (any week) and do it over but explain what&amp;rsquo;s different this time. Reflect on the different between reproducing something and replicating something. How is &amp;lsquo;replication&amp;rsquo; a critical feature of digital archaeology, and how does that tie into the different audiences we write for? How has your thinking evolved since the end of Module 2?</description>
     </item>
     <item>
       <title>Week 2 Field work and ethical data collection</title>
