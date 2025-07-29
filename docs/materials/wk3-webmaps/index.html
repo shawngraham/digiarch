@@ -13,7 +13,7 @@
 
 
 
-  <link rel="stylesheet" href="/assets/css/docs.min.691537ffa13ee529512f90fe40656ee95f4c3eeb59f1130fbf66480ab7fa465d.css" integrity="">
+  <link rel="stylesheet" href="/assets/css/docs.min.2a8f22ab975631594285a8e2993dd22b09bd09a2a89a0d52638f5f6289fddac1.css" integrity="">
 
 
 
@@ -303,73 +303,224 @@
 <p>Leaflet is very powerful; we&rsquo;re not even scraping the surface with what it can do. As an example, the <code>East End Cemetery</code> website maps a historic African American burial ground in Henrico County and the city of Richmond, Virginia, that uses Leaflet to good effect:</p>
 <p><a href="https://dsl.richmond.edu/eastend/#loc=16/37.53619777622634/-77.38787770271303" target="_blank">East End Cemetery Map</a></p>
 <p>With time and practice, you would be able to build something similar. Remember, I am not expecting perfection; rather, I want you to push yourself until you get stuck.</p>
-<div class="admonition admonition-info"><div class="admonition-title">The Task</div><div class="admonition-content">
+<div class="admonition admonition-info"><div class="admonition-title">
+    <span class="admonition-icon"></span>
+    The Task
+  </div><div class="admonition-content">
     The goal is to create a custom webmap for your cemetery/graveyard. I show you how to do <em>a lot</em> in this tutorial. Focus on one step at a time.
   </div>
 </div>
 <style>
 .admonition {
-  margin: 1.5em 0;
+  margin: 2rem 0;
   padding: 0;
   border-left: 4px solid;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: var(--border-radius, 8px);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.1));
   overflow: hidden;
+  background: var(--background, #fff);
+  border: var(--border-width, 1px) solid var(--border-color, rgba(0, 0, 0, 0.08));
+  transition: all var(--transition-fast, 0.15s cubic-bezier(0.4, 0, 0.2, 1));
+  position: relative;
+}
+
+.admonition:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
 }
 
 .admonition-title {
-  font-weight: bold;
-  padding: 0.75em 1em;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
   margin: 0;
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  letter-spacing: 0.025em;
+  position: relative;
+  background: linear-gradient(135deg, var(--admonition-color) 0%, var(--admonition-color-dark) 100%);
+}
+
+.admonition-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.admonition-icon {
+  font-size: 1.25em;
+  font-weight: bold;
+  min-width: 1.25em;
 }
 
 .admonition-content {
-  padding: 1em;
-  background: #cc9966;
+  padding: 1.5rem;
+  background: var(--background-light, #f8f9fa);
+  line-height: 1.6;
+  position: relative;
 }
+
+.admonition-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-color, rgba(0, 0, 0, 0.08)), transparent);
+}
+
 .admonition-content p:last-child {
   margin-bottom: 0;
 }
 
+.admonition-content p:first-child {
+  margin-top: 0;
+}
+
+.admonition-content h1,
+.admonition-content h2,
+.admonition-content h3,
+.admonition-content h4,
+.admonition-content h5,
+.admonition-content h6 {
+  margin-top: 1rem;
+  color: var(--admonition-color);
+}
+
+.admonition-content code {
+  background: var(--background, #fff);
+  border-color: var(--admonition-color);
+  color: var(--admonition-color);
+}
+
+.admonition-content a {
+  color: var(--admonition-color);
+}
+
+.admonition-content a:hover {
+  color: var(--admonition-color-dark);
+}
+
  
 .admonition-note {
-  border-color: #3498db;
+  --admonition-color: #3498db;
+  --admonition-color-dark: #2980b9;
+  border-left-color: var(--admonition-color);
 }
-.admonition-note .admonition-title {
-  background: #3498db;
+
+.admonition-note .admonition-icon::before {
+  content: 'ℹ';
 }
 
  
 .admonition-warning {
-  border-color: #f39c12;
+  --admonition-color: #f39c12;
+  --admonition-color-dark: #e67e22;
+  border-left-color: var(--admonition-color);
 }
-.admonition-warning .admonition-title {
-  background: #f39c12;
+
+.admonition-warning .admonition-icon::before {
+  content: '⚠';
 }
 
  
 .admonition-danger, .admonition-error {
-  border-color: #e74c3c;
+  --admonition-color: #e74c3c;
+  --admonition-color-dark: #c0392b;
+  border-left-color: var(--admonition-color);
 }
-.admonition-danger .admonition-title, .admonition-error .admonition-title {
-  background: #e74c3c;
+
+.admonition-danger .admonition-icon::before,
+.admonition-error .admonition-icon::before {
+  content: '⚡';
 }
 
  
 .admonition-success, .admonition-tip {
-  border-color: #27ae60;
+  --admonition-color: #27ae60;
+  --admonition-color-dark: #229954;
+  border-left-color: var(--admonition-color);
 }
-.admonition-success .admonition-title, .admonition-tip .admonition-title {
-  background: #27ae60;
+
+.admonition-success .admonition-icon::before,
+.admonition-tip .admonition-icon::before {
+  content: '✓';
 }
 
  
 .admonition-info {
-  border-color: #17a2b8;
+  --admonition-color: #17a2b8;
+  --admonition-color-dark: #138496;
+  border-left-color: var(--admonition-color);
 }
-.admonition-info .admonition-title {
-  background: #17a2b8;
+
+.admonition-info .admonition-icon::before {
+  content: '💡';
+}
+
+ 
+.admonition-question {
+  --admonition-color: #9b59b6;
+  --admonition-color-dark: #8e44ad;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-question .admonition-icon::before {
+  content: '❓';
+}
+
+ 
+.admonition-quote {
+  --admonition-color: #6c757d;
+  --admonition-color-dark: #5a6268;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-quote .admonition-icon::before {
+  content: '"';
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+ 
+:root[data-color="dark"] .admonition-content,
+:root[data-color="night"] .admonition-content {
+  background: var(--background-secondary, #202020);
+}
+
+:root[data-color="dark"] .admonition-content code,
+:root[data-color="night"] .admonition-content code {
+  background: var(--background, #1a1a1a);
+}
+
+ 
+@media (max-width: 767px) {
+  .admonition {
+    margin: 1.5rem -1rem;
+    border-radius: 0;
+    border-left-width: 6px;
+  }
+  
+  .admonition-title {
+    padding: 1rem;
+  }
+  
+  .admonition-content {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .admonition {
+    margin: 2.5rem 0;
+  }
 }
 </style>
 <p>Start small, and push yourself as far as you can go:</p>
@@ -521,73 +672,224 @@ var dataLayer = L.geoJson(geojsonData, {
 }).addTo(myMap);
 </code></pre><p>Ctrl+S to save your file, and then in the rendered view hit the reload button (beside where it says &lsquo;distrust html&rsquo;) and you&rsquo;ll now see your data added! (And it automatically is configured to use OpenStreetMap base layer).</p>
 <p><strong>Push yourself:</strong> When you try to build a map of your graveyard, do you see how you could add your own point data with the csv-to-geojson tool?</p>
-<div class="admonition admonition-info"><div class="admonition-title">One Weird Trick</div><div class="admonition-content">
+<div class="admonition admonition-info"><div class="admonition-title">
+    <span class="admonition-icon"></span>
+    One Weird Trick
+  </div><div class="admonition-content">
     Here&rsquo;s a neat trick that your lab bench will do for you automatically. Create a new file; paste the raw geojson data into it; save and then rename the file <code>point-data.geojson</code>. Double-click on that file: your lab bench is smart enough to recognize that it&rsquo;s dealing with geographic data and it will automatically render a map! (See also the <code>quick-map-with-geojson.ipynb</code> computational note in the week two folder in your lab workbench).
   </div>
 </div>
 <style>
 .admonition {
-  margin: 1.5em 0;
+  margin: 2rem 0;
   padding: 0;
   border-left: 4px solid;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: var(--border-radius, 8px);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.1));
   overflow: hidden;
+  background: var(--background, #fff);
+  border: var(--border-width, 1px) solid var(--border-color, rgba(0, 0, 0, 0.08));
+  transition: all var(--transition-fast, 0.15s cubic-bezier(0.4, 0, 0.2, 1));
+  position: relative;
+}
+
+.admonition:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
 }
 
 .admonition-title {
-  font-weight: bold;
-  padding: 0.75em 1em;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
   margin: 0;
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  letter-spacing: 0.025em;
+  position: relative;
+  background: linear-gradient(135deg, var(--admonition-color) 0%, var(--admonition-color-dark) 100%);
+}
+
+.admonition-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.admonition-icon {
+  font-size: 1.25em;
+  font-weight: bold;
+  min-width: 1.25em;
 }
 
 .admonition-content {
-  padding: 1em;
-  background: #cc9966;
+  padding: 1.5rem;
+  background: var(--background-light, #f8f9fa);
+  line-height: 1.6;
+  position: relative;
 }
+
+.admonition-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-color, rgba(0, 0, 0, 0.08)), transparent);
+}
+
 .admonition-content p:last-child {
   margin-bottom: 0;
 }
 
+.admonition-content p:first-child {
+  margin-top: 0;
+}
+
+.admonition-content h1,
+.admonition-content h2,
+.admonition-content h3,
+.admonition-content h4,
+.admonition-content h5,
+.admonition-content h6 {
+  margin-top: 1rem;
+  color: var(--admonition-color);
+}
+
+.admonition-content code {
+  background: var(--background, #fff);
+  border-color: var(--admonition-color);
+  color: var(--admonition-color);
+}
+
+.admonition-content a {
+  color: var(--admonition-color);
+}
+
+.admonition-content a:hover {
+  color: var(--admonition-color-dark);
+}
+
  
 .admonition-note {
-  border-color: #3498db;
+  --admonition-color: #3498db;
+  --admonition-color-dark: #2980b9;
+  border-left-color: var(--admonition-color);
 }
-.admonition-note .admonition-title {
-  background: #3498db;
+
+.admonition-note .admonition-icon::before {
+  content: 'ℹ';
 }
 
  
 .admonition-warning {
-  border-color: #f39c12;
+  --admonition-color: #f39c12;
+  --admonition-color-dark: #e67e22;
+  border-left-color: var(--admonition-color);
 }
-.admonition-warning .admonition-title {
-  background: #f39c12;
+
+.admonition-warning .admonition-icon::before {
+  content: '⚠';
 }
 
  
 .admonition-danger, .admonition-error {
-  border-color: #e74c3c;
+  --admonition-color: #e74c3c;
+  --admonition-color-dark: #c0392b;
+  border-left-color: var(--admonition-color);
 }
-.admonition-danger .admonition-title, .admonition-error .admonition-title {
-  background: #e74c3c;
+
+.admonition-danger .admonition-icon::before,
+.admonition-error .admonition-icon::before {
+  content: '⚡';
 }
 
  
 .admonition-success, .admonition-tip {
-  border-color: #27ae60;
+  --admonition-color: #27ae60;
+  --admonition-color-dark: #229954;
+  border-left-color: var(--admonition-color);
 }
-.admonition-success .admonition-title, .admonition-tip .admonition-title {
-  background: #27ae60;
+
+.admonition-success .admonition-icon::before,
+.admonition-tip .admonition-icon::before {
+  content: '✓';
 }
 
  
 .admonition-info {
-  border-color: #17a2b8;
+  --admonition-color: #17a2b8;
+  --admonition-color-dark: #138496;
+  border-left-color: var(--admonition-color);
 }
-.admonition-info .admonition-title {
-  background: #17a2b8;
+
+.admonition-info .admonition-icon::before {
+  content: '💡';
+}
+
+ 
+.admonition-question {
+  --admonition-color: #9b59b6;
+  --admonition-color-dark: #8e44ad;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-question .admonition-icon::before {
+  content: '❓';
+}
+
+ 
+.admonition-quote {
+  --admonition-color: #6c757d;
+  --admonition-color-dark: #5a6268;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-quote .admonition-icon::before {
+  content: '"';
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+ 
+:root[data-color="dark"] .admonition-content,
+:root[data-color="night"] .admonition-content {
+  background: var(--background-secondary, #202020);
+}
+
+:root[data-color="dark"] .admonition-content code,
+:root[data-color="night"] .admonition-content code {
+  background: var(--background, #1a1a1a);
+}
+
+ 
+@media (max-width: 767px) {
+  .admonition {
+    margin: 1.5rem -1rem;
+    border-radius: 0;
+    border-left-width: 6px;
+  }
+  
+  .admonition-title {
+    padding: 1rem;
+  }
+  
+  .admonition-content {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .admonition {
+    margin: 2.5rem 0;
+  }
 }
 </style>
 <h4 id="loading-the-data-from-a-file">Loading the data from a file</h4>
@@ -605,73 +907,224 @@ $.getJSON(&#34;point-data.geojson&#34;, function(data) {
 }).addTo(myMap);
 });
 </code></pre><p>Save!</p>
-<div class="admonition admonition-warning"><div class="admonition-title">A slight workbench hiccup</div><div class="admonition-content">
+<div class="admonition admonition-warning"><div class="admonition-title">
+    <span class="admonition-icon"></span>
+    A slight workbench hiccup
+  </div><div class="admonition-content">
     <strong>Now</strong>. Remember when we were able to view your webmap live in a tab in your workbench? Your lab bench will not <em>automatically</em> show you your point-data file loaded into the map this way, because it&rsquo;s not configured to allow that. It&rsquo;s just one of those things that are more trouble to solve than they&rsquo;re worth. So instead, we&rsquo;re going to make your computer pretend to be a webserver, and we&rsquo;ll be able to load your map in your regular web browser. There&rsquo;s always more than one way to get things done!
   </div>
 </div>
 <style>
 .admonition {
-  margin: 1.5em 0;
+  margin: 2rem 0;
   padding: 0;
   border-left: 4px solid;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: var(--border-radius, 8px);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.1));
   overflow: hidden;
+  background: var(--background, #fff);
+  border: var(--border-width, 1px) solid var(--border-color, rgba(0, 0, 0, 0.08));
+  transition: all var(--transition-fast, 0.15s cubic-bezier(0.4, 0, 0.2, 1));
+  position: relative;
+}
+
+.admonition:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
 }
 
 .admonition-title {
-  font-weight: bold;
-  padding: 0.75em 1em;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
   margin: 0;
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  letter-spacing: 0.025em;
+  position: relative;
+  background: linear-gradient(135deg, var(--admonition-color) 0%, var(--admonition-color-dark) 100%);
+}
+
+.admonition-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.admonition-icon {
+  font-size: 1.25em;
+  font-weight: bold;
+  min-width: 1.25em;
 }
 
 .admonition-content {
-  padding: 1em;
-  background: #cc9966;
+  padding: 1.5rem;
+  background: var(--background-light, #f8f9fa);
+  line-height: 1.6;
+  position: relative;
 }
+
+.admonition-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-color, rgba(0, 0, 0, 0.08)), transparent);
+}
+
 .admonition-content p:last-child {
   margin-bottom: 0;
 }
 
+.admonition-content p:first-child {
+  margin-top: 0;
+}
+
+.admonition-content h1,
+.admonition-content h2,
+.admonition-content h3,
+.admonition-content h4,
+.admonition-content h5,
+.admonition-content h6 {
+  margin-top: 1rem;
+  color: var(--admonition-color);
+}
+
+.admonition-content code {
+  background: var(--background, #fff);
+  border-color: var(--admonition-color);
+  color: var(--admonition-color);
+}
+
+.admonition-content a {
+  color: var(--admonition-color);
+}
+
+.admonition-content a:hover {
+  color: var(--admonition-color-dark);
+}
+
  
 .admonition-note {
-  border-color: #3498db;
+  --admonition-color: #3498db;
+  --admonition-color-dark: #2980b9;
+  border-left-color: var(--admonition-color);
 }
-.admonition-note .admonition-title {
-  background: #3498db;
+
+.admonition-note .admonition-icon::before {
+  content: 'ℹ';
 }
 
  
 .admonition-warning {
-  border-color: #f39c12;
+  --admonition-color: #f39c12;
+  --admonition-color-dark: #e67e22;
+  border-left-color: var(--admonition-color);
 }
-.admonition-warning .admonition-title {
-  background: #f39c12;
+
+.admonition-warning .admonition-icon::before {
+  content: '⚠';
 }
 
  
 .admonition-danger, .admonition-error {
-  border-color: #e74c3c;
+  --admonition-color: #e74c3c;
+  --admonition-color-dark: #c0392b;
+  border-left-color: var(--admonition-color);
 }
-.admonition-danger .admonition-title, .admonition-error .admonition-title {
-  background: #e74c3c;
+
+.admonition-danger .admonition-icon::before,
+.admonition-error .admonition-icon::before {
+  content: '⚡';
 }
 
  
 .admonition-success, .admonition-tip {
-  border-color: #27ae60;
+  --admonition-color: #27ae60;
+  --admonition-color-dark: #229954;
+  border-left-color: var(--admonition-color);
 }
-.admonition-success .admonition-title, .admonition-tip .admonition-title {
-  background: #27ae60;
+
+.admonition-success .admonition-icon::before,
+.admonition-tip .admonition-icon::before {
+  content: '✓';
 }
 
  
 .admonition-info {
-  border-color: #17a2b8;
+  --admonition-color: #17a2b8;
+  --admonition-color-dark: #138496;
+  border-left-color: var(--admonition-color);
 }
-.admonition-info .admonition-title {
-  background: #17a2b8;
+
+.admonition-info .admonition-icon::before {
+  content: '💡';
+}
+
+ 
+.admonition-question {
+  --admonition-color: #9b59b6;
+  --admonition-color-dark: #8e44ad;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-question .admonition-icon::before {
+  content: '❓';
+}
+
+ 
+.admonition-quote {
+  --admonition-color: #6c757d;
+  --admonition-color-dark: #5a6268;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-quote .admonition-icon::before {
+  content: '"';
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+ 
+:root[data-color="dark"] .admonition-content,
+:root[data-color="night"] .admonition-content {
+  background: var(--background-secondary, #202020);
+}
+
+:root[data-color="dark"] .admonition-content code,
+:root[data-color="night"] .admonition-content code {
+  background: var(--background, #1a1a1a);
+}
+
+ 
+@media (max-width: 767px) {
+  .admonition {
+    margin: 1.5rem -1rem;
+    border-radius: 0;
+    border-left-width: 6px;
+  }
+  
+  .admonition-title {
+    padding: 1rem;
+  }
+  
+  .admonition-content {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .admonition {
+    margin: 2.5rem 0;
+  }
 }
 </style>
 <ol>
@@ -693,73 +1146,224 @@ $.getJSON(&#34;point-data.geojson&#34;, function(data) {
 <p><a href="https://mapwarper.net" target="_blank">Map Warper</a> is a service that allows us to upload images of maps, and then tie &lsquo;control points&rsquo; to real-world geography such that we stretch and warp the image to overlay the physical world. It then provides us with a tile-server so that the image can be imported into our map as its own layer. Take a look at this map of Ottawa:</p>
 <p><img alt="Ottawa 1857" src="/docs/support/images/webmap/61034.png"></p>
 <p>This was uploaded to Mapwarper and georectified by a former MA student at Carleton. You can see it on Mapwarper <a href="https://mapwarper.net/maps/61034" target="_blank">at this location</a>.</p>
-<div class="admonition admonition-warning"><div class="admonition-title">A slight Mapwarper hiccup</div><div class="admonition-content">
+<div class="admonition admonition-warning"><div class="admonition-title">
+    <span class="admonition-icon"></span>
+    A slight Mapwarper hiccup
+  </div><div class="admonition-content">
     Mapwarper periodically runs out of space; so look for maps that were last warper/used within the last two years. For maps that were last updated longer than two years ago you might need to log into Mapwarper, add some more control points to the map, and then re-georectify it to renew it, <em>and then</em> it will be available for use by your webmap - don&rsquo;t worry about that for now.
   </div>
 </div>
 <style>
 .admonition {
-  margin: 1.5em 0;
+  margin: 2rem 0;
   padding: 0;
   border-left: 4px solid;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: var(--border-radius, 8px);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.1));
   overflow: hidden;
+  background: var(--background, #fff);
+  border: var(--border-width, 1px) solid var(--border-color, rgba(0, 0, 0, 0.08));
+  transition: all var(--transition-fast, 0.15s cubic-bezier(0.4, 0, 0.2, 1));
+  position: relative;
+}
+
+.admonition:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
 }
 
 .admonition-title {
-  font-weight: bold;
-  padding: 0.75em 1em;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
   margin: 0;
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  letter-spacing: 0.025em;
+  position: relative;
+  background: linear-gradient(135deg, var(--admonition-color) 0%, var(--admonition-color-dark) 100%);
+}
+
+.admonition-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.admonition-icon {
+  font-size: 1.25em;
+  font-weight: bold;
+  min-width: 1.25em;
 }
 
 .admonition-content {
-  padding: 1em;
-  background: #cc9966;
+  padding: 1.5rem;
+  background: var(--background-light, #f8f9fa);
+  line-height: 1.6;
+  position: relative;
 }
+
+.admonition-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-color, rgba(0, 0, 0, 0.08)), transparent);
+}
+
 .admonition-content p:last-child {
   margin-bottom: 0;
 }
 
+.admonition-content p:first-child {
+  margin-top: 0;
+}
+
+.admonition-content h1,
+.admonition-content h2,
+.admonition-content h3,
+.admonition-content h4,
+.admonition-content h5,
+.admonition-content h6 {
+  margin-top: 1rem;
+  color: var(--admonition-color);
+}
+
+.admonition-content code {
+  background: var(--background, #fff);
+  border-color: var(--admonition-color);
+  color: var(--admonition-color);
+}
+
+.admonition-content a {
+  color: var(--admonition-color);
+}
+
+.admonition-content a:hover {
+  color: var(--admonition-color-dark);
+}
+
  
 .admonition-note {
-  border-color: #3498db;
+  --admonition-color: #3498db;
+  --admonition-color-dark: #2980b9;
+  border-left-color: var(--admonition-color);
 }
-.admonition-note .admonition-title {
-  background: #3498db;
+
+.admonition-note .admonition-icon::before {
+  content: 'ℹ';
 }
 
  
 .admonition-warning {
-  border-color: #f39c12;
+  --admonition-color: #f39c12;
+  --admonition-color-dark: #e67e22;
+  border-left-color: var(--admonition-color);
 }
-.admonition-warning .admonition-title {
-  background: #f39c12;
+
+.admonition-warning .admonition-icon::before {
+  content: '⚠';
 }
 
  
 .admonition-danger, .admonition-error {
-  border-color: #e74c3c;
+  --admonition-color: #e74c3c;
+  --admonition-color-dark: #c0392b;
+  border-left-color: var(--admonition-color);
 }
-.admonition-danger .admonition-title, .admonition-error .admonition-title {
-  background: #e74c3c;
+
+.admonition-danger .admonition-icon::before,
+.admonition-error .admonition-icon::before {
+  content: '⚡';
 }
 
  
 .admonition-success, .admonition-tip {
-  border-color: #27ae60;
+  --admonition-color: #27ae60;
+  --admonition-color-dark: #229954;
+  border-left-color: var(--admonition-color);
 }
-.admonition-success .admonition-title, .admonition-tip .admonition-title {
-  background: #27ae60;
+
+.admonition-success .admonition-icon::before,
+.admonition-tip .admonition-icon::before {
+  content: '✓';
 }
 
  
 .admonition-info {
-  border-color: #17a2b8;
+  --admonition-color: #17a2b8;
+  --admonition-color-dark: #138496;
+  border-left-color: var(--admonition-color);
 }
-.admonition-info .admonition-title {
-  background: #17a2b8;
+
+.admonition-info .admonition-icon::before {
+  content: '💡';
+}
+
+ 
+.admonition-question {
+  --admonition-color: #9b59b6;
+  --admonition-color-dark: #8e44ad;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-question .admonition-icon::before {
+  content: '❓';
+}
+
+ 
+.admonition-quote {
+  --admonition-color: #6c757d;
+  --admonition-color-dark: #5a6268;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-quote .admonition-icon::before {
+  content: '"';
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+ 
+:root[data-color="dark"] .admonition-content,
+:root[data-color="night"] .admonition-content {
+  background: var(--background-secondary, #202020);
+}
+
+:root[data-color="dark"] .admonition-content code,
+:root[data-color="night"] .admonition-content code {
+  background: var(--background, #1a1a1a);
+}
+
+ 
+@media (max-width: 767px) {
+  .admonition {
+    margin: 1.5rem -1rem;
+    border-radius: 0;
+    border-left-width: 6px;
+  }
+  
+  .admonition-title {
+    padding: 1rem;
+  }
+  
+  .admonition-content {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .admonition {
+    margin: 2.5rem 0;
+  }
 }
 </style>
 <p>If you click on the &lsquo;Export&rsquo; tab, you&rsquo;ll find that there&rsquo;s a URL for the map as tiles: <code>http://mapwarper.net/maps/tile/61034/{z}/{x}/{y}.png</code>.</p>
