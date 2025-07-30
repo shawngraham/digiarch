@@ -14,7 +14,7 @@
 
 
 
-  <link rel="stylesheet" href="/assets/css/home.min.2dc5190260ecd421825e500fa324f50773e3f1068c839eb9051f21729eb7d3e2.css" integrity="">
+  <link rel="stylesheet" href="/assets/css/home.min.114634b783e4baf93fc35206bbd98458afb1bf68cabd9d61e75644522d1d9fe7.css" integrity="">
 
 
 
@@ -80,7 +80,7 @@
   </div>
 
   
-  
+  <div id="site-header-search"></div>
 
 </header>
     
@@ -150,16 +150,23 @@
 
 
 
+
   
-  <script src="/js/component/docsearch.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  
+  
+  
+  <script src="/js/component/local-search.js"></script>
+  
   <script type="application/javascript">
-      docsearch({
+      
+      new LocalSearch({
           container: '#site-header-search',
-          appId: '',
-          indexName: '',
-          apiKey: '',
+          indexUrl: '/index.json',
+          placeholder: 'Search docs...'
       });
   </script>
+
 
 
 <script type="application/javascript">

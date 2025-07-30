@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exit Ticket on HIST3000|CLCV3000</title>
+    <link>/tags/exit-ticket/</link>
+    <description>Recent content in Exit Ticket on HIST3000|CLCV3000</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <atom:link href="/tags/exit-ticket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exit Ticket</title>
+      <link>/docs/exit-ticket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/exit-ticket/</guid>
+      <description>You will write an &amp;rsquo;exit ticket&amp;rsquo; reflecting on where you started and where you&amp;rsquo;ve gotten to, and you will indicate how you feel you&amp;rsquo;ve done against the learning outcomes. You will be required to explicitly tie your exit ticket to evidence collected in your weekly work - link to documentation you&amp;rsquo;ve uploaded to your github repoistory (or repositories).&#xA;You will use the Exit Ticket to pull all the different strings together into a strong cord describing how your thinking has evolved and changed.</description>
+    </item>
+  </channel>
+</rss>

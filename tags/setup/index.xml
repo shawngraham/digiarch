@@ -43,5 +43,19 @@
       <guid>/docs/materials/wk1-github/</guid>
       <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation.&#xA;The sequence of steps below might be a bit different by the time you read this; Github often mucks about with its look and feel. Examine the steps first, and if what you encounter is a bit different than this, you should be able to work out the basic actions to take from this walk-through.</description>
     </item>
+    <item>
+      <title>FAQ</title>
+      <link>/docs/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/faq/</guid>
+      <description>FAQ &amp;amp; Helpful Hints Workbench? Content? JupyterLab? What? There are two interconnected components to this course.&#xA;This website: it is the overarching context for what I am trying to teach you re digital archaeology. It specifies what to read and listen and do each week. Most of the time, when I want you to do something, it will be at your workbench. The workbench. The workbench is made of two things: a.</description>
+    </item>
+    <item>
+      <title>Week 1 Getting Set Up</title>
+      <link>/docs/module-1/wk1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/module-1/wk1/</guid>
+      <description>Goals Listen Read Do Reflect Report Back Goals for this week Our overarching goal starting up is to set up your digital archaeology workflow, and to map out some of the broad contours of &amp;lsquo;digital archaeology&amp;rsquo;.&#xA;Getting the workflow set up involves creating a place to lodge your materials (a data repository via Github), a place to make notes and explore code (we&amp;rsquo;re going to use a thing called JupyterLite), and a way of being social with your community of nascent digital archaeologists (a social annotation layer for the web called Hypothes.</description>
+    </item>
   </channel>
 </rss>

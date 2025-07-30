@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Name on HIST3000|CLCV3000</title>
+    <link>/tags/name/</link>
+    <description>Recent content in Name on HIST3000|CLCV3000</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <atom:link href="/tags/name/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Outcomes</title>
+      <link>/docs/learning-outcomes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/learning-outcomes/</guid>
+      <description>Questions I developed this course with a couple of questions in mind, things I wanted to know the answers to. Digital archaeology - what the hell is it, anyway? What is it for? Is it just a &amp;lsquo;follower&amp;rsquo;, repurposing other tools &amp;amp; techniques, a supporting skill for &amp;lsquo;real&amp;rsquo; archaeology? Let&amp;rsquo;s set ourselves a grand challenges: what can digital archaeology be?&#xA;This course is a formalized exploration of these questions; I do not know the answers!</description>
+    </item>
+  </channel>
+</rss>
