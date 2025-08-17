@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Calculation on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/tags/calculation/</link>
+    <link>/tags/calculation/</link>
     <description>Recent content in Calculation on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="//localhost:1313/tags/calculation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/calculation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Module 2 Considering|Calculating Data</title>
-      <link>//localhost:1313/docs/module-2/</link>
+      <link>/docs/module-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-2/</guid>
+      <guid>/docs/module-2/</guid>
       <description>In this module, we explore various transformations we can do to the digitized materials created in module 1, why we might do them, and the different ways these transformations are ethically, theoretically laden. Your choices matter, so that&amp;rsquo;s why you document the process.&#xA;Each week, you have tasks, readings, and or things to listen to/watch that I would like you to complete. These should be done -or at least attempted- before moving onto the next week.</description>
     </item>
   </channel>
