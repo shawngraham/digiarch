@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Critique on HIST3000A|CLCV3000A</title>
-    <link>/tags/critique/</link>
+    <link>//localhost:1313/tags/critique/</link>
     <description>Recent content in Critique on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/critique/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/critique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 3: Design Your Own Data Collection Forms</title>
-      <link>/docs/materials/wk3-kobotoolbox/</link>
+      <link>//localhost:1313/docs/materials/wk3-kobotoolbox/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk3-kobotoolbox/</guid>
+      <guid>//localhost:1313/docs/materials/wk3-kobotoolbox/</guid>
       <description>Introduction The KoBoToolbox is an open source platform that allows you to design quite complex data collection forms, for use via computers or devices, both online and offline.&#xA;Ipads and similar have been used in archaeology since their invention, at places for example like Pompeii and other sites destroyed by Vesuvius. The potential applications for devices like this to speed up data acquisition and analysis practically fill entire volumes, but at the same time, leave some archaeologists worried that we&amp;rsquo;re missing something fundamental about doing archaeology, that we need a &amp;lsquo;slow&amp;rsquo; archaeology to counter them.</description>
     </item>
   </channel>

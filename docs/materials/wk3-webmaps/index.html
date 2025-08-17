@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Creating a Webmap with Leaflet.js.">
@@ -8,7 +8,7 @@
 
 <title>Week 3: Webmaps · HIST3000A|CLCV3000A</title>
 
-<link rel="canonical" href="/docs/materials/wk3-webmaps/">
+<link rel="canonical" href="//localhost:1313/docs/materials/wk3-webmaps/">
 
 
 
@@ -526,11 +526,15 @@
 </style>
 <p>Start small, and push yourself as far as you can go:</p>
 <ul>
-<li>[] Can I get a basic base layer displayed, centred on the graveyard? If so, then:</li>
-<li>[]  Can I get some points (or even a polygon) displayed on that map? (Hint - check the ipynb file in the labbench on quick maps with geojson.) If so, then:</li>
-<li>[] Can I find another map layer that meaningfully adds context?</li>
+<li><input disabled="" type="checkbox"> Can I get a basic base layer displayed, centred on the graveyard? If so, then:</li>
+<li><input disabled="" type="checkbox"> Can I get some points (or even a polygon) displayed on that map? (Hint - check the ipynb file in the labbench on quick maps with geojson.) If so, then:</li>
+<li><input disabled="" type="checkbox"> Can I find another map layer that meaningfully adds context?</li>
 </ul>
 <p><em>&hellip;now go!</em></p>
+<h2 id="simple-dots-on-a-map-with-geojson">Simple dots-on-a-map with GeoJson</h2>
+<p>The geojson format is a text file that lists coordinates and any other metadata about the coordinates as pairs of &lsquo;keys&rsquo; and &lsquo;values&rsquo;.</p>
+<p>If you followed my installation instructions properly, you have already configured your lab bench (JupyterLab Desktop) with a plugin that recognizes the geojson format and instead of showing you the text will show you a map of the data instead.
+Here&rsquo;s a neat trick that your lab bench will do for you automatically. The short version of this workflow would be: Create a new file; paste the raw geojson data into it; save and then rename the file <code>your-file-name.geojson</code>. Double-click on that file: your lab bench is smart enough to recognize the extenstion and that it&rsquo;s dealing with geographic data and it will automatically render a map! To see this in action, go to <code>quick-map-with-geojson.ipynb</code> computational note in the week three folder in your lab workbench and work through it. Nice as geojson is (and there are websites that can take a table of point data and turn it into geojson, see the end of this document) we sometimes want something a bit more complicated, allowing a bit of user interaction.</p>
 <h2 id="webmapping-with-leaflet">Webmapping with Leaflet</h2>
 <blockquote>
 <p>The following is a modified exercise from the <a href="https://o-date.github.io/draft/book/what-is-web-mapping.html">Open Digital Archaeology Textbook Environment</a> by Graham et al 2019; this particular section was contributed by <a href="https://dngupta.github.io/" target="_blank">Neha Gupta of UBC</a>.</p>
@@ -673,226 +677,6 @@ var dataLayer = L.geoJson(geojsonData, {
 }).addTo(myMap);
 </code></pre><p>Ctrl+S to save your file, and then in the rendered view hit the reload button (beside where it says &lsquo;distrust html&rsquo;) and you&rsquo;ll now see your data added! (And it automatically is configured to use OpenStreetMap base layer).</p>
 <p><strong>Push yourself:</strong> When you try to build a map of your graveyard, do you see how you could add your own point data with the csv-to-geojson tool?</p>
-<div class="admonition admonition-info"><div class="admonition-title">
-    <span class="admonition-icon"></span>
-    One Weird Trick
-  </div><div class="admonition-content">
-    Here&rsquo;s a neat trick that your lab bench will do for you automatically. Create a new file; paste the raw geojson data into it; save and then rename the file <code>point-data.geojson</code>. Double-click on that file: your lab bench is smart enough to recognize that it&rsquo;s dealing with geographic data and it will automatically render a map! (See also the <code>quick-map-with-geojson.ipynb</code> computational note in the week two folder in your lab workbench).
-  </div>
-</div>
-<style>
-.admonition {
-  margin: 2rem 0;
-  padding: 0;
-  border-left: 4px solid;
-  border-radius: var(--border-radius, 8px);
-  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-  background: var(--background, #fff);
-  border: var(--border-width, 1px) solid var(--border-color, rgba(0, 0, 0, 0.08));
-  transition: all var(--transition-fast, 0.15s cubic-bezier(0.4, 0, 0.2, 1));
-  position: relative;
-}
-
-.admonition:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
-}
-
-.admonition-title {
-  font-weight: 600;
-  padding: 1rem 1.5rem;
-  margin: 0;
-  color: white;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 1rem;
-  letter-spacing: 0.025em;
-  position: relative;
-  background: linear-gradient(135deg, var(--admonition-color) 0%, var(--admonition-color-dark) 100%);
-}
-
-.admonition-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-}
-
-.admonition-icon {
-  font-size: 1.25em;
-  font-weight: bold;
-  min-width: 1.25em;
-}
-
-.admonition-content {
-  padding: 1.5rem;
-  background: var(--background-light, #f8f9fa);
-  line-height: 1.6;
-  position: relative;
-}
-
-.admonition-content::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--border-color, rgba(0, 0, 0, 0.08)), transparent);
-}
-
-.admonition-content p:last-child {
-  margin-bottom: 0;
-}
-
-.admonition-content p:first-child {
-  margin-top: 0;
-}
-
-.admonition-content h1,
-.admonition-content h2,
-.admonition-content h3,
-.admonition-content h4,
-.admonition-content h5,
-.admonition-content h6 {
-  margin-top: 1rem;
-  color: var(--admonition-color);
-}
-
-.admonition-content code {
-  background: var(--background, #fff);
-  border-color: var(--admonition-color);
-  color: var(--admonition-color);
-}
-
-.admonition-content a {
-  color: var(--admonition-color);
-}
-
-.admonition-content a:hover {
-  color: var(--admonition-color-dark);
-}
-
- 
-.admonition-note {
-  --admonition-color: #3498db;
-  --admonition-color-dark: #2980b9;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-note .admonition-icon::before {
-  content: 'ℹ';
-}
-
- 
-.admonition-warning {
-  --admonition-color: #f39c12;
-  --admonition-color-dark: #e67e22;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-warning .admonition-icon::before {
-  content: '⚠';
-}
-
- 
-.admonition-danger, .admonition-error {
-  --admonition-color: #e74c3c;
-  --admonition-color-dark: #c0392b;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-danger .admonition-icon::before,
-.admonition-error .admonition-icon::before {
-  content: '⚡';
-}
-
- 
-.admonition-success, .admonition-tip {
-  --admonition-color: #27ae60;
-  --admonition-color-dark: #229954;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-success .admonition-icon::before,
-.admonition-tip .admonition-icon::before {
-  content: '✓';
-}
-
- 
-.admonition-info {
-  --admonition-color: #17a2b8;
-  --admonition-color-dark: #138496;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-info .admonition-icon::before {
-  content: '💡';
-}
-
- 
-.admonition-question {
-  --admonition-color: #9b59b6;
-  --admonition-color-dark: #8e44ad;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-question .admonition-icon::before {
-  content: '❓';
-}
-
- 
-.admonition-quote {
-  --admonition-color: #6c757d;
-  --admonition-color-dark: #5a6268;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-quote .admonition-icon::before {
-  content: '"';
-  font-family: serif;
-  font-size: 1.5em;
-}
-
- 
-:root[data-color="dark"] .admonition-content,
-:root[data-color="night"] .admonition-content {
-  background: var(--background-secondary, #202020);
-}
-
-:root[data-color="dark"] .admonition-content code,
-:root[data-color="night"] .admonition-content code {
-  background: var(--background, #1a1a1a);
-}
-
- 
-@media (max-width: 767px) {
-  .admonition {
-    margin: 1.5rem -1rem;
-    border-radius: 0;
-    border-left-width: 6px;
-  }
-  
-  .admonition-title {
-    padding: 1rem;
-  }
-  
-  .admonition-content {
-    padding: 1rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .admonition {
-    margin: 2.5rem 0;
-  }
-}
-</style>
 <h4 id="loading-the-data-from-a-file">Loading the data from a file</h4>
 <p>Go back into your html file, and type <code>//</code> in front of each line from <code>var geojsonData</code> to <code>}).addTo(myMap);</code>. This &lsquo;comments-out&rsquo; those lines so that the browser will ignore them. We&rsquo;re going to add a snippet of code to get your webmap to load the data from an external file.</p>
 <ol>
@@ -1722,6 +1506,7 @@ L.control.layers(baseMaps, overlayMaps).addTo(myMap);
     <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#simple-dots-on-a-map-with-geojson">Simple dots-on-a-map with GeoJson</a></li>
     <li><a href="#webmapping-with-leaflet">Webmapping with Leaflet</a>
       <ul>
         <li><a href="#adding-some-custom-data-points">Adding some custom data points.</a></li>
@@ -1809,7 +1594,7 @@ L.control.layers(baseMaps, overlayMaps).addTo(myMap);
 
 <script type="application/javascript">
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js?2025-07-30')
+        navigator.serviceWorker.register('/sw.js?2025-08-17')
             .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
     }
 </script>
