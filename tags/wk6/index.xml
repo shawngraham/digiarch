@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wk6 on HIST3000A|CLCV3000A</title>
-    <link>/tags/wk6/</link>
+    <link>//localhost:1313/tags/wk6/</link>
     <description>Recent content in Wk6 on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/wk6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/wk6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 6: Agent Based Modeling</title>
-      <link>/docs/materials/wk6-abm/</link>
+      <link>//localhost:1313/docs/materials/wk6-abm/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk6-abm/</guid>
+      <guid>//localhost:1313/docs/materials/wk6-abm/</guid>
       <description>Agent Based Modeling You&amp;rsquo;ve now had a chance to explore some archaeological and historical networks. Network analysis is fantastic and there&amp;rsquo;s amazing research being done - you should check out The Connected Pasthttps://connectedpast.net/) for more. When I was doing my PhD, I managed to spin out an entire thesis by stitching together a series of network &amp;lsquo;snapshots&amp;rsquo; by time period from a collection of stamped Roman bricks (the stamps are makers&amp;rsquo; marks).</description>
     </item>
     <item>
       <title>Week 6: Network Analysis</title>
-      <link>/docs/materials/wk6-networks/</link>
+      <link>//localhost:1313/docs/materials/wk6-networks/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk6-networks/</guid>
+      <guid>//localhost:1313/docs/materials/wk6-networks/</guid>
       <description>Network analysis is all about looking at the patterns of relationships we find in our data, and seeing how individual ‘nodes’ are positioned vis-a-vis all the other ones, or what the emergent, macroscopic patterns might imply about how the entire population of &amp;hellip;whatever it is you’re studying&amp;hellip; might experience things like group identity or flows of information.&#xA;We&amp;rsquo;re going to look at the entire Roman road network as represented in the ORBIS geospatial network model of the Roman world: https://orbis.</description>
     </item>
   </channel>

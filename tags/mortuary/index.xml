@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mortuary on HIST3000A|CLCV3000A</title>
-    <link>/tags/mortuary/</link>
+    <link>//localhost:1313/tags/mortuary/</link>
     <description>Recent content in Mortuary on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="/tags/mortuary/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/mortuary/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Graveyard Project</title>
-      <link>/docs/the-graveyard-project/</link>
+      <link>//localhost:1313/docs/the-graveyard-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/docs/the-graveyard-project/</guid>
+      <guid>//localhost:1313/docs/the-graveyard-project/</guid>
       <description>This Course Begins with Mortuary Archaeology I want you to gain some experience of collecting data, and of how data models (or our expectations of what we&amp;rsquo;ll find) influence the subsequent work that we can do with the information that we collect. &amp;lsquo;Data&amp;rsquo; means things given but the goal (a goal) of this exercise is to see this information more like &amp;lsquo;capta&amp;rsquo; or things created/crafted/captured.&#xA;Archaeology has some well established models for capturing the observations made at the trowel&amp;rsquo;s edge.</description>
     </item>
   </channel>

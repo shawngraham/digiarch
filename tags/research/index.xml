@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on HIST3000A|CLCV3000A</title>
-    <link>/tags/research/</link>
+    <link>//localhost:1313/tags/research/</link>
     <description>Recent content in Research on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Outcomes</title>
-      <link>/docs/learning-outcomes/</link>
+      <link>//localhost:1313/docs/learning-outcomes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/docs/learning-outcomes/</guid>
+      <guid>//localhost:1313/docs/learning-outcomes/</guid>
       <description>Questions I developed this course with a couple of questions in mind, things I wanted to know the answers to. Digital archaeology - what the hell is it, anyway? What is it for? Is it just a &amp;lsquo;follower&amp;rsquo;, repurposing other tools &amp;amp; techniques, a supporting skill for &amp;lsquo;real&amp;rsquo; archaeology? Let&amp;rsquo;s set ourselves a grand challenges: what can digital archaeology be?&#xA;This course is a formalized exploration of these questions; I do not know the answers!</description>
     </item>
   </channel>
