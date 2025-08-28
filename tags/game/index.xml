@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/tags/game/</link>
+    <link>/tags/game/</link>
     <description>Recent content in Game on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/game/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 10: Solo Journaling Role Playing Game</title>
-      <link>//localhost:1313/docs/materials/wk10-solo-rpg/</link>
+      <link>/docs/materials/wk10-solo-rpg/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk10-solo-rpg/</guid>
+      <guid>/docs/materials/wk10-solo-rpg/</guid>
       <description>One of the most effective ways to teach someone about the past is to allow them to inhabit a character and play out a scenario. Well-designed games take their rules from the historical situation we&amp;rsquo;re interested in. Remember when we explored Agent Based Models? Those are just games that play themselves. As game designers interested in the past, we develop scenarios where the historical problem space captures some element of the past that we want players to engage in.</description>
     </item>
   </channel>

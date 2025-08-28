@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networks on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/tags/networks/</link>
+    <link>/tags/networks/</link>
     <description>Recent content in Networks on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 6: Network Analysis</title>
-      <link>//localhost:1313/docs/materials/wk6-networks/</link>
+      <link>/docs/materials/wk6-networks/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk6-networks/</guid>
+      <guid>/docs/materials/wk6-networks/</guid>
       <description>Network analysis is all about looking at the patterns of relationships we find in our data, and seeing how individual ‘nodes’ are positioned vis-a-vis all the other ones, or what the emergent, macroscopic patterns might imply about how the entire population of &amp;hellip;whatever it is you’re studying&amp;hellip; might experience things like group identity or flows of information.&#xA;We&amp;rsquo;re going to look at the entire Roman road network as represented in the ORBIS geospatial network model of the Roman world: https://orbis.</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wk7 on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/tags/wk7/</link>
+    <link>/tags/wk7/</link>
     <description>Recent content in Wk7 on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/wk7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/wk7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 7: Generative AI</title>
-      <link>//localhost:1313/docs/materials/wk7-generative-ai/</link>
+      <link>/docs/materials/wk7-generative-ai/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk7-generative-ai/</guid>
+      <guid>/docs/materials/wk7-generative-ai/</guid>
       <description>Forget what you&amp;rsquo;ve heard about language models and AI, or what you already think you know, ok?&#xA;First of all, archaeology has been using machine learning for years; up until quite recently, you could say &amp;lsquo;ai&amp;rsquo; and be understood that you were talking about things like agent based modeling or computer vision analysis and so on.&#xA;There is no such thing as artificial general intelligence.&#xA;The version of &amp;lsquo;ai&amp;rsquo; that uses neural networks to represent statistical associations between words and then welds a chat bot on top of it to create the illusion of intelligence has a lot of marketing dollars behind it.</description>
     </item>
     <item>
       <title>Week 7: Generative AI - RAG</title>
-      <link>//localhost:1313/docs/materials/wk7-rag/</link>
+      <link>/docs/materials/wk7-rag/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk7-rag/</guid>
+      <guid>/docs/materials/wk7-rag/</guid>
       <description>Computer, how does the stratigraphy of building A relate to that of building B? The ability to ask questions of our data using our everyday language is the StarTrek dream, isn’t it. ‘Computer, when and how was this site abandoned?’ ‘Computer, identify the logical inconsistencies in this stratigraphy’. ‘Computer, what is the relationship between phase 4 and the area B group?’ Things like that.&#xA;Generative AI sure does sound like a human, right?</description>
     </item>
     <item>
       <title>Week 7: Images and Neural Nets</title>
-      <link>//localhost:1313/docs/materials/wk7-images/</link>
+      <link>/docs/materials/wk7-images/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk7-images/</guid>
+      <guid>/docs/materials/wk7-images/</guid>
       <description>When our eyes see an image, various receptors in the retina respond by firing. Some fire in response to various colours. Some fire in response to light and shadow. Imagine that these cells are arranged in layers. If those simple cells in the first layer fire, they pass a signal to the next layer up. The cells in that layer might only fire if they get enough ‘activations’ from the previous layer.</description>
     </item>
   </channel>

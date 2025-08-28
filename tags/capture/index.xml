@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Capture on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/tags/capture/</link>
+    <link>/tags/capture/</link>
     <description>Recent content in Capture on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="//localhost:1313/tags/capture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/capture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Module 1</title>
-      <link>//localhost:1313/docs/module-1/</link>
+      <link>/docs/module-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-1/</guid>
+      <guid>/docs/module-1/</guid>
       <description>How does the human past become data? What does it mean to turn the different kinds of traces we have into something that becomes&amp;hellip; counted? And how does the act of counting change what gets valued? In this module, aside from setting up your digital work bench, you&amp;rsquo;ll get some experience of turning the world into data, and you will think deeply about what that means.&#xA;Each week, you have tasks, readings, and or things to listen to/watch that I would like you to complete.</description>
     </item>
   </channel>
