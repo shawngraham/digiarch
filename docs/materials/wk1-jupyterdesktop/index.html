@@ -312,226 +312,6 @@
 </span></span></code></pre></div><p>See how easy that was? You just entered some python code into a coding environment powered by a version of the Python language. That gray box is a &lsquo;cell&rsquo; powered by the Jupyter lab interface. When you hit shift+enter (or hit the &lsquo;play&rsquo; arrow) the code is passed to an interpreter which translates the python language into something your machine understands.</p>
 <p>We want to get something similar set up on your computer. In this course, we will use the Python and R languages for the most part, so we need to get an interpreter or &lsquo;kernel&rsquo; for Python and for R installed. We&rsquo;ll start with Python, for now.</p>
 <p>Installing Python directly onto your machine can be a pain though, since there are so many of you and so many different computers y&rsquo;all might have. We will be using, for parts of the course, an application called &lsquo;Jupyter Lab Desktop&rsquo; that ought to make life easier for us. I have created an extension for Jupyter Lab Desktop that lets us not only do computational analysis, but also, make wiki-style notes around our readings and our analyses (following &lsquo;personal knowledge management&rsquo; approaches.)</p>
-<div class="admonition admonition-info"><div class="admonition-title">
-    <span class="admonition-icon"></span>
-    A Quick Help Video
-  </div><div class="admonition-content">
-    I&rsquo;m no Spielberg, but here&rsquo;s a wee video to go along with Part One &amp; Part Two: <a href="https://komododecks.com/recordings/HeUBn5JBa2XtgGgfd51g" target="_blank">link</a>
-  </div>
-</div>
-<style>
-.admonition {
-  margin: 2rem 0;
-  padding: 0;
-  border-left: 4px solid;
-  border-radius: var(--border-radius, 8px);
-  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-  background: var(--background, #fff);
-  border: var(--border-width, 1px) solid var(--border-color, rgba(0, 0, 0, 0.08));
-  transition: all var(--transition-fast, 0.15s cubic-bezier(0.4, 0, 0.2, 1));
-  position: relative;
-}
-
-.admonition:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
-}
-
-.admonition-title {
-  font-weight: 600;
-  padding: 1rem 1.5rem;
-  margin: 0;
-  color: white;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 1rem;
-  letter-spacing: 0.025em;
-  position: relative;
-  background: linear-gradient(135deg, var(--admonition-color) 0%, var(--admonition-color-dark) 100%);
-}
-
-.admonition-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-}
-
-.admonition-icon {
-  font-size: 1.25em;
-  font-weight: bold;
-  min-width: 1.25em;
-}
-
-.admonition-content {
-  padding: 1.5rem;
-  background: var(--background-light, #f8f9fa);
-  line-height: 1.6;
-  position: relative;
-}
-
-.admonition-content::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--border-color, rgba(0, 0, 0, 0.08)), transparent);
-}
-
-.admonition-content p:last-child {
-  margin-bottom: 0;
-}
-
-.admonition-content p:first-child {
-  margin-top: 0;
-}
-
-.admonition-content h1,
-.admonition-content h2,
-.admonition-content h3,
-.admonition-content h4,
-.admonition-content h5,
-.admonition-content h6 {
-  margin-top: 1rem;
-  color: var(--admonition-color);
-}
-
-.admonition-content code {
-  background: var(--background, #fff);
-  border-color: var(--admonition-color);
-  color: var(--admonition-color);
-}
-
-.admonition-content a {
-  color: var(--admonition-color);
-}
-
-.admonition-content a:hover {
-  color: var(--admonition-color-dark);
-}
-
- 
-.admonition-note {
-  --admonition-color: #3498db;
-  --admonition-color-dark: #2980b9;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-note .admonition-icon::before {
-  content: 'ℹ';
-}
-
- 
-.admonition-warning {
-  --admonition-color: #f39c12;
-  --admonition-color-dark: #e67e22;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-warning .admonition-icon::before {
-  content: '⚠';
-}
-
- 
-.admonition-danger, .admonition-error {
-  --admonition-color: #e74c3c;
-  --admonition-color-dark: #c0392b;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-danger .admonition-icon::before,
-.admonition-error .admonition-icon::before {
-  content: '⚡';
-}
-
- 
-.admonition-success, .admonition-tip {
-  --admonition-color: #27ae60;
-  --admonition-color-dark: #229954;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-success .admonition-icon::before,
-.admonition-tip .admonition-icon::before {
-  content: '✓';
-}
-
- 
-.admonition-info {
-  --admonition-color: #17a2b8;
-  --admonition-color-dark: #138496;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-info .admonition-icon::before {
-  content: '💡';
-}
-
- 
-.admonition-question {
-  --admonition-color: #9b59b6;
-  --admonition-color-dark: #8e44ad;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-question .admonition-icon::before {
-  content: '❓';
-}
-
- 
-.admonition-quote {
-  --admonition-color: #6c757d;
-  --admonition-color-dark: #5a6268;
-  border-left-color: var(--admonition-color);
-}
-
-.admonition-quote .admonition-icon::before {
-  content: '"';
-  font-family: serif;
-  font-size: 1.5em;
-}
-
- 
-:root[data-color="dark"] .admonition-content,
-:root[data-color="night"] .admonition-content {
-  background: var(--background-secondary, #202020);
-}
-
-:root[data-color="dark"] .admonition-content code,
-:root[data-color="night"] .admonition-content code {
-  background: var(--background, #1a1a1a);
-}
-
- 
-@media (max-width: 767px) {
-  .admonition {
-    margin: 1.5rem -1rem;
-    border-radius: 0;
-    border-left-width: 6px;
-  }
-  
-  .admonition-title {
-    padding: 1rem;
-  }
-  
-  .admonition-content {
-    padding: 1rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .admonition {
-    margin: 2.5rem 0;
-  }
-}
-</style>
 <h2 id="part-one-get-the-content-for-our-lab-bench">Part One: Get The Content for our Lab Bench</h2>
 <p>I have made a folder with a variety of notes (plain text files that use the .md file extension to signal that I&rsquo;m using <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">markdown</a> to indicate headers, bullets, and so on) and python &rsquo;notebooks&rsquo; that mix python code with markdown comments. These files are signaled with the .ipynb extension, and they can be understood and run by Jupyter.</p>
 <p>The attraction for us is that we can make notes using markdown, and we can treat the .ipynb files like experiments that we link into our thinking.</p>
@@ -798,6 +578,226 @@
 </ul>
 </li>
 </ul>
+<div class="admonition admonition-info"><div class="admonition-title">
+    <span class="admonition-icon"></span>
+    This is what it looks like if everything has gone well.
+  </div><div class="admonition-content">
+    <iframe src="https://komododecks.com/recordings/HeUBn5JBa2XtgGgfd51g" width=100% height="600px"></iframe>
+  </div>
+</div>
+<style>
+.admonition {
+  margin: 2rem 0;
+  padding: 0;
+  border-left: 4px solid;
+  border-radius: var(--border-radius, 8px);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+  background: var(--background, #fff);
+  border: var(--border-width, 1px) solid var(--border-color, rgba(0, 0, 0, 0.08));
+  transition: all var(--transition-fast, 0.15s cubic-bezier(0.4, 0, 0.2, 1));
+  position: relative;
+}
+
+.admonition:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
+}
+
+.admonition-title {
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  margin: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  letter-spacing: 0.025em;
+  position: relative;
+  background: linear-gradient(135deg, var(--admonition-color) 0%, var(--admonition-color-dark) 100%);
+}
+
+.admonition-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.admonition-icon {
+  font-size: 1.25em;
+  font-weight: bold;
+  min-width: 1.25em;
+}
+
+.admonition-content {
+  padding: 1.5rem;
+  background: var(--background-light, #f8f9fa);
+  line-height: 1.6;
+  position: relative;
+}
+
+.admonition-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-color, rgba(0, 0, 0, 0.08)), transparent);
+}
+
+.admonition-content p:last-child {
+  margin-bottom: 0;
+}
+
+.admonition-content p:first-child {
+  margin-top: 0;
+}
+
+.admonition-content h1,
+.admonition-content h2,
+.admonition-content h3,
+.admonition-content h4,
+.admonition-content h5,
+.admonition-content h6 {
+  margin-top: 1rem;
+  color: var(--admonition-color);
+}
+
+.admonition-content code {
+  background: var(--background, #fff);
+  border-color: var(--admonition-color);
+  color: var(--admonition-color);
+}
+
+.admonition-content a {
+  color: var(--admonition-color);
+}
+
+.admonition-content a:hover {
+  color: var(--admonition-color-dark);
+}
+
+ 
+.admonition-note {
+  --admonition-color: #3498db;
+  --admonition-color-dark: #2980b9;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-note .admonition-icon::before {
+  content: 'ℹ';
+}
+
+ 
+.admonition-warning {
+  --admonition-color: #f39c12;
+  --admonition-color-dark: #e67e22;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-warning .admonition-icon::before {
+  content: '⚠';
+}
+
+ 
+.admonition-danger, .admonition-error {
+  --admonition-color: #e74c3c;
+  --admonition-color-dark: #c0392b;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-danger .admonition-icon::before,
+.admonition-error .admonition-icon::before {
+  content: '⚡';
+}
+
+ 
+.admonition-success, .admonition-tip {
+  --admonition-color: #27ae60;
+  --admonition-color-dark: #229954;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-success .admonition-icon::before,
+.admonition-tip .admonition-icon::before {
+  content: '✓';
+}
+
+ 
+.admonition-info {
+  --admonition-color: #17a2b8;
+  --admonition-color-dark: #138496;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-info .admonition-icon::before {
+  content: '💡';
+}
+
+ 
+.admonition-question {
+  --admonition-color: #9b59b6;
+  --admonition-color-dark: #8e44ad;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-question .admonition-icon::before {
+  content: '❓';
+}
+
+ 
+.admonition-quote {
+  --admonition-color: #6c757d;
+  --admonition-color-dark: #5a6268;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-quote .admonition-icon::before {
+  content: '"';
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+ 
+:root[data-color="dark"] .admonition-content,
+:root[data-color="night"] .admonition-content {
+  background: var(--background-secondary, #202020);
+}
+
+:root[data-color="dark"] .admonition-content code,
+:root[data-color="night"] .admonition-content code {
+  background: var(--background, #1a1a1a);
+}
+
+ 
+@media (max-width: 767px) {
+  .admonition {
+    margin: 1.5rem -1rem;
+    border-radius: 0;
+    border-left-width: 6px;
+  }
+  
+  .admonition-title {
+    padding: 1rem;
+  }
+  
+  .admonition-content {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .admonition {
+    margin: 2.5rem 0;
+  }
+}
+</style>
 <h2 id="help-this-isnt-working-for-me">Help, this isn&rsquo;t working for me.</h2>
 <p>That said, AS AN ALTERNATIVE, or if you run into trouble using this application, you may download all of the course materials from <a href="https://github.com/shawngraham/digiarch-labbench/archive/refs/heads/main.zip">this link</a> and use <a href="https://obsidian.md">Obsidian</a> to manage your note making, and then open the ipynb files directly in the <a href="https://colab.research.google.com/" target="_blank">https://colab.research.google.com/</a> service under &lsquo;file -&gt; upload notebook&rsquo;.</p>
 
