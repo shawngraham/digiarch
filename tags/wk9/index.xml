@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wk9 on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/tags/wk9/</link>
+    <link>/tags/wk9/</link>
     <description>Recent content in Wk9 on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/wk9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/wk9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 9: Fun with a Harris Matrix</title>
-      <link>//localhost:1313/docs/materials/wk9-harris-matrix/</link>
+      <link>/docs/materials/wk9-harris-matrix/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk9-harris-matrix/</guid>
+      <guid>/docs/materials/wk9-harris-matrix/</guid>
       <description>Stratigraphy &amp;amp; Recording Archaeological Data When we did our graveyard project field work, you were recording all kinds of metadata and data about the graveyard. No digging involved! When we excavate, we pay that same attention to both the data (our observations) and our metadata (observations about our observations) and our process (our paradata). Designing a recording sheet is a critical intervention because in a very real way, if our recording sheets don&amp;rsquo;t have a spot for the information, it doesn&amp;rsquo;t exist.</description>
     </item>
   </channel>

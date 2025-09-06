@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grading on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/tags/grading/</link>
+    <link>/tags/grading/</link>
     <description>Recent content in Grading on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="//localhost:1313/tags/grading/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/grading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Assessment</title>
-      <link>//localhost:1313/docs/assessment/</link>
+      <link>/docs/assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/assessment/</guid>
+      <guid>/docs/assessment/</guid>
       <description>Each week, there are tasks for you to attempt. Sometimes there is a choice of which tasks to do; in those cases, I&amp;rsquo;m not looking for the number of these that you complete, but that you push yourself out of your comfort level. What&amp;rsquo;s more, it&amp;rsquo;s OK if something doesn&amp;rsquo;t work &amp;lsquo;perfectly.&amp;rsquo; The reflection on the process, both your fails and your successes, is the important thing.&#xA;Weekly work should be completed and logged by the end of the relevant week.</description>
     </item>
     <item>
       <title>General Philosophy</title>
-      <link>//localhost:1313/docs/general-philosophy/</link>
+      <link>/docs/general-philosophy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/general-philosophy/</guid>
+      <guid>/docs/general-philosophy/</guid>
       <description>The Most Important Idea Archaeology isn&amp;rsquo;t necessarily about the past. It&amp;rsquo;s about the materiality of the past and present and in many ways, the future. We try to understand what it is to be human through the extended abilities that tool use, that objects and their agencies, give to us. The digital tools we use are entangled with and extend humanity in powerful ways - and in 2025, it&amp;rsquo;s easy to see how digital technologies have extended humanity&amp;rsquo;s worst impulses.</description>
     </item>
     <item>
       <title>The Syllabus</title>
-      <link>//localhost:1313/docs/first-things-first/</link>
+      <link>/docs/first-things-first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/first-things-first/</guid>
+      <guid>/docs/first-things-first/</guid>
       <description>The syllabus is not a contract, but rather a guide to what and how I teach.&#xA;Read the damned thing The most successful students are the ones who have actually read the syllabus, and who have asked questions about it. After you read this page, move onto the general philosophical underpinnings of this course.&#xA;The complete syllabus is made up of these pages:&#xA;General Philosophy : why this course looks the way it does Learning Outcomes &amp;amp; My Policies : what you&amp;rsquo;ll learn and how I handle that Official Carleton Policies : general policies germane to every course Assessment Pieces : what actually gets assessed You Don&amp;rsquo;t Have To Be Techy!</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gis on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/tags/gis/</link>
+    <link>/tags/gis/</link>
     <description>Recent content in Gis on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/gis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/gis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 3: Spatial Analysis</title>
-      <link>//localhost:1313/docs/materials/wk3-spatial-archae/</link>
+      <link>/docs/materials/wk3-spatial-archae/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk3-spatial-archae/</guid>
+      <guid>/docs/materials/wk3-spatial-archae/</guid>
       <description>All those webmaps: that was a bit exhausting, eh? Click here, click there, compare with the screenshot, click on that, click on this&amp;hellip; webmaps are not GIS, even though they can be related.&#xA;Spatial archaeology using GIS looks at the patterning of the remains of human activity in (usually geographic) space over time. It can encompass working with geographic information systems, and it can encompass web mapping (on which see ODATE 3.</description>
     </item>
   </channel>

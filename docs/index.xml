@@ -2,360 +2,360 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/docs/</link>
+    <link>/docs/</link>
     <description>Recent content in Docs on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 13 Jun 2025 14:12:01 -0400</lastBuildDate>
-    <atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exit Ticket</title>
-      <link>//localhost:1313/docs/exit-ticket/</link>
+      <link>/docs/exit-ticket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/exit-ticket/</guid>
+      <guid>/docs/exit-ticket/</guid>
       <description>You will write an &amp;rsquo;exit ticket&amp;rsquo; reflecting on where you started and where you&amp;rsquo;ve gotten to, and you will indicate how you feel you&amp;rsquo;ve done against the learning outcomes. You will be required to explicitly tie your exit ticket to evidence collected in your weekly work - link to documentation you&amp;rsquo;ve uploaded to your github repoistory (or repositories).&#xA;You will use the Exit Ticket to pull all the different strings together into a strong cord describing how your thinking has evolved and changed.</description>
     </item>
     <item>
       <title>Week 1: Making Notes</title>
-      <link>//localhost:1313/docs/materials/wk1-making-notes/</link>
+      <link>/docs/materials/wk1-making-notes/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk1-making-notes/</guid>
+      <guid>/docs/materials/wk1-making-notes/</guid>
       <description>I am asking you to make notes about your process, not take notes. There&amp;rsquo;s a difference.&#xA;When we make notes, we are mindfully building a foundation through a process of linking. Jupyterlite is an environment where we can write analytical code and do statistical analysis, as well as make notes. The idea is that you make your observations there in text files (that use the markdown conventions for styling the text) that link to your analysis.</description>
     </item>
     <item>
       <title>Week 1: Jupyter Desktop Lab Bench</title>
-      <link>//localhost:1313/docs/materials/wk1-jupyterdesktop/</link>
+      <link>/docs/materials/wk1-jupyterdesktop/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk1-jupyterdesktop/</guid>
+      <guid>/docs/materials/wk1-jupyterdesktop/</guid>
       <description>👋🏻 Hi!&#xA;Let&amp;rsquo;s do some coding. The interface below accepts python code (it might take a moment to load up; if you can see a &amp;lsquo;play&amp;rsquo; etc it&amp;rsquo;s loaded). Try copying and pasting this:&#xA;text = &amp;#34;Oh yeah, digital archaeology!&amp;#34; print(text) into the gray box at the bottom of the interface below. Then, hit shift+enter while your cursor is in the box:&#xA;Now try this:&#xA;one = 1 two = 2 print(one + two) See how easy that was?</description>
     </item>
     <item>
       <title>Week 3: Adding the R language to Jupyter Desktop</title>
-      <link>//localhost:1313/docs/materials/wk3-jupyter-r/</link>
+      <link>/docs/materials/wk3-jupyter-r/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk3-jupyter-r/</guid>
+      <guid>/docs/materials/wk3-jupyter-r/</guid>
       <description>Student Instructions: Adding R to JupyterLab You can copy and paste this guide into your course materials.&#xA;This guide will walk you through adding the R programming language as an option in your JupyterLab Desktop application.&#xA;Part A: Install the R Language First, you need to install R itself. This is a separate application from JupyterLab.&#xA;Go to the official R download site for your operating system:&#xA;Windows: https://cran.r-project.org/bin/windows/base/ Click the large &amp;ldquo;Download R-X.</description>
     </item>
     <item>
       <title>Week 1: Hypothesis</title>
-      <link>//localhost:1313/docs/materials/wk1-hypothesis/</link>
+      <link>/docs/materials/wk1-hypothesis/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk1-hypothesis/</guid>
+      <guid>/docs/materials/wk1-hypothesis/</guid>
       <description>While watching this video, turn on the closed captions.&#xA;Create an account at hypothes.is:&#xA;Get the Chrome app or the Firefox bookmarklet:&#xA;Make sure you&amp;rsquo;re logged in:&#xA;Then join our HIST3000|CLCV3000 reading group. If you happen to be reading something, and see an existing annotation that interests you, hit the &amp;lsquo;reply&amp;rsquo; button on the annotation to start a conversation! Sometimes, the person to whom you&amp;rsquo;re replying might be a previous year&amp;rsquo;s student, but that&amp;rsquo;s ok; they might enter into conversation with you.</description>
     </item>
     <item>
       <title>Week 1: Github</title>
-      <link>//localhost:1313/docs/materials/wk1-github/</link>
+      <link>/docs/materials/wk1-github/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk1-github/</guid>
+      <guid>/docs/materials/wk1-github/</guid>
       <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation.&#xA;The sequence of steps below might be a bit different by the time you read this; Github often mucks about with its look and feel. Examine the steps first, and if what you encounter is a bit different than this, you should be able to work out the basic actions to take from this walk-through.</description>
     </item>
     <item>
       <title>Week 10: Data Sonification</title>
-      <link>//localhost:1313/docs/materials/wk10-sonification/</link>
+      <link>/docs/materials/wk10-sonification/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk10-sonification/</guid>
+      <guid>/docs/materials/wk10-sonification/</guid>
       <description>Gravestone inscriptions frequently mention the data. If we represented some of our class graveyard data in sound, what patterns might we hear? What might those patterns reflect in the lived experiences of those communities?&#xA;In your workbench, in the week 10 folder, is a jupyter notebook called sonification.ipynb. Give that a whirl and use it to represent your gravestone data. Then, import the resulting .midi files into something like Garageband or other music editing software to assign instrumentation, or remix as appropriate.</description>
     </item>
     <item>
       <title>Week 10: Hologram Projector</title>
-      <link>//localhost:1313/docs/materials/wk10-hologram/</link>
+      <link>/docs/materials/wk10-hologram/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk10-hologram/</guid>
+      <guid>/docs/materials/wk10-hologram/</guid>
       <description>Holograms &amp;amp; Pepper&amp;rsquo;s Ghost Ever been to Disneyworld? Have you been on the Haunted Mansion ride? Throughout that ride, ghosts appear in the rooms before you (and -spoiler- sometimes, in the ghost-mobile with you). Perhaps you&amp;rsquo;ve been to or have heard of concerts where a dead performer takes the stage again via &amp;lsquo;hologram&amp;rsquo;? These are all achieved by an illusion called &amp;lsquo;Pepper&amp;rsquo;s Ghost&amp;rsquo;. This is the same effect that teleprompters use too by the way.</description>
     </item>
     <item>
       <title>Week 10: Solo Journaling Role Playing Game</title>
-      <link>//localhost:1313/docs/materials/wk10-solo-rpg/</link>
+      <link>/docs/materials/wk10-solo-rpg/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk10-solo-rpg/</guid>
+      <guid>/docs/materials/wk10-solo-rpg/</guid>
       <description>One of the most effective ways to teach someone about the past is to allow them to inhabit a character and play out a scenario. Well-designed games take their rules from the historical situation we&amp;rsquo;re interested in. Remember when we explored Agent Based Models? Those are just games that play themselves. As game designers interested in the past, we develop scenarios where the historical problem space captures some element of the past that we want players to engage in.</description>
     </item>
     <item>
       <title>Week 10: Static Site Generator</title>
-      <link>//localhost:1313/docs/materials/wk10-site-generator/</link>
+      <link>/docs/materials/wk10-site-generator/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk10-site-generator/</guid>
+      <guid>/docs/materials/wk10-site-generator/</guid>
       <description>In the beginning Once upon a time, websites were simple text files that used tags: &amp;lt;html&amp;gt; to tell a browser how to display text. Then, things got more complicated with the emergence of .css files that would tell the browser how to style the text marked up with the relevant tags. Headers should be displayed like this; bullets like that. Then, javascript files (.js) could be used to mark up the text files so that the browser would know how to do various kinds of interactivity or special effects.</description>
     </item>
     <item>
       <title>Week 11: Archaeology Data Service</title>
-      <link>//localhost:1313/docs/materials/wk11-ads/</link>
+      <link>/docs/materials/wk11-ads/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk11-ads/</guid>
+      <guid>/docs/materials/wk11-ads/</guid>
       <description>In this exercise, we’re working with data deposited in ADS. The code at the bottom is an adaptation of Rachel Optiz’s notebook, ‘Exploring published data from the ADS’. Dr. Opitz’s work is written in Python, if you want to take a look at how she does it; we&amp;rsquo;re working in R this time because R it is very common for archaeologists to use R and to share R code (&amp;hellip;I mean, we also do the same thing with Python, but I&amp;rsquo;m trying to familiarize you with both).</description>
     </item>
     <item>
       <title>Week 11: Reproduction</title>
-      <link>//localhost:1313/docs/materials/wk11-reproduction/</link>
+      <link>/docs/materials/wk11-reproduction/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk11-reproduction/</guid>
+      <guid>/docs/materials/wk11-reproduction/</guid>
       <description>Ben Marwick and colleagues have made the argument that an extremely effective way of teaching archaeology data science is to have students try to replicate the findings of archaeologists from the published journal articles. (You can read the preprint here).&#xA;Of course, this depends on archaeologists publishing both the code and the underlying data for their work, something that is unfortunately still comparatively rare. When the results of archaeological research can’t be replicated or examined, there is an argument to be made that the research is unethical.</description>
     </item>
     <item>
       <title>Week 2: Alternative Project</title>
-      <link>//localhost:1313/docs/materials/wk2-alternative-project/</link>
+      <link>/docs/materials/wk2-alternative-project/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk2-alternative-project/</guid>
+      <guid>/docs/materials/wk2-alternative-project/</guid>
       <description>It may be that it is not feasible for you to go out into your community and visit a local graveyard for the purposes of this course. If this is you, please just send me a note saying that you&amp;rsquo;ll be doing the alternative. I don&amp;rsquo;t need a reason why; I can imagine several different scenarios where an alternative might be necessary, so we&amp;rsquo;ll roll with it.&#xA;The alternative I&amp;rsquo;ve crafted below might cause us hiccups and roadblocks or other unforseen difficulties.</description>
     </item>
     <item>
       <title>Week 2: Do It</title>
-      <link>//localhost:1313/docs/materials/wk2-do-the-project/</link>
+      <link>/docs/materials/wk2-do-the-project/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk2-do-the-project/</guid>
+      <guid>/docs/materials/wk2-do-the-project/</guid>
       <description>If any of the instructions below are unclear, annotate this page with hypothesis while being logged into our course reading group. If you spot someone asking for help and you can offer advice, respond to the annotation. You will need a smartphone, tablet, or laptop&#xA;measuring tape (metric)&#xA;compass (optional)&#xA;notebook&#xA;if you don&amp;rsquo;t have a device that you can take into the field, you can print out multiple copies of the data entry form behind this link and then enter the data using the forms below on a desktop computer later.</description>
     </item>
     <item>
       <title>Week 2: Sketchmap</title>
-      <link>//localhost:1313/docs/materials/wk2-sketchmap/</link>
+      <link>/docs/materials/wk2-sketchmap/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk2-sketchmap/</guid>
+      <guid>/docs/materials/wk2-sketchmap/</guid>
       <description>Before you head out to the graveyard that you intend to record, I want you to make a sketchmap to bring with you.&#xA;While the digital recording system that we are using can read the geolocation of your device when you are standing at a stone, the accuracy of that location might not be enough for us to understand any spatial patterns that might exist. While testing the system in a local graveyard, I found that stones a few feet apart would show up on the map (using my cellphone&amp;rsquo;s geolocation) hundreds of feet apart.</description>
     </item>
     <item>
       <title>Week 2: Working Safely</title>
-      <link>//localhost:1313/docs/materials/wk2-safework/</link>
+      <link>/docs/materials/wk2-safework/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk2-safework/</guid>
+      <guid>/docs/materials/wk2-safework/</guid>
       <description>Introduction This week, I am asking you to go out into your community and find a historic graveyard to work on. There was a graveyard in the middle of a field not far from the childhood home of a friend of mine. Who owned it? Who was responsible for it? Whose field was it in? Today, that field has been built over, with a couple of big box stores and a Tim Horton&amp;rsquo;s.</description>
     </item>
     <item>
       <title>Week 3: Design Your Own Data Collection Forms</title>
-      <link>//localhost:1313/docs/materials/wk3-kobotoolbox/</link>
+      <link>/docs/materials/wk3-kobotoolbox/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk3-kobotoolbox/</guid>
+      <guid>/docs/materials/wk3-kobotoolbox/</guid>
       <description>Introduction The KoBoToolbox is an open source platform that allows you to design quite complex data collection forms, for use via computers or devices, both online and offline.&#xA;Ipads and similar have been used in archaeology since their invention, at places for example like Pompeii and other sites destroyed by Vesuvius. The potential applications for devices like this to speed up data acquisition and analysis practically fill entire volumes, but at the same time, leave some archaeologists worried that we&amp;rsquo;re missing something fundamental about doing archaeology, that we need a &amp;lsquo;slow&amp;rsquo; archaeology to counter them.</description>
     </item>
     <item>
       <title>Week 3: Photogrammetry Prep</title>
-      <link>//localhost:1313/docs/materials/wk3-sfm-1/</link>
+      <link>/docs/materials/wk3-sfm-1/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk3-sfm-1/</guid>
+      <guid>/docs/materials/wk3-sfm-1/</guid>
       <description>Photogrammetry is the process whereby multiple photographs of an object are stitched together to make a 3d model of the object; the photographs are then draped over the model to make it photorealistic. Because of the physics of photography (focal distances of lenses and so on) a computer can calculate the relative positioning of overlapping points it identifies in multiple photographs, and with a bit of trig it works out the points-in-space.</description>
     </item>
     <item>
       <title>Week 3: Spatial Analysis</title>
-      <link>//localhost:1313/docs/materials/wk3-spatial-archae/</link>
+      <link>/docs/materials/wk3-spatial-archae/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk3-spatial-archae/</guid>
+      <guid>/docs/materials/wk3-spatial-archae/</guid>
       <description>All those webmaps: that was a bit exhausting, eh? Click here, click there, compare with the screenshot, click on that, click on this&amp;hellip; webmaps are not GIS, even though they can be related.&#xA;Spatial archaeology using GIS looks at the patterning of the remains of human activity in (usually geographic) space over time. It can encompass working with geographic information systems, and it can encompass web mapping (on which see ODATE 3.</description>
     </item>
     <item>
       <title>Week 3: Webmaps</title>
-      <link>//localhost:1313/docs/materials/wk3-webmaps/</link>
+      <link>/docs/materials/wk3-webmaps/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk3-webmaps/</guid>
+      <guid>/docs/materials/wk3-webmaps/</guid>
       <description>Introduction In this tutorial, I show you how to build a web map using open source code from Leaflet. The idea here is that you learn to build a map and get it online: and then you learn how to modify it to display:&#xA;the cemetery that you have worked on the location of stones Leaflet is very powerful; we&amp;rsquo;re not even scraping the surface with what it can do. As an example, the East End Cemetery website maps a historic African American burial ground in Henrico County and the city of Richmond, Virginia, that uses Leaflet to good effect:</description>
     </item>
     <item>
       <title>Week 5: Databases &amp; Some Gentle Stats</title>
-      <link>//localhost:1313/docs/materials/wk5-databases/</link>
+      <link>/docs/materials/wk5-databases/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk5-databases/</guid>
+      <guid>/docs/materials/wk5-databases/</guid>
       <description>These page draws on, re-work, and replicate portions of the Open Digital Archaeology Textbook Environment section on Databases&#xA;A database is a way of systematically organizing data through carefully designed metadata schemes that describe the nature of the data - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &amp;lsquo;fields&amp;rsquo; of the data in order to discern larger patterns.</description>
     </item>
     <item>
       <title>Week 6: Agent Based Modeling</title>
-      <link>//localhost:1313/docs/materials/wk6-abm/</link>
+      <link>/docs/materials/wk6-abm/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk6-abm/</guid>
+      <guid>/docs/materials/wk6-abm/</guid>
       <description>Agent Based Modeling You&amp;rsquo;ve now had a chance to explore some archaeological and historical networks. Network analysis is fantastic and there&amp;rsquo;s amazing research being done - you should check out The Connected Pasthttps://connectedpast.net/) for more. When I was doing my PhD, I managed to spin out an entire thesis by stitching together a series of network &amp;lsquo;snapshots&amp;rsquo; by time period from a collection of stamped Roman bricks (the stamps are makers&amp;rsquo; marks).</description>
     </item>
     <item>
       <title>Week 6: Network Analysis</title>
-      <link>//localhost:1313/docs/materials/wk6-networks/</link>
+      <link>/docs/materials/wk6-networks/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk6-networks/</guid>
+      <guid>/docs/materials/wk6-networks/</guid>
       <description>Network analysis is all about looking at the patterns of relationships we find in our data, and seeing how individual ‘nodes’ are positioned vis-a-vis all the other ones, or what the emergent, macroscopic patterns might imply about how the entire population of &amp;hellip;whatever it is you’re studying&amp;hellip; might experience things like group identity or flows of information.&#xA;We&amp;rsquo;re going to look at the entire Roman road network as represented in the ORBIS geospatial network model of the Roman world: https://orbis.</description>
     </item>
     <item>
       <title>Week 7: Generative AI</title>
-      <link>//localhost:1313/docs/materials/wk7-generative-ai/</link>
+      <link>/docs/materials/wk7-generative-ai/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk7-generative-ai/</guid>
+      <guid>/docs/materials/wk7-generative-ai/</guid>
       <description>Forget what you&amp;rsquo;ve heard about language models and AI, or what you already think you know, ok?&#xA;First of all, archaeology has been using machine learning for years; up until quite recently, you could say &amp;lsquo;ai&amp;rsquo; and be understood that you were talking about things like agent based modeling or computer vision analysis and so on.&#xA;There is no such thing as artificial general intelligence.&#xA;The version of &amp;lsquo;ai&amp;rsquo; that uses neural networks to represent statistical associations between words and then welds a chat bot on top of it to create the illusion of intelligence has a lot of marketing dollars behind it.</description>
     </item>
     <item>
       <title>Week 7: Generative AI - RAG</title>
-      <link>//localhost:1313/docs/materials/wk7-rag/</link>
+      <link>/docs/materials/wk7-rag/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk7-rag/</guid>
+      <guid>/docs/materials/wk7-rag/</guid>
       <description>Computer, how does the stratigraphy of building A relate to that of building B? The ability to ask questions of our data using our everyday language is the StarTrek dream, isn’t it. ‘Computer, when and how was this site abandoned?’ ‘Computer, identify the logical inconsistencies in this stratigraphy’. ‘Computer, what is the relationship between phase 4 and the area B group?’ Things like that.&#xA;Generative AI sure does sound like a human, right?</description>
     </item>
     <item>
       <title>Week 7: Images and Neural Nets</title>
-      <link>//localhost:1313/docs/materials/wk7-images/</link>
+      <link>/docs/materials/wk7-images/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk7-images/</guid>
+      <guid>/docs/materials/wk7-images/</guid>
       <description>When our eyes see an image, various receptors in the retina respond by firing. Some fire in response to various colours. Some fire in response to light and shadow. Imagine that these cells are arranged in layers. If those simple cells in the first layer fire, they pass a signal to the next layer up. The cells in that layer might only fire if they get enough ‘activations’ from the previous layer.</description>
     </item>
     <item>
       <title>Week 9: Fun with a Harris Matrix</title>
-      <link>//localhost:1313/docs/materials/wk9-harris-matrix/</link>
+      <link>/docs/materials/wk9-harris-matrix/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/materials/wk9-harris-matrix/</guid>
+      <guid>/docs/materials/wk9-harris-matrix/</guid>
       <description>Stratigraphy &amp;amp; Recording Archaeological Data When we did our graveyard project field work, you were recording all kinds of metadata and data about the graveyard. No digging involved! When we excavate, we pay that same attention to both the data (our observations) and our metadata (observations about our observations) and our process (our paradata). Designing a recording sheet is a critical intervention because in a very real way, if our recording sheets don&amp;rsquo;t have a spot for the information, it doesn&amp;rsquo;t exist.</description>
     </item>
     <item>
       <title>Assessment</title>
-      <link>//localhost:1313/docs/assessment/</link>
+      <link>/docs/assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/assessment/</guid>
+      <guid>/docs/assessment/</guid>
       <description>Each week, there are tasks for you to attempt. Sometimes there is a choice of which tasks to do; in those cases, I&amp;rsquo;m not looking for the number of these that you complete, but that you push yourself out of your comfort level. What&amp;rsquo;s more, it&amp;rsquo;s OK if something doesn&amp;rsquo;t work &amp;lsquo;perfectly.&amp;rsquo; The reflection on the process, both your fails and your successes, is the important thing.&#xA;Weekly work should be completed and logged by the end of the relevant week.</description>
     </item>
     <item>
       <title>Excavation is only the beginning</title>
-      <link>//localhost:1313/docs/overview/</link>
+      <link>/docs/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/overview/</guid>
+      <guid>/docs/overview/</guid>
       <description>Once the excavation is over, what happens to the information created through archaeological research? What about archaeology that does not involve digging? How do archaeologists use digital technologies on site, in the lab, or on the web? This course explores the intersection of digital technologies and computing with archaeology. We will explore the ways theory gets embedded into computation; perhaps there is even a theory of digital archaeology? We will explore how digital technologies allow us to ask questions that would otherwise be impossible to ask.</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>//localhost:1313/docs/faq/</link>
+      <link>/docs/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/faq/</guid>
+      <guid>/docs/faq/</guid>
       <description>FAQ &amp;amp; Helpful Hints Workbench? Content? JupyterLab? What? There are two interconnected components to this course.&#xA;This website: it is the overarching context for what I am trying to teach you re digital archaeology. It specifies what to read and listen and do each week. Most of the time, when I want you to do something, it will be at your workbench. The workbench. The workbench is made of two things: a.</description>
     </item>
     <item>
       <title>General Carleton Regulations</title>
-      <link>//localhost:1313/docs/general-regulations/</link>
+      <link>/docs/general-regulations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/general-regulations/</guid>
+      <guid>/docs/general-regulations/</guid>
       <description>The following are the University regulations common to all History courses, that I am obligated to share with you. COPIES OF WRITTEN WORK SUBMITTED Always retain for yourself a copy of all essays, term papers, written assignments or take-home tests submitted in your courses.&#xA;PLAGIARISM The University Senate defines plagiarism as “presenting, whether intentionally or not, the ideas, expression of ideas or work of others as one’s own.” This can include:</description>
     </item>
     <item>
       <title>General Philosophy</title>
-      <link>//localhost:1313/docs/general-philosophy/</link>
+      <link>/docs/general-philosophy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/general-philosophy/</guid>
+      <guid>/docs/general-philosophy/</guid>
       <description>The Most Important Idea Archaeology isn&amp;rsquo;t necessarily about the past. It&amp;rsquo;s about the materiality of the past and present and in many ways, the future. We try to understand what it is to be human through the extended abilities that tool use, that objects and their agencies, give to us. The digital tools we use are entangled with and extend humanity in powerful ways - and in 2025, it&amp;rsquo;s easy to see how digital technologies have extended humanity&amp;rsquo;s worst impulses.</description>
     </item>
     <item>
       <title>Learning Outcomes</title>
-      <link>//localhost:1313/docs/learning-outcomes/</link>
+      <link>/docs/learning-outcomes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/learning-outcomes/</guid>
+      <guid>/docs/learning-outcomes/</guid>
       <description>Questions I developed this course with a couple of questions in mind, things I wanted to know the answers to. Digital archaeology - what the hell is it, anyway? What is it for? Is it just a &amp;lsquo;follower&amp;rsquo;, repurposing other tools &amp;amp; techniques, a supporting skill for &amp;lsquo;real&amp;rsquo; archaeology? Let&amp;rsquo;s set ourselves a grand challenges: what can digital archaeology be?&#xA;This course is a formalized exploration of these questions; I do not know the answers!</description>
     </item>
     <item>
       <title>Module 1</title>
-      <link>//localhost:1313/docs/module-1/</link>
+      <link>/docs/module-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-1/</guid>
+      <guid>/docs/module-1/</guid>
       <description>How does the human past become data? What does it mean to turn the different kinds of traces we have into something that becomes&amp;hellip; counted? And how does the act of counting change what gets valued? In this module, aside from setting up your digital work bench, you&amp;rsquo;ll get some experience of turning the world into data, and you will think deeply about what that means.&#xA;Each week, you have tasks, readings, and or things to listen to/watch that I would like you to complete.</description>
     </item>
     <item>
       <title>Module 2 Considering|Calculating Data</title>
-      <link>//localhost:1313/docs/module-2/</link>
+      <link>/docs/module-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-2/</guid>
+      <guid>/docs/module-2/</guid>
       <description>In this module, we explore various transformations we can do to the digitized materials created in module 1, why we might do them, and the different ways these transformations are ethically, theoretically laden. Your choices matter, so that&amp;rsquo;s why you document the process.&#xA;Each week, you have tasks, readings, and or things to listen to/watch that I would like you to complete. These should be done -or at least attempted- before moving onto the next week.</description>
     </item>
     <item>
       <title>Module 3 Communicating</title>
-      <link>//localhost:1313/docs/module-3/</link>
+      <link>/docs/module-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-3/</guid>
+      <guid>/docs/module-3/</guid>
       <description>In this final module, you will try to find the compelling story and to communicate it, in various ways, to your intended public. To whom does archaeology belong? Does it matter how we tell the story?&#xA;Each week, you have tasks, readings, and or things to listen to/watch that I would like you to complete. These should be done -or at least attempted- before moving onto the next week.</description>
     </item>
     <item>
       <title>The Graveyard Project</title>
-      <link>//localhost:1313/docs/the-graveyard-project/</link>
+      <link>/docs/the-graveyard-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/the-graveyard-project/</guid>
+      <guid>/docs/the-graveyard-project/</guid>
       <description>This Course Begins with Mortuary Archaeology I want you to gain some experience of collecting data, and of how data models (or our expectations of what we&amp;rsquo;ll find) influence the subsequent work that we can do with the information that we collect. &amp;lsquo;Data&amp;rsquo; means things given but the goal (a goal) of this exercise is to see this information more like &amp;lsquo;capta&amp;rsquo; or things created/crafted/captured.&#xA;Archaeology has some well established models for capturing the observations made at the trowel&amp;rsquo;s edge.</description>
     </item>
     <item>
       <title>The Syllabus</title>
-      <link>//localhost:1313/docs/first-things-first/</link>
+      <link>/docs/first-things-first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/first-things-first/</guid>
+      <guid>/docs/first-things-first/</guid>
       <description>The syllabus is not a contract, but rather a guide to what and how I teach.&#xA;Read the damned thing The most successful students are the ones who have actually read the syllabus, and who have asked questions about it. After you read this page, move onto the general philosophical underpinnings of this course.&#xA;The complete syllabus is made up of these pages:&#xA;General Philosophy : why this course looks the way it does Learning Outcomes &amp;amp; My Policies : what you&amp;rsquo;ll learn and how I handle that Official Carleton Policies : general policies germane to every course Assessment Pieces : what actually gets assessed You Don&amp;rsquo;t Have To Be Techy!</description>
     </item>
     <item>
       <title>Week 1 Getting Set Up</title>
-      <link>//localhost:1313/docs/module-1/wk1/</link>
+      <link>/docs/module-1/wk1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-1/wk1/</guid>
+      <guid>/docs/module-1/wk1/</guid>
       <description>Goals Listen Read Do Reflect Report Back Goals for this week Our overarching goal starting up is to set up your digital archaeology workflow, and to map out some of the broad contours of &amp;lsquo;digital archaeology&amp;rsquo;.&#xA;Getting the workflow set up involves creating a place to lodge your materials (a data repository via Github), a place to make notes and explore code (we&amp;rsquo;re going to use a thing called JupyterLite), and a way of being social with your community of nascent digital archaeologists (a social annotation layer for the web called Hypothes.</description>
     </item>
     <item>
       <title>Week 10 Digital Public Archaeology</title>
-      <link>//localhost:1313/docs/module-3/wk10/</link>
+      <link>/docs/module-3/wk10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-3/wk10/</guid>
+      <guid>/docs/module-3/wk10/</guid>
       <description>Goals Listen Read Do Reflect Report Back Goals for this week This week is about finding the compelling story, the enchanting story, the heart-centered work of archaeology.&#xA;Listen Your browser does not support the audio element. Right-click and save-as this link to download the audio file&#xA;Read Tringham, Ruth. 2020. Closely Observed Layers: Storytelling and the Heart in Kisha Supernant, Jane Eva Baxter, Natasha Lyons, Sonya Atalay (eds). Archaeologies of the Heart, Springer, Cham, 2020.</description>
     </item>
     <item>
       <title>Week 11 Data Publishing, Replication, Reproducibility</title>
-      <link>//localhost:1313/docs/module-3/wk11/</link>
+      <link>/docs/module-3/wk11/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-3/wk11/</guid>
+      <guid>/docs/module-3/wk11/</guid>
       <description>Goals Listen Read Do Reflect Report Back Goals for this week This week, I want to spend some time thinking about how archaeologists make their data available - or not - for replication of their studies. After all, excavation is destruction.&#xA;Listen You&amp;rsquo;ve did it gang; you&amp;rsquo;ve reached the end. This week&amp;rsquo;s podcast features three amazing digital archaeologists, and one evil villain.&#xA;Your browser does not support the audio element.</description>
     </item>
     <item>
       <title>Week 12 Consolidation III</title>
-      <link>//localhost:1313/docs/module-3/wk12/</link>
+      <link>/docs/module-3/wk12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-3/wk12/</guid>
+      <guid>/docs/module-3/wk12/</guid>
       <description>Goals Do Report Back A Choice Goals for this week Pick the most impressive thing you&amp;rsquo;ve done so far in this course (any week) and do it over but explain what&amp;rsquo;s different this time. Reflect on the different between reproducing something and replicating something. How is &amp;lsquo;replication&amp;rsquo; a critical feature of digital archaeology, and how does that tie into the different audiences we write for? How has your thinking evolved since the end of Module 2?</description>
     </item>
     <item>
       <title>Week 2 Field work and ethical data collection</title>
-      <link>//localhost:1313/docs/module-1/wk2/</link>
+      <link>/docs/module-1/wk2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-1/wk2/</guid>
+      <guid>/docs/module-1/wk2/</guid>
       <description>Goals Listen Read Do Reflect Report Back Goals for this week Find a local historic graveyard (see the alternative if necessary) Begin recording some gravestones Create a rough map of the site Listen Your browser does not support the audio element. Right-click and save-as this link to download the audio file&#xA;DO This week and next you will head out into your local community to map a historical graveyard, and record some gravestones, using a digital recording tool called &amp;lsquo;Kobo Toolbox&amp;rsquo;.</description>
     </item>
     <item>
       <title>Week 3 Field work and ethical data collection II</title>
-      <link>//localhost:1313/docs/module-1/wk3/</link>
+      <link>/docs/module-1/wk3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-1/wk3/</guid>
+      <guid>/docs/module-1/wk3/</guid>
       <description>Goals Listen Read Do Reflect Report Back Goals for this week Continue the Graveyard Project and reconsider our recording system Obtain data for the eventual creation of 3d models of grave stones Develop a webmap of the site Explore the connections between what you are doing and what you are reading: graveyards are emotional spaces Listen Your browser does not support the audio element. Right-click and save-as this link to download the audio file</description>
     </item>
     <item>
       <title>Week 4 Consolidation I</title>
-      <link>//localhost:1313/docs/module-1/wk4/</link>
+      <link>/docs/module-1/wk4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-1/wk4/</guid>
+      <guid>/docs/module-1/wk4/</guid>
       <description>Goals Do Report Back Goals for this week Use this time to catch up on anything you didn&amp;rsquo;t read, to try some of the exercises over again, and to consolidate what you&amp;rsquo;ve achieved so far. Do You may make your repository private or public.&#xA;If you make it private, Make sure to &amp;lsquo;invite user shawngraham&amp;rsquo; to your repository so that I may view it.&#xA;Create a short consolidation document that reflects on this first module and your growth (one or two pages is fine).</description>
     </item>
     <item>
       <title>Week 5 What Gets Counted, Counts!</title>
-      <link>//localhost:1313/docs/module-2/wk5/</link>
+      <link>/docs/module-2/wk5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-2/wk5/</guid>
+      <guid>/docs/module-2/wk5/</guid>
       <description>Goals Listen Read Do Reflect Report Back Goals for this week uncover the ways in which &amp;lsquo;counting&amp;rsquo; hides or highlights the past encounter CSVs, SQL, and R and how to do some basic statistics on archaeological information Listen Your browser does not support the audio element. Right-click and save-as this link to download the audio file&#xA;Read D&amp;rsquo;Ignazio, Catherine and Klein, L. 2020. ‘What gets counted, counts’. From Data Feminism link Labrador, Angela.</description>
     </item>
     <item>
       <title>Week 6 Networks and Simulations</title>
-      <link>//localhost:1313/docs/module-2/wk6/</link>
+      <link>/docs/module-2/wk6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-2/wk6/</guid>
+      <guid>/docs/module-2/wk6/</guid>
       <description>Goals Listen Read Do Reflect Report Back In the podcast episode, I talk about what it is I find &amp;rsquo;enchanting&amp;rsquo; about digital archaeology. A lot of that concerns the idea of &amp;rsquo;emergence&amp;rsquo;, that if things are connected together like this then interesting unpredictable things might emerge at a higher level of complexity. Therefore, we&amp;rsquo;ll spend time with networks: first to represent archaeological data, and then as a substrate for computing archaeological data.</description>
     </item>
     <item>
       <title>Week 7 Machine Learning (or &#39;AI&#39;, if we must)</title>
-      <link>//localhost:1313/docs/module-2/wk7/</link>
+      <link>/docs/module-2/wk7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-2/wk7/</guid>
+      <guid>/docs/module-2/wk7/</guid>
       <description>Goals Listen Read Do Reflect Report Back Goals for this week Carrying on from our theme last week, we&amp;rsquo;ll explore two more methods that are predicated on using networks as a tool for computation. These kinds of neural network approaches can lead to what I think constitutes &amp;lsquo;an enchantment of digital archaeology&amp;rsquo;, but there is disquiet out there too&amp;hellip; then in the main reading we take digital archaeology into outer space.</description>
     </item>
     <item>
       <title>Week 8 Consolidation II</title>
-      <link>//localhost:1313/docs/module-2/wk8/</link>
+      <link>/docs/module-2/wk8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-2/wk8/</guid>
+      <guid>/docs/module-2/wk8/</guid>
       <description>Goals Do Report Back Goals for this week Use this time to catch up on anything you didn&amp;rsquo;t read, to try some of the exercises over again, and to consolidate what you&amp;rsquo;ve achieved so far. Do You may make your repository private or public.&#xA;If you make it private, Make sure to &amp;lsquo;invite user shawngraham&amp;rsquo; to your repository so that I may view it.&#xA;Create a short consolidation document that reflects on this second module and your growth (one or two pages is fine).</description>
     </item>
     <item>
       <title>Week 9 The Contexts of Archaeology</title>
-      <link>//localhost:1313/docs/module-3/wk9/</link>
+      <link>/docs/module-3/wk9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-3/wk9/</guid>
+      <guid>/docs/module-3/wk9/</guid>
       <description>Goals Listen Read Do Reflect Report Back This week represents a kind of pivot point in the course. So far, we&amp;rsquo;ve largely been focused on the moment when observations in the field become data, and then on the kinds of manipulations of those data we might do. This week, we&amp;rsquo;re going to zoom out a bit and consider how we get from that level of detail to larger scale macroscopic stories about the past.</description>
     </item>
   </channel>

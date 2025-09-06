@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Due Dates on HIST3000A|CLCV3000A</title>
-    <link>//localhost:1313/tags/due-dates/</link>
+    <link>/tags/due-dates/</link>
     <description>Recent content in Due Dates on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="//localhost:1313/tags/due-dates/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/due-dates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FAQ</title>
-      <link>//localhost:1313/docs/faq/</link>
+      <link>/docs/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/faq/</guid>
+      <guid>/docs/faq/</guid>
       <description>FAQ &amp;amp; Helpful Hints Workbench? Content? JupyterLab? What? There are two interconnected components to this course.&#xA;This website: it is the overarching context for what I am trying to teach you re digital archaeology. It specifies what to read and listen and do each week. Most of the time, when I want you to do something, it will be at your workbench. The workbench. The workbench is made of two things: a.</description>
     </item>
     <item>
       <title>Module 1</title>
-      <link>//localhost:1313/docs/module-1/</link>
+      <link>/docs/module-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-1/</guid>
+      <guid>/docs/module-1/</guid>
       <description>How does the human past become data? What does it mean to turn the different kinds of traces we have into something that becomes&amp;hellip; counted? And how does the act of counting change what gets valued? In this module, aside from setting up your digital work bench, you&amp;rsquo;ll get some experience of turning the world into data, and you will think deeply about what that means.&#xA;Each week, you have tasks, readings, and or things to listen to/watch that I would like you to complete.</description>
     </item>
     <item>
       <title>Module 2 Considering|Calculating Data</title>
-      <link>//localhost:1313/docs/module-2/</link>
+      <link>/docs/module-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-2/</guid>
+      <guid>/docs/module-2/</guid>
       <description>In this module, we explore various transformations we can do to the digitized materials created in module 1, why we might do them, and the different ways these transformations are ethically, theoretically laden. Your choices matter, so that&amp;rsquo;s why you document the process.&#xA;Each week, you have tasks, readings, and or things to listen to/watch that I would like you to complete. These should be done -or at least attempted- before moving onto the next week.</description>
     </item>
     <item>
       <title>Module 3 Communicating</title>
-      <link>//localhost:1313/docs/module-3/</link>
+      <link>/docs/module-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/module-3/</guid>
+      <guid>/docs/module-3/</guid>
       <description>In this final module, you will try to find the compelling story and to communicate it, in various ways, to your intended public. To whom does archaeology belong? Does it matter how we tell the story?&#xA;Each week, you have tasks, readings, and or things to listen to/watch that I would like you to complete. These should be done -or at least attempted- before moving onto the next week.</description>
     </item>
   </channel>
