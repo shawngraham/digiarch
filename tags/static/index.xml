@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static on HIST3000A|CLCV3000A</title>
-    <link>/tags/static/</link>
+    <link>//localhost:1313/tags/static/</link>
     <description>Recent content in Static on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/static/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/static/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 10: Static Site Generator</title>
-      <link>/docs/materials/wk10-site-generator/</link>
+      <link>//localhost:1313/docs/materials/wk10-site-generator/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk10-site-generator/</guid>
+      <guid>//localhost:1313/docs/materials/wk10-site-generator/</guid>
       <description>In the beginning Once upon a time, websites were simple text files that used tags: &amp;lt;html&amp;gt; to tell a browser how to display text. Then, things got more complicated with the emergence of .css files that would tell the browser how to style the text marked up with the relevant tags. Headers should be displayed like this; bullets like that. Then, javascript files (.js) could be used to mark up the text files so that the browser would know how to do various kinds of interactivity or special effects.</description>
     </item>
   </channel>

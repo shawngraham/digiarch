@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webmaps on HIST3000A|CLCV3000A</title>
-    <link>/tags/webmaps/</link>
+    <link>//localhost:1313/tags/webmaps/</link>
     <description>Recent content in Webmaps on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/webmaps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/webmaps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 3: Webmaps</title>
-      <link>/docs/materials/wk3-webmaps/</link>
+      <link>//localhost:1313/docs/materials/wk3-webmaps/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk3-webmaps/</guid>
+      <guid>//localhost:1313/docs/materials/wk3-webmaps/</guid>
       <description>Introduction In this tutorial, I show you how to build a web map using open source code from Leaflet. The idea here is that you learn to build a map and get it online: and then you learn how to modify it to display:&#xA;the cemetery that you have worked on the location of stones Leaflet is very powerful; we&amp;rsquo;re not even scraping the surface with what it can do. As an example, the East End Cemetery website maps a historic African American burial ground in Henrico County and the city of Richmond, Virginia, that uses Leaflet to good effect:</description>
     </item>
   </channel>

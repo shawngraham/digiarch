@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agent Based Modeling on HIST3000A|CLCV3000A</title>
-    <link>/tags/agent-based-modeling/</link>
+    <link>//localhost:1313/tags/agent-based-modeling/</link>
     <description>Recent content in Agent Based Modeling on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/agent-based-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/agent-based-modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 6: Agent Based Modeling</title>
-      <link>/docs/materials/wk6-abm/</link>
+      <link>//localhost:1313/docs/materials/wk6-abm/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk6-abm/</guid>
+      <guid>//localhost:1313/docs/materials/wk6-abm/</guid>
       <description>Agent Based Modeling You&amp;rsquo;ve now had a chance to explore some archaeological and historical networks. Network analysis is fantastic and there&amp;rsquo;s amazing research being done - you should check out The Connected Pasthttps://connectedpast.net/) for more. When I was doing my PhD, I managed to spin out an entire thesis by stitching together a series of network &amp;lsquo;snapshots&amp;rsquo; by time period from a collection of stamped Roman bricks (the stamps are makers&amp;rsquo; marks).</description>
     </item>
   </channel>

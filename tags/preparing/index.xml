@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preparing on HIST3000A|CLCV3000A</title>
-    <link>/tags/preparing/</link>
+    <link>//localhost:1313/tags/preparing/</link>
     <description>Recent content in Preparing on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/preparing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/preparing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 3: Photogrammetry Prep</title>
-      <link>/docs/materials/wk3-sfm-1/</link>
+      <link>//localhost:1313/docs/materials/wk3-sfm-1/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk3-sfm-1/</guid>
+      <guid>//localhost:1313/docs/materials/wk3-sfm-1/</guid>
       <description>Photogrammetry is the process whereby multiple photographs of an object are stitched together to make a 3d model of the object; the photographs are then draped over the model to make it photorealistic. Because of the physics of photography (focal distances of lenses and so on) a computer can calculate the relative positioning of overlapping points it identifies in multiple photographs, and with a bit of trig it works out the points-in-space.</description>
     </item>
   </channel>

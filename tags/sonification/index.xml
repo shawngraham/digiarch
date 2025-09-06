@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sonification on HIST3000A|CLCV3000A</title>
-    <link>/tags/sonification/</link>
+    <link>//localhost:1313/tags/sonification/</link>
     <description>Recent content in Sonification on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/sonification/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/sonification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 10: Data Sonification</title>
-      <link>/docs/materials/wk10-sonification/</link>
+      <link>//localhost:1313/docs/materials/wk10-sonification/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk10-sonification/</guid>
+      <guid>//localhost:1313/docs/materials/wk10-sonification/</guid>
       <description>Gravestone inscriptions frequently mention the data. If we represented some of our class graveyard data in sound, what patterns might we hear? What might those patterns reflect in the lived experiences of those communities?&#xA;In your workbench, in the week 10 folder, is a jupyter notebook called sonification.ipynb. Give that a whirl and use it to represent your gravestone data. Then, import the resulting .midi files into something like Garageband or other music editing software to assign instrumentation, or remix as appropriate.</description>
     </item>
   </channel>

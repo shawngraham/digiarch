@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on HIST3000A|CLCV3000A</title>
-    <link>/tags/ai/</link>
+    <link>//localhost:1313/tags/ai/</link>
     <description>Recent content in Ai on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>General Philosophy</title>
-      <link>/docs/general-philosophy/</link>
+      <link>//localhost:1313/docs/general-philosophy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/docs/general-philosophy/</guid>
+      <guid>//localhost:1313/docs/general-philosophy/</guid>
       <description>The Most Important Idea Archaeology isn&amp;rsquo;t necessarily about the past. It&amp;rsquo;s about the materiality of the past and present and in many ways, the future. We try to understand what it is to be human through the extended abilities that tool use, that objects and their agencies, give to us. The digital tools we use are entangled with and extend humanity in powerful ways - and in 2025, it&amp;rsquo;s easy to see how digital technologies have extended humanity&amp;rsquo;s worst impulses.</description>
     </item>
     <item>
       <title>Week 7 Machine Learning (or &#39;AI&#39;, if we must)</title>
-      <link>/docs/module-2/wk7/</link>
+      <link>//localhost:1313/docs/module-2/wk7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/docs/module-2/wk7/</guid>
+      <guid>//localhost:1313/docs/module-2/wk7/</guid>
       <description>Goals Listen Read Do Reflect Report Back Goals for this week Carrying on from our theme last week, we&amp;rsquo;ll explore two more methods that are predicated on using networks as a tool for computation. These kinds of neural network approaches can lead to what I think constitutes &amp;lsquo;an enchantment of digital archaeology&amp;rsquo;, but there is disquiet out there too&amp;hellip; then in the main reading we take digital archaeology into outer space.</description>
     </item>
   </channel>

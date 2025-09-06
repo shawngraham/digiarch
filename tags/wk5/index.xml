@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wk5 on HIST3000A|CLCV3000A</title>
-    <link>/tags/wk5/</link>
+    <link>//localhost:1313/tags/wk5/</link>
     <description>Recent content in Wk5 on HIST3000A|CLCV3000A</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/wk5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/wk5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 5: Databases &amp; Some Gentle Stats</title>
-      <link>/docs/materials/wk5-databases/</link>
+      <link>//localhost:1313/docs/materials/wk5-databases/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/docs/materials/wk5-databases/</guid>
+      <guid>//localhost:1313/docs/materials/wk5-databases/</guid>
       <description>These page draws on, re-work, and replicate portions of the Open Digital Archaeology Textbook Environment section on Databases&#xA;A database is a way of systematically organizing data through carefully designed metadata schemes that describe the nature of the data - the archaeological information - as precisely as possible. Normally, we want as little ambiguity as possible so that we can count, filter, sort, or join different &amp;lsquo;fields&amp;rsquo; of the data in order to discern larger patterns.</description>
     </item>
   </channel>
