@@ -678,6 +678,33 @@ var dataLayer = L.geoJson(geojsonData, {
 </code></pre><p>Ctrl+S to save your file, and then in the rendered view hit the reload button (beside where it says &lsquo;distrust html&rsquo;) and you&rsquo;ll now see your data added! (And it automatically is configured to use OpenStreetMap base layer).</p>
 <p><strong>Push yourself:</strong> When you try to build a map of your graveyard, do you see how you could add your own point data with the csv-to-geojson tool?</p>
 <h4 id="loading-the-data-from-a-file">Loading the data from a file</h4>
+<p>First of all, we need a data file! Grab the json data from the section above, where it&rsquo;s just the clean json (and not the json inside a variable):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;FeatureCollection&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">&#34;features&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;Feature&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;geometry&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;Point&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="nt">&#34;coordinates&#34;</span><span class="p">:</span>  <span class="p">[</span><span class="mf">-75.6973237</span><span class="p">,</span> <span class="mf">45.4192857</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;properties&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Label&#34;</span><span class="p">:</span><span class="s2">&#34;Centre of our map!&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;Feature&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;geometry&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;Point&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="nt">&#34;coordinates&#34;</span><span class="p">:</span>  <span class="p">[</span> <span class="mf">-75.699222</span><span class="p">,</span> <span class="mf">45.4275</span> <span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;properties&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Label&#34;</span><span class="p">:</span><span class="s2">&#34;Not the centre of the map &#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Make a new text file in your webmap folder, paste the data in, and then save it as <code>point-data.geojson</code>. Make sure you have it save with the right file extension - if you see something like <code>point-data.geojson.txt</code> you need to rename it to delete the <code>.txt</code>.</p>
 <p>Go back into your html file, and type <code>//</code> in front of each line from <code>var geojsonData</code> to <code>}).addTo(myMap);</code>. This &lsquo;comments-out&rsquo; those lines so that the browser will ignore them. We&rsquo;re going to add a snippet of code to get your webmap to load the data from an external file.</p>
 <ol>
 <li>Append the following to your html, before the <code>&lt;/script&gt;</code> tag, which will tell leaflet where the data is and how to add it to our map:</li>
@@ -1595,7 +1622,7 @@ L.control.layers(baseMaps, overlayMaps).addTo(myMap);
 
 <script type="application/javascript">
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js?2025-09-05')
+        navigator.serviceWorker.register('/sw.js?2025-09-24')
             .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
     }
 </script>
