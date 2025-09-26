@@ -948,9 +948,233 @@ $.getJSON(&#34;point-data.geojson&#34;, function(data) {
 </ol>
 <p><img src="/docs/support/images/webmap/terminal.png"></p>
 <ol start="9">
-<li>The terminal will tell you now that your server is running at an address that will look something like this: <code>Serving HTTP on :: port 8001 (http://[::]:8001/) ...</code> That means that your regular ol&rsquo; webbrowser is listening for websites from the local computer (yours!) on channel 8001. So in the url of your browser type: <code>http://localhost:8001/webmap</code>.</li>
+<li>The terminal will tell you now that your server is running at an address that will look something like this: <code>Serving HTTP on :: port 8001 (http://[::]:8001/) ...</code> That means that your regular ol&rsquo; webbrowser is listening for websites from the local computer (yours!) on channel 8001. So in the url of your browser type: <code>http://localhost:8001/</code>.</li>
 </ol>
 <p>Congratulations! You have made a webmap! Do you see how you could recenter the map on Ottawa? Add some more data? Change the base map to another style? Also - because you put your html file inside a folder but gave the file the name <code>index.html</code> your browser understands that if the URL you gave it is to a folder (ie, &lsquo;webmap&rsquo;) it should <em>automatically</em> look for an index.html file and load that up.</p>
+<h2 id="video-walk-throughs">Video Walk Throughs</h2>
+<p>Forgive the production values.</p>
+<div class="admonition admonition-info"><div class="admonition-title">
+    <span class="admonition-icon"></span>
+    This is what it looks like if everything has gone well.
+  </div><div class="admonition-content">
+    <iframe src="https://komododecks.com/recordings/yaFZ4s4nBHKZks7sVlAv" width=100% height="600px"></iframe>
+<p>&hellip;and then:</p>
+<iframe src="https://komododecks.com/recordings/g4CtAa69Az3HPQ4OXxDv" width=100% height="600px"></iframe>
+  </div>
+</div>
+<style>
+.admonition {
+  margin: 2rem 0;
+  padding: 0;
+  border-left: 4px solid;
+  border-radius: var(--border-radius, 8px);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+  background: var(--background, #fff);
+  border: var(--border-width, 1px) solid var(--border-color, rgba(0, 0, 0, 0.08));
+  transition: all var(--transition-fast, 0.15s cubic-bezier(0.4, 0, 0.2, 1));
+  position: relative;
+}
+
+.admonition:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md, 0 4px 12px rgba(0, 0, 0, 0.15));
+}
+
+.admonition-title {
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  margin: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  letter-spacing: 0.025em;
+  position: relative;
+  background: linear-gradient(135deg, var(--admonition-color) 0%, var(--admonition-color-dark) 100%);
+}
+
+.admonition-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.admonition-icon {
+  font-size: 1.25em;
+  font-weight: bold;
+  min-width: 1.25em;
+}
+
+.admonition-content {
+  padding: 1.5rem;
+  background: var(--background-light, #f8f9fa);
+  line-height: 1.6;
+  position: relative;
+}
+
+.admonition-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-color, rgba(0, 0, 0, 0.08)), transparent);
+}
+
+.admonition-content p:last-child {
+  margin-bottom: 0;
+}
+
+.admonition-content p:first-child {
+  margin-top: 0;
+}
+
+.admonition-content h1,
+.admonition-content h2,
+.admonition-content h3,
+.admonition-content h4,
+.admonition-content h5,
+.admonition-content h6 {
+  margin-top: 1rem;
+  color: var(--admonition-color);
+}
+
+.admonition-content code {
+  background: var(--background, #fff);
+  border-color: var(--admonition-color);
+  color: var(--admonition-color);
+}
+
+.admonition-content a {
+  color: var(--admonition-color);
+}
+
+.admonition-content a:hover {
+  color: var(--admonition-color-dark);
+}
+
+ 
+.admonition-note {
+  --admonition-color: #3498db;
+  --admonition-color-dark: #2980b9;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-note .admonition-icon::before {
+  content: 'ℹ';
+}
+
+ 
+.admonition-warning {
+  --admonition-color: #f39c12;
+  --admonition-color-dark: #e67e22;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-warning .admonition-icon::before {
+  content: '⚠';
+}
+
+ 
+.admonition-danger, .admonition-error {
+  --admonition-color: #e74c3c;
+  --admonition-color-dark: #c0392b;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-danger .admonition-icon::before,
+.admonition-error .admonition-icon::before {
+  content: '⚡';
+}
+
+ 
+.admonition-success, .admonition-tip {
+  --admonition-color: #27ae60;
+  --admonition-color-dark: #229954;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-success .admonition-icon::before,
+.admonition-tip .admonition-icon::before {
+  content: '✓';
+}
+
+ 
+.admonition-info {
+  --admonition-color: #17a2b8;
+  --admonition-color-dark: #138496;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-info .admonition-icon::before {
+  content: '💡';
+}
+
+ 
+.admonition-question {
+  --admonition-color: #9b59b6;
+  --admonition-color-dark: #8e44ad;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-question .admonition-icon::before {
+  content: '❓';
+}
+
+ 
+.admonition-quote {
+  --admonition-color: #6c757d;
+  --admonition-color-dark: #5a6268;
+  border-left-color: var(--admonition-color);
+}
+
+.admonition-quote .admonition-icon::before {
+  content: '"';
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+ 
+:root[data-color="dark"] .admonition-content,
+:root[data-color="night"] .admonition-content {
+  background: var(--background-secondary, #202020);
+}
+
+:root[data-color="dark"] .admonition-content code,
+:root[data-color="night"] .admonition-content code {
+  background: var(--background, #1a1a1a);
+}
+
+ 
+@media (max-width: 767px) {
+  .admonition {
+    margin: 1.5rem -1rem;
+    border-radius: 0;
+    border-left-width: 6px;
+  }
+  
+  .admonition-title {
+    padding: 1rem;
+  }
+  
+  .admonition-content {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .admonition {
+    margin: 2.5rem 0;
+  }
+}
+</style>
 <h2 id="serving-your-webmap-online">Serving your webmap online</h2>
 <p>We&rsquo;ll get deeper into the weeds about how to make your webmap available to the world later in the course, but for now, if you want, you can go to <a href="https://app.netlify.com/drop" target="_blank">https://app.netlify.com/drop</a> and drag-and-drop your <code>webmap</code> folder onto the &lsquo;drop&rsquo; button. Netlify will make a temporary spot on the internet for you from that folder because it contains the file index.html. When it&rsquo;s finished, it will tell you the link to your website. If you want, you can then sign up for a free account so you can continue to host your materials online.</p>
 <p>(You can also do this via Github. First upload your web-map folder to Github by dragging the folder onto a repository. Then, to make Github <em>serve</em> your website, you go into the settings -&gt; pages, select &lsquo;deploy from a branch&rsquo;, then save. So if I loaded it into github.com/shawngraham/demo/webmap in the gh-pages branch, my map will be available at shawngraham.github.io/demo/webmap/index.html. Cool, eh?)</p>
@@ -1539,6 +1763,7 @@ L.control.layers(baseMaps, overlayMaps).addTo(myMap);
         <li><a href="#adding-some-custom-data-points">Adding some custom data points.</a></li>
       </ul>
     </li>
+    <li><a href="#video-walk-throughs">Video Walk Throughs</a></li>
     <li><a href="#serving-your-webmap-online">Serving your webmap online</a></li>
     <li><a href="#adding-a-new-layer-to-our-map">Adding a new layer to our map</a>
       <ul>
@@ -1622,7 +1847,7 @@ L.control.layers(baseMaps, overlayMaps).addTo(myMap);
 
 <script type="application/javascript">
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js?2025-09-24')
+        navigator.serviceWorker.register('/sw.js?2025-09-26')
             .catch(function(err) {console.error('ServiceWorker registration failed: ', err);});
     }
 </script>
